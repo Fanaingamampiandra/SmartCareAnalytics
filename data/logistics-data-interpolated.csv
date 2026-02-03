@@ -1,0 +1,59 @@
+ANNEE,PLF,CFX,TOTAL,INDICATEUR,SOUS-INDICATEUR
+2012,333.57,27.5,361.07,Déchets,Cartons
+2013,346.38,29.333333333333332,375.7133333333333,Déchets,Cartons
+2014,359.19,31.166666666666668,390.3566666666667,Déchets,Cartons
+2015,372.0,33.0,405.0,Déchets,Cartons
+2015,130.0,1.99,131.99,Déchets,Chimiques
+2012,1086.19,48.0,1134.19,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés
+2013,1080.7933333333333,49.666666666666664,1130.46,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés
+2014,1075.3966666666668,51.333333333333336,1126.73,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés
+2015,1070.0,53.0,1123.0,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés
+2015,2930.0,690.0,3620.0,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers)
+2012,2776.78,672.0,3448.78,Déchets,Déchets assimilés aux ordures ménagères
+2015,50.0,3.63,53.63,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques)
+2015,80.0,0.0,80.0,Déchets,Papiers
+2015,75601.0,71413.0,147014.0,Hygiène,Espaces verts
+2012,234500.0,41517.0,276017.0,Hygiène,Locaux
+2013,250494.33333333334,42233.666666666664,292728.0,Hygiène,Locaux
+2014,266488.6666666667,42950.333333333336,309439.0,Hygiène,Locaux
+2015,282483.0,43667.0,326150.0,Hygiène,Locaux
+2012,66300.0,18679.0,84979.0,Hygiène,Vitres
+2013,68138.66666666667,19414.333333333332,87553.0,Hygiène,Vitres
+2014,69977.33333333333,20149.666666666668,90127.0,Hygiène,Vitres
+2015,71816.0,20885.0,92701.0,Hygiène,Vitres
+2012,9.0,400000.0,400009.0,Hygiène,Voirie
+2013,39438.333333333336,296240.0,335678.3333333333,Hygiène,Voirie
+2014,78867.66666666667,192480.0,271347.6666666667,Hygiène,Voirie
+2015,118297.0,88720.0,207017.0,Hygiène,Voirie
+2012,1352332.0,183536.0,1535868.0,Lingerie,Quantité de linge
+2013,1199166.3333333333,180527.33333333334,1379693.6666666665,Lingerie,Quantité de linge
+2014,1046000.6666666667,177518.66666666666,1223519.3333333335,Lingerie,Quantité de linge
+2015,892835.0,174510.0,1067345.0,Lingerie,Quantité de linge
+2015,1809121.0,401305.0,2210426.0,Lingerie,Références gérées
+2012,130.0,93.0,223.0,Magasin,Références hygiène & environnement 
+2013,125.0,93.66666666666667,218.66666666666669,Magasin,Références hygiène & environnement 
+2014,120.0,94.33333333333333,214.33333333333331,Magasin,Références hygiène & environnement 
+2015,115.0,95.0,210.0,Magasin,Références hygiène & environnement 
+2012,481.0,258.0,739.0,Magasin,Références hôtelier
+2013,507.3333333333333,227.33333333333334,734.6666666666666,Magasin,Références hôtelier
+2014,533.6666666666666,196.66666666666666,730.3333333333333,Magasin,Références hôtelier
+2015,560.0,166.0,726.0,Magasin,Références hôtelier
+2012,141.0,85.0,226.0,Magasin,Références imprimés 
+2013,138.33333333333334,82.33333333333333,220.66666666666669,Magasin,Références imprimés 
+2014,135.66666666666666,79.66666666666667,215.33333333333331,Magasin,Références imprimés 
+2015,133.0,77.0,210.0,Magasin,Références imprimés 
+2012,3238399.0,1273338.0,4511737.0,Restauration,Nombre de Repas
+2013,2825415.0,1256200.0,4081615.0,Restauration,Nombre de Repas
+2014,2412431.0,1239062.0,3651493.0,Restauration,Nombre de Repas
+2015,1999447.0,1221924.0,3221371.0,Restauration,Nombre de Repas
+2015,5478.0,3348.0,8826.0,Restauration,Nombre de Repas Quotidien
+2012,996.0,57.0,1053.0,Vaguemestre,Colis
+2013,1100.67616334283,62.990503323836656,1163.6666666666667,Vaguemestre,Colis
+2014,1205.35232668566,68.98100664767331,1274.3333333333333,Vaguemestre,Colis
+2015,1310.02849002849,74.97150997150996,1385.0,Vaguemestre,Colis
+2015,2.0,2.0,4.0,Vaguemestre,Colis Quotidien
+2012,1237150.0,42716.0,1279866.0,Vaguemestre,Plis affranchis
+2013,1232598.8090289661,42558.85763770063,1275157.6666666667,Vaguemestre,Plis affranchis
+2014,1228047.618057932,42401.71527540127,1270449.3333333333,Vaguemestre,Plis affranchis
+2015,1223496.4270868981,42244.5729131019,1265741.0,Vaguemestre,Plis affranchis
+2015,1734.0,1734.0,3468.0,Vaguemestre,Plis affranchis Quotidien
