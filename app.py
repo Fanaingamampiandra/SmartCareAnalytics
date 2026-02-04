@@ -67,11 +67,16 @@ if year_choice != "Toutes":
 dff["VALEUR"] = dff[normal_col] if mode_choice == "Normal" else dff[crise_col]
 
 # Table de comparaison (normal vs crise)
-compare_cols = ["ANNEE", "INDICATEUR", "SOUS-INDICATEUR", normal_col, crise_col]
-cmp = dff[["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"]].drop_duplicates().merge(
-    df[compare_cols],
-    on=["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"],
-    how="left"
+# On garde aussi l'unité, supposée constante pour un couple (indicateur, sous-indicateur)
+compare_cols = ["ANNEE", "INDICATEUR", "SOUS-INDICATEUR", "UNITE", normal_col, crise_col]
+cmp = (
+    dff[["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"]]
+    .drop_duplicates()
+    .merge(
+        df[compare_cols],
+        on=["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"],
+        how="left",
+    )
 )
 
 cmp["CHANGEMENT"] = cmp[crise_col] - cmp[normal_col]
@@ -130,6 +135,12 @@ cartons = df[(df["INDICATEUR"] == "Déchets") & (df["SOUS-INDICATEUR"] == "Carto
 if cartons.empty:
     st.info("Aucune donnée disponible pour le sous-indicateur 'Déchets / Cartons'.")
 else:
+    unite_cartons = (
+        cartons["UNITE"].dropna().iloc[0]
+        if "UNITE" in cartons.columns and cartons["UNITE"].notna().any()
+        else ""
+    )
+
     cartons = cartons.sort_values("ANNEE")
     cartons_chart = cartons[["ANNEE", normal_col, crise_col]].rename(
         columns={normal_col: "Situation normale", crise_col: "Crise (simulation)"}
@@ -147,7 +158,10 @@ else:
         .mark_bar()
         .encode(
             x=alt.X("ANNEE:O", title="Année"),
-            y=alt.Y("Valeur:Q", title="Volume"),
+            y=alt.Y(
+                "Valeur:Q",
+                title=f"Volume ({unite_cartons})" if unite_cartons else "Volume",
+            ),
             color=alt.Color("Situation:N", title="Mode"),
             column=alt.Column("ANNEE:O", title=""),
         )
@@ -233,8 +247,19 @@ if show_details:
         "EVOLUTION_%": "Évolution (%)",
         "TENDANCE": "Tendance"
     })
-    out = out[["ANNEE", "INDICATEUR", "SOUS-INDICATEUR", "Valeur (normal)", "Valeur (crise)",
-               "Changement (volume)", "Évolution (%)", "Tendance"]]
+    out = out[
+        [
+            "ANNEE",
+            "INDICATEUR",
+            "SOUS-INDICATEUR",
+            "UNITE",
+            "Valeur (normal)",
+            "Valeur (crise)",
+            "Changement (volume)",
+            "Évolution (%)",
+            "Tendance",
+        ]
+    ]
     st.dataframe(out.sort_values(["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"]), use_container_width=True)
 
 st.caption("Note : le mode crise est une simulation basée sur des coefficients (scénarios).")
