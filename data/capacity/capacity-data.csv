@@ -1,0 +1,89 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2012,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2,0,2,accelerateurs
+2015,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,,,2,accelerateurs
+2012,Equipement Intervention et Chirurgical,Ablatherm ,1,0,1,appareils
+2015,Equipement Intervention et Chirurgical,Ablatherm ,,,1,appareils
+2015,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,,,1,appareils
+2012,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10,0,10,appareils
+2015,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,,,10,appareils
+2015,Équipement,Gamma caméras ,2,0,2,appareils
+2012,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1,0,1,appareils
+2015,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,,,1,appareils
+2015,Imagerie,IRM,5,0,5,appareils
+2012,Imagerie,IRM ,5,0,5,appareils
+2015,Technique,Lithotripteur - Urologie,,,1,appareils
+2015,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,,,1,appareils
+2015,Équipement,TEP IRM,1,0,1,appareils
+2012,Équipements,Blocs opératoires,45,0,45,blocs opératoires
+2016,Resources hopitaux,Centres de référence maladies rares,,,25,centres
+2015,Resources hopitaux,Centres de référence maladies rares,,,10,centres
+2015,Équipements,Chambres protégées,,,24,chambres
+2012,Équipements,Chambres protégées ,24,0,24,chambres
+2016,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),,,4,départements
+2015,Equipement,Échographes,82,3,85,echographes
+2012,Équipement,Gamma caméras ,3,0,3,gamma-caméras
+2016,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),,,2,instituts
+2012,Sejours,Psychiatrie (PSY),120,20,,journées
+2012,Sejours,Soins de Longue Durée (SLD),37,211,,journées
+2012,Sejours,Soins de Suite et de Réadaptation (SSR),85,149,,journées
+2015,Equipements,Laboratoire,15,1,16,laboratoires
+2012,Equipements,Laboratoires,15,1,16,laboratoires
+2012,Technique,Lithotripteur - Urologie,1,0,1,lithotripteurs
+2015,Nombre de lits,Gynécologie Obstétrique,56,0,,lits
+2015,Nombre de lits,Lits,1742,474,,lits
+2012,Nombre de lits,Lits,1 647,485,2 132,lits
+2015,Nombre de lits,Lits de jour,,,263,lits
+2012,Nombre de lits,Lits de réanimation,78,0,78,lits
+2015,Nombre de lits,Lits de réanimation,,,92,lits
+2015,Nombre de lits,Lits de soins intensifs,,,97,lits
+2012,Nombre de lits,Lits de soins intensifs ,88,0,88,lits
+2012,Nombre de lits,Lits de surveillance continue,37,0,37,lits
+2015,Nombre de lits,Lits de surveillance continue,,,61,lits
+2016,Nombre de lits,Lits installés (toutes disciplines),,,2229,lits
+2015,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",,,1 618,lits
+2015,Nombre de lits,Médecine,866,132,,lits
+2012,Nombre de lits,Obstétrique,64,0,,lits
+2015,Nombre de lits,Pôle 1,,,381,lits
+2012,Nombre de lits,Pôle 1,,,382,lits
+2015,Nombre de lits,Pôle 10,,,83,lits
+2012,Nombre de lits,Pôle 10,,,67,lits
+2015,Nombre de lits,Pôle 11,,,455,lits
+2012,Nombre de lits,Pôle 11,,,465,lits
+2012,Nombre de lits,Pôle 2,,,152,lits
+2015,Nombre de lits,Pôle 2,,,180,lits
+2015,Nombre de lits,Pôle 3,,,431,lits
+2012,Nombre de lits,Pôle 3,,,418,lits
+2015,Nombre de lits,Pôle 4,,,141,lits
+2012,Nombre de lits,Pôle 4,,,119,lits
+2015,Nombre de lits,Pôle 5,,,286,lits
+2012,Nombre de lits,Pôle 5,,,257,lits
+2015,Nombre de lits,Pôle 6,,,0,lits
+2012,Nombre de lits,Pôle 6,,,0,lits
+2015,Nombre de lits,Pôle 7,,,248,lits
+2012,Nombre de lits,Pôle 7,,,263,lits
+2015,Nombre de lits,Pôle 8,,,6,lits
+2012,Nombre de lits,Pôle 8,,,4,lits
+2012,Nombre de lits,Pôle 9,,,5,lits
+2015,Nombre de lits,Pôle 9,,,5,lits
+2015,Nombre de lits,PSY – Psychiatrie,,,134,lits
+2015,Nombre de lits,Psycho (PSY),115,19,,lits
+2015,Nombre de lits,SLD – Soins de Longue Durée,37,152,189,lits
+2015,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104,171,,lits
+2015,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,,,20,lits
+2016,Resources hopitaux,Places d’hôpital de jour,,,367,places
+2016,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,,,54,places
+2015,Plateau medico-technique de pointe,Places de réveil,,,71,places
+2012,Équipements,Places de réveil ,71,0,71,places
+2016,Resources hopitaux,Nombre de pôles,,,11,poles
+2012,Resources hopitaux,Nombre de pôles,,,11,poles
+2015,Resources hopitaux,Nombre de pôles,,,11,poles
+2015,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,,,45,salles
+2015,Equipement,Salles radiologie,15,3,18,salles
+2015,Imagerie,Scanner interventionnel,1,0,1,scanners
+2012,Imagerie,Scanner interventionnel ,1,0,1,scanners
+2012,Equipement,Scanners diagnostiques,4,1,5,scanners
+2015,Equipement,Scanners diagnostiques,3,1,4,scanners
+2015,Équipement,TEP scanner,2,0,2,scanners
+2012,Équipement,TEP scanner,1,0,1,scanners
+2012,Sejours,Chirurgie,531,0,,sejours
+2012,Sejours,Médecine,810,105,,sejours

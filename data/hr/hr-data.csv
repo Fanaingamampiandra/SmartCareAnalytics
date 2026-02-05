@@ -1,0 +1,46 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2012,caracteristique du personnel ,Âge Moyen MCO,41,45,,personnes
+2012,caracteristique du personnel ,Âge Moyen PSY,43,44,,personnes
+2012,caracteristique du personnel ,Âge Moyen SSR,42,42,,personnes
+2012,Personnel paramedical,Direction & administratif ,640,69,709,personnes
+2012,caracteristique du personnel ,ETP Moyen MCO,5878,505,,personnes
+2012,caracteristique du personnel ,ETP Moyen PSY,348,51,,personnes
+2012,caracteristique du personnel ,ETP Moyen SSR,86,214,,personnes
+2016,Resources hopitaux,Étudiants hospitaliers,,,687,personnes
+2015,caracteristique du personnel ,Femmes,,,7008,personnes
+2012,caracteristique du personnel ,Femmes MCO,4341,319,,personnes
+2012,caracteristique du personnel ,Femmes PSY,229,32,,personnes
+2012,caracteristique du personnel ,Femmes SSR,61,159,,personnes
+2015,caracteristique du personnel ,Hommes,,,2462,personnes
+2012,caracteristique du personnel ,Hommes MCO,1537,186,,personnes
+2012,caracteristique du personnel ,Hommes PSY,119,19,,personnes
+2012,caracteristique du personnel ,Hommes SSR,25,55,,personnes
+2016,Resources hopitaux,Infirmier·e·s,,,2455,personnes
+2016,Resources hopitaux,Internes / résidents / FFI,,,465,personnes
+2012,Resources hopitaux,Internes / résidents / FFI,333,24,357,personnes
+2012,Resources hopitaux,Médecins,,,1253,personnes
+2015,Resources hopitaux,Médecins,,,1621,personnes
+2016,Resources hopitaux,Médecins,,,1626,personnes
+2015,Personnel non medical,Personnel administratif,687,68,755,personnes
+2012,Personnel paramedical,Personnel hospitalier ,5173,588,5761,personnes
+2015,Personnel non medical,Personnel hospitalier (soignant),5659,788,6447,personnes
+2015,Personnel non medical,Personnel socio-éducatif,113,12,125,personnes
+2012,Personnel paramedical,Personnel socio-éducatif ,99,12,111,personnes
+2012,Personnel paramedical,Personnel technique & ouvrier ,400,101,501,personnes
+2015,Personnel non medical,Personnel technique et ouvrier,438,85,523,personnes
+2016,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",,,1294,personnes
+2012,Les moyens humaines,Personnels hospitalo-universitaires ,184,15,199,personnes
+2016,Resources hopitaux,Personnels soignants,,,6585,personnes
+2012,Les moyens humaines,"Praticiens attachés, internes, FFI",235,24,259,personnes
+2015,Les moyens humaines,"Praticiens attachés, internes, FFI",424,23,447,personnes
+2012,Les moyens humaines,Praticiens contractuels,408,30,438,personnes
+2015,Les moyens humaines,Praticiens contractuels,241,21,262,personnes
+2015,RH,Praticiens hospitaliers (PH),454,28,482,personnes
+2015,RH,PU-PH (Hospitalo-Universitaires),387,43,430,personnes
+2015,Personnel paramédical,Total,,,7850,personnes
+2012,Personnel paramédical,Total,,,7082,personnes
+2016,Resources hopitaux,Total,,,11000,personnes
+2012,Les moyens humaines,Total en ETP,1160,93,1253,personnes
+2012,Personnel paramedical,Total en ETP,6312,770,7082,personnes
+2012,Les moyens humaines,Total étudiants (hors ETP),530,110,640,personnes
+2012,Les moyens humaines,Total médecins (effectif physique),1846,138,1984,personnes

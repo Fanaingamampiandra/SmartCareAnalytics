@@ -1,0 +1,347 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2011,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2012,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2013,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2014,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2015,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2016,Equipement,Salles radiologie,15.0,3.0,18.0,salles
+2011,Equipement,Scanners diagnostiques,4.0,1.0,5.0,scanners
+2012,Equipement,Scanners diagnostiques,4.0,1.0,5.0,scanners
+2013,Equipement,Scanners diagnostiques,3.67,1.0,4.67,scanners
+2014,Equipement,Scanners diagnostiques,3.33,1.0,4.33,scanners
+2015,Equipement,Scanners diagnostiques,3.0,1.0,4.0,scanners
+2016,Equipement,Scanners diagnostiques,3.0,1.0,4.0,scanners
+2011,Equipement,Échographes,82.0,3.0,85.0,echographes
+2012,Equipement,Échographes,82.0,3.0,85.0,echographes
+2013,Equipement,Échographes,82.0,3.0,85.0,echographes
+2014,Equipement,Échographes,82.0,3.0,85.0,echographes
+2015,Equipement,Échographes,82.0,3.0,85.0,echographes
+2016,Equipement,Échographes,82.0,3.0,85.0,echographes
+2011,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2012,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2013,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2014,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2015,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2016,Equipement Intervention et Chirurgical,Ablatherm ,1.0,0.0,1.0,appareils
+2011,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2012,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2013,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2014,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2015,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2016,Equipement Intervention et Chirurgical,Accélérateurs radiothérapie - Oncologie,2.0,0.0,2.0,accelerateurs
+2011,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2012,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2013,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2014,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2015,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2016,Equipement Intervention et Chirurgical,Appareil tomothérapie - Oncologie,0.5,0.5,1.0,appareils
+2011,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2012,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2013,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2014,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2015,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2016,Equipement Intervention et Chirurgical,Appareils angionumérisés - Cardiologie/Neuroradio ,10.0,0.0,10.0,appareils
+2011,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2012,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2013,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2014,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2015,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2016,Equipement Intervention et Chirurgical,Gamma Knife - Neurochirrurgie,1.0,0.0,1.0,appareils
+2011,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2012,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2013,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2014,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2015,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2016,Equipement Intervention et Chirurgical,Robot chirurgical - Chirurgie mini-invasive,0.5,0.5,1.0,appareils
+2011,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2012,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2013,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2014,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2015,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2016,Equipement Intervention et Chirurgical,Salles blocs opératoires - Chirurgie générale,22.5,22.5,45.0,salles
+2011,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2012,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2013,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2014,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2015,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2016,Equipements,Laboratoire,15.0,1.0,16.0,laboratoires
+2011,Equipements,Laboratoires,15.0,1.0,16.0,laboratoires
+2012,Equipements,Laboratoires,15.0,1.0,16.0,laboratoires
+2013,Equipements,Laboratoires,15.0,1.0,16.0,laboratoires
+2011,Imagerie,IRM,5.0,0.0,5.0,appareils
+2012,Imagerie,IRM,5.0,0.0,5.0,appareils
+2013,Imagerie,IRM,5.0,0.0,5.0,appareils
+2014,Imagerie,IRM,5.0,0.0,5.0,appareils
+2015,Imagerie,IRM,5.0,0.0,5.0,appareils
+2016,Imagerie,IRM,5.0,0.0,5.0,appareils
+2011,Imagerie,IRM ,5.0,0.0,5.0,appareils
+2012,Imagerie,IRM ,5.0,0.0,5.0,appareils
+2013,Imagerie,IRM ,5.0,0.0,5.0,appareils
+2011,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2012,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2013,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2014,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2015,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2016,Imagerie,Scanner interventionnel,1.0,0.0,1.0,scanners
+2011,Imagerie,Scanner interventionnel ,1.0,0.0,1.0,scanners
+2012,Imagerie,Scanner interventionnel ,1.0,0.0,1.0,scanners
+2013,Imagerie,Scanner interventionnel ,1.0,0.0,1.0,scanners
+2011,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2012,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2013,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2014,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2015,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2016,Nombre de lits,Gynécologie Obstétrique,56.0,0.0,56.0,lits
+2011,Nombre de lits,Lits,1647.0,485.0,2132.0,lits
+2012,Nombre de lits,Lits,1647.0,485.0,2132.0,lits
+2013,Nombre de lits,Lits,1678.67,481.33,2160.0,lits
+2014,Nombre de lits,Lits,1710.33,477.67,2188.0,lits
+2015,Nombre de lits,Lits,1742.0,474.0,2216.0,lits
+2016,Nombre de lits,Lits,1742.0,474.0,2216.0,lits
+2011,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2012,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2013,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2014,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2015,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2016,Nombre de lits,Lits de jour,131.5,131.5,263.0,lits
+2011,Nombre de lits,Lits de réanimation,78.0,0.0,78.0,lits
+2012,Nombre de lits,Lits de réanimation,78.0,0.0,78.0,lits
+2013,Nombre de lits,Lits de réanimation,82.67,0.0,82.67,lits
+2014,Nombre de lits,Lits de réanimation,87.33,0.0,87.33,lits
+2015,Nombre de lits,Lits de réanimation,92.0,0.0,92.0,lits
+2016,Nombre de lits,Lits de réanimation,92.0,0.0,92.0,lits
+2011,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2012,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2013,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2014,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2015,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2016,Nombre de lits,Lits de soins intensifs,48.5,48.5,97.0,lits
+2011,Nombre de lits,Lits de soins intensifs ,88.0,0.0,88.0,lits
+2012,Nombre de lits,Lits de soins intensifs ,88.0,0.0,88.0,lits
+2013,Nombre de lits,Lits de soins intensifs ,88.0,0.0,88.0,lits
+2011,Nombre de lits,Lits de surveillance continue,37.0,0.0,37.0,lits
+2012,Nombre de lits,Lits de surveillance continue,37.0,0.0,37.0,lits
+2013,Nombre de lits,Lits de surveillance continue,45.0,0.0,45.0,lits
+2014,Nombre de lits,Lits de surveillance continue,53.0,0.0,53.0,lits
+2015,Nombre de lits,Lits de surveillance continue,61.0,0.0,61.0,lits
+2016,Nombre de lits,Lits de surveillance continue,61.0,0.0,61.0,lits
+2011,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2012,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2013,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2014,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2015,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2016,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2017,Nombre de lits,Lits installés (toutes disciplines),1114.5,1114.5,2229.0,lits
+2011,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2012,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2013,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2014,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2015,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2016,Nombre de lits,"MCO – Médecine, Chirurgie, Obstétrique",809.0,809.0,1618.0,lits
+2011,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2012,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2013,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2014,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2015,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2016,Nombre de lits,Médecine,866.0,132.0,998.0,lits
+2011,Nombre de lits,Obstétrique,64.0,0.0,64.0,lits
+2012,Nombre de lits,Obstétrique,64.0,0.0,64.0,lits
+2013,Nombre de lits,Obstétrique,64.0,0.0,64.0,lits
+2011,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2012,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2013,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2014,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2015,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2016,Nombre de lits,PSY – Psychiatrie,67.0,67.0,134.0,lits
+2011,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2012,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2013,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2014,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2015,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2016,Nombre de lits,Psycho (PSY),115.0,19.0,134.0,lits
+2011,Nombre de lits,Pôle 1,191.0,191.0,382.0,lits
+2012,Nombre de lits,Pôle 1,191.0,191.0,382.0,lits
+2013,Nombre de lits,Pôle 1,190.83,190.83,381.67,lits
+2014,Nombre de lits,Pôle 1,190.67,190.67,381.33,lits
+2015,Nombre de lits,Pôle 1,190.5,190.5,381.0,lits
+2016,Nombre de lits,Pôle 1,190.5,190.5,381.0,lits
+2011,Nombre de lits,Pôle 10,33.5,33.5,67.0,lits
+2012,Nombre de lits,Pôle 10,33.5,33.5,67.0,lits
+2013,Nombre de lits,Pôle 10,36.17,36.17,72.33,lits
+2014,Nombre de lits,Pôle 10,38.83,38.83,77.67,lits
+2015,Nombre de lits,Pôle 10,41.5,41.5,83.0,lits
+2016,Nombre de lits,Pôle 10,41.5,41.5,83.0,lits
+2011,Nombre de lits,Pôle 11,232.5,232.5,465.0,lits
+2012,Nombre de lits,Pôle 11,232.5,232.5,465.0,lits
+2013,Nombre de lits,Pôle 11,230.83,230.83,461.67,lits
+2014,Nombre de lits,Pôle 11,229.17,229.17,458.33,lits
+2015,Nombre de lits,Pôle 11,227.5,227.5,455.0,lits
+2016,Nombre de lits,Pôle 11,227.5,227.5,455.0,lits
+2011,Nombre de lits,Pôle 2,76.0,76.0,152.0,lits
+2012,Nombre de lits,Pôle 2,76.0,76.0,152.0,lits
+2013,Nombre de lits,Pôle 2,80.67,80.67,161.33,lits
+2014,Nombre de lits,Pôle 2,85.33,85.33,170.67,lits
+2015,Nombre de lits,Pôle 2,90.0,90.0,180.0,lits
+2016,Nombre de lits,Pôle 2,90.0,90.0,180.0,lits
+2011,Nombre de lits,Pôle 3,209.0,209.0,418.0,lits
+2012,Nombre de lits,Pôle 3,209.0,209.0,418.0,lits
+2013,Nombre de lits,Pôle 3,211.17,211.17,422.33,lits
+2014,Nombre de lits,Pôle 3,213.33,213.33,426.67,lits
+2015,Nombre de lits,Pôle 3,215.5,215.5,431.0,lits
+2016,Nombre de lits,Pôle 3,215.5,215.5,431.0,lits
+2011,Nombre de lits,Pôle 4,59.5,59.5,119.0,lits
+2012,Nombre de lits,Pôle 4,59.5,59.5,119.0,lits
+2013,Nombre de lits,Pôle 4,63.17,63.17,126.33,lits
+2014,Nombre de lits,Pôle 4,66.83,66.83,133.67,lits
+2015,Nombre de lits,Pôle 4,70.5,70.5,141.0,lits
+2016,Nombre de lits,Pôle 4,70.5,70.5,141.0,lits
+2011,Nombre de lits,Pôle 5,128.5,128.5,257.0,lits
+2012,Nombre de lits,Pôle 5,128.5,128.5,257.0,lits
+2013,Nombre de lits,Pôle 5,133.33,133.33,266.67,lits
+2014,Nombre de lits,Pôle 5,138.17,138.17,276.33,lits
+2015,Nombre de lits,Pôle 5,143.0,143.0,286.0,lits
+2016,Nombre de lits,Pôle 5,143.0,143.0,286.0,lits
+2011,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2012,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2013,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2014,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2015,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2016,Nombre de lits,Pôle 6,0.0,0.0,0.0,lits
+2011,Nombre de lits,Pôle 7,131.5,131.5,263.0,lits
+2012,Nombre de lits,Pôle 7,131.5,131.5,263.0,lits
+2013,Nombre de lits,Pôle 7,129.0,129.0,258.0,lits
+2014,Nombre de lits,Pôle 7,126.5,126.5,253.0,lits
+2015,Nombre de lits,Pôle 7,124.0,124.0,248.0,lits
+2016,Nombre de lits,Pôle 7,124.0,124.0,248.0,lits
+2011,Nombre de lits,Pôle 8,2.0,2.0,4.0,lits
+2012,Nombre de lits,Pôle 8,2.0,2.0,4.0,lits
+2013,Nombre de lits,Pôle 8,2.33,2.33,4.67,lits
+2014,Nombre de lits,Pôle 8,2.67,2.67,5.33,lits
+2015,Nombre de lits,Pôle 8,3.0,3.0,6.0,lits
+2016,Nombre de lits,Pôle 8,3.0,3.0,6.0,lits
+2011,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2012,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2013,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2014,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2015,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2016,Nombre de lits,Pôle 9,2.5,2.5,5.0,lits
+2011,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2012,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2013,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2014,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2015,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2016,Nombre de lits,SLD – Soins de Longue Durée,37.0,152.0,189.0,lits
+2011,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2012,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2013,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2014,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2015,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2016,Nombre de lits,Soins de Suite et de Réadaptation (SSR),104.0,171.0,275.0,lits
+2011,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2012,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2013,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2014,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2015,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2016,Nombre de lits,Unité d'Hospitalisation de Courte Durée ​,10.0,10.0,20.0,lits
+2011,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2012,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2013,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2014,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2015,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2016,Plateau medico-technique de pointe,Places de réveil,35.5,35.5,71.0,places
+2011,Resources hopitaux,Centres de référence maladies rares,5.0,5.0,10.0,centres
+2012,Resources hopitaux,Centres de référence maladies rares,5.0,5.0,10.0,centres
+2013,Resources hopitaux,Centres de référence maladies rares,5.0,5.0,10.0,centres
+2014,Resources hopitaux,Centres de référence maladies rares,5.0,5.0,10.0,centres
+2015,Resources hopitaux,Centres de référence maladies rares,5.0,5.0,10.0,centres
+2016,Resources hopitaux,Centres de référence maladies rares,12.5,12.5,25.0,centres
+2017,Resources hopitaux,Centres de référence maladies rares,12.5,12.5,25.0,centres
+2011,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2012,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2013,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2014,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2015,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2016,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2017,Resources hopitaux,Départements Hospitalo-Universitaires (DHU),2.0,2.0,4.0,départements
+2011,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2012,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2013,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2014,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2015,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2016,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2017,Resources hopitaux,Instituts Hospitalo-Universitaires (IHU),1.0,1.0,2.0,instituts
+2011,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2012,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2013,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2014,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2015,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2016,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2017,Resources hopitaux,Nombre de pôles,5.5,5.5,11.0,poles
+2011,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2012,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2013,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2014,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2015,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2016,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2017,Resources hopitaux,Places d’hôpital de jour,183.5,183.5,367.0,places
+2011,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2012,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2013,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2014,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2015,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2016,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2017,Resources hopitaux,Places d’hôpital de jour - places en chirurgie ambulatoire,27.0,27.0,54.0,places
+2011,Sejours,Chirurgie,531.0,0.0,531.0,sejours
+2012,Sejours,Chirurgie,531.0,0.0,531.0,sejours
+2013,Sejours,Chirurgie,531.0,0.0,531.0,sejours
+2011,Sejours,Médecine,810.0,105.0,915.0,sejours
+2012,Sejours,Médecine,810.0,105.0,915.0,sejours
+2013,Sejours,Médecine,810.0,105.0,915.0,sejours
+2011,Sejours,Psychiatrie (PSY),120.0,20.0,140.0,journées
+2012,Sejours,Psychiatrie (PSY),120.0,20.0,140.0,journées
+2013,Sejours,Psychiatrie (PSY),120.0,20.0,140.0,journées
+2011,Sejours,Soins de Longue Durée (SLD),37.0,211.0,248.0,journées
+2012,Sejours,Soins de Longue Durée (SLD),37.0,211.0,248.0,journées
+2013,Sejours,Soins de Longue Durée (SLD),37.0,211.0,248.0,journées
+2011,Sejours,Soins de Suite et de Réadaptation (SSR),85.0,149.0,234.0,journées
+2012,Sejours,Soins de Suite et de Réadaptation (SSR),85.0,149.0,234.0,journées
+2013,Sejours,Soins de Suite et de Réadaptation (SSR),85.0,149.0,234.0,journées
+2011,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2012,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2013,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2014,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2015,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2016,Technique,Lithotripteur - Urologie,1.0,0.0,1.0,lithotripteurs
+2011,Équipement,Gamma caméras ,3.0,0.0,3.0,gamma-caméras
+2012,Équipement,Gamma caméras ,3.0,0.0,3.0,gamma-caméras
+2013,Équipement,Gamma caméras ,2.67,0.0,2.67,gamma-caméras
+2014,Équipement,Gamma caméras ,2.33,0.0,2.33,gamma-caméras
+2015,Équipement,Gamma caméras ,2.0,0.0,2.0,gamma-caméras
+2016,Équipement,Gamma caméras ,2.0,0.0,2.0,gamma-caméras
+2011,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2012,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2013,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2014,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2015,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2016,Équipement,TEP IRM,1.0,0.0,1.0,appareils
+2011,Équipement,TEP scanner,1.0,0.0,1.0,scanners
+2012,Équipement,TEP scanner,1.0,0.0,1.0,scanners
+2013,Équipement,TEP scanner,1.33,0.0,1.33,scanners
+2014,Équipement,TEP scanner,1.67,0.0,1.67,scanners
+2015,Équipement,TEP scanner,2.0,0.0,2.0,scanners
+2016,Équipement,TEP scanner,2.0,0.0,2.0,scanners
+2011,Équipements,Blocs opératoires,45.0,0.0,45.0,blocs opératoires
+2012,Équipements,Blocs opératoires,45.0,0.0,45.0,blocs opératoires
+2013,Équipements,Blocs opératoires,45.0,0.0,45.0,blocs opératoires
+2011,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2012,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2013,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2014,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2015,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2016,Équipements,Chambres protégées,12.0,12.0,24.0,chambres
+2011,Équipements,Chambres protégées ,24.0,0.0,24.0,chambres
+2012,Équipements,Chambres protégées ,24.0,0.0,24.0,chambres
+2013,Équipements,Chambres protégées ,24.0,0.0,24.0,chambres
+2011,Équipements,Places de réveil ,71.0,0.0,71.0,places
+2012,Équipements,Places de réveil ,71.0,0.0,71.0,places
+2013,Équipements,Places de réveil ,71.0,0.0,71.0,places

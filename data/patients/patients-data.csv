@@ -1,0 +1,46 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,,,59017,sejours
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,,,7912,patients
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,,,11075,patients
+2012,Origine géographique,DOM TOM - MCO,,,"1,03",%
+2012,Origine géographique,DOM TOM - SSR,,,"0,04",%
+2012,Origine géographique,Île-de-France - Paris - MCO,,,"35,32",%
+2012,Origine géographique,Île-de-France - Paris - SSR,,,"47,14",%
+2012,Origine géographique,Étranger  - MCO,,,"0,36",%
+2012,Origine géographique,Étranger - SSR,,,"0,17",%
+2012,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,,,"7,41",%
+2012,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,,,"6,28",%
+2012,Origine géographique,Île-de-France - MCO,,,"86,84",%
+2012,Origine géographique,Île-de-France - SSR,,,96,%
+2012,Origine géographique,Province - MCO,,,"11,77",%
+2012,Origine géographique,Province - SSR,,,"3,43",%
+2012,Origine géographique,Val-de-Marne - MCO,,,"14,28",%
+2012,Origine géographique,Val-de-Marne - SSR,,,"30,58",%
+2015,Origine géographique,Île-de-France - Autres - MCO,,,15,%
+2015,Origine géographique,Île-de-France - Autres - SSR,,,6,%
+2015,Origine géographique,Autres départements et DOM TOM,,,3,%
+2015,Origine géographique,Autres départements et DOM TOM,,,13,%
+2015,Origine géographique,Étranger  - MCO,,,1,%
+2015,Origine géographique,Étranger - SSR,,,1,%
+2015,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,,,7,%
+2015,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,,,4,%
+2015,Origine géographique,Île-de-France - Paris - MCO,,,35,%
+2015,Origine géographique,Île-de-France - Paris - SSR,,,49,%
+2015,Origine géographique,Île-de-France - Seine-et-Marne - MCO,,,6,%
+2015,Origine géographique,Île-de-France - Seine-et-Marne - SSR,,,2,%
+2015,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,,,9,%
+2015,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,,,5,%
+2015,Origine géographique,Île-de-France - Val-de-Marne - MCO,,,14,%
+2015,Origine géographique,Île-de-France - Val-de-Marne - SSR,,,31,%
+2012,Profil patients,Âge moyen - MCO,"53,8","85,1",,ans
+2012,Profil patients,Femmes - MCO,"52,7","65,4",,%
+2012,Profil patients,Hommes - MCO,"47,3","34,6",,%
+2015,Profil patients,Âge moyen - Femmes - MCO,55,85,,ans
+2015,Profil patients,Femmes - MCO,49,61,,%
+2015,Profil patients,Âge moyen - Hommes - MCO,56,84,,ans
+2015,Profil patients,Hommes - MCO,51,39,,%
+2011,Urgences,Passages,83002,,,patients
+2012,Urgences,Passages,85 993,,,patients
+2011,Urgences,Patients admis,6083,,,patients
+2012,Urgences,Patients admis,10 063,,,patients
+2012,Urgences,UHCD,,,20,patients

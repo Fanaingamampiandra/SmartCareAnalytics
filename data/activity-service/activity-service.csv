@@ -1,0 +1,168 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2012,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",,,9 968,sejours
+2012,Séjours MCO par pôle,"3I (Infection, Inflammation, Immunité)",,,9 945,sejours
+2015,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",,,8765,sejours
+2015,Causes d'hospitalisation,Accouchements,,,2 279,accouchements
+2016,Causes d'hospitalisation,Accouchements,,,2186,accouchements
+2016,Actes,Actes opératoires,,,47925,actes
+2016,Actes,Actes opératoires - ambulatoires,,,12490,actes
+2015,Urgences ,Admissions en hospitalisation,,,7588,patients
+2015,Plateux Techniques,Anapath,46887,0,46887,actes
+2011,Examens de laboratoire – en actes,B,5 177 639,236 071,,actes
+2012,Examens de laboratoire – en actes,B,5 034 670,128 091,,actes
+2011,Examens de laboratoire – en actes,BHN,813 954,1 872,,actes
+2012,Examens de laboratoire – en actes,BHN,946 243,2 566,,actes
+2015,Plateux Techniques,Biochimie (B),5 642 800,44 287,5 687 087,actes
+2015,Transplantations,Cardiaques (Cœur),,,99,transplations
+2015,Plateux Techniques,CCAM,47 323,0,47 323,actes
+2016,Centres,Centres d’investigation clinique (CIC),,,4,centres
+2012,Centres,Centres maladies rares,,,11,centres
+2011,Activités en séances,Chimiothérapie,19 640,392,20 032,actes
+2012,Activités en séances,Chimiothérapie,16 714,482,17 196,actes
+2015,Plateux Techniques,Chimiothérapie,28 787,588,29 375,seances
+2011,Activités en actes,Chirurgie,44 931,141,45 072,actes
+2012,Activités en actes,Chirurgie,45 463,117,45 580,actes
+2012,Séjours en ambulatoire par pôle,Chirurgie,,,12 121,sejours
+2012,Séjours MCO par pôle,Chirurgie,,,21 987,sejours
+2015,Plateux Techniques,Chirurgie,62926,0,62926,actes
+2012,Séjours en ambulatoire par pôle,Chirurgie neurosensorielle,,,1 947,sejours
+2012,Séjours MCO par pôle,Chirurgie neurosensorielle,,,6 250,sejours
+2015,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,,,7251,sejours
+2015,Sejour par Pole,Chirurgie Séjours >24h,,,22155,sejours
+2012,Séjours en ambulatoire par pôle,Cœur-Métabolisme,,,9 559,sejours
+2012,Séjours MCO par pôle,Cœur-Métabolisme,,,11 946,sejours
+2015,Séjours MCO par pôle,Cœur-Métabolisme,,,14536,sejours
+2012,Mode d'hospitalisation,Consultations,,,660 958,consultations
+2015,Mode d'hospitalisation,Consultations,,,607 950,consultations
+2011,Mode d'hospitalisation,Consultations externes,630 498,3 038,633 536,consultations
+2012,Mode d'hospitalisation,Consultations externes,657 047,3 911,660 958,consultations
+2015,Mode d'hospitalisation,Consultations externes,,,644602,consultations
+2011,Activités en séances,Dialyses,7 862,0,7 862,actes
+2012,Activités en séances,Dialyses,7 038,0,7 038,actes
+2015,Plateux Techniques,Dialyses,6 733,0,6 733,seances
+2012,Recherche,Enseignement,,,7900000,€
+2015,Mission d'enseignement,Enseignement,,,5000000,€
+2016,Recherche,Essais académiques,,,238,essais
+2012,Recherche,Essais cliniques,,,3000000,€
+2015,Mission d'enseignement,Essais cliniques,,,9500000,€
+2015,Recherche,Essais cliniques actifs,,,838,publications
+2016,Recherche,Essais cliniques industriels,,,514,essais
+2016,Recherche,Essais institutionnels,,,269,essais
+2016,Recherche,Étudiants en médecine/pharmacie/odontologie,,,699,etudiants
+2016,Recherche,Étudiants soignants,,,4000,etudiants
+2015,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,,,4689,sejours
+2016,Greffes,Greffes,,,394,greffes
+2012,Greffes,Greffes réalisées,,,314,greffes
+2016,Recherche,Groupes de recherche clinique (GRC),,,8,groupes
+2015,Plateux Techniques,Hématologie (BHN),1 179 103,8 783,1 187 886,actes
+2015,Transplantations,Hépatiques (Foie),,,109,transplations
+2015,Hospitalisation,Hospitalisations,,,168 394,hospitalisations
+2015,Sejour MCO,Hospitalisations Ambulatoire,93558,1614,95172,sejours
+2015,Sejour MCO,Hospitalisations Complète,68533,4689,73222,sejours
+2012,Hospitalisation,Hospitalisations totales,,,155 900,hospitalisations
+2011,Plateux Techniques,Imagerie,274 235,8 417,282 652,actes
+2012,Plateux Techniques,Imagerie,333 986,12 481,346 467,actes
+2012,Séjours MCO par pôle,Imagerie,,,347,sejours
+2015,Plateux Techniques,Imagerie,255680,11271,266951,actes
+2015,Séjours MCO par pôle,Imagerie Séjours >24h,,,321,sejours
+2015,Sejour,Journées en psychiatrie,42945,8295,51240,sejours
+2016,Sejour,Journées en psychiatrie,,,50690,sejours
+2015,Sejour,Journées en SLD,12946,54882,67828,sejours
+2016,Sejour,Journées en SLD,,,67065,sejours
+2015,Sejour,Journées en SSR,36428,61604,98032,sejours
+2016,Sejour,Journées en SSR,,,97928,sejours
+2011,Activités en actes,Laboratoires,6 228 317,237 943,6 466 260,actes
+2012,Activités en actes,Laboratoires,6 255 833,130 657,6 386 490,actes
+2012,Transplantations,Moelle osseuse,,,51,transplations
+2015,Transplantations,Moelle Osseuse,,,66,transplations
+2012,Sejour par Pole,MSN (Maladies du Système Nerveux),,,6 198,sejours
+2012,Sejour par Pole,MSN (Maladies du Système Nerveux),,,18 398,sejours
+2015,Sejour par Pole,MSN (Maladies du Système Nerveux),,,6716,sejours
+2012,Causes d'hospitalisation,Naissances,,,2 457,naissances
+2011,Mode d'hospitalisation,Nombre de journées psychiatriques,28 396,6 176,,sejours
+2012,Mode d'hospitalisation,Nombre de journées psychiatriques,30 557,6 643,,sejours
+2011,Mode d'hospitalisation,Nombre de journées SLD,13 578,90 799,104 377,sejours
+2012,Mode d'hospitalisation,Nombre de journées SLD,13 365,76 129,89 494,sejours
+2011,Mode d'hospitalisation,Nombre de journées SSR,23 730,45 327,69 057,sejours
+2012,Mode d'hospitalisation,Nombre de journées SSR,21 709,51 704,73 413,sejours
+2012,Transplantations,Nombre de prélèvements d’organes,,,32,prelevements
+2011,Mode d'hospitalisation,Nombre de séjours Chirurgie,23 228,,,sejours
+2012,Mode d'hospitalisation,Nombre de séjours Chirurgie,23 838,,,sejours
+2011,Mode d'hospitalisation,Nombre de séjours en ambulatoire,83 911,1 080,84 911,sejours
+2012,Mode d'hospitalisation,Nombre de séjours en ambulatoire,86 529,1 184,87 713,sejours
+2011,Mode d'hospitalisation,Nombre de séjours MCO,64 356,2 898,67 254,sejours
+2012,Mode d'hospitalisation,Nombre de séjours MCO,64 693,3 494,68 187,sejours
+2011,Mode d'hospitalisation,Nombre de séjours Médecine,121 073,3 978,,sejours
+2012,Mode d'hospitalisation,Nombre de séjours Médecine,122 825,4 978,,sejours
+2012,Causes d'hospitalisation,Obstétrique,,,4 548,sejours
+2015,Causes d'hospitalisation,Obstétrique,,,4 361,sejours
+2012,Séjours en ambulatoire par pôle,ORPHÉ,,,31 945,sejours
+2012,Séjours MCO par pôle,ORPHÉ,,,2 925,sejours
+2015,Séjours MCO par pôle,ORPHÉ,,,3175,sejours
+2011,Plateux Techniques,Parasitologie (P),4 227,,,actes
+2012,Plateux Techniques,Parasitologie (P),7,,,actes
+2015,Plateux Techniques,Parasitologie (P),38,0,38,actes
+2011,Urgences,Passages aux urgences,,,83 002,passages
+2012,Urgences,Passages aux urgences,,,85 993,passages
+2012,Urgences,Passages aux urgences,,,85 993,passages
+2015,Urgences,passages aux urgences,,,121 721,passages
+2015,Urgences,Passages aux urgences,,,127678,passages
+2015,Urgences,Passages urgences spécialisées,,,61651,passages
+2012,Causes d'hospitalisation,Pathologies cancéreuses,,,46 789,sejours
+2015,Causes d'hospitalisation,Pathologies cancéreuses,,,59 017,sejours
+2012,Causes d'hospitalisation,Pathologies cardio-vasculaires,,,15 275,sejours
+2015,Causes d'hospitalisation,Pathologies cardio-vasculaires,,,15 938,sejours
+2012,Causes d'hospitalisation,Pathologies de l’appareil digestif,,,6 286,sejours
+2012,Causes d'hospitalisation,Pathologies de l’appareil génito-urinaire,,,11 966,sejours
+2015,Causes d'hospitalisation,Pathologies Digestives,,,8 566,sejours
+2012,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",,,11 611,sejours
+2015,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",,,12 552,sejours
+2015,Causes d'hospitalisation,Pathologies Génito-urinaires,,,12 154,sejours
+2012,Causes d'hospitalisation,Pathologies infectieuses,,,3545,sejours
+2015,Causes d'hospitalisation,Pathologies infectieuses,,,3 552,sejours
+2012,Causes d'hospitalisation,Pathologies neurologiques,,,25 843,sejours
+2015,Causes d'hospitalisation,Pathologies neurologiques,,,27 748,sejours
+2015,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,,,10 850,sejours
+2012,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,,,10 064,sejours
+2011,Urgences,Patients admis après passage aux urgences,,,6 083,patients
+2012,Urgences,Patients admis après passage aux urgences,,,10 063,patients
+2015,Urgences,Patients pris en charge (total),,,1200000,patients
+2015,Plateux Techniques,Pharmacologie (PHN),314 317,0,314 317,actes
+2011,Plateux Techniques,Pharmacologie (PHN),232 496,,,actes
+2012,Plateux Techniques,Pharmacologie (PHN),274 913,,,actes
+2015,Recherche,PHRC,,,80,phrc
+2015,Plateux Techniques,Plateux tumorales,22 949,410,23 359,seances
+2012,Séjours en ambulatoire par pôle,Pôle gériatrique,,,1 184,sejours
+2012,Séjours MCO par pôle,Pôle gériatrique du Val-de-Marne,,,3 494,sejours
+2012,Séjours en ambulatoire par pôle,PRAGUES,,,2 591,sejours
+2012,Séjours MCO par pôle,PRAGUES,,,13 505,sejours
+2015,Séjours MCO par pôle,PRAGUES,,,14657,sejours
+2016,Recherche,Programmes d’éducation thérapeutique,,,35,programmes
+2012,Mission d'enseignement,Publications,,,31500000,€
+2015,Mission d'enseignement,Publications,,,39800000,€
+2015,Recherche,Publications catégorie A,,,537,publications
+2015,Recherche,Publications scientifiques,,,1 985,publications
+2016,Recherche,Publications scientifiques,,,1982,publications
+2011,Activités en séances,Radiothérapie,17 026,0,17 026,actes
+2012,Activités en séances,Radiothérapie,16 136,0,16 136,actes
+2015,Plateux Techniques,Radiothérapie,15 880,0,15 880,seances
+2015,Recherche,Recettes recherche,,,1630000,€
+2015,Transplantations,Rénales (Rein),,,104,transplations
+2012,Sejour,Séjours ≥ 24h,,,68 187,sejours
+2012,Sejour,séjours en ambulatoire,,,87 713,sejours
+2015,Sejour,séjours en ambulatoire,,,95 172,sejours
+2015,Sejour,séjours en hospitalisation complète,,,73 222,sejours
+2015,Sejour,séjours en hospitalisation complète,,,75079,sejours
+2015,Sejour,séjours en hospitalisation complète,,,100319,sejours
+2015,Urgences ,Service Accueil Urgences (SAU),,,59072,passages
+2011,Activités en actes,Soins dentaires,383 041,22 357,405 398,actes
+2012,Activités en actes,Soins dentaires,377 686,31 681,409 367,actes
+2015,Plateux Techniques,Soins dentaires,25529,7318,32847,actes
+2012,Transplantations,Transplantations,,,314,transplations
+2015,Transplantations,Transplantations,,,378,transplations
+2012,Transplantations,Transplantations cardiaques,,,80,transplations
+2012,Transplantations,Transplantations hépatiques,,,55,transplations
+2012,Transplantations,Transplantations rénales,,,74,transplations
+2015,Urgences ,Urgences dentaires,,,62649,passages
+2012,Recherche,Valorisation (brevets),,,700000,€
+2016,Hospitalisation,Nombre de services,,,73,services
