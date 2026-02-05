@@ -5,7 +5,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.5,82.8
 2011,1,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,100.79,80.64
 2011,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.53,0.47
-2011,1,CFX,Déchets,Papiers,t,0.0,0.0
 2011,1,CFX,Hygiène,Espaces verts,m2,10712.1,8569.6
 2011,1,CFX,Hygiène,Locaux,m2,6227.5,4982.1
 2011,1,CFX,Hygiène,Vitres,m2,2802.2,2241.5
@@ -17,8 +16,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,1,CFX,Magasin,Références imprimés ,références,1.0,0.0
 2011,1,CFX,Restauration,Nombre de Repas,repas,191001.0,152800.0
 2011,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,504.0,401.0
-2011,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,1,CFX,Vaguemestre,Plis affranchis,plis,6407.0,5125.0
 2011,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,208.0
 2011,1,PLF,Déchets,Cartons,t,50.02,40.04
@@ -40,7 +37,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,1,PLF,Restauration,Nombre de Repas,repas,485760.0,388608.0
 2011,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,822.0,658.0
 2011,1,PLF,Vaguemestre,Colis,colis,150.0,119.0
-2011,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,1,PLF,Vaguemestre,Plis affranchis,plis,185572.0,148459.0
 2011,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,208.0
 2011,2,CFX,Déchets,Cartons,t,2.75,2.2
@@ -49,7 +45,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2011,2,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.23,53.76
 2011,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.28,0.32
-2011,2,CFX,Déchets,Papiers,t,0.0,0.0
 2011,2,CFX,Hygiène,Espaces verts,m2,7141.3,5713.1
 2011,2,CFX,Hygiène,Locaux,m2,4151.6,3321.4
 2011,2,CFX,Hygiène,Vitres,m2,1867.9,1494.3
@@ -61,8 +56,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,2,CFX,Restauration,Nombre de Repas,repas,127334.0,101867.0
 2011,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,334.0,268.0
-2011,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,2,CFX,Vaguemestre,Plis affranchis,plis,4270.0,3417.0
 2011,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,139.0
 2011,2,PLF,Déchets,Cartons,t,33.37,26.69
@@ -84,7 +77,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,2,PLF,Restauration,Nombre de Repas,repas,323841.0,259072.0
 2011,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,546.0,439.0
 2011,2,PLF,Vaguemestre,Colis,colis,103.0,79.0
-2011,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,2,PLF,Vaguemestre,Plis affranchis,plis,123715.0,98972.0
 2011,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,139.0
 2011,3,CFX,Déchets,Cartons,t,1.9,3.57
@@ -93,7 +85,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.32,89.71
 2011,3,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,47.04,87.36
 2011,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.51
-2011,3,CFX,Déchets,Papiers,t,0.0,0.0
 2011,3,CFX,Hygiène,Espaces verts,m2,4998.9,9283.8
 2011,3,CFX,Hygiène,Locaux,m2,2906.2,5397.3
 2011,3,CFX,Hygiène,Vitres,m2,1307.4,2428.3
@@ -105,8 +96,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,3,CFX,Restauration,Nombre de Repas,repas,89133.0,165534.0
 2011,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,236.0,435.0
-2011,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,3,CFX,Vaguemestre,Plis affranchis,plis,2988.0,5552.0
 2011,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,117.0,226.0
 2011,3,PLF,Déchets,Cartons,t,23.35,43.38
@@ -128,7 +117,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,3,PLF,Restauration,Nombre de Repas,repas,226685.0,420992.0
 2011,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,385.0,713.0
 2011,3,PLF,Vaguemestre,Colis,colis,67.0,129.0
-2011,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,3,PLF,Vaguemestre,Plis affranchis,plis,86600.0,160830.0
 2011,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,117.0,226.0
 2011,4,CFX,Déchets,Cartons,t,1.64,3.84
@@ -137,7 +125,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.4,96.61
 2011,4,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.3,94.08
 2011,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.55
-2011,4,CFX,Déchets,Papiers,t,0.0,0.0
 2011,4,CFX,Hygiène,Espaces verts,m2,4284.8,9997.9
 2011,4,CFX,Hygiène,Locaux,m2,2491.1,5812.5
 2011,4,CFX,Hygiène,Vitres,m2,1120.6,2615.1
@@ -149,8 +136,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,4,CFX,Restauration,Nombre de Repas,repas,76402.0,178267.0
 2011,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,199.0,468.0
-2011,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,4,CFX,Vaguemestre,Plis affranchis,plis,2561.0,5979.0
 2011,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,243.0
 2011,4,PLF,Déchets,Cartons,t,20.05,46.71
@@ -172,7 +157,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,4,PLF,Restauration,Nombre de Repas,repas,194303.0,453376.0
 2011,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,329.0,767.0
 2011,4,PLF,Vaguemestre,Colis,colis,59.0,139.0
-2011,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,4,PLF,Vaguemestre,Plis affranchis,plis,74231.0,173202.0
 2011,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,243.0
 2011,5,CFX,Déchets,Cartons,t,1.39,1.92
@@ -181,7 +165,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.52,48.3
 2011,5,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.58,47.04
 2011,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.24,0.28
-2011,5,CFX,Déchets,Papiers,t,0.0,0.0
 2011,5,CFX,Hygiène,Espaces verts,m2,3570.5,4999.0
 2011,5,CFX,Hygiène,Locaux,m2,2075.7,2906.2
 2011,5,CFX,Hygiène,Vitres,m2,933.8,1307.5
@@ -193,8 +176,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,5,CFX,Restauration,Nombre de Repas,repas,63669.0,89134.0
 2011,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,167.0,234.0
-2011,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,5,CFX,Vaguemestre,Plis affranchis,plis,2136.0,2990.0
 2011,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2011,5,PLF,Déchets,Cartons,t,16.7,23.36
@@ -216,7 +197,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,5,PLF,Restauration,Nombre de Repas,repas,161921.0,226688.0
 2011,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,276.0,384.0
 2011,5,PLF,Vaguemestre,Colis,colis,52.0,70.0
-2011,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,5,PLF,Vaguemestre,Plis affranchis,plis,61857.0,86601.0
 2011,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2011,6,CFX,Déchets,Cartons,t,1.62,1.1
@@ -225,7 +205,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.38,27.6
 2011,6,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.33,26.88
 2011,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2011,6,CFX,Déchets,Papiers,t,0.0,0.0
 2011,6,CFX,Hygiène,Espaces verts,m2,4284.7,2856.5
 2011,6,CFX,Hygiène,Locaux,m2,2490.9,1660.7
 2011,6,CFX,Hygiène,Vitres,m2,1120.8,747.2
@@ -237,8 +216,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,6,CFX,Restauration,Nombre de Repas,repas,76397.0,50933.0
 2011,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,134.0
-2011,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,6,CFX,Vaguemestre,Plis affranchis,plis,2565.0,1708.0
 2011,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,104.0,69.0
 2011,6,PLF,Déchets,Cartons,t,20.02,13.35
@@ -260,7 +237,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,6,PLF,Restauration,Nombre de Repas,repas,194305.0,129536.0
 2011,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,219.0
 2011,6,PLF,Vaguemestre,Colis,colis,60.0,40.0
-2011,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,6,PLF,Vaguemestre,Plis affranchis,plis,74230.0,49486.0
 2011,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,104.0,69.0
 2011,7,CFX,Déchets,Cartons,t,3.56,0.82
@@ -269,7 +245,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.68,20.7
 2011,7,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.35,20.16
 2011,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.49,0.12
-2011,7,CFX,Déchets,Papiers,t,0.0,0.0
 2011,7,CFX,Hygiène,Espaces verts,m2,9283.9,2142.4
 2011,7,CFX,Hygiène,Locaux,m2,5397.4,1245.5
 2011,7,CFX,Hygiène,Vitres,m2,2428.5,560.4
@@ -281,8 +256,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,7,CFX,Restauration,Nombre de Repas,repas,165533.0,38200.0
 2011,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,433.0,100.0
-2011,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,7,CFX,Vaguemestre,Plis affranchis,plis,5553.0,1281.0
 2011,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2011,7,PLF,Déchets,Cartons,t,43.39,10.01
@@ -304,7 +277,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,7,PLF,Restauration,Nombre de Repas,repas,420990.0,97152.0
 2011,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,713.0,164.0
 2011,7,PLF,Vaguemestre,Colis,colis,130.0,30.0
-2011,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,7,PLF,Vaguemestre,Plis affranchis,plis,160830.0,37115.0
 2011,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2011,8,CFX,Déchets,Cartons,t,3.59,1.1
@@ -313,7 +285,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.71,27.6
 2011,8,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.37,26.88
 2011,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.51,0.16
-2011,8,CFX,Déchets,Papiers,t,0.0,0.0
 2011,8,CFX,Hygiène,Espaces verts,m2,9283.8,2856.5
 2011,8,CFX,Hygiène,Locaux,m2,5397.5,1660.7
 2011,8,CFX,Hygiène,Vitres,m2,2428.0,747.2
@@ -325,8 +296,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,8,CFX,Restauration,Nombre de Repas,repas,165535.0,50933.0
 2011,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,134.0
-2011,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,8,CFX,Vaguemestre,Plis affranchis,plis,5553.0,1708.0
 2011,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,69.0
 2011,8,PLF,Déchets,Cartons,t,43.38,13.35
@@ -348,7 +317,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,8,PLF,Restauration,Nombre de Repas,repas,420991.0,129536.0
 2011,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,711.0,219.0
 2011,8,PLF,Vaguemestre,Colis,colis,126.0,40.0
-2011,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,8,PLF,Vaguemestre,Plis affranchis,plis,160830.0,49486.0
 2011,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,69.0
 2011,9,CFX,Déchets,Cartons,t,1.66,1.37
@@ -357,7 +325,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.4,34.5
 2011,9,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.32,33.6
 2011,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2011,9,CFX,Déchets,Papiers,t,0.0,0.0
 2011,9,CFX,Hygiène,Espaces verts,m2,4284.7,3570.7
 2011,9,CFX,Hygiène,Locaux,m2,2491.1,2075.9
 2011,9,CFX,Hygiène,Vitres,m2,1120.6,934.0
@@ -369,8 +336,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,9,CFX,Restauration,Nombre de Repas,repas,76402.0,63667.0
 2011,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,167.0
-2011,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,9,CFX,Vaguemestre,Plis affranchis,plis,2563.0,2135.0
 2011,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2011,9,PLF,Déchets,Cartons,t,20.01,16.68
@@ -392,7 +357,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,9,PLF,Restauration,Nombre de Repas,repas,194307.0,161920.0
 2011,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,329.0,274.0
 2011,9,PLF,Vaguemestre,Colis,colis,57.0,50.0
-2011,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,9,PLF,Vaguemestre,Plis affranchis,plis,74231.0,61858.0
 2011,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2011,10,CFX,Déchets,Cartons,t,1.4,2.74
@@ -401,7 +365,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.49,69.0
 2011,10,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.62,67.2
 2011,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.25,0.4
-2011,10,CFX,Déchets,Papiers,t,0.0,0.0
 2011,10,CFX,Hygiène,Espaces verts,m2,3570.7,7141.4
 2011,10,CFX,Hygiène,Locaux,m2,2076.1,4151.8
 2011,10,CFX,Hygiène,Vitres,m2,933.9,1867.9
@@ -413,8 +376,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,10,CFX,Restauration,Nombre de Repas,repas,63666.0,127334.0
 2011,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,168.0,334.0
-2011,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,10,CFX,Vaguemestre,Plis affranchis,plis,2135.0,4271.0
 2011,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,174.0
 2011,10,PLF,Déchets,Cartons,t,16.66,33.37
@@ -436,7 +397,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,10,PLF,Restauration,Nombre de Repas,repas,161921.0,323840.0
 2011,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,273.0,548.0
 2011,10,PLF,Vaguemestre,Colis,colis,52.0,99.0
-2011,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,10,PLF,Vaguemestre,Plis affranchis,plis,61859.0,123716.0
 2011,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,174.0
 2011,11,CFX,Déchets,Cartons,t,1.09,3.29
@@ -445,7 +405,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.64,82.8
 2011,11,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,26.88,80.64
 2011,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.13,0.47
-2011,11,CFX,Déchets,Papiers,t,0.0,0.0
 2011,11,CFX,Hygiène,Espaces verts,m2,2856.7,8569.6
 2011,11,CFX,Hygiène,Locaux,m2,1660.9,4982.1
 2011,11,CFX,Hygiène,Vitres,m2,747.3,2241.5
@@ -457,8 +416,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,11,CFX,Restauration,Nombre de Repas,repas,50933.0,152800.0
 2011,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,133.0,401.0
-2011,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,11,CFX,Vaguemestre,Plis affranchis,plis,1707.0,5125.0
 2011,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,71.0,208.0
 2011,11,PLF,Déchets,Cartons,t,13.35,40.04
@@ -480,7 +437,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,11,PLF,Restauration,Nombre de Repas,repas,129536.0,388608.0
 2011,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,220.0,658.0
 2011,11,PLF,Vaguemestre,Colis,colis,35.0,119.0
-2011,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,11,PLF,Vaguemestre,Plis affranchis,plis,49486.0,148459.0
 2011,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,71.0,208.0
 2011,12,CFX,Déchets,Cartons,t,2.74,2.2
@@ -489,7 +445,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2011,12,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.21,53.76
 2011,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.32
-2011,12,CFX,Déchets,Papiers,t,0.0,0.0
 2011,12,CFX,Hygiène,Espaces verts,m2,7141.5,5713.1
 2011,12,CFX,Hygiène,Locaux,m2,4151.6,3321.4
 2011,12,CFX,Hygiène,Vitres,m2,1868.0,1494.3
@@ -501,8 +456,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2011,12,CFX,Restauration,Nombre de Repas,repas,127331.0,101867.0
 2011,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,335.0,268.0
-2011,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2011,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,12,CFX,Vaguemestre,Plis affranchis,plis,4271.0,3417.0
 2011,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2011,12,PLF,Déchets,Cartons,t,33.37,26.69
@@ -524,7 +477,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2011,12,PLF,Restauration,Nombre de Repas,repas,323842.0,259072.0
 2011,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,548.0,439.0
 2011,12,PLF,Vaguemestre,Colis,colis,102.0,79.0
-2011,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2011,12,PLF,Vaguemestre,Plis affranchis,plis,123715.0,98972.0
 2011,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2012,1,CFX,Déchets,Cartons,t,4.13,3.3
@@ -533,7 +485,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.48,82.78
 2012,1,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,100.82,80.65
 2012,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.54,0.48
-2012,1,CFX,Déchets,Papiers,t,0.0,0.0
 2012,1,CFX,Hygiène,Espaces verts,m2,10711.7,8569.5
 2012,1,CFX,Hygiène,Locaux,m2,6227.4,4982.0
 2012,1,CFX,Hygiène,Vitres,m2,2801.9,2241.3
@@ -545,8 +496,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,1,CFX,Magasin,Références imprimés ,références,1.0,0.0
 2012,1,CFX,Restauration,Nombre de Repas,repas,190998.0,152800.0
 2012,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,503.0,402.0
-2012,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,1,CFX,Vaguemestre,Plis affranchis,plis,6408.0,5126.0
 2012,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,209.0
 2012,1,PLF,Déchets,Cartons,t,50.02,40.02
@@ -568,7 +517,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,1,PLF,Restauration,Nombre de Repas,repas,485759.0,388608.0
 2012,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,817.0,657.0
 2012,1,PLF,Vaguemestre,Colis,colis,150.0,120.0
-2012,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,1,PLF,Vaguemestre,Plis affranchis,plis,185573.0,148458.0
 2012,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,209.0
 2012,2,CFX,Déchets,Cartons,t,2.73,2.2
@@ -577,7 +525,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,68.99,55.19
 2012,2,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.2,53.76
 2012,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.32
-2012,2,CFX,Déchets,Papiers,t,0.0,0.0
 2012,2,CFX,Hygiène,Espaces verts,m2,7141.4,5713.0
 2012,2,CFX,Hygiène,Locaux,m2,4151.5,3321.3
 2012,2,CFX,Hygiène,Vitres,m2,1867.9,1494.2
@@ -589,8 +536,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,2,CFX,Restauration,Nombre de Repas,repas,127333.0,101867.0
 2012,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,337.0,268.0
-2012,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,2,CFX,Vaguemestre,Plis affranchis,plis,4273.0,3417.0
 2012,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,173.0,139.0
 2012,2,PLF,Déchets,Cartons,t,33.36,26.68
@@ -612,7 +557,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,2,PLF,Restauration,Nombre de Repas,repas,323841.0,259072.0
 2012,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,548.0,438.0
 2012,2,PLF,Vaguemestre,Colis,colis,103.0,80.0
-2012,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,2,PLF,Vaguemestre,Plis affranchis,plis,123716.0,98972.0
 2012,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,173.0,139.0
 2012,3,CFX,Déchets,Cartons,t,1.93,3.58
@@ -621,7 +565,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.31,89.68
 2012,3,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,47.03,87.37
 2012,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.52
-2012,3,CFX,Déchets,Papiers,t,0.0,0.0
 2012,3,CFX,Hygiène,Espaces verts,m2,4998.8,9283.6
 2012,3,CFX,Hygiène,Locaux,m2,2906.0,5397.2
 2012,3,CFX,Hygiène,Vitres,m2,1307.5,2428.1
@@ -633,8 +576,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,3,CFX,Restauration,Nombre de Repas,repas,89134.0,165533.0
 2012,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,235.0,436.0
-2012,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,3,CFX,Vaguemestre,Plis affranchis,plis,2989.0,5553.0
 2012,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,226.0
 2012,3,PLF,Déchets,Cartons,t,23.33,43.36
@@ -656,7 +597,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,3,PLF,Restauration,Nombre de Repas,repas,226688.0,420991.0
 2012,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,383.0,712.0
 2012,3,PLF,Vaguemestre,Colis,colis,72.0,130.0
-2012,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,3,PLF,Vaguemestre,Plis affranchis,plis,86600.0,160830.0
 2012,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,226.0
 2012,4,CFX,Déchets,Cartons,t,1.64,3.85
@@ -665,7 +605,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.38,96.58
 2012,4,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.32,94.09
 2012,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.56
-2012,4,CFX,Déchets,Papiers,t,0.0,0.0
 2012,4,CFX,Hygiène,Espaces verts,m2,4284.4,9997.7
 2012,4,CFX,Hygiène,Locaux,m2,2491.0,5812.3
 2012,4,CFX,Hygiène,Vitres,m2,1120.6,2614.9
@@ -677,8 +616,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,4,CFX,Restauration,Nombre de Repas,repas,76400.0,178266.0
 2012,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,201.0,469.0
-2012,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,4,CFX,Vaguemestre,Plis affranchis,plis,2564.0,5980.0
 2012,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,244.0
 2012,4,PLF,Déchets,Cartons,t,20.02,46.69
@@ -700,7 +637,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,4,PLF,Restauration,Nombre de Repas,repas,194306.0,453375.0
 2012,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,331.0,767.0
 2012,4,PLF,Vaguemestre,Colis,colis,60.0,140.0
-2012,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,4,PLF,Vaguemestre,Plis affranchis,plis,74228.0,173201.0
 2012,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,244.0
 2012,5,CFX,Déchets,Cartons,t,1.38,1.93
@@ -709,7 +645,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.48,48.29
 2012,5,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.63,47.04
 2012,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.26,0.28
-2012,5,CFX,Déchets,Papiers,t,0.0,0.0
 2012,5,CFX,Hygiène,Espaces verts,m2,3570.7,4998.9
 2012,5,CFX,Hygiène,Locaux,m2,2075.7,2906.2
 2012,5,CFX,Hygiène,Vitres,m2,933.8,1307.5
@@ -721,8 +656,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,5,CFX,Restauration,Nombre de Repas,repas,63668.0,89133.0
 2012,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,167.0,235.0
-2012,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,5,CFX,Vaguemestre,Plis affranchis,plis,2138.0,2990.0
 2012,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2012,5,PLF,Déchets,Cartons,t,16.66,23.35
@@ -744,7 +677,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,5,PLF,Restauration,Nombre de Repas,repas,161920.0,226688.0
 2012,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,276.0,384.0
 2012,5,PLF,Vaguemestre,Colis,colis,54.0,70.0
-2012,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,5,PLF,Vaguemestre,Plis affranchis,plis,61859.0,86601.0
 2012,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2012,6,CFX,Déchets,Cartons,t,1.65,1.1
@@ -753,7 +685,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.36,27.59
 2012,6,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.34,26.88
 2012,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2012,6,CFX,Déchets,Papiers,t,0.0,0.0
 2012,6,CFX,Hygiène,Espaces verts,m2,4284.7,2856.5
 2012,6,CFX,Hygiène,Locaux,m2,2491.0,1660.7
 2012,6,CFX,Hygiène,Vitres,m2,1120.5,747.1
@@ -765,8 +696,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,6,CFX,Restauration,Nombre de Repas,repas,76403.0,50933.0
 2012,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,202.0,134.0
-2012,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,6,CFX,Vaguemestre,Plis affranchis,plis,2565.0,1709.0
 2012,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,70.0
 2012,6,PLF,Déchets,Cartons,t,19.98,13.34
@@ -788,7 +717,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,6,PLF,Restauration,Nombre de Repas,repas,194302.0,129536.0
 2012,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,219.0
 2012,6,PLF,Vaguemestre,Colis,colis,60.0,40.0
-2012,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,6,PLF,Vaguemestre,Plis affranchis,plis,74231.0,49486.0
 2012,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,70.0
 2012,7,CFX,Déchets,Cartons,t,3.58,0.83
@@ -797,7 +725,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.67,20.7
 2012,7,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.36,20.16
 2012,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.48,0.12
-2012,7,CFX,Déchets,Papiers,t,0.0,0.0
 2012,7,CFX,Hygiène,Espaces verts,m2,9283.6,2142.4
 2012,7,CFX,Hygiène,Locaux,m2,5397.1,1245.5
 2012,7,CFX,Hygiène,Vitres,m2,2428.4,560.3
@@ -809,8 +736,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,7,CFX,Restauration,Nombre de Repas,repas,165532.0,38200.0
 2012,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,101.0
-2012,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,7,CFX,Vaguemestre,Plis affranchis,plis,5552.0,1281.0
 2012,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,52.0
 2012,7,PLF,Déchets,Cartons,t,43.34,10.0
@@ -832,7 +757,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,7,PLF,Restauration,Nombre de Repas,repas,420992.0,97152.0
 2012,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,712.0,164.0
 2012,7,PLF,Vaguemestre,Colis,colis,127.0,30.0
-2012,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,7,PLF,Vaguemestre,Plis affranchis,plis,160828.0,37115.0
 2012,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,52.0
 2012,8,CFX,Déchets,Cartons,t,3.59,1.1
@@ -841,7 +765,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.7,27.59
 2012,8,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.36,26.88
 2012,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.51,0.16
-2012,8,CFX,Déchets,Papiers,t,0.0,0.0
 2012,8,CFX,Hygiène,Espaces verts,m2,9283.7,2856.5
 2012,8,CFX,Hygiène,Locaux,m2,5397.2,1660.7
 2012,8,CFX,Hygiène,Vitres,m2,2428.2,747.1
@@ -853,8 +776,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,8,CFX,Restauration,Nombre de Repas,repas,165531.0,50933.0
 2012,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,134.0
-2012,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,8,CFX,Vaguemestre,Plis affranchis,plis,5554.0,1709.0
 2012,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,226.0,70.0
 2012,8,PLF,Déchets,Cartons,t,43.37,13.34
@@ -876,7 +797,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,8,PLF,Restauration,Nombre de Repas,repas,420992.0,129536.0
 2012,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,711.0,219.0
 2012,8,PLF,Vaguemestre,Colis,colis,127.0,40.0
-2012,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,8,PLF,Vaguemestre,Plis affranchis,plis,160833.0,49486.0
 2012,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,226.0,70.0
 2012,9,CFX,Déchets,Cartons,t,1.65,1.38
@@ -885,7 +805,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.41,34.49
 2012,9,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.33,33.6
 2012,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2012,9,CFX,Déchets,Papiers,t,0.0,0.0
 2012,9,CFX,Hygiène,Espaces verts,m2,4284.6,3570.6
 2012,9,CFX,Hygiène,Locaux,m2,2491.3,2075.8
 2012,9,CFX,Hygiène,Vitres,m2,1120.4,933.9
@@ -897,8 +816,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,9,CFX,Restauration,Nombre de Repas,repas,76401.0,63667.0
 2012,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,168.0
-2012,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,9,CFX,Vaguemestre,Plis affranchis,plis,2562.0,2136.0
 2012,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,87.0
 2012,9,PLF,Déchets,Cartons,t,20.03,16.68
@@ -920,7 +837,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,9,PLF,Restauration,Nombre de Repas,repas,194300.0,161920.0
 2012,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,329.0,274.0
 2012,9,PLF,Vaguemestre,Colis,colis,59.0,50.0
-2012,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,9,PLF,Vaguemestre,Plis affranchis,plis,74230.0,61858.0
 2012,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,87.0
 2012,10,CFX,Déchets,Cartons,t,1.4,2.75
@@ -929,7 +845,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.5,68.99
 2012,10,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.6,67.2
 2012,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.24,0.4
-2012,10,CFX,Déchets,Papiers,t,0.0,0.0
 2012,10,CFX,Hygiène,Espaces verts,m2,3570.7,7141.2
 2012,10,CFX,Hygiène,Locaux,m2,2075.8,4151.7
 2012,10,CFX,Hygiène,Vitres,m2,934.0,1867.8
@@ -941,8 +856,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,10,CFX,Restauration,Nombre de Repas,repas,63666.0,127333.0
 2012,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,168.0,335.0
-2012,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,10,CFX,Vaguemestre,Plis affranchis,plis,2134.0,4272.0
 2012,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,174.0
 2012,10,PLF,Déchets,Cartons,t,16.7,33.35
@@ -964,7 +877,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,10,PLF,Restauration,Nombre de Repas,repas,161920.0,323840.0
 2012,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,273.0,548.0
 2012,10,PLF,Vaguemestre,Colis,colis,53.0,100.0
-2012,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,10,PLF,Vaguemestre,Plis affranchis,plis,61856.0,123715.0
 2012,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,174.0
 2012,11,CFX,Déchets,Cartons,t,1.1,3.3
@@ -973,7 +885,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.59,82.78
 2012,11,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,26.87,80.65
 2012,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.15,0.48
-2012,11,CFX,Déchets,Papiers,t,0.0,0.0
 2012,11,CFX,Hygiène,Espaces verts,m2,2856.6,8569.5
 2012,11,CFX,Hygiène,Locaux,m2,1660.8,4982.0
 2012,11,CFX,Hygiène,Vitres,m2,747.0,2241.3
@@ -985,8 +896,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,11,CFX,Restauration,Nombre de Repas,repas,50933.0,152800.0
 2012,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,132.0,402.0
-2012,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,11,CFX,Vaguemestre,Plis affranchis,plis,1707.0,5126.0
 2012,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,209.0
 2012,11,PLF,Déchets,Cartons,t,13.34,40.02
@@ -1008,7 +917,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,11,PLF,Restauration,Nombre de Repas,repas,129537.0,388608.0
 2012,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,220.0,657.0
 2012,11,PLF,Vaguemestre,Colis,colis,35.0,120.0
-2012,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,11,PLF,Vaguemestre,Plis affranchis,plis,49482.0,148458.0
 2012,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,209.0
 2012,12,CFX,Déchets,Cartons,t,2.73,2.2
@@ -1017,7 +925,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.19
 2012,12,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.19,53.76
 2012,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.32
-2012,12,CFX,Déchets,Papiers,t,0.0,0.0
 2012,12,CFX,Hygiène,Espaces verts,m2,7141.3,5713.0
 2012,12,CFX,Hygiène,Locaux,m2,4151.8,3321.3
 2012,12,CFX,Hygiène,Vitres,m2,1867.7,1494.2
@@ -1029,8 +936,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2012,12,CFX,Restauration,Nombre de Repas,repas,127333.0,101867.0
 2012,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,334.0,268.0
-2012,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2012,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,12,CFX,Vaguemestre,Plis affranchis,plis,4270.0,3417.0
 2012,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,175.0,139.0
 2012,12,PLF,Déchets,Cartons,t,33.35,26.68
@@ -1052,7 +957,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2012,12,PLF,Restauration,Nombre de Repas,repas,323839.0,259072.0
 2012,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,549.0,438.0
 2012,12,PLF,Vaguemestre,Colis,colis,103.0,80.0
-2012,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2012,12,PLF,Vaguemestre,Plis affranchis,plis,123716.0,98972.0
 2012,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,175.0,139.0
 2013,1,CFX,Déchets,Cartons,t,4.38,3.51
@@ -1061,7 +965,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.51,82.81
 2013,1,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,100.78,80.63
 2013,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.56,0.49
-2013,1,CFX,Déchets,Papiers,t,0.0,0.0
 2013,1,CFX,Hygiène,Espaces verts,m2,10712.0,8569.6
 2013,1,CFX,Hygiène,Locaux,m2,6334.9,5067.9
 2013,1,CFX,Hygiène,Vitres,m2,2912.2,2329.8
@@ -1070,11 +973,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,1,CFX,Lingerie,Références gérées,références,60197.0,48156.0
 2013,1,CFX,Magasin,Références hygiène & environnement ,références,6.0,1.0
 2013,1,CFX,Magasin,Références hôtelier,références,31.0,23.0
-2013,1,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,1,CFX,Restauration,Nombre de Repas,repas,188432.0,150745.0
 2013,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,506.0,402.0
-2013,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,1,CFX,Vaguemestre,Plis affranchis,plis,6386.0,5108.0
 2013,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,210.0
 2013,1,PLF,Déchets,Cartons,t,51.96,41.57
@@ -1096,7 +996,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,1,PLF,Restauration,Nombre de Repas,repas,423811.0,339050.0
 2013,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,823.0,658.0
 2013,1,PLF,Vaguemestre,Colis,colis,166.0,133.0
-2013,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,1,PLF,Vaguemestre,Plis affranchis,plis,184888.0,147911.0
 2013,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,261.0,210.0
 2013,2,CFX,Déchets,Cartons,t,2.91,2.34
@@ -1105,7 +1004,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2013,2,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.2,53.75
 2013,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.33
-2013,2,CFX,Déchets,Papiers,t,0.0,0.0
 2013,2,CFX,Hygiène,Espaces verts,m2,7141.4,5713.1
 2013,2,CFX,Hygiène,Locaux,m2,4223.4,3378.6
 2013,2,CFX,Hygiène,Vitres,m2,1941.5,1553.2
@@ -1114,11 +1012,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,2,CFX,Lingerie,Références gérées,références,40130.0,32104.0
 2013,2,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,2,CFX,Magasin,Références hôtelier,références,28.0,15.0
-2013,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,2,CFX,Restauration,Nombre de Repas,repas,125622.0,100497.0
 2013,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,332.0,268.0
-2013,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,2,CFX,Vaguemestre,Plis affranchis,plis,4257.0,3405.0
 2013,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,140.0
 2013,2,PLF,Déchets,Cartons,t,34.65,27.71
@@ -1140,7 +1035,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,2,PLF,Restauration,Nombre de Repas,repas,282542.0,226033.0
 2013,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,548.0,439.0
 2013,2,PLF,Vaguemestre,Colis,colis,106.0,89.0
-2013,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,2,PLF,Vaguemestre,Plis affranchis,plis,123259.0,98607.0
 2013,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,140.0
 2013,3,CFX,Déchets,Cartons,t,2.07,3.8
@@ -1149,7 +1043,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.3,89.71
 2013,3,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,47.03,87.35
 2013,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.53
-2013,3,CFX,Déchets,Papiers,t,0.0,0.0
 2013,3,CFX,Hygiène,Espaces verts,m2,4998.7,9283.8
 2013,3,CFX,Hygiène,Locaux,m2,2956.2,5490.3
 2013,3,CFX,Hygiène,Vitres,m2,1359.0,2524.0
@@ -1158,11 +1051,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,3,CFX,Lingerie,Références gérées,références,28091.0,52170.0
 2013,3,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,3,CFX,Magasin,Références hôtelier,références,21.0,25.0
-2013,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,3,CFX,Restauration,Nombre de Repas,repas,87933.0,163307.0
 2013,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,236.0,436.0
-2013,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,3,CFX,Vaguemestre,Plis affranchis,plis,2983.0,5534.0
 2013,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,117.0,227.0
 2013,3,PLF,Déchets,Cartons,t,24.22,45.03
@@ -1184,7 +1074,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,3,PLF,Restauration,Nombre de Repas,repas,197779.0,367304.0
 2013,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,383.0,713.0
 2013,3,PLF,Vaguemestre,Colis,colis,80.0,144.0
-2013,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,3,PLF,Vaguemestre,Plis affranchis,plis,86281.0,160237.0
 2013,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,117.0,227.0
 2013,4,CFX,Déchets,Cartons,t,1.75,4.1
@@ -1193,7 +1082,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.42,96.61
 2013,4,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.29,94.07
 2013,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.57
-2013,4,CFX,Déchets,Papiers,t,0.0,0.0
 2013,4,CFX,Hygiène,Espaces verts,m2,4285.0,9997.9
 2013,4,CFX,Hygiène,Locaux,m2,2533.9,5912.6
 2013,4,CFX,Hygiène,Vitres,m2,1164.8,2718.1
@@ -1202,11 +1090,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,4,CFX,Lingerie,Références gérées,références,24079.0,56183.0
 2013,4,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,4,CFX,Magasin,Références hôtelier,références,6.0,27.0
-2013,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,4,CFX,Restauration,Nombre de Repas,repas,75372.0,175869.0
 2013,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,201.0,469.0
-2013,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,4,CFX,Vaguemestre,Plis affranchis,plis,2554.0,5959.0
 2013,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,245.0
 2013,4,PLF,Déchets,Cartons,t,20.8,48.5
@@ -1228,7 +1113,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,4,PLF,Restauration,Nombre de Repas,repas,169525.0,395558.0
 2013,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,768.0
 2013,4,PLF,Vaguemestre,Colis,colis,64.0,155.0
-2013,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,4,PLF,Vaguemestre,Plis affranchis,plis,73954.0,172563.0
 2013,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,245.0
 2013,5,CFX,Déchets,Cartons,t,1.47,2.05
@@ -1237,7 +1121,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.5,48.3
 2013,5,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.6,47.04
 2013,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.27,0.29
-2013,5,CFX,Déchets,Papiers,t,0.0,0.0
 2013,5,CFX,Hygiène,Espaces verts,m2,3570.7,4999.0
 2013,5,CFX,Hygiène,Locaux,m2,2111.6,2956.3
 2013,5,CFX,Hygiène,Vitres,m2,970.8,1359.1
@@ -1246,11 +1129,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,5,CFX,Lingerie,Références gérées,références,20064.0,28091.0
 2013,5,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2013,5,CFX,Magasin,Références hôtelier,références,0.0,13.0
-2013,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,5,CFX,Restauration,Nombre de Repas,repas,62810.0,87935.0
 2013,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,166.0,235.0
-2013,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,5,CFX,Vaguemestre,Plis affranchis,plis,2129.0,2980.0
 2013,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,88.0,122.0
 2013,5,PLF,Déchets,Cartons,t,17.32,24.25
@@ -1272,7 +1152,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,5,PLF,Restauration,Nombre de Repas,repas,141270.0,197779.0
 2013,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,278.0,384.0
 2013,5,PLF,Vaguemestre,Colis,colis,58.0,77.0
-2013,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,5,PLF,Vaguemestre,Plis affranchis,plis,61630.0,86281.0
 2013,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,88.0,122.0
 2013,6,CFX,Déchets,Cartons,t,1.74,1.17
@@ -1281,7 +1160,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.41,27.6
 2013,6,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.33,26.88
 2013,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2013,6,CFX,Déchets,Papiers,t,0.0,0.0
 2013,6,CFX,Hygiène,Espaces verts,m2,4284.9,2856.5
 2013,6,CFX,Hygiène,Locaux,m2,2534.0,1689.3
 2013,6,CFX,Hygiène,Vitres,m2,1165.0,776.6
@@ -1290,11 +1168,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,6,CFX,Lingerie,Références gérées,références,24082.0,16052.0
 2013,6,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2013,6,CFX,Magasin,Références hôtelier,références,7.0,8.0
-2013,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,6,CFX,Restauration,Nombre de Repas,repas,75371.0,50248.0
 2013,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,134.0
-2013,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,6,CFX,Vaguemestre,Plis affranchis,plis,2554.0,1703.0
 2013,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,70.0
 2013,6,PLF,Déchets,Cartons,t,20.77,13.86
@@ -1316,7 +1191,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,6,PLF,Restauration,Nombre de Repas,repas,169524.0,113017.0
 2013,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,328.0,219.0
 2013,6,PLF,Vaguemestre,Colis,colis,65.0,44.0
-2013,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,6,PLF,Vaguemestre,Plis affranchis,plis,73954.0,49304.0
 2013,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,70.0
 2013,7,CFX,Déchets,Cartons,t,3.82,0.88
@@ -1325,7 +1199,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.69,20.7
 2013,7,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.35,20.16
 2013,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.51,0.12
-2013,7,CFX,Déchets,Papiers,t,0.0,0.0
 2013,7,CFX,Hygiène,Espaces verts,m2,9283.8,2142.4
 2013,7,CFX,Hygiène,Locaux,m2,5490.6,1267.0
 2013,7,CFX,Hygiène,Vitres,m2,2523.7,582.5
@@ -1334,11 +1207,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,7,CFX,Lingerie,Références gérées,références,52168.0,12039.0
 2013,7,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2013,7,CFX,Magasin,Références hôtelier,références,31.0,6.0
-2013,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,7,CFX,Restauration,Nombre de Repas,repas,163307.0,37686.0
 2013,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,435.0,100.0
-2013,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,7,CFX,Vaguemestre,Plis affranchis,plis,5533.0,1277.0
 2013,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2013,7,PLF,Déchets,Cartons,t,45.05,10.39
@@ -1360,7 +1230,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,7,PLF,Restauration,Nombre de Repas,repas,367304.0,84762.0
 2013,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,715.0,165.0
 2013,7,PLF,Vaguemestre,Colis,colis,143.0,33.0
-2013,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,7,PLF,Vaguemestre,Plis affranchis,plis,160237.0,36978.0
 2013,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2013,8,CFX,Déchets,Cartons,t,3.82,1.17
@@ -1369,7 +1238,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.71,27.6
 2013,8,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,87.35,26.88
 2013,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.52,0.16
-2013,8,CFX,Déchets,Papiers,t,0.0,0.0
 2013,8,CFX,Hygiène,Espaces verts,m2,9283.8,2856.5
 2013,8,CFX,Hygiène,Locaux,m2,5490.1,1689.3
 2013,8,CFX,Hygiène,Vitres,m2,2524.4,776.6
@@ -1378,11 +1246,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,8,CFX,Lingerie,Références gérées,références,52171.0,16052.0
 2013,8,CFX,Magasin,Références hygiène & environnement ,références,1.0,0.0
 2013,8,CFX,Magasin,Références hôtelier,références,31.0,8.0
-2013,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,8,CFX,Restauration,Nombre de Repas,repas,163307.0,50248.0
 2013,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,437.0,134.0
-2013,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,8,CFX,Vaguemestre,Plis affranchis,plis,5534.0,1703.0
 2013,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,70.0
 2013,8,PLF,Déchets,Cartons,t,45.04,13.86
@@ -1404,7 +1269,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,8,PLF,Restauration,Nombre de Repas,repas,367303.0,113017.0
 2013,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,711.0,219.0
 2013,8,PLF,Vaguemestre,Colis,colis,146.0,44.0
-2013,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,8,PLF,Vaguemestre,Plis affranchis,plis,160240.0,49304.0
 2013,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,70.0
 2013,9,CFX,Déchets,Cartons,t,1.75,1.46
@@ -1413,7 +1277,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.4,34.5
 2013,9,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,40.34,33.6
 2013,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2013,9,CFX,Déchets,Papiers,t,0.0,0.0
 2013,9,CFX,Hygiène,Espaces verts,m2,4284.9,3570.7
 2013,9,CFX,Hygiène,Locaux,m2,2534.2,2111.6
 2013,9,CFX,Hygiène,Vitres,m2,1165.0,970.8
@@ -1422,11 +1285,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,9,CFX,Lingerie,Références gérées,références,24077.0,20065.0
 2013,9,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2013,9,CFX,Magasin,Références hôtelier,références,6.0,10.0
-2013,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,9,CFX,Restauration,Nombre de Repas,repas,75372.0,62810.0
 2013,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,168.0
-2013,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,9,CFX,Vaguemestre,Plis affranchis,plis,2556.0,2128.0
 2013,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,87.0
 2013,9,PLF,Déchets,Cartons,t,20.77,17.32
@@ -1448,7 +1308,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,9,PLF,Restauration,Nombre de Repas,repas,169525.0,141271.0
 2013,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,329.0,274.0
 2013,9,PLF,Vaguemestre,Colis,colis,65.0,55.0
-2013,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,9,PLF,Vaguemestre,Plis affranchis,plis,73953.0,61630.0
 2013,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,87.0
 2013,10,CFX,Déchets,Cartons,t,1.44,2.92
@@ -1457,7 +1316,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.52,69.01
 2013,10,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,33.6,67.19
 2013,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.25,0.41
-2013,10,CFX,Déchets,Papiers,t,0.0,0.0
 2013,10,CFX,Hygiène,Espaces verts,m2,3571.0,7141.4
 2013,10,CFX,Hygiène,Locaux,m2,2111.7,4223.3
 2013,10,CFX,Hygiène,Vitres,m2,970.7,1941.5
@@ -1466,11 +1324,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,10,CFX,Lingerie,Références gérées,références,20065.0,40130.0
 2013,10,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,10,CFX,Magasin,Références hôtelier,références,0.0,19.0
-2013,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,10,CFX,Restauration,Nombre de Repas,repas,62811.0,125621.0
 2013,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,170.0,335.0
-2013,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,10,CFX,Vaguemestre,Plis affranchis,plis,2125.0,4257.0
 2013,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,175.0
 2013,10,PLF,Déchets,Cartons,t,17.33,34.64
@@ -1492,7 +1347,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,10,PLF,Restauration,Nombre de Repas,repas,141273.0,282542.0
 2013,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,276.0,549.0
 2013,10,PLF,Vaguemestre,Colis,colis,56.0,111.0
-2013,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,10,PLF,Vaguemestre,Plis affranchis,plis,61629.0,123259.0
 2013,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,175.0
 2013,11,CFX,Déchets,Cartons,t,1.18,3.51
@@ -1501,7 +1355,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.6,82.81
 2013,11,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,26.88,80.63
 2013,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.15,0.49
-2013,11,CFX,Déchets,Papiers,t,0.0,0.0
 2013,11,CFX,Hygiène,Espaces verts,m2,2856.5,8569.6
 2013,11,CFX,Hygiène,Locaux,m2,1689.2,5067.9
 2013,11,CFX,Hygiène,Vitres,m2,776.6,2329.8
@@ -1510,11 +1363,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,11,CFX,Lingerie,Références gérées,références,16051.0,48156.0
 2013,11,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,11,CFX,Magasin,Références hôtelier,références,0.0,23.0
-2013,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,11,CFX,Restauration,Nombre de Repas,repas,50250.0,150745.0
 2013,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,132.0,402.0
-2013,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,11,CFX,Vaguemestre,Plis affranchis,plis,1701.0,5108.0
 2013,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,73.0,210.0
 2013,11,PLF,Déchets,Cartons,t,13.86,41.57
@@ -1536,7 +1386,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,11,PLF,Restauration,Nombre de Repas,repas,113018.0,339050.0
 2013,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,217.0,658.0
 2013,11,PLF,Vaguemestre,Colis,colis,47.0,133.0
-2013,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,11,PLF,Vaguemestre,Plis affranchis,plis,49305.0,147911.0
 2013,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,73.0,210.0
 2013,12,CFX,Déchets,Cartons,t,2.92,2.34
@@ -1545,7 +1394,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2013,12,CFX,Déchets,Déchets assimilés aux ordures ménagères,t,67.18,53.75
 2013,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.33
-2013,12,CFX,Déchets,Papiers,t,0.0,0.0
 2013,12,CFX,Hygiène,Espaces verts,m2,7141.0,5713.1
 2013,12,CFX,Hygiène,Locaux,m2,4223.0,3378.6
 2013,12,CFX,Hygiène,Vitres,m2,1941.5,1553.2
@@ -1554,11 +1402,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,12,CFX,Lingerie,Références gérées,références,40129.0,32104.0
 2013,12,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2013,12,CFX,Magasin,Références hôtelier,références,30.0,15.0
-2013,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2013,12,CFX,Restauration,Nombre de Repas,repas,125621.0,100497.0
 2013,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,335.0,268.0
-2013,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2013,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,12,CFX,Vaguemestre,Plis affranchis,plis,4255.0,3405.0
 2013,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,175.0,140.0
 2013,12,PLF,Déchets,Cartons,t,34.63,27.71
@@ -1580,7 +1425,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2013,12,PLF,Restauration,Nombre de Repas,repas,282541.0,226033.0
 2013,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,549.0,439.0
 2013,12,PLF,Vaguemestre,Colis,colis,111.0,89.0
-2013,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2013,12,PLF,Vaguemestre,Plis affranchis,plis,123261.0,98607.0
 2013,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,175.0,140.0
 2014,1,CFX,Déchets,Cartons,t,4.68,3.75
@@ -1588,7 +1432,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,1,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,7.67,6.15
 2014,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.52,82.8
 2014,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.58,0.48
-2014,1,CFX,Déchets,Papiers,t,0.0,0.0
 2014,1,CFX,Hygiène,Espaces verts,m2,10712.0,8569.6
 2014,1,CFX,Hygiène,Locaux,m2,6442.6,5154.0
 2014,1,CFX,Hygiène,Vitres,m2,3022.5,2418.0
@@ -1597,11 +1440,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,1,CFX,Lingerie,Références gérées,références,60196.0,48156.0
 2014,1,CFX,Magasin,Références hygiène & environnement ,références,6.0,1.0
 2014,1,CFX,Magasin,Références hôtelier,références,31.0,19.0
-2014,1,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,1,CFX,Restauration,Nombre de Repas,repas,185859.0,148688.0
 2014,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,505.0,402.0
-2014,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,1,CFX,Vaguemestre,Plis affranchis,plis,6361.0,5088.0
 2014,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,260.0,209.0
 2014,1,PLF,Déchets,Cartons,t,53.89,43.1
@@ -1622,7 +1462,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,1,PLF,Restauration,Nombre de Repas,repas,361865.0,289491.0
 2014,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,824.0,658.0
 2014,1,PLF,Vaguemestre,Colis,colis,180.0,145.0
-2014,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,1,PLF,Vaguemestre,Plis affranchis,plis,184207.0,147366.0
 2014,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,260.0,209.0
 2014,2,CFX,Déchets,Cartons,t,3.12,2.5
@@ -1630,7 +1469,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,2,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.13,4.1
 2014,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.01,55.2
 2014,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.32
-2014,2,CFX,Déchets,Papiers,t,0.0,0.0
 2014,2,CFX,Hygiène,Espaces verts,m2,7141.6,5713.1
 2014,2,CFX,Hygiène,Locaux,m2,4295.1,3436.0
 2014,2,CFX,Hygiène,Vitres,m2,2014.7,1612.0
@@ -1639,11 +1477,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,2,CFX,Lingerie,Références gérées,références,40132.0,32104.0
 2014,2,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,2,CFX,Magasin,Références hôtelier,références,28.0,13.0
-2014,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,2,CFX,Restauration,Nombre de Repas,repas,123905.0,99125.0
 2014,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,332.0,268.0
-2014,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,2,CFX,Vaguemestre,Plis affranchis,plis,4238.0,3392.0
 2014,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,139.0
 2014,2,PLF,Déchets,Cartons,t,35.91,28.73
@@ -1664,7 +1499,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,2,PLF,Restauration,Nombre de Repas,repas,241241.0,192994.0
 2014,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,548.0,439.0
 2014,2,PLF,Vaguemestre,Colis,colis,121.0,97.0
-2014,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,2,PLF,Vaguemestre,Plis affranchis,plis,122806.0,98244.0
 2014,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,139.0
 2014,3,CFX,Déchets,Cartons,t,2.17,4.06
@@ -1672,7 +1506,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,3,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.55,6.67
 2014,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.3,89.7
 2014,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.52
-2014,3,CFX,Déchets,Papiers,t,0.0,0.0
 2014,3,CFX,Hygiène,Espaces verts,m2,4998.9,9283.8
 2014,3,CFX,Hygiène,Locaux,m2,3006.3,5583.5
 2014,3,CFX,Hygiène,Vitres,m2,1410.6,2619.5
@@ -1681,11 +1514,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,3,CFX,Lingerie,Références gérées,références,28090.0,52169.0
 2014,3,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,3,CFX,Magasin,Références hôtelier,références,8.0,21.0
-2014,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,3,CFX,Restauration,Nombre de Repas,repas,86732.0,161079.0
 2014,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,236.0,436.0
-2014,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,3,CFX,Vaguemestre,Plis affranchis,plis,2966.0,5512.0
 2014,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,118.0,227.0
 2014,3,PLF,Déchets,Cartons,t,25.15,46.69
@@ -1706,7 +1536,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,3,PLF,Restauration,Nombre de Repas,repas,168869.0,313615.0
 2014,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,382.0,713.0
 2014,3,PLF,Vaguemestre,Colis,colis,83.0,157.0
-2014,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,3,PLF,Vaguemestre,Plis affranchis,plis,85964.0,159646.0
 2014,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,118.0,227.0
 2014,4,CFX,Déchets,Cartons,t,1.9,4.37
@@ -1714,7 +1543,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,4,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.07,7.18
 2014,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.4,96.6
 2014,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.56
-2014,4,CFX,Déchets,Papiers,t,0.0,0.0
 2014,4,CFX,Hygiène,Espaces verts,m2,4284.8,9997.9
 2014,4,CFX,Hygiène,Locaux,m2,2577.0,6013.0
 2014,4,CFX,Hygiène,Vitres,m2,1209.0,2821.0
@@ -1723,11 +1551,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,4,CFX,Lingerie,Références gérées,références,24080.0,56182.0
 2014,4,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,4,CFX,Magasin,Références hôtelier,références,0.0,22.0
-2014,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,4,CFX,Restauration,Nombre de Repas,repas,74345.0,173469.0
 2014,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,201.0,469.0
-2014,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,4,CFX,Vaguemestre,Plis affranchis,plis,2546.0,5936.0
 2014,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,244.0
 2014,4,PLF,Déchets,Cartons,t,21.59,50.29
@@ -1748,7 +1573,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,4,PLF,Restauration,Nombre de Repas,repas,144746.0,337740.0
 2014,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,332.0,768.0
 2014,4,PLF,Vaguemestre,Colis,colis,76.0,169.0
-2014,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,4,PLF,Vaguemestre,Plis affranchis,plis,73682.0,171927.0
 2014,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,244.0
 2014,5,CFX,Déchets,Cartons,t,1.56,2.19
@@ -1756,7 +1580,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,5,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.55,3.59
 2014,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.5,48.3
 2014,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.24,0.28
-2014,5,CFX,Déchets,Papiers,t,0.0,0.0
 2014,5,CFX,Hygiène,Espaces verts,m2,3570.8,4998.9
 2014,5,CFX,Hygiène,Locaux,m2,2147.3,3006.5
 2014,5,CFX,Hygiène,Vitres,m2,1007.5,1410.5
@@ -1765,11 +1588,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,5,CFX,Lingerie,Références gérées,références,20064.0,28091.0
 2014,5,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2014,5,CFX,Magasin,Références hôtelier,références,0.0,11.0
-2014,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,5,CFX,Restauration,Nombre de Repas,repas,61956.0,86735.0
 2014,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,168.0,235.0
-2014,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,5,CFX,Vaguemestre,Plis affranchis,plis,2120.0,2968.0
 2014,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2014,5,PLF,Déchets,Cartons,t,17.94,25.14
@@ -1790,7 +1610,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,5,PLF,Restauration,Nombre de Repas,repas,120622.0,168870.0
 2014,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,274.0,384.0
 2014,5,PLF,Vaguemestre,Colis,colis,61.0,84.0
-2014,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,5,PLF,Vaguemestre,Plis affranchis,plis,61401.0,85963.0
 2014,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,87.0,122.0
 2014,6,CFX,Déchets,Cartons,t,1.87,1.25
@@ -1798,7 +1617,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,6,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.07,2.05
 2014,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.39,27.6
 2014,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2014,6,CFX,Déchets,Papiers,t,0.0,0.0
 2014,6,CFX,Hygiène,Espaces verts,m2,4284.6,2856.5
 2014,6,CFX,Hygiène,Locaux,m2,2577.2,1718.0
 2014,6,CFX,Hygiène,Vitres,m2,1209.5,806.0
@@ -1807,11 +1625,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,6,CFX,Lingerie,Références gérées,références,24078.0,16052.0
 2014,6,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2014,6,CFX,Magasin,Références hôtelier,références,1.0,6.0
-2014,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,6,CFX,Restauration,Nombre de Repas,repas,74343.0,49563.0
 2014,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,201.0,134.0
-2014,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,6,CFX,Vaguemestre,Plis affranchis,plis,2544.0,1696.0
 2014,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,105.0,70.0
 2014,6,PLF,Déchets,Cartons,t,21.53,14.37
@@ -1832,7 +1647,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,6,PLF,Restauration,Nombre de Repas,repas,144746.0,96497.0
 2014,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,219.0
 2014,6,PLF,Vaguemestre,Colis,colis,72.0,48.0
-2014,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,6,PLF,Vaguemestre,Plis affranchis,plis,73684.0,49122.0
 2014,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,105.0,70.0
 2014,7,CFX,Déchets,Cartons,t,4.07,0.94
@@ -1840,7 +1654,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,7,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.68,1.54
 2014,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.7,20.7
 2014,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.49,0.12
-2014,7,CFX,Déchets,Papiers,t,0.0,0.0
 2014,7,CFX,Hygiène,Espaces verts,m2,9283.8,2142.4
 2014,7,CFX,Hygiène,Locaux,m2,5583.5,1288.5
 2014,7,CFX,Hygiène,Vitres,m2,2619.3,604.5
@@ -1849,11 +1662,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,7,CFX,Lingerie,Références gérées,références,52172.0,12039.0
 2014,7,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2014,7,CFX,Magasin,Références hôtelier,références,31.0,5.0
-2014,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,7,CFX,Restauration,Nombre de Repas,repas,161079.0,37172.0
 2014,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,101.0
-2014,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,7,CFX,Vaguemestre,Plis affranchis,plis,5513.0,1272.0
 2014,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,52.0
 2014,7,PLF,Déchets,Cartons,t,46.67,10.78
@@ -1874,7 +1684,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,7,PLF,Restauration,Nombre de Repas,repas,313617.0,72373.0
 2014,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,712.0,165.0
 2014,7,PLF,Vaguemestre,Colis,colis,157.0,36.0
-2014,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,7,PLF,Vaguemestre,Plis affranchis,plis,159644.0,36841.0
 2014,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,52.0
 2014,8,CFX,Déchets,Cartons,t,4.04,1.25
@@ -1882,7 +1691,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,8,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.7,2.05
 2014,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.71,27.6
 2014,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.5,0.16
-2014,8,CFX,Déchets,Papiers,t,0.0,0.0
 2014,8,CFX,Hygiène,Espaces verts,m2,9283.7,2856.5
 2014,8,CFX,Hygiène,Locaux,m2,5583.6,1718.0
 2014,8,CFX,Hygiène,Vitres,m2,2619.4,806.0
@@ -1891,11 +1699,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,8,CFX,Lingerie,Références gérées,références,52166.0,16052.0
 2014,8,CFX,Magasin,Références hygiène & environnement ,références,1.0,0.0
 2014,8,CFX,Magasin,Références hôtelier,références,31.0,6.0
-2014,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,8,CFX,Restauration,Nombre de Repas,repas,161080.0,49563.0
 2014,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,134.0
-2014,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,8,CFX,Vaguemestre,Plis affranchis,plis,5514.0,1696.0
 2014,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,70.0
 2014,8,PLF,Déchets,Cartons,t,46.71,14.37
@@ -1916,7 +1721,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,8,PLF,Restauration,Nombre de Repas,repas,313614.0,96497.0
 2014,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,713.0,219.0
 2014,8,PLF,Vaguemestre,Colis,colis,157.0,48.0
-2014,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,8,PLF,Vaguemestre,Plis affranchis,plis,159645.0,49122.0
 2014,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,70.0
 2014,9,CFX,Déchets,Cartons,t,1.88,1.56
@@ -1924,7 +1728,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,9,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.11,2.56
 2014,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.39,34.5
 2014,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2014,9,CFX,Déchets,Papiers,t,0.0,0.0
 2014,9,CFX,Hygiène,Espaces verts,m2,4285.0,3570.7
 2014,9,CFX,Hygiène,Locaux,m2,2576.9,2147.5
 2014,9,CFX,Hygiène,Vitres,m2,1209.0,1007.5
@@ -1933,11 +1736,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,9,CFX,Lingerie,Références gérées,références,24076.0,20065.0
 2014,9,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2014,9,CFX,Magasin,Références hôtelier,références,0.0,8.0
-2014,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,9,CFX,Restauration,Nombre de Repas,repas,74344.0,61953.0
 2014,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,199.0,168.0
-2014,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,9,CFX,Vaguemestre,Plis affranchis,plis,2542.0,2120.0
 2014,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2014,9,PLF,Déchets,Cartons,t,21.55,17.96
@@ -1958,7 +1758,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,9,PLF,Restauration,Nombre de Repas,repas,144746.0,120621.0
 2014,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,326.0,274.0
 2014,9,PLF,Vaguemestre,Colis,colis,74.0,60.0
-2014,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,9,PLF,Vaguemestre,Plis affranchis,plis,73683.0,61402.0
 2014,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2014,10,CFX,Déchets,Cartons,t,1.54,3.12
@@ -1966,7 +1765,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,10,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.58,5.13
 2014,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.48,69.0
 2014,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.23,0.4
-2014,10,CFX,Déchets,Papiers,t,0.0,0.0
 2014,10,CFX,Hygiène,Espaces verts,m2,3570.9,7141.4
 2014,10,CFX,Hygiène,Locaux,m2,2147.4,4295.0
 2014,10,CFX,Hygiène,Vitres,m2,1007.4,2015.0
@@ -1975,11 +1773,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,10,CFX,Lingerie,Références gérées,références,20064.0,40130.0
 2014,10,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,10,CFX,Magasin,Références hôtelier,références,0.0,16.0
-2014,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,10,CFX,Restauration,Nombre de Repas,repas,61954.0,123907.0
 2014,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,170.0,335.0
-2014,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,10,CFX,Vaguemestre,Plis affranchis,plis,2121.0,4240.0
 2014,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,174.0
 2014,10,PLF,Déchets,Cartons,t,17.97,35.92
@@ -2000,7 +1795,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,10,PLF,Restauration,Nombre de Repas,repas,120622.0,241242.0
 2014,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,276.0,548.0
 2014,10,PLF,Vaguemestre,Colis,colis,58.0,121.0
-2014,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,10,PLF,Vaguemestre,Plis affranchis,plis,61404.0,122805.0
 2014,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,174.0
 2014,11,CFX,Déchets,Cartons,t,1.25,3.75
@@ -2008,7 +1802,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,11,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.05,6.15
 2014,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.61,82.8
 2014,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.15,0.48
-2014,11,CFX,Déchets,Papiers,t,0.0,0.0
 2014,11,CFX,Hygiène,Espaces verts,m2,2856.2,8569.6
 2014,11,CFX,Hygiène,Locaux,m2,1717.8,5154.0
 2014,11,CFX,Hygiène,Vitres,m2,806.2,2418.0
@@ -2017,11 +1810,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,11,CFX,Lingerie,Références gérées,références,16054.0,48156.0
 2014,11,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,11,CFX,Magasin,Références hôtelier,références,0.0,19.0
-2014,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,11,CFX,Restauration,Nombre de Repas,repas,49565.0,148688.0
 2014,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,133.0,402.0
-2014,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,11,CFX,Vaguemestre,Plis affranchis,plis,1693.0,5088.0
 2014,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,72.0,209.0
 2014,11,PLF,Déchets,Cartons,t,14.35,43.1
@@ -2042,7 +1832,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,11,PLF,Restauration,Nombre de Repas,repas,96497.0,289491.0
 2014,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,218.0,658.0
 2014,11,PLF,Vaguemestre,Colis,colis,50.0,145.0
-2014,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,11,PLF,Vaguemestre,Plis affranchis,plis,49123.0,147366.0
 2014,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,72.0,209.0
 2014,12,CFX,Déchets,Cartons,t,3.15,2.5
@@ -2050,7 +1839,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,12,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.13,4.1
 2014,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2014,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.32
-2014,12,CFX,Déchets,Papiers,t,0.0,0.0
 2014,12,CFX,Hygiène,Espaces verts,m2,7141.2,5713.1
 2014,12,CFX,Hygiène,Locaux,m2,4295.0,3436.0
 2014,12,CFX,Hygiène,Vitres,m2,2015.0,1612.0
@@ -2059,11 +1847,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,12,CFX,Lingerie,Références gérées,références,40130.0,32104.0
 2014,12,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2014,12,CFX,Magasin,Références hôtelier,références,29.0,13.0
-2014,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2014,12,CFX,Restauration,Nombre de Repas,repas,123905.0,99125.0
 2014,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,336.0,268.0
-2014,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2014,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,12,CFX,Vaguemestre,Plis affranchis,plis,4239.0,3392.0
 2014,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2014,12,PLF,Déchets,Cartons,t,35.92,28.73
@@ -2084,7 +1869,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2014,12,PLF,Restauration,Nombre de Repas,repas,241240.0,192994.0
 2014,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,549.0,439.0
 2014,12,PLF,Vaguemestre,Colis,colis,118.0,97.0
-2014,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2014,12,PLF,Vaguemestre,Plis affranchis,plis,122804.0,98244.0
 2014,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2015,1,CFX,Déchets,Cartons,t,4.98,3.95
@@ -2092,7 +1876,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,1,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,7.93,6.36
 2015,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.47,82.79
 2015,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.57,0.47
-2015,1,CFX,Déchets,Papiers,t,0.0,0.0
 2015,1,CFX,Hygiène,Espaces verts,m2,10712.0,8569.4
 2015,1,CFX,Hygiène,Locaux,m2,6549.8,5240.1
 2015,1,CFX,Hygiène,Vitres,m2,3132.8,2506.2
@@ -2101,11 +1884,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,1,CFX,Lingerie,Références gérées,références,60196.0,48156.0
 2015,1,CFX,Magasin,Références hygiène & environnement ,références,10.0,1.0
 2015,1,CFX,Magasin,Références hôtelier,références,31.0,16.0
-2015,1,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,1,CFX,Restauration,Nombre de Repas,repas,183286.0,146631.0
 2015,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,503.0,401.0
-2015,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,1,CFX,Vaguemestre,Plis affranchis,plis,6333.0,5070.0
 2015,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,259.0,207.0
 2015,1,PLF,Déchets,Cartons,t,55.83,44.66
@@ -2126,7 +1906,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,1,PLF,Restauration,Nombre de Repas,repas,299918.0,239933.0
 2015,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,819.0,657.0
 2015,1,PLF,Vaguemestre,Colis,colis,197.0,158.0
-2015,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,1,PLF,Vaguemestre,Plis affranchis,plis,183523.0,146820.0
 2015,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,259.0,207.0
 2015,2,CFX,Déchets,Cartons,t,3.29,2.63
@@ -2134,7 +1913,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,2,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.29,4.24
 2015,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,68.99,55.2
 2015,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.32
-2015,2,CFX,Déchets,Papiers,t,0.0,0.0
 2015,2,CFX,Hygiène,Espaces verts,m2,7141.1,5713.0
 2015,2,CFX,Hygiène,Locaux,m2,4366.6,3493.4
 2015,2,CFX,Hygiène,Vitres,m2,2088.4,1670.8
@@ -2143,11 +1921,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,2,CFX,Lingerie,Références gérées,références,40133.0,32104.0
 2015,2,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,2,CFX,Magasin,Références hôtelier,références,21.0,11.0
-2015,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,2,CFX,Restauration,Nombre de Repas,repas,122190.0,97754.0
 2015,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,332.0,268.0
-2015,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,2,CFX,Vaguemestre,Plis affranchis,plis,4227.0,3380.0
 2015,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,138.0
 2015,2,PLF,Déchets,Cartons,t,37.21,29.77
@@ -2168,7 +1943,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,2,PLF,Restauration,Nombre de Repas,repas,199945.0,159955.0
 2015,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,547.0,438.0
 2015,2,PLF,Vaguemestre,Colis,colis,132.0,106.0
-2015,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,2,PLF,Vaguemestre,Plis affranchis,plis,122352.0,97880.0
 2015,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,172.0,138.0
 2015,3,CFX,Déchets,Cartons,t,2.3,4.27
@@ -2176,7 +1950,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,3,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.72,6.89
 2015,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.3,89.69
 2015,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.51
-2015,3,CFX,Déchets,Papiers,t,0.0,0.0
 2015,3,CFX,Hygiène,Espaces verts,m2,4999.1,9283.6
 2015,3,CFX,Hygiène,Locaux,m2,3056.7,5676.8
 2015,3,CFX,Hygiène,Vitres,m2,1462.1,2715.0
@@ -2185,11 +1958,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,3,CFX,Lingerie,Références gérées,références,28093.0,52170.0
 2015,3,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,3,CFX,Magasin,Références hôtelier,références,0.0,18.0
-2015,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,3,CFX,Restauration,Nombre de Repas,repas,85534.0,158850.0
 2015,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,233.0,435.0
-2015,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,3,CFX,Vaguemestre,Plis affranchis,plis,2958.0,5492.0
 2015,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,225.0
 2015,3,PLF,Déchets,Cartons,t,26.04,48.38
@@ -2210,7 +1980,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,3,PLF,Restauration,Nombre de Repas,repas,139961.0,259927.0
 2015,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,386.0,712.0
 2015,3,PLF,Vaguemestre,Colis,colis,88.0,171.0
-2015,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,3,PLF,Vaguemestre,Plis affranchis,plis,85645.0,159055.0
 2015,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,225.0
 2015,4,CFX,Déchets,Cartons,t,1.96,4.6
@@ -2218,7 +1987,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,4,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.18,7.42
 2015,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.41,96.59
 2015,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.55
-2015,4,CFX,Déchets,Papiers,t,0.0,0.0
 2015,4,CFX,Hygiène,Espaces verts,m2,4284.8,9997.7
 2015,4,CFX,Hygiène,Locaux,m2,2620.4,6113.5
 2015,4,CFX,Hygiène,Vitres,m2,1252.9,2923.9
@@ -2227,11 +1995,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,4,CFX,Lingerie,Références gérées,références,24080.0,56183.0
 2015,4,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,4,CFX,Magasin,Références hôtelier,références,0.0,19.0
-2015,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,4,CFX,Restauration,Nombre de Repas,repas,73315.0,171069.0
 2015,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,468.0
-2015,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,4,CFX,Vaguemestre,Plis affranchis,plis,2534.0,5915.0
 2015,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,242.0
 2015,4,PLF,Déchets,Cartons,t,22.32,52.1
@@ -2252,7 +2017,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,4,PLF,Restauration,Nombre de Repas,repas,119965.0,279922.0
 2015,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,331.0,767.0
 2015,4,PLF,Vaguemestre,Colis,colis,81.0,185.0
-2015,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,4,PLF,Vaguemestre,Plis affranchis,plis,73408.0,171290.0
 2015,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,242.0
 2015,5,CFX,Déchets,Cartons,t,1.61,2.3
@@ -2260,7 +2024,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,5,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.65,3.71
 2015,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.5,48.3
 2015,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.21,0.28
-2015,5,CFX,Déchets,Papiers,t,0.0,0.0
 2015,5,CFX,Hygiène,Espaces verts,m2,3570.8,4998.8
 2015,5,CFX,Hygiène,Locaux,m2,2183.5,3056.7
 2015,5,CFX,Hygiène,Vitres,m2,1044.3,1462.0
@@ -2269,11 +2032,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,5,CFX,Lingerie,Références gérées,références,20065.0,28091.0
 2015,5,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,5,CFX,Magasin,Références hôtelier,références,0.0,10.0
-2015,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,5,CFX,Restauration,Nombre de Repas,repas,61098.0,85535.0
 2015,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,166.0,234.0
-2015,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,5,CFX,Vaguemestre,Plis affranchis,plis,2115.0,2958.0
 2015,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,85.0,121.0
 2015,5,PLF,Déchets,Cartons,t,18.64,26.05
@@ -2294,7 +2054,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,5,PLF,Restauration,Nombre de Repas,repas,99973.0,139961.0
 2015,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,272.0,384.0
 2015,5,PLF,Vaguemestre,Colis,colis,65.0,92.0
-2015,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,5,PLF,Vaguemestre,Plis affranchis,plis,61173.0,85645.0
 2015,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,85.0,121.0
 2015,6,CFX,Déchets,Cartons,t,1.97,1.32
@@ -2302,7 +2061,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,6,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.17,2.12
 2015,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.42,27.6
 2015,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2015,6,CFX,Déchets,Papiers,t,0.0,0.0
 2015,6,CFX,Hygiène,Espaces verts,m2,4284.7,2856.5
 2015,6,CFX,Hygiène,Locaux,m2,2619.9,1746.7
 2015,6,CFX,Hygiène,Vitres,m2,1253.1,835.4
@@ -2311,11 +2069,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,6,CFX,Lingerie,Références gérées,références,24076.0,16052.0
 2015,6,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2015,6,CFX,Magasin,Références hôtelier,références,0.0,5.0
-2015,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,6,CFX,Restauration,Nombre de Repas,repas,73317.0,48877.0
 2015,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,201.0,134.0
-2015,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,6,CFX,Vaguemestre,Plis affranchis,plis,2534.0,1690.0
 2015,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,104.0,69.0
 2015,6,PLF,Déchets,Cartons,t,22.32,14.89
@@ -2336,7 +2091,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,6,PLF,Restauration,Nombre de Repas,repas,119966.0,79978.0
 2015,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,219.0
 2015,6,PLF,Vaguemestre,Colis,colis,81.0,53.0
-2015,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,6,PLF,Vaguemestre,Plis affranchis,plis,73412.0,48940.0
 2015,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,104.0,69.0
 2015,7,CFX,Déchets,Cartons,t,4.26,0.99
@@ -2344,7 +2098,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,7,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.88,1.59
 2015,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.68,20.7
 2015,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.48,0.12
-2015,7,CFX,Déchets,Papiers,t,0.0,0.0
 2015,7,CFX,Hygiène,Espaces verts,m2,9283.5,2142.4
 2015,7,CFX,Hygiène,Locaux,m2,5676.9,1310.0
 2015,7,CFX,Hygiène,Vitres,m2,2715.1,626.6
@@ -2353,11 +2106,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,7,CFX,Lingerie,Références gérées,références,52170.0,12039.0
 2015,7,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2015,7,CFX,Magasin,Références hôtelier,références,31.0,4.0
-2015,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,7,CFX,Restauration,Nombre de Repas,repas,158851.0,36658.0
 2015,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,435.0,100.0
-2015,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,7,CFX,Vaguemestre,Plis affranchis,plis,5492.0,1268.0
 2015,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,52.0
 2015,7,PLF,Déchets,Cartons,t,48.38,11.16
@@ -2378,7 +2128,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,7,PLF,Restauration,Nombre de Repas,repas,259927.0,59983.0
 2015,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,713.0,164.0
 2015,7,PLF,Vaguemestre,Colis,colis,168.0,40.0
-2015,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,7,PLF,Vaguemestre,Plis affranchis,plis,159055.0,36705.0
 2015,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,52.0
 2015,8,CFX,Déchets,Cartons,t,4.27,1.32
@@ -2386,7 +2135,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,8,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.9,2.12
 2015,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.68,27.6
 2015,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.5,0.16
-2015,8,CFX,Déchets,Papiers,t,0.0,0.0
 2015,8,CFX,Hygiène,Espaces verts,m2,9283.4,2856.5
 2015,8,CFX,Hygiène,Locaux,m2,5676.8,1746.7
 2015,8,CFX,Hygiène,Vitres,m2,2715.1,835.4
@@ -2395,11 +2143,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,8,CFX,Lingerie,Références gérées,références,52165.0,16052.0
 2015,8,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2015,8,CFX,Magasin,Références hôtelier,références,31.0,5.0
-2015,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,8,CFX,Restauration,Nombre de Repas,repas,158850.0,48877.0
 2015,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,437.0,134.0
-2015,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,8,CFX,Vaguemestre,Plis affranchis,plis,5493.0,1690.0
 2015,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,69.0
 2015,8,PLF,Déchets,Cartons,t,48.34,14.89
@@ -2420,7 +2165,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,8,PLF,Restauration,Nombre de Repas,repas,259927.0,79978.0
 2015,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,712.0,219.0
 2015,8,PLF,Vaguemestre,Colis,colis,172.0,53.0
-2015,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,8,PLF,Vaguemestre,Plis affranchis,plis,159055.0,48940.0
 2015,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,227.0,69.0
 2015,9,CFX,Déchets,Cartons,t,1.95,1.64
@@ -2428,7 +2172,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,9,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.19,2.65
 2015,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.4,34.5
 2015,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2015,9,CFX,Déchets,Papiers,t,0.0,0.0
 2015,9,CFX,Hygiène,Espaces verts,m2,4284.5,3570.6
 2015,9,CFX,Hygiène,Locaux,m2,2620.2,2183.4
 2015,9,CFX,Hygiène,Vitres,m2,1253.0,1044.2
@@ -2437,11 +2180,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,9,CFX,Lingerie,Références gérées,références,24077.0,20065.0
 2015,9,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2015,9,CFX,Magasin,Références hôtelier,références,0.0,7.0
-2015,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,9,CFX,Restauration,Nombre de Repas,repas,73315.0,61096.0
 2015,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,198.0,167.0
-2015,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,9,CFX,Vaguemestre,Plis affranchis,plis,2537.0,2112.0
 2015,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,86.0
 2015,9,PLF,Déchets,Cartons,t,22.32,18.61
@@ -2462,7 +2202,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,9,PLF,Restauration,Nombre de Repas,repas,119965.0,99972.0
 2015,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,328.0,274.0
 2015,9,PLF,Vaguemestre,Colis,colis,81.0,66.0
-2015,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,9,PLF,Vaguemestre,Plis affranchis,plis,73410.0,61175.0
 2015,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,106.0,86.0
 2015,10,CFX,Déchets,Cartons,t,1.65,3.29
@@ -2470,7 +2209,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,10,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.64,5.3
 2015,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.52,68.99
 2015,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.23,0.39
-2015,10,CFX,Déchets,Papiers,t,0.0,0.0
 2015,10,CFX,Hygiène,Espaces verts,m2,3570.7,7141.2
 2015,10,CFX,Hygiène,Locaux,m2,2183.5,4366.8
 2015,10,CFX,Hygiène,Vitres,m2,1044.4,2088.5
@@ -2479,11 +2217,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,10,CFX,Lingerie,Références gérées,références,20063.0,40130.0
 2015,10,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,10,CFX,Magasin,Références hôtelier,références,0.0,14.0
-2015,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,10,CFX,Restauration,Nombre de Repas,repas,61098.0,122192.0
 2015,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,170.0,334.0
-2015,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,10,CFX,Vaguemestre,Plis affranchis,plis,2111.0,4225.0
 2015,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,173.0
 2015,10,PLF,Déchets,Cartons,t,18.63,37.21
@@ -2504,7 +2239,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,10,PLF,Restauration,Nombre de Repas,repas,99975.0,199944.0
 2015,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,274.0,548.0
 2015,10,PLF,Vaguemestre,Colis,colis,66.0,132.0
-2015,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,10,PLF,Vaguemestre,Plis affranchis,plis,61176.0,122350.0
 2015,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,84.0,173.0
 2015,11,CFX,Déchets,Cartons,t,1.33,3.95
@@ -2512,7 +2246,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,11,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.12,6.36
 2015,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.55,82.79
 2015,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.13,0.47
-2015,11,CFX,Déchets,Papiers,t,0.0,0.0
 2015,11,CFX,Hygiène,Espaces verts,m2,2856.3,8569.4
 2015,11,CFX,Hygiène,Locaux,m2,1746.9,5240.1
 2015,11,CFX,Hygiène,Vitres,m2,835.2,2506.2
@@ -2521,11 +2254,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,11,CFX,Lingerie,Références gérées,références,16056.0,48156.0
 2015,11,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,11,CFX,Magasin,Références hôtelier,références,0.0,16.0
-2015,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,11,CFX,Restauration,Nombre de Repas,repas,48877.0,146631.0
 2015,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,134.0,401.0
-2015,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,11,CFX,Vaguemestre,Plis affranchis,plis,1691.0,5070.0
 2015,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,207.0
 2015,11,PLF,Déchets,Cartons,t,14.9,44.66
@@ -2546,7 +2276,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,11,PLF,Restauration,Nombre de Repas,repas,79977.0,239933.0
 2015,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,220.0,657.0
 2015,11,PLF,Vaguemestre,Colis,colis,54.0,158.0
-2015,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,11,PLF,Vaguemestre,Plis affranchis,plis,48940.0,146820.0
 2015,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,207.0
 2015,12,CFX,Déchets,Cartons,t,3.31,2.63
@@ -2554,7 +2283,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,12,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.32,4.24
 2015,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.02,55.2
 2015,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.32
-2015,12,CFX,Déchets,Papiers,t,0.0,0.0
 2015,12,CFX,Hygiène,Espaces verts,m2,7141.1,5713.0
 2015,12,CFX,Hygiène,Locaux,m2,4366.6,3493.4
 2015,12,CFX,Hygiène,Vitres,m2,2088.6,1670.8
@@ -2563,11 +2291,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,12,CFX,Lingerie,Références gérées,références,40130.0,32104.0
 2015,12,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2015,12,CFX,Magasin,Références hôtelier,références,22.0,11.0
-2015,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2015,12,CFX,Restauration,Nombre de Repas,repas,122192.0,97754.0
 2015,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,336.0,268.0
-2015,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2015,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,12,CFX,Vaguemestre,Plis affranchis,plis,4225.0,3380.0
 2015,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,171.0,138.0
 2015,12,PLF,Déchets,Cartons,t,37.2,29.77
@@ -2588,7 +2313,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2015,12,PLF,Restauration,Nombre de Repas,repas,199943.0,159955.0
 2015,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,547.0,438.0
 2015,12,PLF,Vaguemestre,Colis,colis,134.0,106.0
-2015,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2015,12,PLF,Vaguemestre,Plis affranchis,plis,122352.0,97880.0
 2015,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,171.0,138.0
 2016,1,CFX,Déchets,Cartons,t,4.95,3.96
@@ -2596,7 +2320,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,1,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,7.98,6.36
 2016,1,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,103.5,82.8
 2016,1,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.55,0.48
-2016,1,CFX,Déchets,Papiers,t,0.0,0.0
 2016,1,CFX,Hygiène,Espaces verts,m2,10711.9,8569.6
 2016,1,CFX,Hygiène,Locaux,m2,6549.9,5240.1
 2016,1,CFX,Hygiène,Vitres,m2,3132.6,2506.2
@@ -2605,11 +2328,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,1,CFX,Lingerie,Références gérées,références,60197.0,48157.0
 2016,1,CFX,Magasin,Références hygiène & environnement ,références,10.0,1.0
 2016,1,CFX,Magasin,Références hôtelier,références,31.0,16.0
-2016,1,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,1,CFX,Restauration,Nombre de Repas,repas,183288.0,146630.0
 2016,1,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,503.0,402.0
-2016,1,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,1,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,1,CFX,Vaguemestre,Plis affranchis,plis,6336.0,5069.0
 2016,1,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,260.0,208.0
 2016,1,PLF,Déchets,Cartons,t,55.8,44.65
@@ -2630,7 +2350,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,1,PLF,Restauration,Nombre de Repas,repas,299917.0,239933.0
 2016,1,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,822.0,658.0
 2016,1,PLF,Vaguemestre,Colis,colis,196.0,159.0
-2016,1,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,1,PLF,Vaguemestre,Plis affranchis,plis,183526.0,146819.0
 2016,1,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,260.0,208.0
 2016,2,CFX,Déchets,Cartons,t,3.3,2.64
@@ -2638,7 +2357,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,2,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.31,4.24
 2016,2,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2016,2,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.29,0.32
-2016,2,CFX,Déchets,Papiers,t,0.0,0.0
 2016,2,CFX,Hygiène,Espaces verts,m2,7141.4,5713.1
 2016,2,CFX,Hygiène,Locaux,m2,4366.8,3493.4
 2016,2,CFX,Hygiène,Vitres,m2,2088.4,1670.8
@@ -2647,11 +2365,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,2,CFX,Lingerie,Références gérées,références,40131.0,32105.0
 2016,2,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,2,CFX,Magasin,Références hôtelier,références,22.0,11.0
-2016,2,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,2,CFX,Restauration,Nombre de Repas,repas,122192.0,97753.0
 2016,2,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,338.0,268.0
-2016,2,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,2,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,2,CFX,Vaguemestre,Plis affranchis,plis,4221.0,3379.0
 2016,2,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2016,2,PLF,Déchets,Cartons,t,37.22,29.76
@@ -2672,7 +2387,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,2,PLF,Restauration,Nombre de Repas,repas,199945.0,159955.0
 2016,2,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,545.0,439.0
 2016,2,PLF,Vaguemestre,Colis,colis,134.0,106.0
-2016,2,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,2,PLF,Vaguemestre,Plis affranchis,plis,122349.0,97879.0
 2016,2,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,174.0,139.0
 2016,3,CFX,Déchets,Cartons,t,2.3,4.29
@@ -2680,7 +2394,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,3,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.68,6.88
 2016,3,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,48.3,89.7
 2016,3,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.51
-2016,3,CFX,Déchets,Papiers,t,0.0,0.0
 2016,3,CFX,Hygiène,Espaces verts,m2,4998.8,9283.7
 2016,3,CFX,Hygiène,Locaux,m2,3056.8,5676.7
 2016,3,CFX,Hygiène,Vitres,m2,1461.9,2715.1
@@ -2689,11 +2402,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,3,CFX,Lingerie,Références gérées,références,28092.0,52171.0
 2016,3,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,3,CFX,Magasin,Références hôtelier,références,0.0,18.0
-2016,3,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,3,CFX,Restauration,Nombre de Repas,repas,85532.0,158849.0
 2016,3,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,234.0,435.0
-2016,3,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,3,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,3,CFX,Vaguemestre,Plis affranchis,plis,2954.0,5491.0
 2016,3,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,225.0
 2016,3,PLF,Déchets,Cartons,t,26.04,48.37
@@ -2714,7 +2424,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,3,PLF,Restauration,Nombre de Repas,repas,139961.0,259927.0
 2016,3,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,385.0,713.0
 2016,3,PLF,Vaguemestre,Colis,colis,89.0,172.0
-2016,3,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,3,PLF,Vaguemestre,Plis affranchis,plis,85644.0,159054.0
 2016,3,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,116.0,225.0
 2016,4,CFX,Déchets,Cartons,t,1.97,4.62
@@ -2722,7 +2431,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,4,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.16,7.41
 2016,4,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.41,96.6
 2016,4,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.55
-2016,4,CFX,Déchets,Papiers,t,0.0,0.0
 2016,4,CFX,Hygiène,Espaces verts,m2,4284.8,9997.9
 2016,4,CFX,Hygiène,Locaux,m2,2620.0,6113.4
 2016,4,CFX,Hygiène,Vitres,m2,1253.4,2923.9
@@ -2731,11 +2439,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,4,CFX,Lingerie,Références gérées,références,24077.0,56184.0
 2016,4,CFX,Magasin,Références hygiène & environnement ,références,0.0,2.0
 2016,4,CFX,Magasin,Références hôtelier,références,0.0,19.0
-2016,4,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,4,CFX,Restauration,Nombre de Repas,repas,73315.0,171068.0
 2016,4,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,469.0
-2016,4,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,4,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,4,CFX,Vaguemestre,Plis affranchis,plis,2534.0,5913.0
 2016,4,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,242.0
 2016,4,PLF,Déchets,Cartons,t,22.35,52.09
@@ -2756,7 +2461,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,4,PLF,Restauration,Nombre de Repas,repas,119967.0,279922.0
 2016,4,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,330.0,768.0
 2016,4,PLF,Vaguemestre,Colis,colis,81.0,185.0
-2016,4,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,4,PLF,Vaguemestre,Plis affranchis,plis,73409.0,171289.0
 2016,4,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,107.0,242.0
 2016,5,CFX,Déchets,Cartons,t,1.65,2.31
@@ -2764,7 +2468,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,5,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.64,3.71
 2016,5,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.47,48.3
 2016,5,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.23,0.28
-2016,5,CFX,Déchets,Papiers,t,0.0,0.0
 2016,5,CFX,Hygiène,Espaces verts,m2,3570.7,4998.9
 2016,5,CFX,Hygiène,Locaux,m2,2183.1,3056.7
 2016,5,CFX,Hygiène,Vitres,m2,1044.2,1462.0
@@ -2773,11 +2476,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,5,CFX,Lingerie,Références gérées,références,20064.0,28092.0
 2016,5,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,5,CFX,Magasin,Références hôtelier,références,0.0,9.0
-2016,5,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,5,CFX,Restauration,Nombre de Repas,repas,61095.0,85534.0
 2016,5,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,166.0,234.0
-2016,5,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,5,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,5,CFX,Vaguemestre,Plis affranchis,plis,2112.0,2957.0
 2016,5,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,121.0
 2016,5,PLF,Déchets,Cartons,t,18.55,26.04
@@ -2798,7 +2498,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,5,PLF,Restauration,Nombre de Repas,repas,99971.0,139961.0
 2016,5,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,276.0,384.0
 2016,5,PLF,Vaguemestre,Colis,colis,65.0,93.0
-2016,5,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,5,PLF,Vaguemestre,Plis affranchis,plis,61175.0,85644.0
 2016,5,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,86.0,121.0
 2016,6,CFX,Déchets,Cartons,t,1.97,1.32
@@ -2806,7 +2505,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,6,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.19,2.12
 2016,6,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.42,27.6
 2016,6,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.16
-2016,6,CFX,Déchets,Papiers,t,0.0,0.0
 2016,6,CFX,Hygiène,Espaces verts,m2,4285.0,2856.5
 2016,6,CFX,Hygiène,Locaux,m2,2619.9,1746.7
 2016,6,CFX,Hygiène,Vitres,m2,1253.0,835.4
@@ -2815,11 +2513,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,6,CFX,Lingerie,Références gérées,références,24076.0,16052.0
 2016,6,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2016,6,CFX,Magasin,Références hôtelier,références,0.0,5.0
-2016,6,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,6,CFX,Restauration,Nombre de Repas,repas,73318.0,48877.0
 2016,6,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,200.0,134.0
-2016,6,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,6,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,6,CFX,Vaguemestre,Plis affranchis,plis,2533.0,1690.0
 2016,6,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,105.0,69.0
 2016,6,PLF,Déchets,Cartons,t,22.32,14.88
@@ -2840,7 +2535,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,6,PLF,Restauration,Nombre de Repas,repas,119965.0,79978.0
 2016,6,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,331.0,219.0
 2016,6,PLF,Vaguemestre,Colis,colis,82.0,53.0
-2016,6,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,6,PLF,Vaguemestre,Plis affranchis,plis,73409.0,48940.0
 2016,6,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,105.0,69.0
 2016,7,CFX,Déchets,Cartons,t,4.29,0.99
@@ -2848,7 +2542,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,7,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.86,1.59
 2016,7,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.68,20.7
 2016,7,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.49,0.12
-2016,7,CFX,Déchets,Papiers,t,0.0,0.0
 2016,7,CFX,Hygiène,Espaces verts,m2,9283.8,2142.4
 2016,7,CFX,Hygiène,Locaux,m2,5676.6,1310.0
 2016,7,CFX,Hygiène,Vitres,m2,2715.0,626.6
@@ -2857,11 +2550,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,7,CFX,Lingerie,Références gérées,références,52172.0,12039.0
 2016,7,CFX,Magasin,Références hygiène & environnement ,références,0.0,0.0
 2016,7,CFX,Magasin,Références hôtelier,références,30.0,4.0
-2016,7,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,7,CFX,Restauration,Nombre de Repas,repas,158848.0,36658.0
 2016,7,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,436.0,100.0
-2016,7,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,7,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,7,CFX,Vaguemestre,Plis affranchis,plis,5492.0,1267.0
 2016,7,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2016,7,PLF,Déchets,Cartons,t,48.38,11.16
@@ -2882,7 +2572,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,7,PLF,Restauration,Nombre de Repas,repas,259927.0,59983.0
 2016,7,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,714.0,164.0
 2016,7,PLF,Vaguemestre,Colis,colis,172.0,40.0
-2016,7,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,7,PLF,Vaguemestre,Plis affranchis,plis,159055.0,36705.0
 2016,7,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,225.0,52.0
 2016,8,CFX,Déchets,Cartons,t,4.31,1.32
@@ -2890,7 +2579,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,8,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,6.88,2.12
 2016,8,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,89.7,27.6
 2016,8,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.51,0.16
-2016,8,CFX,Déchets,Papiers,t,0.0,0.0
 2016,8,CFX,Hygiène,Espaces verts,m2,9283.7,2856.5
 2016,8,CFX,Hygiène,Locaux,m2,5676.7,1746.7
 2016,8,CFX,Hygiène,Vitres,m2,2715.3,835.4
@@ -2899,11 +2587,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,8,CFX,Lingerie,Références gérées,références,52173.0,16052.0
 2016,8,CFX,Magasin,Références hygiène & environnement ,références,1.0,0.0
 2016,8,CFX,Magasin,Références hôtelier,références,31.0,5.0
-2016,8,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,8,CFX,Restauration,Nombre de Repas,repas,158851.0,48877.0
 2016,8,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,435.0,134.0
-2016,8,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,8,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,8,CFX,Vaguemestre,Plis affranchis,plis,5492.0,1690.0
 2016,8,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,69.0
 2016,8,PLF,Déchets,Cartons,t,48.38,14.88
@@ -2924,7 +2609,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,8,PLF,Restauration,Nombre de Repas,repas,259926.0,79978.0
 2016,8,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,713.0,219.0
 2016,8,PLF,Vaguemestre,Colis,colis,171.0,53.0
-2016,8,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,8,PLF,Vaguemestre,Plis affranchis,plis,159053.0,48940.0
 2016,8,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,228.0,69.0
 2016,9,CFX,Déchets,Cartons,t,1.97,1.65
@@ -2932,7 +2616,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,9,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,3.17,2.65
 2016,9,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,41.39,34.5
 2016,9,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.3,0.2
-2016,9,CFX,Déchets,Papiers,t,0.0,0.0
 2016,9,CFX,Hygiène,Espaces verts,m2,4284.7,3570.7
 2016,9,CFX,Hygiène,Locaux,m2,2620.1,2183.4
 2016,9,CFX,Hygiène,Vitres,m2,1253.1,1044.3
@@ -2941,11 +2624,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,9,CFX,Lingerie,Références gérées,références,24079.0,20066.0
 2016,9,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,9,CFX,Magasin,Références hôtelier,références,0.0,7.0
-2016,9,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,9,CFX,Restauration,Nombre de Repas,repas,73313.0,61096.0
 2016,9,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,198.0,167.0
-2016,9,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,9,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,9,CFX,Vaguemestre,Plis affranchis,plis,2534.0,2112.0
 2016,9,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2016,9,PLF,Déchets,Cartons,t,22.32,18.6
@@ -2966,7 +2646,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,9,PLF,Restauration,Nombre de Repas,repas,119967.0,99972.0
 2016,9,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,329.0,274.0
 2016,9,PLF,Vaguemestre,Colis,colis,79.0,66.0
-2016,9,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,9,PLF,Vaguemestre,Plis affranchis,plis,73410.0,61175.0
 2016,9,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,108.0,87.0
 2016,10,CFX,Déchets,Cartons,t,1.67,3.3
@@ -2974,7 +2653,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,10,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.65,5.3
 2016,10,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,34.52,69.0
 2016,10,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.25,0.4
-2016,10,CFX,Déchets,Papiers,t,0.0,0.0
 2016,10,CFX,Hygiène,Espaces verts,m2,3570.7,7141.3
 2016,10,CFX,Hygiène,Locaux,m2,2183.4,4366.7
 2016,10,CFX,Hygiène,Vitres,m2,1044.6,2088.5
@@ -2983,11 +2661,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,10,CFX,Lingerie,Références gérées,références,20066.0,40131.0
 2016,10,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,10,CFX,Magasin,Références hôtelier,références,0.0,14.0
-2016,10,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,10,CFX,Restauration,Nombre de Repas,repas,61096.0,122192.0
 2016,10,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,169.0,335.0
-2016,10,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,10,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,10,CFX,Vaguemestre,Plis affranchis,plis,2113.0,4224.0
 2016,10,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,83.0,173.0
 2016,10,PLF,Déchets,Cartons,t,18.61,37.21
@@ -3008,7 +2683,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,10,PLF,Restauration,Nombre de Repas,repas,99975.0,199944.0
 2016,10,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,273.0,548.0
 2016,10,PLF,Vaguemestre,Colis,colis,65.0,132.0
-2016,10,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,10,PLF,Vaguemestre,Plis affranchis,plis,61173.0,122349.0
 2016,10,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,83.0,173.0
 2016,11,CFX,Déchets,Cartons,t,1.32,3.96
@@ -3016,7 +2690,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,11,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,2.12,6.36
 2016,11,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,27.63,82.8
 2016,11,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.12,0.48
-2016,11,CFX,Déchets,Papiers,t,0.0,0.0
 2016,11,CFX,Hygiène,Espaces verts,m2,2856.5,8569.6
 2016,11,CFX,Hygiène,Locaux,m2,1747.0,5240.1
 2016,11,CFX,Hygiène,Vitres,m2,835.6,2506.2
@@ -3025,11 +2698,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,11,CFX,Lingerie,Références gérées,références,16052.0,48157.0
 2016,11,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,11,CFX,Magasin,Références hôtelier,références,0.0,16.0
-2016,11,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,11,CFX,Restauration,Nombre de Repas,repas,48876.0,146630.0
 2016,11,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,134.0,402.0
-2016,11,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,11,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,11,CFX,Vaguemestre,Plis affranchis,plis,1692.0,5069.0
 2016,11,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,208.0
 2016,11,PLF,Déchets,Cartons,t,14.9,44.65
@@ -3050,7 +2720,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,11,PLF,Restauration,Nombre de Repas,repas,79979.0,239933.0
 2016,11,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,219.0,658.0
 2016,11,PLF,Vaguemestre,Colis,colis,56.0,159.0
-2016,11,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,11,PLF,Vaguemestre,Plis affranchis,plis,48939.0,146819.0
 2016,11,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,70.0,208.0
 2016,12,CFX,Déchets,Cartons,t,3.3,2.64
@@ -3058,7 +2727,6 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,12,CFX,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,t,5.32,4.24
 2016,12,CFX,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),t,69.0,55.2
 2016,12,CFX,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),t,0.31,0.32
-2016,12,CFX,Déchets,Papiers,t,0.0,0.0
 2016,12,CFX,Hygiène,Espaces verts,m2,7141.4,5713.1
 2016,12,CFX,Hygiène,Locaux,m2,4366.9,3493.4
 2016,12,CFX,Hygiène,Vitres,m2,2088.1,1670.8
@@ -3067,11 +2735,8 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,12,CFX,Lingerie,Références gérées,références,40133.0,32105.0
 2016,12,CFX,Magasin,Références hygiène & environnement ,références,0.0,1.0
 2016,12,CFX,Magasin,Références hôtelier,références,21.0,11.0
-2016,12,CFX,Magasin,Références imprimés ,références,0.0,0.0
 2016,12,CFX,Restauration,Nombre de Repas,repas,122193.0,97753.0
 2016,12,CFX,Restauration,Nombre de Repas Quotidien,repas/jour,335.0,268.0
-2016,12,CFX,Vaguemestre,Colis,colis,0.0,0.0
-2016,12,CFX,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,12,CFX,Vaguemestre,Plis affranchis,plis,4226.0,3379.0
 2016,12,CFX,Vaguemestre,Plis affranchis Quotidien,plis/jour,170.0,139.0
 2016,12,PLF,Déchets,Cartons,t,37.19,29.76
@@ -3092,6 +2757,5 @@ year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
 2016,12,PLF,Restauration,Nombre de Repas,repas,199941.0,159955.0
 2016,12,PLF,Restauration,Nombre de Repas Quotidien,repas/jour,546.0,439.0
 2016,12,PLF,Vaguemestre,Colis,colis,134.0,106.0
-2016,12,PLF,Vaguemestre,Colis Quotidien,colis/jour,0.0,0.0
 2016,12,PLF,Vaguemestre,Plis affranchis,plis,122350.0,97879.0
 2016,12,PLF,Vaguemestre,Plis affranchis Quotidien,plis/jour,170.0,139.0
