@@ -2,6 +2,8 @@
 Script de generation du Rapport de Mise en Place -- PSL-CFX
 Genere un document Word (.docx) avec la section Logistique remplie
 et des placeholders pour les autres categories.
+
+Source : CSV journalier reconstitue (donnees_journalieres_reconstituees.csv)
 """
 
 import pandas as pd
@@ -21,8 +23,8 @@ from docx.enum.section import WD_ORIENT
 
 
 # --- Configuration ---
-DATA_PATH = "data/logistics/logistics-data-with-crise.csv"
-OUTPUT_FILE = "Rapport_Mise_En_Place_PSL-CFX.docx"
+DATA_PATH = "data/logistics/donnees_journalieres_reconstituees.csv"
+OUTPUT_FILE = "Rapport_Mise_En_Place_PSL-CFX_v2.docx"
 CHARTS_DIR = "charts_temp"
 
 # Couleurs
@@ -33,6 +35,15 @@ GRIS = RGBColor(100, 100, 100)
 BLEU_FONCE = RGBColor(0, 51, 102)
 BLANC = RGBColor(255, 255, 255)
 
+MOIS_LABELS = [
+    "Jan", "Fev", "Mar", "Avr", "Mai", "Jun",
+    "Jul", "Aou", "Sep", "Oct", "Nov", "Dec",
+]
+
+JOURS_LABELS = ["Lun", "Mar", "Mer", "Jeu", "Ven", "Sam", "Dim"]
+
+
+# --- Fonctions utilitaires ---
 
 def setup_charts_dir():
     os.makedirs(CHARTS_DIR, exist_ok=True)
@@ -59,7 +70,6 @@ def add_styled_table(doc, headers, rows, col_widths=None):
     table.alignment = WD_TABLE_ALIGNMENT.CENTER
     table.style = "Table Grid"
 
-    # En-tete
     for i, header in enumerate(headers):
         cell = table.rows[0].cells[i]
         cell.text = header
@@ -71,7 +81,6 @@ def add_styled_table(doc, headers, rows, col_widths=None):
                 run.font.color.rgb = BLANC
         set_cell_shading(cell, "003366")
 
-    # Lignes
     for r_idx, row_data in enumerate(rows):
         for c_idx, val in enumerate(row_data):
             cell = table.rows[r_idx + 1].cells[c_idx]
@@ -138,193 +147,487 @@ def add_constat_box(doc, constat_text):
     return p
 
 
+# --- Preparation des donnees ---
+
+def load_daily_data():
+    """Charge le CSV journalier et retourne le DataFrame brut."""
+    df = pd.read_csv(DATA_PATH)
+    df["date"] = pd.to_datetime(df["date"])
+    df["year"] = df["year"].astype(int)
+    df["month"] = df["month"].astype(int)
+    return df
+
+
+def agg_annual(df):
+    """Agregation annuelle : somme des valeurs par annee/indicateur/sous-indicateur (tous sites confondus)."""
+    agg = (
+        df.groupby(["year", "indicateur", "sous_indicateur", "unite"])[["value", "value_crise"]]
+        .sum()
+        .reset_index()
+    )
+    agg["ecart"] = agg["value_crise"] - agg["value"]
+    agg["variation_pct"] = np.where(agg["value"] == 0, np.nan, (agg["ecart"] / agg["value"]) * 100)
+    return agg
+
+
+def agg_annual_by_site(df):
+    """Agregation annuelle par site."""
+    return (
+        df.groupby(["year", "site_code", "indicateur", "sous_indicateur", "unite"])[["value", "value_crise"]]
+        .sum()
+        .reset_index()
+    )
+
+
+def agg_monthly(df):
+    """Agregation mensuelle (tous sites confondus)."""
+    return (
+        df.groupby(["year", "month", "indicateur", "sous_indicateur", "unite"])[["value", "value_crise"]]
+        .sum()
+        .reset_index()
+    )
+
+
+def agg_dow(df):
+    """Agregation par jour de semaine (moyenne journaliere)."""
+    return (
+        df.groupby(["dow", "indicateur", "sous_indicateur", "unite"])[["value", "value_crise"]]
+        .mean()
+        .reset_index()
+    )
+
+
 # ============================================================
 # GENERATION DES GRAPHIQUES
 # ============================================================
 
-def gen_chart_restauration(df):
-    df_repas = df[
-        (df["INDICATEUR"] == "Restauration") &
-        (df["SOUS-INDICATEUR"] == "Nombre de Repas")
-    ].copy()
+def gen_chart_restauration_annual(annual):
+    """Barres annuelles : nombre total de repas Normal vs Crise."""
+    df_repas = annual[
+        (annual["indicateur"] == "Restauration") &
+        (annual["sous_indicateur"] == "Nombre de Repas")
+    ].sort_values("year")
 
     fig, ax = plt.subplots(figsize=(10, 4.5))
     x = np.arange(len(df_repas))
     w = 0.35
-    ax.bar(x - w / 2, df_repas["TOTAL_NORMAL"], w, label="Situation normale", color="#2ca02c", edgecolor="white")
-    ax.bar(x + w / 2, df_repas["TOTAL_CRISE"], w, label="Crise sanitaire (+70%)", color="#d62728", edgecolor="white")
+    ax.bar(x - w / 2, df_repas["value"], w, label="Situation normale", color="#2ca02c", edgecolor="white")
+    ax.bar(x + w / 2, df_repas["value_crise"], w, label="Crise sanitaire (+70 %)", color="#d62728", edgecolor="white")
     ax.set_xlabel("Annee", fontsize=11)
     ax.set_ylabel("Nombre de repas", fontsize=11)
-    ax.set_title("Nombre total de repas par an - Normal vs Crise sanitaire", fontsize=13, fontweight="bold")
+    ax.set_title("Nombre total de repas par an -- Normal vs Crise sanitaire", fontsize=13, fontweight="bold")
     ax.set_xticks(x)
-    ax.set_xticklabels(df_repas["ANNEE"].astype(int))
+    ax.set_xticklabels(df_repas["year"].astype(int))
     ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
     ax.legend(fontsize=10)
     ax.grid(axis="y", alpha=0.3)
     plt.tight_layout()
-    return save_chart(fig, "restauration")
+    return save_chart(fig, "restauration_annual")
 
 
-def gen_chart_dechets(df):
-    df_d = df[(df["INDICATEUR"] == "Dechets") | (df["INDICATEUR"] == "D\u00e9chets")]
-    df_d = df_d[df_d["ANNEE"] == 2015].copy()
+def gen_chart_restauration_monthly(monthly):
+    """Profil mensuel de la restauration (courbes par annee)."""
+    df_m = monthly[
+        (monthly["indicateur"] == "Restauration") &
+        (monthly["sous_indicateur"] == "Nombre de Repas")
+    ].copy()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, df_m["year"].nunique()))
+    for i, (yr, grp) in enumerate(df_m.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Nombre de repas", fontsize=11)
+    ax.set_title("Profil mensuel de la restauration (situation normale)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "restauration_monthly")
+
+
+def gen_chart_restauration_site(annual_site):
+    """Comparaison PLF vs CFX pour la restauration (2015)."""
+    df_s = annual_site[
+        (annual_site["indicateur"] == "Restauration") &
+        (annual_site["sous_indicateur"] == "Nombre de Repas") &
+        (annual_site["year"] == 2015)
+    ]
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    sites = ["PLF", "CFX"]
+    sites_labels = ["Pitie-Salpetriere", "Charles Foix"]
+    x = np.arange(2)
+    vals_n = [df_s[df_s["site_code"] == s]["value"].sum() for s in sites]
+    vals_c = [df_s[df_s["site_code"] == s]["value_crise"].sum() for s in sites]
+    ax.bar(x - 0.2, vals_n, 0.35, label="Normal", color="#1f77b4", edgecolor="white")
+    ax.bar(x + 0.2, vals_c, 0.35, label="Crise (+70 %)", color="#d62728", edgecolor="white")
+    ax.set_xticks(x)
+    ax.set_xticklabels(sites_labels, fontsize=10)
+    ax.set_title("Restauration par site (2015) -- Normal vs Crise", fontsize=13, fontweight="bold")
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=10)
+    ax.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "restauration_site")
+
+
+def gen_chart_dechets(annual):
+    """Barres horizontales : types de dechets en 2015."""
+    df_d = annual[
+        (annual["indicateur"] == "Déchets") &
+        (annual["year"] == 2015)
+    ].copy()
 
     labels_courts = []
-    for s in df_d["SOUS-INDICATEUR"].values:
+    for s in df_d["sous_indicateur"].values:
         if "Infectieux" in s:
             labels_courts.append("DASRI")
-        elif "M\u00e9nagers Assimil" in s:
-            labels_courts.append("D\u00e9chets m\u00e9nagers (DAE)")
-        elif "assimil\u00e9s aux ordures" in s:
-            labels_courts.append("Ordures m\u00e9nag\u00e8res")
-        elif "lectriques" in s:
+        elif "Ménagers Assimil" in s or "ménagers" in s.lower():
+            labels_courts.append("Déchets ménagers (DAE)")
+        elif "assimilés aux ordures" in s.lower():
+            labels_courts.append("Ordures ménagères")
+        elif "lectriques" in s or "Electriques" in s:
             labels_courts.append("DEEE")
+        elif "Cartons" in s:
+            labels_courts.append("Cartons")
+        elif "Papiers" in s:
+            labels_courts.append("Papiers")
+        elif "Chimiques" in s:
+            labels_courts.append("Chimiques")
         else:
-            labels_courts.append(s)
+            labels_courts.append(s[:30])
 
     fig, ax = plt.subplots(figsize=(11, 5))
     y = np.arange(len(labels_courts))
     h = 0.35
-    ax.barh(y - h / 2, df_d["TOTAL_NORMAL"].values, h, label="Normal", color="#1f77b4", edgecolor="white")
-    ax.barh(y + h / 2, df_d["TOTAL_CRISE"].values, h, label="Crise (+70%)", color="#ff7f0e", edgecolor="white")
+    ax.barh(y - h / 2, df_d["value"].values, h, label="Normal", color="#1f77b4", edgecolor="white")
+    ax.barh(y + h / 2, df_d["value_crise"].values, h, label="Crise (+70 %)", color="#ff7f0e", edgecolor="white")
     ax.set_yticks(y)
     ax.set_yticklabels(labels_courts, fontsize=9)
     ax.set_xlabel("Tonnes", fontsize=11)
-    ax.set_title("Volume de d\u00e9chets par type (2015) - Normal vs Crise", fontsize=13, fontweight="bold")
+    ax.set_title("Volume de dechets par type (2015) -- Normal vs Crise", fontsize=13, fontweight="bold")
     ax.legend(fontsize=10)
     ax.grid(axis="x", alpha=0.3)
     plt.tight_layout()
     return save_chart(fig, "dechets")
 
 
-def gen_chart_hygiene(df):
-    df_h = df[df["INDICATEUR"] == "Hygi\u00e8ne"].copy()
-    locaux = df_h[df_h["SOUS-INDICATEUR"] == "Locaux"]
-    espaces = df_h[df_h["SOUS-INDICATEUR"] == "Espaces verts"]
+def gen_chart_dechets_monthly(monthly):
+    """Profil mensuel des DASRI."""
+    df_m = monthly[
+        (monthly["indicateur"] == "Déchets") &
+        (monthly["sous_indicateur"].str.contains("Infectieux", na=False))
+    ].copy()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, df_m["year"].nunique()))
+    for i, (yr, grp) in enumerate(df_m.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Volume DASRI (tonnes)", fontsize=11)
+    ax.set_title("Saisonnalite des dechets infectieux (DASRI)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "dechets_monthly")
+
+
+def gen_chart_hygiene(annual):
+    """Courbes : Locaux et Espaces verts par annee."""
+    df_h = annual[annual["indicateur"] == "Hygiène"].copy()
+    locaux = df_h[df_h["sous_indicateur"] == "Locaux"].sort_values("year")
+    espaces = df_h[df_h["sous_indicateur"] == "Espaces verts"].sort_values("year")
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4.5))
 
-    ax1.plot(locaux["ANNEE"], locaux["TOTAL_NORMAL"], "o-", color="#1f77b4", linewidth=2, label="Normal")
-    ax1.plot(locaux["ANNEE"], locaux["TOTAL_CRISE"], "s--", color="#d62728", linewidth=2, label="Crise (+70%)")
-    ax1.fill_between(locaux["ANNEE"], locaux["TOTAL_NORMAL"], locaux["TOTAL_CRISE"], alpha=0.15, color="red")
-    ax1.set_title("Locaux (m\u00b2)", fontsize=12, fontweight="bold")
+    ax1.plot(locaux["year"], locaux["value"], "o-", color="#1f77b4", linewidth=2, label="Normal")
+    ax1.plot(locaux["year"], locaux["value_crise"], "s--", color="#d62728", linewidth=2, label="Crise (+70 %)")
+    ax1.fill_between(locaux["year"], locaux["value"], locaux["value_crise"], alpha=0.15, color="red")
+    ax1.set_title("Locaux (m²)", fontsize=12, fontweight="bold")
     ax1.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
     ax1.legend(fontsize=9)
     ax1.grid(alpha=0.3)
 
-    ax2.plot(espaces["ANNEE"], espaces["TOTAL_NORMAL"], "o-", color="#1f77b4", linewidth=2, label="Normal")
-    ax2.plot(espaces["ANNEE"], espaces["TOTAL_CRISE"], "s--", color="#d62728", linewidth=2, label="Crise (+70%)")
-    ax2.fill_between(espaces["ANNEE"], espaces["TOTAL_NORMAL"], espaces["TOTAL_CRISE"], alpha=0.15, color="red")
-    ax2.set_title("Espaces verts (m\u00b2)", fontsize=12, fontweight="bold")
+    ax2.plot(espaces["year"], espaces["value"], "o-", color="#1f77b4", linewidth=2, label="Normal")
+    ax2.plot(espaces["year"], espaces["value_crise"], "s--", color="#d62728", linewidth=2, label="Crise (+70 %)")
+    ax2.fill_between(espaces["year"], espaces["value"], espaces["value_crise"], alpha=0.15, color="red")
+    ax2.set_title("Espaces verts (m²)", fontsize=12, fontweight="bold")
     ax2.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
     ax2.legend(fontsize=9)
     ax2.grid(alpha=0.3)
 
-    fig.suptitle("Hygiene : surfaces a entretenir - Normal vs Crise", fontsize=13, fontweight="bold", y=1.02)
+    fig.suptitle("Hygiene : surfaces a entretenir -- Normal vs Crise", fontsize=13, fontweight="bold", y=1.02)
     plt.tight_layout()
     return save_chart(fig, "hygiene")
 
 
-def gen_chart_lingerie(df):
-    df_l = df[
-        (df["INDICATEUR"] == "Lingerie") &
-        (df["SOUS-INDICATEUR"] == "Quantit\u00e9 de linge")
+def gen_chart_hygiene_monthly(monthly):
+    """Profil mensuel des surfaces de locaux a nettoyer."""
+    df_m = monthly[
+        (monthly["indicateur"] == "Hygiène") &
+        (monthly["sous_indicateur"] == "Locaux")
     ].copy()
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4.5))
-
-    ax1.fill_between(df_l["ANNEE"], df_l["TOTAL_NORMAL"], alpha=0.3, color="#1f77b4")
-    ax1.fill_between(df_l["ANNEE"], df_l["TOTAL_NORMAL"], df_l["TOTAL_CRISE"], alpha=0.3, color="#d62728")
-    ax1.plot(df_l["ANNEE"], df_l["TOTAL_NORMAL"], "o-", color="#1f77b4", linewidth=2, label="Normal")
-    ax1.plot(df_l["ANNEE"], df_l["TOTAL_CRISE"], "s--", color="#d62728", linewidth=2, label="Crise (+70%)")
-    ax1.set_title("Quantit\u00e9 de linge trait\u00e9 (kg/an)", fontsize=12, fontweight="bold")
-    ax1.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
-    ax1.legend(fontsize=9)
-    ax1.grid(alpha=0.3)
-
-    # Repartition par site 2015
-    l2015 = df_l[df_l["ANNEE"] == 2015].iloc[0]
-    sites = ["Pitie-Salpetriere", "Charles Foix"]
-    x = np.arange(2)
-    ax2.bar(x - 0.2, [l2015["PLF_NORMAL"], l2015["CFX_NORMAL"]], 0.35, label="Normal", color="#1f77b4")
-    ax2.bar(x + 0.2, [l2015["PLF_CRISE"], l2015["CFX_CRISE"]], 0.35, label="Crise", color="#d62728")
-    ax2.set_xticks(x)
-    ax2.set_xticklabels(sites)
-    ax2.set_title("R\u00e9partition par site (2015, kg)", fontsize=12, fontweight="bold")
-    ax2.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
-    ax2.legend(fontsize=9)
-    ax2.grid(axis="y", alpha=0.3)
-
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, df_m["year"].nunique()))
+    for i, (yr, grp) in enumerate(df_m.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Surface nettoyee (m²)", fontsize=11)
+    ax.set_title("Profil mensuel -- Entretien des locaux (situation normale)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
     plt.tight_layout()
-    return save_chart(fig, "lingerie")
+    return save_chart(fig, "hygiene_monthly")
 
 
-def gen_chart_magasin(df):
-    df_m = df[(df["INDICATEUR"] == "Magasin") & (df["ANNEE"] == 2015)].copy()
+def gen_chart_lingerie(annual):
+    """Courbe annuelle de la quantite de linge."""
+    df_l = annual[
+        (annual["indicateur"] == "Lingerie") &
+        (annual["sous_indicateur"] == "Quantité de linge")
+    ].sort_values("year")
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    ax.fill_between(df_l["year"], df_l["value"], alpha=0.3, color="#1f77b4")
+    ax.fill_between(df_l["year"], df_l["value"], df_l["value_crise"], alpha=0.3, color="#d62728")
+    ax.plot(df_l["year"], df_l["value"], "o-", color="#1f77b4", linewidth=2, label="Normal")
+    ax.plot(df_l["year"], df_l["value_crise"], "s--", color="#d62728", linewidth=2, label="Crise (+70 %)")
+    ax.set_title("Quantite de linge traite (kg/an)", fontsize=13, fontweight="bold")
+    ax.set_xlabel("Annee", fontsize=11)
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=10)
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "lingerie_annual")
+
+
+def gen_chart_lingerie_site(annual_site):
+    """Repartition par site 2015."""
+    df_s = annual_site[
+        (annual_site["indicateur"] == "Lingerie") &
+        (annual_site["sous_indicateur"] == "Quantité de linge") &
+        (annual_site["year"] == 2015)
+    ]
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    sites = ["PLF", "CFX"]
+    sites_labels = ["Pitie-Salpetriere", "Charles Foix"]
+    x = np.arange(2)
+    vals_n = [df_s[df_s["site_code"] == s]["value"].sum() for s in sites]
+    vals_c = [df_s[df_s["site_code"] == s]["value_crise"].sum() for s in sites]
+    ax.bar(x - 0.2, vals_n, 0.35, label="Normal", color="#1f77b4", edgecolor="white")
+    ax.bar(x + 0.2, vals_c, 0.35, label="Crise (+70 %)", color="#d62728", edgecolor="white")
+    ax.set_xticks(x)
+    ax.set_xticklabels(sites_labels, fontsize=10)
+    ax.set_title("Lingerie par site (2015) -- Normal vs Crise", fontsize=13, fontweight="bold")
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=10)
+    ax.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "lingerie_site")
+
+
+def gen_chart_lingerie_monthly(monthly):
+    """Profil mensuel du linge."""
+    df_m = monthly[
+        (monthly["indicateur"] == "Lingerie") &
+        (monthly["sous_indicateur"] == "Quantité de linge")
+    ].copy()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, df_m["year"].nunique()))
+    for i, (yr, grp) in enumerate(df_m.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Linge traite (kg)", fontsize=11)
+    ax.set_title("Profil mensuel -- Lingerie (situation normale)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "lingerie_monthly")
+
+
+def gen_chart_magasin(annual):
+    """Barres : references gerees par le magasin en 2015."""
+    df_m = annual[
+        (annual["indicateur"] == "Magasin") &
+        (annual["year"] == 2015)
+    ].copy().sort_values("sous_indicateur")
 
     fig, ax = plt.subplots(figsize=(8, 4.5))
-    cats = ["Hygiene &\nEnvironnement", "Hotelier", "Imprimes"]
+    cats = df_m["sous_indicateur"].values
     x = np.arange(len(cats))
     w = 0.35
-    ax.bar(x - w / 2, df_m["TOTAL_NORMAL"].values, w, label="Normal", color="#2ca02c", edgecolor="white")
-    ax.bar(x + w / 2, df_m["TOTAL_CRISE"].values, w, label="Crise (+70%)", color="#d62728", edgecolor="white")
+    ax.bar(x - w / 2, df_m["value"].values, w, label="Normal", color="#2ca02c", edgecolor="white")
+    ax.bar(x + w / 2, df_m["value_crise"].values, w, label="Crise (+70 %)", color="#d62728", edgecolor="white")
     ax.set_xticks(x)
-    ax.set_xticklabels(cats, fontsize=10)
+    ax.set_xticklabels([c.replace("Références ", "").capitalize() for c in cats], fontsize=10)
     ax.set_ylabel("Nombre de references")
     ax.set_title("References gerees par le magasin (2015)", fontsize=13, fontweight="bold")
     ax.legend(fontsize=10)
     ax.grid(axis="y", alpha=0.3)
 
-    for i, (n, c) in enumerate(zip(df_m["TOTAL_NORMAL"].values, df_m["TOTAL_CRISE"].values)):
-        ax.text(i - w / 2, n + 5, f"{n:.0f}", ha="center", va="bottom", fontsize=9)
-        ax.text(i + w / 2, c + 5, f"{c:.0f}", ha="center", va="bottom", fontsize=9, color="#d62728")
+    for i, (n, c) in enumerate(zip(df_m["value"].values, df_m["value_crise"].values)):
+        ax.text(i - w / 2, n + max(df_m["value_crise"].values) * 0.01, f"{n:,.0f}", ha="center", va="bottom", fontsize=9)
+        ax.text(i + w / 2, c + max(df_m["value_crise"].values) * 0.01, f"{c:,.0f}", ha="center", va="bottom", fontsize=9, color="#d62728")
 
     plt.tight_layout()
     return save_chart(fig, "magasin")
 
 
-def gen_chart_vaguemestre(df):
-    df_v = df[(df["INDICATEUR"] == "Vaguemestre") & (df["ANNEE"] == 2015)].copy()
-    plis = df_v[df_v["SOUS-INDICATEUR"] == "Plis affranchis"].iloc[0]
-    colis = df_v[df_v["SOUS-INDICATEUR"] == "Colis"].iloc[0]
+def gen_chart_magasin_monthly(monthly):
+    """Profil mensuel du magasin (toutes references confondues)."""
+    df_m = monthly[monthly["indicateur"] == "Magasin"].copy()
+    agg = df_m.groupby(["year", "month"])[["value"]].sum().reset_index()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, agg["year"].nunique()))
+    for i, (yr, grp) in enumerate(agg.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Nombre de references", fontsize=11)
+    ax.set_title("Profil mensuel -- Approvisionnements magasin (situation normale)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "magasin_monthly")
+
+
+def gen_chart_vaguemestre(annual):
+    """Barres : plis et colis en 2015."""
+    df_v = annual[(annual["indicateur"] == "Vaguemestre") & (annual["year"] == 2015)].copy()
+    plis = df_v[df_v["sous_indicateur"] == "Plis affranchis"]
+    colis = df_v[df_v["sous_indicateur"] == "Colis"]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 4))
-    ax1.bar(["Normal", "Crise"], [plis["TOTAL_NORMAL"], plis["TOTAL_CRISE"]],
-            color=["#1f77b4", "#d62728"], edgecolor="white")
-    ax1.set_title("Plis affranchis/an (2015)", fontsize=11, fontweight="bold")
-    ax1.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
-    ax1.grid(axis="y", alpha=0.3)
 
-    ax2.bar(["Normal", "Crise"], [colis["TOTAL_NORMAL"], colis["TOTAL_CRISE"]],
-            color=["#1f77b4", "#d62728"], edgecolor="white")
-    ax2.set_title("Colis/an (2015)", fontsize=11, fontweight="bold")
-    ax2.grid(axis="y", alpha=0.3)
+    if not plis.empty:
+        ax1.bar(["Normal", "Crise"], [plis["value"].values[0], plis["value_crise"].values[0]],
+                color=["#1f77b4", "#d62728"], edgecolor="white")
+        ax1.set_title("Plis affranchis/an (2015)", fontsize=11, fontweight="bold")
+        ax1.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+        ax1.grid(axis="y", alpha=0.3)
 
-    fig.suptitle("Service courrier - Normal vs Crise", fontsize=13, fontweight="bold", y=1.02)
+    if not colis.empty:
+        ax2.bar(["Normal", "Crise"], [colis["value"].values[0], colis["value_crise"].values[0]],
+                color=["#1f77b4", "#d62728"], edgecolor="white")
+        ax2.set_title("Colis/an (2015)", fontsize=11, fontweight="bold")
+        ax2.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+        ax2.grid(axis="y", alpha=0.3)
+
+    fig.suptitle("Service courrier -- Normal vs Crise", fontsize=13, fontweight="bold", y=1.02)
     plt.tight_layout()
     return save_chart(fig, "vaguemestre")
 
 
-def gen_chart_synthese(df):
-    df_2015 = df[df["ANNEE"] == 2015].copy()
-    synthese = df_2015.groupby("INDICATEUR").agg({
-        "TOTAL_NORMAL": "sum",
-        "TOTAL_CRISE": "sum",
-    }).reset_index()
+def gen_chart_vaguemestre_monthly(monthly):
+    """Profil mensuel du courrier."""
+    df_m = monthly[
+        (monthly["indicateur"] == "Vaguemestre") &
+        (monthly["sous_indicateur"] == "Plis affranchis")
+    ].copy()
+
+    fig, ax = plt.subplots(figsize=(10, 4.5))
+    colors = plt.cm.Set2(np.linspace(0, 1, df_m["year"].nunique()))
+    for i, (yr, grp) in enumerate(df_m.groupby("year")):
+        grp = grp.sort_values("month")
+        ax.plot(grp["month"], grp["value"], "o-", color=colors[i], linewidth=1.5, label=str(yr))
+    ax.set_xlabel("Mois", fontsize=11)
+    ax.set_ylabel("Plis affranchis", fontsize=11)
+    ax.set_title("Profil mensuel -- Plis affranchis (situation normale)", fontsize=13, fontweight="bold")
+    ax.set_xticks(range(1, 13))
+    ax.set_xticklabels(MOIS_LABELS, fontsize=9)
+    ax.legend(fontsize=9, title="Annee")
+    ax.grid(alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "vaguemestre_monthly")
+
+
+def gen_chart_synthese(annual):
+    """Barres horizontales : tous les indicateurs (2015)."""
+    df_2015 = annual[annual["year"] == 2015].copy()
+    synthese = df_2015.groupby("indicateur").agg({"value": "sum", "value_crise": "sum"}).reset_index()
 
     fig, ax = plt.subplots(figsize=(10, 5))
     y = np.arange(len(synthese))
     h = 0.35
-    ax.barh(y - h / 2, synthese["TOTAL_NORMAL"], h, label="Normal", color="#1f77b4", edgecolor="white")
-    ax.barh(y + h / 2, synthese["TOTAL_CRISE"], h, label="Crise (+70%)", color="#d62728", edgecolor="white")
+    ax.barh(y - h / 2, synthese["value"], h, label="Normal", color="#1f77b4", edgecolor="white")
+    ax.barh(y + h / 2, synthese["value_crise"], h, label="Crise (+70 %)", color="#d62728", edgecolor="white")
     ax.set_yticks(y)
-    ax.set_yticklabels(synthese["INDICATEUR"], fontsize=10)
-    ax.set_title("Synthese Logistique - Tous indicateurs (2015)", fontsize=13, fontweight="bold")
+    ax.set_yticklabels(synthese["indicateur"], fontsize=10)
+    ax.set_title("Synthese Logistique -- Tous indicateurs (2015)", fontsize=13, fontweight="bold")
     ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
     ax.legend(fontsize=10)
     ax.grid(axis="x", alpha=0.3)
     plt.tight_layout()
     return save_chart(fig, "synthese")
+
+
+def gen_chart_comparaison_sites(annual_site):
+    """Barres groupees : comparaison PLF vs CFX sur tous les indicateurs (2015)."""
+    df_2015 = annual_site[annual_site["year"] == 2015]
+    agg = df_2015.groupby(["site_code", "indicateur"])["value"].sum().reset_index()
+
+    indicateurs = sorted(agg["indicateur"].unique())
+    plf_vals = [agg[(agg["site_code"] == "PLF") & (agg["indicateur"] == ind)]["value"].sum() for ind in indicateurs]
+    cfx_vals = [agg[(agg["site_code"] == "CFX") & (agg["indicateur"] == ind)]["value"].sum() for ind in indicateurs]
+
+    fig, ax = plt.subplots(figsize=(11, 5))
+    x = np.arange(len(indicateurs))
+    w = 0.35
+    ax.barh(x - w / 2, plf_vals, w, label="Pitie-Salpetriere (PLF)", color="#1f77b4", edgecolor="white")
+    ax.barh(x + w / 2, cfx_vals, w, label="Charles Foix (CFX)", color="#ff7f0e", edgecolor="white")
+    ax.set_yticks(x)
+    ax.set_yticklabels(indicateurs, fontsize=10)
+    ax.set_title("Comparaison des volumes par site (2015, situation normale)", fontsize=13, fontweight="bold")
+    ax.xaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=10)
+    ax.grid(axis="x", alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "comparaison_sites")
+
+
+def gen_chart_dow(dow_data):
+    """Barres : profil moyen par jour de semaine (restauration)."""
+    df_d = dow_data[
+        (dow_data["indicateur"] == "Restauration") &
+        (dow_data["sous_indicateur"] == "Nombre de Repas")
+    ].sort_values("dow")
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    # dow: 0=Sunday .. 6=Saturday -> reorder to Mon-Sun
+    dow_order = [1, 2, 3, 4, 5, 6, 0]
+    df_ord = df_d.set_index("dow").reindex(dow_order).reset_index()
+    x = np.arange(7)
+    ax.bar(x, df_ord["value"], color="#1f77b4", edgecolor="white", label="Normal")
+    ax.bar(x, df_ord["value_crise"] - df_ord["value"], bottom=df_ord["value"],
+           color="#d62728", edgecolor="white", alpha=0.5, label="Surplus crise")
+    ax.set_xticks(x)
+    ax.set_xticklabels(JOURS_LABELS, fontsize=10)
+    ax.set_ylabel("Repas moyens/jour", fontsize=11)
+    ax.set_title("Restauration : profil moyen par jour de semaine", fontsize=13, fontweight="bold")
+    ax.yaxis.set_major_formatter(mticker.FuncFormatter(lambda v, _: f"{v:,.0f}"))
+    ax.legend(fontsize=10)
+    ax.grid(axis="y", alpha=0.3)
+    plt.tight_layout()
+    return save_chart(fig, "dow_restauration")
 
 
 # ============================================================
@@ -333,7 +636,14 @@ def gen_chart_synthese(df):
 
 def build_document():
     setup_charts_dir()
-    df = pd.read_csv(DATA_PATH)
+
+    # Chargement et agregations
+    df = load_daily_data()
+    annual = agg_annual(df)
+    annual_site = agg_annual_by_site(df)
+    monthly = agg_monthly(df)
+    dow_data = agg_dow(df)
+
     doc = Document()
 
     # -- Style par defaut --
@@ -442,8 +752,14 @@ def build_document():
 
     add_body(doc,
         "La simulation de crise sanitaire utilisee dans cette analyse repose sur une augmentation "
-        "de +70% de l'activite sur l'ensemble des postes logistiques, conformement aux scenarios "
+        "de +70 % de l'activite sur l'ensemble des postes logistiques, conformement aux scenarios "
         "observes lors des pandemies recentes (COVID-19)."
+    )
+
+    add_body(doc,
+        "Les donnees journalieres reconstituees permettent d'analyser non seulement les volumes "
+        "annuels, mais aussi les profils saisonniers (mensuels) et les variations hebdomadaires, "
+        "offrant une vision fine de la charge logistique a anticiper."
     )
 
     # --- 1.1 RESTAURATION ---
@@ -456,20 +772,82 @@ def build_document():
         "ces variations."
     )
 
-    chart_path = gen_chart_restauration(df)
+    # Graphique annuel
+    chart_path = gen_chart_restauration_annual(annual)
     doc.add_picture(chart_path, width=Inches(5.8))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # Chiffres cles
-    r2015 = df[(df["INDICATEUR"] == "Restauration") & (df["SOUS-INDICATEUR"] == "Nombre de Repas") & (df["ANNEE"] == 2015)].iloc[0]
-    rq = df[(df["INDICATEUR"] == "Restauration") & (df["SOUS-INDICATEUR"] == "Nombre de Repas Quotidien") & (df["ANNEE"] == 2015)].iloc[0]
+    r2015 = annual[
+        (annual["indicateur"] == "Restauration") &
+        (annual["sous_indicateur"] == "Nombre de Repas") &
+        (annual["year"] == 2015)
+    ].iloc[0]
+    rq2015 = annual[
+        (annual["indicateur"] == "Restauration") &
+        (annual["sous_indicateur"] == "Nombre de Repas Quotidien") &
+        (annual["year"] == 2015)
+    ]
 
+    ecart_repas = r2015["ecart"]
     add_constat_box(doc,
-        f"En situation de crise, le nombre de repas a fournir augmenterait de +70%, soit environ "
-        f"{r2015['ECART_TOTAL']:,.0f} repas supplementaires par an (donnees 2015). Au quotidien, "
-        f"cela represente le passage de {rq['TOTAL_NORMAL']:,.0f} repas/jour a environ "
-        f"{rq['TOTAL_CRISE']:,.0f} repas/jour."
+        f"En situation de crise, le nombre de repas a fournir augmenterait de +70 %, soit environ "
+        f"{ecart_repas:,.0f} repas supplementaires par an (donnees 2015). "
+        f"En 2015, le total s'eleve a {r2015['value']:,.0f} repas en situation normale "
+        f"et {r2015['value_crise']:,.0f} en situation de crise."
     )
+
+    if not rq2015.empty:
+        rq = rq2015.iloc[0]
+        add_body(doc,
+            f"Au quotidien, cela represente le passage de {rq['value']:,.0f} repas/jour "
+            f"a environ {rq['value_crise']:,.0f} repas/jour."
+        )
+
+    # Graphique mensuel
+    add_body(doc,
+        "Le profil mensuel ci-dessous montre la saisonnalite de la restauration. Les mois d'ete "
+        "(juillet-aout) affichent generalement un volume legerement plus faible en raison des conges, "
+        "tandis que les mois de forte activite hospitaliere voient des pics de demande."
+    )
+
+    chart_path = gen_chart_restauration_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    # Graphique par site
+    add_body(doc,
+        "La repartition entre les deux sites montre un desequilibre lie a la taille respective "
+        "des etablissements :"
+    )
+
+    chart_path = gen_chart_restauration_site(annual_site)
+    doc.add_picture(chart_path, width=Inches(5))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    # Repartition PLF/CFX
+    plf_rest = annual_site[
+        (annual_site["indicateur"] == "Restauration") &
+        (annual_site["sous_indicateur"] == "Nombre de Repas") &
+        (annual_site["year"] == 2015) &
+        (annual_site["site_code"] == "PLF")
+    ]["value"].sum()
+    total_rest = r2015["value"]
+    pct_plf = (plf_rest / total_rest * 100) if total_rest > 0 else 0
+
+    add_body(doc,
+        f"Pitie-Salpetriere assure environ {pct_plf:.0f} % des repas, Charles Foix {100 - pct_plf:.0f} %. "
+        f"En crise, envisager un reequilibrage si l'un des sites est plus impacte."
+    )
+
+    # Graphique jour de semaine
+    add_body(doc,
+        "Le profil hebdomadaire illustre la charge moyenne de restauration selon le jour de la semaine :"
+    )
+
+    chart_path = gen_chart_dow(dow_data)
+    doc.add_picture(chart_path, width=Inches(5))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = doc.add_paragraph()
     run = p.add_run("Propositions pour gerer l'afflux :")
@@ -492,11 +870,12 @@ def build_document():
                "rotation specifique en mode crise.",
                bold_prefix="Renforcement des effectifs --")
 
-    add_bullet(doc, " PSL assure environ 62% des repas, CFX 38%. En crise, envisager un "
+    add_bullet(doc, " En crise, envisager un "
                "reequilibrage si l'un des sites est plus impacte.",
                bold_prefix="Repartition entre sites --")
 
     # --- 1.2 DECHETS ---
+    doc.add_page_break()
     add_heading_styled(doc, "1.2 Gestion des dechets hospitaliers", level=2)
 
     add_body(doc,
@@ -506,18 +885,45 @@ def build_document():
         "mecaniquement une hausse des dechets, notamment infectieux."
     )
 
-    chart_path = gen_chart_dechets(df)
+    chart_path = gen_chart_dechets(annual)
     doc.add_picture(chart_path, width=Inches(5.8))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    dasri = df[(df["INDICATEUR"] == "D\u00e9chets") & (df["SOUS-INDICATEUR"].str.contains("Infectieux")) & (df["ANNEE"] == 2015)].iloc[0]
-    menagers = df[(df["INDICATEUR"] == "D\u00e9chets") & (df["SOUS-INDICATEUR"].str.contains("M\u00e9nagers Assimil")) & (df["ANNEE"] == 2015)].iloc[0]
+    dasri = annual[
+        (annual["indicateur"] == "Déchets") &
+        (annual["sous_indicateur"].str.contains("Infectieux", na=False)) &
+        (annual["year"] == 2015)
+    ]
+    menagers = annual[
+        (annual["indicateur"] == "Déchets") &
+        (annual["sous_indicateur"].str.contains("Ménagers Assimil", na=False)) &
+        (annual["year"] == 2015)
+    ]
 
-    add_constat_box(doc,
-        f"Les DASRI (dechets infectieux) passeraient de {dasri['TOTAL_NORMAL']:,.0f} tonnes a "
-        f"{dasri['TOTAL_CRISE']:,.0f} tonnes en situation de crise (+{dasri['ECART_TOTAL']:,.0f} t). "
-        f"Les dechets menagers augmenteraient de {menagers['TOTAL_NORMAL']:,.0f} tonnes a "
-        f"{menagers['TOTAL_CRISE']:,.0f} tonnes (+{menagers['ECART_TOTAL']:,.0f} t)."
+    if not dasri.empty and not menagers.empty:
+        d = dasri.iloc[0]
+        m = menagers.iloc[0]
+        add_constat_box(doc,
+            f"Les DASRI (dechets infectieux) passeraient de {d['value']:,.0f} tonnes a "
+            f"{d['value_crise']:,.0f} tonnes en situation de crise (+{d['ecart']:,.0f} t). "
+            f"Les dechets menagers augmenteraient de {m['value']:,.0f} tonnes a "
+            f"{m['value_crise']:,.0f} tonnes (+{m['ecart']:,.0f} t)."
+        )
+
+    # Profil mensuel DASRI
+    add_body(doc,
+        "Le profil mensuel des DASRI permet d'identifier les periodes de forte production "
+        "et d'adapter les capacites de collecte en consequence :"
+    )
+
+    chart_path = gen_chart_dechets_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    add_body(doc,
+        "On observe que la production de dechets infectieux suit la saisonnalite de l'activite "
+        "hospitaliere, avec des variations pouvant atteindre 15 a 20 % entre les mois les plus "
+        "calmes et les plus charges."
     )
 
     p = doc.add_paragraph()
@@ -545,6 +951,7 @@ def build_document():
                bold_prefix="Tri renforce et tracabilite --")
 
     # --- 1.3 HYGIENE ---
+    doc.add_page_break()
     add_heading_styled(doc, "1.3 Hygiene et entretien des locaux", level=2)
 
     add_body(doc,
@@ -553,17 +960,46 @@ def build_document():
         "d'hygiene doivent etre intensifies, tant au niveau de la frequence que des produits utilises."
     )
 
-    chart_path = gen_chart_hygiene(df)
+    chart_path = gen_chart_hygiene(annual)
     doc.add_picture(chart_path, width=Inches(5.8))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    locaux = df[(df["INDICATEUR"] == "Hygi\u00e8ne") & (df["SOUS-INDICATEUR"] == "Locaux") & (df["ANNEE"] == 2015)].iloc[0]
+    locaux_2015 = annual[
+        (annual["indicateur"] == "Hygiène") &
+        (annual["sous_indicateur"] == "Locaux") &
+        (annual["year"] == 2015)
+    ]
+    vitres_2015 = annual[
+        (annual["indicateur"] == "Hygiène") &
+        (annual["sous_indicateur"] == "Vitres") &
+        (annual["year"] == 2015)
+    ]
+    espaces_2015 = annual[
+        (annual["indicateur"] == "Hygiène") &
+        (annual["sous_indicateur"] == "Espaces verts") &
+        (annual["year"] == 2015)
+    ]
 
-    add_constat_box(doc,
-        f"En 2015, les surfaces de locaux a entretenir s'elevent a {locaux['TOTAL_NORMAL']:,.0f} m\u00b2 "
-        f"en situation normale et augmenteraient a {locaux['TOTAL_CRISE']:,.0f} m\u00b2 en crise. "
-        f"Les espaces verts (147 014 m\u00b2), les vitres (92 701 m\u00b2) et la voirie sont egalement concernes."
+    if not locaux_2015.empty:
+        loc = locaux_2015.iloc[0]
+        vitres_val = vitres_2015.iloc[0]["value"] if not vitres_2015.empty else 0
+        espaces_val = espaces_2015.iloc[0]["value"] if not espaces_2015.empty else 0
+        add_constat_box(doc,
+            f"En 2015, les surfaces de locaux a entretenir s'elevent a {loc['value']:,.0f} m² "
+            f"en situation normale et augmenteraient a {loc['value_crise']:,.0f} m² en crise. "
+            f"Les espaces verts ({espaces_val:,.0f} m²) et les vitres ({vitres_val:,.0f} m²) "
+            f"sont egalement concernes."
+        )
+
+    # Profil mensuel hygiene
+    add_body(doc,
+        "Le profil mensuel de l'entretien des locaux montre la regularite de la charge "
+        "de nettoyage au fil de l'annee :"
     )
+
+    chart_path = gen_chart_hygiene_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = doc.add_paragraph()
     run = p.add_run("Propositions :")
@@ -590,6 +1026,7 @@ def build_document():
                bold_prefix="Priorisation des zones --")
 
     # --- 1.4 LINGERIE ---
+    doc.add_page_break()
     add_heading_styled(doc, "1.4 Lingerie hospitaliere", level=2)
 
     add_body(doc,
@@ -598,18 +1035,48 @@ def build_document():
         "entraine une hausse directe des besoins en linge propre."
     )
 
-    chart_path = gen_chart_lingerie(df)
+    chart_path = gen_chart_lingerie(annual)
     doc.add_picture(chart_path, width=Inches(5.8))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    l2015 = df[(df["INDICATEUR"] == "Lingerie") & (df["SOUS-INDICATEUR"] == "Quantit\u00e9 de linge") & (df["ANNEE"] == 2015)].iloc[0]
+    l2015 = annual[
+        (annual["indicateur"] == "Lingerie") &
+        (annual["sous_indicateur"] == "Quantité de linge") &
+        (annual["year"] == 2015)
+    ]
 
-    add_constat_box(doc,
-        f"La quantite de linge traite en 2015 est de {l2015['TOTAL_NORMAL']:,.0f} kg en situation "
-        f"normale. En crise, elle passerait a {l2015['TOTAL_CRISE']:,.0f} kg, soit pres de "
-        f"{l2015['ECART_TOTAL']:,.0f} kg supplementaires par an. "
-        f"Pitie-Salpetriere represente environ {l2015['PLF_NORMAL']/l2015['TOTAL_NORMAL']*100:.0f}% du volume."
+    if not l2015.empty:
+        l = l2015.iloc[0]
+        # Repartition par site
+        plf_linge = annual_site[
+            (annual_site["indicateur"] == "Lingerie") &
+            (annual_site["sous_indicateur"] == "Quantité de linge") &
+            (annual_site["year"] == 2015) &
+            (annual_site["site_code"] == "PLF")
+        ]["value"].sum()
+        pct_plf_linge = (plf_linge / l["value"] * 100) if l["value"] > 0 else 0
+
+        add_constat_box(doc,
+            f"La quantite de linge traite en 2015 est de {l['value']:,.0f} kg en situation "
+            f"normale. En crise, elle passerait a {l['value_crise']:,.0f} kg, soit pres de "
+            f"{l['ecart']:,.0f} kg supplementaires par an. "
+            f"Pitie-Salpetriere represente environ {pct_plf_linge:.0f} % du volume."
+        )
+
+    # Graphique par site
+    chart_path = gen_chart_lingerie_site(annual_site)
+    doc.add_picture(chart_path, width=Inches(5))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    # Profil mensuel lingerie
+    add_body(doc,
+        "Le profil mensuel de la lingerie revele les variations saisonnieres dans le traitement "
+        "du linge hospitalier :"
     )
+
+    chart_path = gen_chart_lingerie_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = doc.add_paragraph()
     run = p.add_run("Propositions :")
@@ -635,6 +1102,7 @@ def build_document():
                bold_prefix="Linge du personnel soignant --")
 
     # --- 1.5 MAGASIN ---
+    doc.add_page_break()
     add_heading_styled(doc, "1.5 Magasin et approvisionnements", level=2)
 
     add_body(doc,
@@ -643,19 +1111,29 @@ def build_document():
         "considerablement."
     )
 
-    chart_path = gen_chart_magasin(df)
+    chart_path = gen_chart_magasin(annual)
     doc.add_picture(chart_path, width=Inches(5))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    df_mag = df[(df["INDICATEUR"] == "Magasin") & (df["ANNEE"] == 2015)]
-    total_n = df_mag["TOTAL_NORMAL"].sum()
-    total_c = df_mag["TOTAL_CRISE"].sum()
+    df_mag = annual[(annual["indicateur"] == "Magasin") & (annual["year"] == 2015)]
+    total_n = df_mag["value"].sum()
+    total_c = df_mag["value_crise"].sum()
 
     add_constat_box(doc,
-        f"Le magasin gere environ {total_n:.0f} references en situation normale. "
-        f"En crise, le volume de commandes augmente de 70% (soit {total_c:.0f} references a gerer), "
+        f"Le magasin gere environ {total_n:,.0f} references en situation normale. "
+        f"En crise, le volume de commandes augmente de 70 % (soit {total_c:,.0f} references a gerer), "
         f"meme si le nombre de references catalogue reste stable."
     )
+
+    # Profil mensuel magasin
+    add_body(doc,
+        "Le profil mensuel des approvisionnements permet d'anticiper les periodes de tension "
+        "et d'adapter le calendrier de commandes :"
+    )
+
+    chart_path = gen_chart_magasin_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = doc.add_paragraph()
     run = p.add_run("Propositions :")
@@ -682,6 +1160,7 @@ def build_document():
                bold_prefix="Coordination inter-etablissements --")
 
     # --- 1.6 VAGUEMESTRE ---
+    doc.add_page_break()
     add_heading_styled(doc, "1.6 Service courrier (Vaguemestre)", level=2)
 
     add_body(doc,
@@ -691,18 +1170,36 @@ def build_document():
         "hospitalises et au bon fonctionnement administratif."
     )
 
-    chart_path = gen_chart_vaguemestre(df)
+    chart_path = gen_chart_vaguemestre(annual)
     doc.add_picture(chart_path, width=Inches(5))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
-    plis = df[(df["INDICATEUR"] == "Vaguemestre") & (df["SOUS-INDICATEUR"] == "Plis affranchis") & (df["ANNEE"] == 2015)].iloc[0]
-    colis = df[(df["INDICATEUR"] == "Vaguemestre") & (df["SOUS-INDICATEUR"] == "Colis") & (df["ANNEE"] == 2015)].iloc[0]
+    plis = annual[
+        (annual["indicateur"] == "Vaguemestre") &
+        (annual["sous_indicateur"] == "Plis affranchis") &
+        (annual["year"] == 2015)
+    ]
+    colis = annual[
+        (annual["indicateur"] == "Vaguemestre") &
+        (annual["sous_indicateur"] == "Colis") &
+        (annual["year"] == 2015)
+    ]
 
-    add_constat_box(doc,
-        f"Plus de {plis['TOTAL_NORMAL']:,.0f} plis affranchis par an et environ "
-        f"{colis['TOTAL_NORMAL']:,.0f} colis (2015). En crise, les volumes augmenteraient "
-        f"significativement, notamment les envois administratifs."
+    if not plis.empty and not colis.empty:
+        add_constat_box(doc,
+            f"Plus de {plis.iloc[0]['value']:,.0f} plis affranchis par an et environ "
+            f"{colis.iloc[0]['value']:,.0f} colis (2015). En crise, les volumes augmenteraient "
+            f"significativement, notamment les envois administratifs."
+        )
+
+    # Profil mensuel vaguemestre
+    add_body(doc,
+        "Le profil mensuel du courrier revele les periodes de pointe et les creux saisonniers :"
     )
+
+    chart_path = gen_chart_vaguemestre_monthly(monthly)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     p = doc.add_paragraph()
     run = p.add_run("Propositions :")
@@ -722,31 +1219,62 @@ def build_document():
     doc.add_page_break()
     add_heading_styled(doc, "Synthese -- Logistique hospitaliere", level=2)
 
-    chart_path = gen_chart_synthese(df)
+    chart_path = gen_chart_synthese(annual)
+    doc.add_picture(chart_path, width=Inches(5.8))
+    doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+    # Comparaison sites
+    add_body(doc,
+        "La comparaison entre les deux sites montre le poids relatif de chaque etablissement "
+        "sur l'ensemble des indicateurs logistiques :"
+    )
+
+    chart_path = gen_chart_comparaison_sites(annual_site)
     doc.add_picture(chart_path, width=Inches(5.8))
     doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
 
     # Tableau de synthese
     add_body(doc, "Tableau recapitulatif de l'impact d'une crise sanitaire sur la logistique (donnees 2015) :")
 
-    df_2015 = df[df["ANNEE"] == 2015]
-    synthese = df_2015.groupby("INDICATEUR").agg({
-        "TOTAL_NORMAL": "sum",
-        "TOTAL_CRISE": "sum",
-        "ECART_TOTAL": "sum"
+    df_2015 = annual[annual["year"] == 2015]
+    synthese = df_2015.groupby("indicateur").agg({
+        "value": "sum",
+        "value_crise": "sum",
+        "ecart": "sum"
     }).reset_index()
 
     headers = ["Domaine", "Volume normal", "Volume en crise", "Ecart", "Hausse"]
     rows = []
     for _, r in synthese.iterrows():
         rows.append([
-            r["INDICATEUR"],
-            f"{r['TOTAL_NORMAL']:,.0f}",
-            f"{r['TOTAL_CRISE']:,.0f}",
-            f"+{r['ECART_TOTAL']:,.0f}",
-            "+70%"
+            r["indicateur"],
+            f"{r['value']:,.0f}",
+            f"{r['value_crise']:,.0f}",
+            f"+{r['ecart']:,.0f}",
+            "+70 %"
         ])
     add_styled_table(doc, headers, rows)
+
+    doc.add_paragraph()
+
+    # Tableau par site
+    add_body(doc, "Repartition par site (donnees 2015, situation normale) :")
+
+    site_2015 = annual_site[annual_site["year"] == 2015]
+    site_synth = site_2015.groupby(["indicateur", "site_code"])["value"].sum().unstack(fill_value=0).reset_index()
+
+    headers_site = ["Domaine", "Pitie-Salpetriere (PLF)", "Charles Foix (CFX)", "Total"]
+    rows_site = []
+    for _, r in site_synth.iterrows():
+        plf_v = r.get("PLF", 0)
+        cfx_v = r.get("CFX", 0)
+        rows_site.append([
+            r["indicateur"],
+            f"{plf_v:,.0f}",
+            f"{cfx_v:,.0f}",
+            f"{plf_v + cfx_v:,.0f}",
+        ])
+    add_styled_table(doc, headers_site, rows_site)
 
     doc.add_paragraph()
 
