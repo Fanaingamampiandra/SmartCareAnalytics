@@ -5,30 +5,18 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF_NORMAL,CFX_NORMAL,TOTAL_NORMAL,UNITE,MODE,P
 2014,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients,Normal,7120.8,7120.8,14241.6,6329.6,80.0
 2015,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients,Normal,7120.8,7120.8,14241.6,6329.6,80.0
 2016,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients,Normal,7120.8,7120.8,14241.6,6329.6,80.0
-2011,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
-2012,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
-2013,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
-2014,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
-2015,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
-2016,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours,Normal,53115.3,53115.3,106230.6,47213.6,80.0
 2011,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
 2012,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
-2013,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
-2014,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
-2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
-2016,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients,Normal,9967.5,9967.5,19935.0,8860.0,80.0
-2011,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2012,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2013,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2014,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2015,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2016,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
-2011,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
-2012,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
-2013,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
-2014,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
-2015,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
-2016,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
+2013,Causes d'hopitalisations,Pathologies cancéreuses - Total,13527.83,13527.83,27055.67,patients,Normal,24350.09,24350.09,48700.18,21644.51,80.0
+2014,Causes d'hopitalisations,Pathologies cancéreuses - Total,21518.17,21518.17,43036.33,patients,Normal,38732.71,38732.71,77465.42,34429.09,80.0
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,29508.5,29508.5,59017.0,patients,Normal,53115.3,53115.3,106230.6,47213.6,80.0
+2016,Causes d'hopitalisations,Pathologies cancéreuses - Total,29508.5,29508.5,59017.0,patients,Normal,53115.3,53115.3,106230.6,47213.6,80.0
+2011,Origine géographique,Autres départements et DOM TOM,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
+2012,Origine géographique,Autres départements et DOM TOM,1.5,1.5,3.0,%,Normal,2.7,2.7,5.4,2.4,80.0
+2013,Origine géographique,Autres départements et DOM TOM,3.17,3.17,6.33,%,Normal,5.71,5.71,11.42,5.09,80.41
+2014,Origine géographique,Autres départements et DOM TOM,4.83,4.83,9.67,%,Normal,8.69,8.69,17.38,7.71,79.73
+2015,Origine géographique,Autres départements et DOM TOM,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
+2016,Origine géographique,Autres départements et DOM TOM,6.5,6.5,13.0,%,Normal,11.7,11.7,23.4,10.4,80.0
 2011,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%,Normal,0.94,0.94,1.88,0.85,82.52
 2012,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%,Normal,0.94,0.94,1.88,0.85,82.52
 2013,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%,Normal,0.94,0.94,1.88,0.85,82.52
@@ -164,12 +152,12 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF_NORMAL,CFX_NORMAL,TOTAL_NORMAL,UNITE,MODE,P
 2011,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans,Normal,96.84,153.18,250.02,111.12,80.0
 2012,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans,Normal,96.84,153.18,250.02,111.12,80.0
 2013,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans,Normal,96.84,153.18,250.02,111.12,80.0
-2011,Urgences,Passages,83002.0,,,patients,Normal,149403.6,,,,
-2012,Urgences,Passages,85993.0,,,patients,Normal,154787.4,,,,
-2013,Urgences,Passages,85993.0,,,patients,Normal,154787.4,,,,
-2011,Urgences,Patients admis,6083.0,,,patients,Normal,10949.4,,,,
-2012,Urgences,Patients admis,10063.0,,,patients,Normal,18113.4,,,,
-2013,Urgences,Patients admis,10063.0,,,patients,Normal,18113.4,,,,
+2011,Urgences,Passages,83002.0,4500.0,87502.0,patients,Normal,149403.6,8100.0,157503.6,70001.6,80.0
+2012,Urgences,Passages,85993.0,4800.0,90793.0,patients,Normal,154787.4,8640.0,163427.4,72634.4,80.0
+2013,Urgences,Passages,85993.0,4800.0,90793.0,patients,Normal,154787.4,8640.0,163427.4,72634.4,80.0
+2011,Urgences,Patients admis,6083.0,900.0,6983.0,patients,Normal,10949.4,1620.0,12569.4,5586.4,80.0
+2012,Urgences,Patients admis,10063.0,1200.0,11263.0,patients,Normal,18113.4,2160.0,20273.4,9010.4,80.0
+2013,Urgences,Patients admis,10063.0,1200.0,11263.0,patients,Normal,18113.4,2160.0,20273.4,9010.4,80.0
 2011,Urgences,UHCD,10.0,10.0,20.0,patients,Normal,18.0,18.0,36.0,16.0,80.0
 2012,Urgences,UHCD,10.0,10.0,20.0,patients,Normal,18.0,18.0,36.0,16.0,80.0
 2013,Urgences,UHCD,10.0,10.0,20.0,patients,Normal,18.0,18.0,36.0,16.0,80.0

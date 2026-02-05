@@ -5,30 +5,18 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2014,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients
 2015,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients
 2016,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,3956.0,3956.0,7912.0,patients
-2011,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
-2012,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
-2013,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
-2014,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
-2015,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
-2016,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,29508.5,29508.5,59017.0,sejours
 2011,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
 2012,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
-2013,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
-2014,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
-2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
-2016,Causes d'hopitalisations,Pathologies cancéreuses - Total,5537.5,5537.5,11075.0,patients
-2011,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2012,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2013,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2014,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2015,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2016,Origine géographique,Autres départements et DOM TOM - MCO,6.5,6.5,13.0,%
-2011,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
-2012,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
-2013,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
-2014,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
-2015,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
-2016,Origine géographique,Autres départements et DOM TOM - SSR,1.5,1.5,3.0,%
+2013,Causes d'hopitalisations,Pathologies cancéreuses - Total,13527.83,13527.83,27055.67,patients
+2014,Causes d'hopitalisations,Pathologies cancéreuses - Total,21518.17,21518.17,43036.33,patients
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,29508.5,29508.5,59017.0,patients
+2016,Causes d'hopitalisations,Pathologies cancéreuses - Total,29508.5,29508.5,59017.0,patients
+2011,Origine géographique,Autres départements et DOM TOM,1.5,1.5,3.0,%
+2012,Origine géographique,Autres départements et DOM TOM,1.5,1.5,3.0,%
+2013,Origine géographique,Autres départements et DOM TOM,3.17,3.17,6.33,%
+2014,Origine géographique,Autres départements et DOM TOM,4.83,4.83,9.67,%
+2015,Origine géographique,Autres départements et DOM TOM,6.5,6.5,13.0,%
+2016,Origine géographique,Autres départements et DOM TOM,6.5,6.5,13.0,%
 2011,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%
 2012,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%
 2013,Origine géographique,DOM TOM - MCO,0.52,0.52,1.03,%
@@ -164,12 +152,12 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2011,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans
 2012,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans
 2013,Profil patients,Âge moyen - MCO,53.8,85.1,138.9,ans
-2011,Urgences,Passages,83002.0,,,patients
-2012,Urgences,Passages,85993.0,,,patients
-2013,Urgences,Passages,85993.0,,,patients
-2011,Urgences,Patients admis,6083.0,,,patients
-2012,Urgences,Patients admis,10063.0,,,patients
-2013,Urgences,Patients admis,10063.0,,,patients
+2011,Urgences,Passages,83002.0,4500.0,87502.0,patients
+2012,Urgences,Passages,85993.0,4800.0,90793.0,patients
+2013,Urgences,Passages,85993.0,4800.0,90793.0,patients
+2011,Urgences,Patients admis,6083.0,900.0,6983.0,patients
+2012,Urgences,Patients admis,10063.0,1200.0,11263.0,patients
+2013,Urgences,Patients admis,10063.0,1200.0,11263.0,patients
 2011,Urgences,UHCD,10.0,10.0,20.0,patients
 2012,Urgences,UHCD,10.0,10.0,20.0,patients
 2013,Urgences,UHCD,10.0,10.0,20.0,patients
