@@ -10,7 +10,8 @@ PAGES = list(PAGE_MODULES.keys())
 
 # Données par page (chemin CSV ou None si pas encore de données)
 DATA_PATHS = {
-    "Logistique": "data/logistics/logistics-data-with-crise.csv",
+    # Logistique : données journalières reconstituées
+    "Logistique": "data/logistics/donnees_journalieres_reconstituees.csv",
     "Activité & Service": None,
     "Capacité": None,
     "Finance": None,
@@ -21,6 +22,18 @@ DATA_PATHS = {
 
 st.set_page_config(page_title="PSL–CFX | Infographie (Normal vs Crise)", layout="wide")
 
+# Masque le menu multipage par défaut de Streamlit dans la sidebar
+st.markdown(
+    """
+    <style>
+    [data-testid="stSidebarNav"] {
+        display: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 def get_years_for_filters():
     """Années disponibles pour les filtres (à partir d’une source commune)."""
@@ -28,7 +41,9 @@ def get_years_for_filters():
     if path:
         try:
             df = load_data(path)
-            return sorted(df["ANNEE"].unique().tolist())
+            year_col = "ANNEE" if "ANNEE" in df.columns else ("year" if "year" in df.columns else None)
+            if year_col is not None:
+                return sorted(df[year_col].astype(int).unique().tolist())
         except Exception:
             pass
     return list(range(2011, 2026))
@@ -51,6 +66,12 @@ page_choice = st.sidebar.selectbox("Page", options=PAGES, label_visibility="coll
 years = get_years_for_filters()
 st.sidebar.header("Filtres")
 year_choice = st.sidebar.selectbox("Année", options=["Toutes"] + years)
+months = list(range(1, 13))
+month_choice = st.sidebar.selectbox(
+    "Mois",
+    options=["Tous"] + months,
+    format_func=lambda m: "Tous" if m == "Tous" else f"{m:02d}",
+)
 mode_choice = st.sidebar.radio(
     "Mode",
     options=["Normal", "Crise"],
@@ -83,6 +104,7 @@ page_module = importlib.import_module(f"pages.{module_name}")
 context = {
     "data_path": DATA_PATHS.get(page_choice),
     "year_choice": year_choice,
+    "month_choice": month_choice,
     "mode_choice": mode_choice,
     "hospital_choice": hospital_choice,
     "normal_col": normal_col,
@@ -91,5 +113,3 @@ context = {
     "page_name": page_choice,
 }
 page_module.render(st, **context)
-
-st.caption("Note : le mode crise est une simulation basée sur des coefficients (scénarios).")
