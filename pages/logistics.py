@@ -7,18 +7,17 @@ import altair as alt
 from utils import load_data
 
 PALETTE_ANNEES = [
-    "#1f77b4",
-    "#ff7f0e",
-    "#2ca02c",
-    "#d62728",
-    "#9467bd",
-    "#8c564b",
-    "#e377c2",
-    "#7f7f7f",
-    "#bcbd22",
-    "#17becf",
+    "#003A8F",  # Bleu AP-HP foncé (institutionnel)
+    "#0B5ED7",  # Bleu hospitalier standard
+    "#1F77B4",  # Bleu scientifique (charts)
+    "#4A90E2",  # Bleu moyen
+    "#6BAED6",  # Bleu clair
+    "#9ECAE1",  # Bleu très clair
+    "#DCEAF7",  # Bleu blanc cassé
+    "#F2F6FA",  # Blanc bleuté (fond)
+    "#B0B7C3",  # Gris hospitalier clair
+    "#6C757D",  # Gris technique
 ]
-
 
 def render(
     st_module,

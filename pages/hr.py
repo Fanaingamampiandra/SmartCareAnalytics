@@ -24,9 +24,10 @@ def render(
     *,
     data_path,
     year_choice,
+    month_choice,
     mode_choice,
-    normal_col,
-    crise_col,
+    normal_col,  # gardé pour compatibilité mais non utilisé avec le CSV journalier
+    crise_col,   # idem
     years,
     **kwargs,
 ):
@@ -39,93 +40,182 @@ def render(
         st_module.error(f"Impossible de charger les données : {e}")
         return
 
+    # Choix de la colonne de valeur selon le mode (Normal / Crise)
+    value_col = "value"
+    if mode_choice == "Crise" and "value_crise" in df.columns:
+        value_col = "value_crise"
+
+    # Filtre site / total à partir de la colonne daily `site_code`
+    hospital_choice = kwargs.get("hospital_choice", "TOTAL")
+    if "site_code" in df.columns:
+        if hospital_choice in ("PLF", "CFX"):
+            df = df[df["site_code"] == hospital_choice]
+        # TOTAL => on garde PLF + CFX
+
+    # Filtre année (colonne `year` dans le CSV journalier)
     dff = df.copy()
-    if year_choice != "Toutes":
-        dff = dff[dff["ANNEE"] == int(year_choice)]
+    year_col = "ANNEE" if "ANNEE" in dff.columns else "year"
+    if year_choice != "Toutes" and year_col in dff.columns:
+        dff[year_col] = dff[year_col].astype(int)
+        dff = dff[dff[year_col] == int(year_choice)]
 
-    compare_cols = ["ANNEE", "INDICATEUR", "SOUS-INDICATEUR", "UNITE", normal_col, crise_col]
-    cmp = (
-        dff[["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"]]
-        .drop_duplicates()
-        .merge(df[compare_cols], on=["ANNEE", "INDICATEUR", "SOUS-INDICATEUR"], how="left")
-    )
-    cmp["CHANGEMENT"] = cmp[crise_col] - cmp[normal_col]
-    cmp["EVOLUTION_%"] = np.where(
-        cmp[normal_col].fillna(0) == 0,
-        np.nan,
-        (cmp["CHANGEMENT"] / cmp[normal_col]) * 100,
-    )
-    cmp["TENDANCE"] = cmp["CHANGEMENT"].apply(lambda x: "⬆️" if x > 0 else ("⬇️" if x < 0 else "➜"))
+    # Filtre mois si demandé (colonne `month` créée dans la saisonnalité)
+    if month_choice != "Tous" and "month" in dff.columns:
+        dff["month"] = dff["month"].astype(int)
+        dff = dff[dff["month"] == int(month_choice)]
 
-    indicateurs = sorted(cmp["INDICATEUR"].dropna().unique().tolist())
+    # Colonnes attendues dans le CSV journalier
+    required_cols = {"indicateur", "sous_indicateur", "unite", value_col}
+    if not required_cols.issubset(dff.columns):
+        st_module.error(
+            f"Le CSV journalier ne contient pas les colonnes attendues ({', '.join(sorted(required_cols))})."
+        )
+        return
+
+    indicateurs = sorted(dff["indicateur"].dropna().unique().tolist())
     tabs = st_module.tabs(indicateurs)
 
     for tab, indic in zip(tabs, indicateurs):
         with tab:
             st_module.subheader(indic)
-            df_indic = cmp[cmp["INDICATEUR"] == indic]
-            unites = sorted(df_indic["UNITE"].dropna().unique().tolist())
+            df_indic = dff[dff["indicateur"] == indic]
+            unites = sorted(df_indic["unite"].dropna().unique().tolist())
+
+            multi_year = year_choice == "Toutes"
+            monthly_mode = month_choice == "Tous"
 
             for unite in unites:
-                df_u = df_indic[df_indic["UNITE"] == unite]
-                sous_labels = sorted(df_u["SOUS-INDICATEUR"].dropna().unique().tolist())
-                subtitle = f"{sous_labels[0]} ({unite})" if len(sous_labels) == 1 else f"({unite})"
-                by_year = year_choice == "Toutes"
+                df_u = df_indic[df_indic["unite"] == unite]
+                sous_labels = sorted(df_u["sous_indicateur"].dropna().unique().tolist())
 
-                if by_year:
-                    agg = (
-                        df_u.groupby(["SOUS-INDICATEUR", "ANNEE"])[[normal_col, crise_col]]
-                        .sum()
-                        .reset_index()
-                    )
-                    agg["ANNEE"] = agg["ANNEE"].astype(int)
-                    col_to_show = normal_col if mode_choice == "Normal" else crise_col
+                for sous in sous_labels:
+                    df_s = df_u[df_u["sous_indicateur"] == sous]
+                    subtitle = f"{sous} ({unite})"
                     mode_label = "Situation normale" if mode_choice == "Normal" else "Crise (simulation)"
-                    long = agg[["SOUS-INDICATEUR", "ANNEE", col_to_show]].rename(columns={col_to_show: "Valeur"})
-                    bars = (
-                        alt.Chart(long)
-                        .mark_bar()
-                        .encode(
-                            x=alt.X("SOUS-INDICATEUR:N", title="Sous-indicateur"),
-                            y=alt.Y("Valeur:Q", title=f"Volume ({unite})", axis=alt.Axis(format=",.2f")),
-                            color=alt.Color("ANNEE:O", title="Année", scale=alt.Scale(domain=years, range=PALETTE_ANNEES)),
-                        )
-                    )
-                    sub = f"{subtitle} — par année ({mode_label})"
-                    chart = bars.properties(title={"text": indic, "subtitle": sub}, height=450)
-                else:
-                    col_to_show = normal_col if mode_choice == "Normal" else crise_col
-                    mode_label = "Situation normale" if mode_choice == "Normal" else "Crise (simulation)"
-                    year_idx = years.index(int(year_choice)) if int(year_choice) in years else 0
-                    color_annee = PALETTE_ANNEES[year_idx % len(PALETTE_ANNEES)]
-                    agg = df_u.groupby("SOUS-INDICATEUR")[[col_to_show]].sum().reset_index()
-                    agg = agg.rename(columns={col_to_show: "Valeur"})
-                    bars = (
-                        alt.Chart(agg)
-                        .mark_bar()
-                        .encode(
-                            x=alt.X("SOUS-INDICATEUR:N", title="Sous-indicateur"),
-                            y=alt.Y("Valeur:Q", title=f"Volume ({unite})", axis=alt.Axis(format=",.2f")),
-                            color=alt.value(color_annee),
-                        )
-                    )
-                    chart = bars.properties(
-                        title={"text": indic, "subtitle": f"{subtitle} — {mode_label}"},
-                        height=450,
-                    )
-                st_module.altair_chart(chart, use_container_width=True)
-                st_module.markdown("<div style='margin-bottom: 3.5rem;'></div>", unsafe_allow_html=True)
 
+                    # 1) Toutes les années + tous les mois -> courbes mensuelles par année
+                    if multi_year and monthly_mode:
+                        if not {"year", "month"}.issubset(df_s.columns):
+                            continue
+                        agg = (
+                            df_s.groupby(["year", "month"])[value_col]
+                            .sum()
+                            .reset_index()
+                            .rename(columns={value_col: "value"})
+                        )
+                        agg["year"] = agg["year"].astype(int)
+                        agg["month"] = agg["month"].astype(int)
+                        chart_obj = (
+                            alt.Chart(agg)
+                            .mark_line(point=True)
+                            .encode(
+                                x=alt.X("month:O", title="Mois"),
+                                y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
+                                color=alt.Color("year:O", title="Année", scale=alt.Scale(domain=years, range=PALETTE_ANNEES)),
+                            )
+                        )
+                        sub = f"{subtitle} — profil mensuel multi-années ({mode_label})"
+
+                    # 2) Une seule année + tous les mois -> profil mensuel de l'année
+                    elif (not multi_year) and monthly_mode:
+                        if "month" not in df_s.columns:
+                            continue
+                        agg = (
+                            df_s.groupby("month")[value_col]
+                            .sum()
+                            .reset_index()
+                            .rename(columns={value_col: "value"})
+                        )
+                        agg["month"] = agg["month"].astype(int)
+                        # Couleur fixe liée à l'année sélectionnée
+                        year_idx = years.index(int(year_choice)) if int(year_choice) in years else 0
+                        color_annee = PALETTE_ANNEES[year_idx % len(PALETTE_ANNEES)]
+                        chart_obj = (
+                            alt.Chart(agg)
+                            .mark_line(point=True)
+                            .encode(
+                                x=alt.X("month:O", title="Mois"),
+                                y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
+                                color=alt.value(color_annee),
+                            )
+                        )
+                        sub = f"{subtitle} — profil mensuel {year_choice} ({mode_label})"
+
+                    # 3) Mois spécifique -> série journalière
+                    else:
+                        if not {"date", "year"}.issubset(df_s.columns):
+                            continue
+                        agg = (
+                            df_s.groupby(["year", "date"])[value_col]
+                            .sum()
+                            .reset_index()
+                            .rename(columns={value_col: "value"})
+                        )
+                        agg["year"] = agg["year"].astype(int)
+                        # Afficher le jour du mois sur l’axe X, couleur par année
+                        if multi_year:
+                            chart_obj = (
+                                alt.Chart(agg)
+                                .mark_line(point=True)
+                                .encode(
+                                    x=alt.X(
+                                        "date:T",
+                                        title="Jour",
+                                        axis=alt.Axis(format="%d"),
+                                    ),
+                                    y=alt.Y("value:Q", title=f"Volume journalier ({unite})", axis=alt.Axis(format=",.2f")),
+                                    color=alt.Color(
+                                        "year:O",
+                                        title="Année",
+                                        scale=alt.Scale(domain=years, range=PALETTE_ANNEES),
+                                    ),
+                                )
+                            )
+                        else:
+                            year_idx = years.index(int(year_choice)) if int(year_choice) in years else 0
+                            color_annee = PALETTE_ANNEES[year_idx % len(PALETTE_ANNEES)]
+                            chart_obj = (
+                                alt.Chart(agg)
+                                .mark_line(point=True)
+                                .encode(
+                                    x=alt.X(
+                                        "date:T",
+                                        title="Jour",
+                                        axis=alt.Axis(format="%d"),
+                                    ),
+                                    y=alt.Y("value:Q", title=f"Volume journalier ({unite})", axis=alt.Axis(format=",.2f")),
+                                    color=alt.value(color_annee),
+                                )
+                            )
+                        if multi_year:
+                            sub = f"{subtitle} — série journalière (mois {month_choice}, toutes années) ({mode_label})"
+                        else:
+                            sub = f"{subtitle} — série journalière {year_choice}-{int(month_choice):02d} ({mode_label})"
+
+                    chart = chart_obj.properties(
+                        title={"text": indic, "subtitle": sub},
+                        height=350,
+                    )
+
+                    st_module.altair_chart(chart, use_container_width=True)
+                    st_module.markdown("<div style='margin-bottom: 3.5rem;'></div>", unsafe_allow_html=True)
+
+            # Tableau détaillé annuel par sous-indicateur / année
             with st_module.expander("Voir le détail (tableau)"):
-                out = df_indic.rename(columns={
-                    normal_col: "Valeur (normal)",
-                    crise_col: "Valeur (crise)",
-                    "CHANGEMENT": "Changement",
-                    "EVOLUTION_%": "Évolution (%)",
-                    "TENDANCE": "Tendance",
-                })
-                cols = ["ANNEE", "UNITE", "SOUS-INDICATEUR", "Valeur (normal)", "Valeur (crise)", "Changement", "Évolution (%)", "Tendance"]
+                table = (
+                    df_indic
+                    .groupby(["year", "unite", "sous_indicateur"])[value_col]
+                    .sum()
+                    .reset_index()
+                    .rename(columns={
+                        "year": "ANNEE",
+                        "unite": "UNITE",
+                        "sous_indicateur": "SOUS-INDICATEUR",
+                        value_col: "Valeur annuelle",
+                    })
+                )
+                cols = ["ANNEE", "UNITE", "SOUS-INDICATEUR", "Valeur annuelle"]
                 st_module.dataframe(
-                    out[[c for c in cols if c in out.columns]].sort_values(["UNITE", "SOUS-INDICATEUR", "ANNEE"]),
+                    table[cols].sort_values(["UNITE", "SOUS-INDICATEUR", "ANNEE"]),
                     use_container_width=True,
                 )
