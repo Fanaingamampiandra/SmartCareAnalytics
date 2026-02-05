@@ -75,8 +75,8 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Activités en actes,Laboratoires,6 255 833,130 657,6 386 490,actes
 2012,Transplantations,Moelle osseuse,,,51,transplations
 2015,Transplantations,Moelle Osseuse,,,66,transplations
-2012,Sejour par Pole,MSN (Maladies du Système Nerveux),,,6 198,sejours
-2012,Sejour par Pole,MSN (Maladies du Système Nerveux),,,18 398,sejours
+2012,Sejour MCO par Pole,MSN (Maladies du Système Nerveux),,,6 198,sejours
+2012,Sejour en ambulatoire par Pole,MSN (Maladies du Système Nerveux),,,18 398,sejours
 2015,Sejour par Pole,MSN (Maladies du Système Nerveux),,,6716,sejours
 2012,Causes d'hospitalisation,Naissances,,,2 457,naissances
 2011,Mode d'hospitalisation,Nombre de journées psychiatriques,28 396,6 176,,sejours
