@@ -16,9 +16,6 @@ PALETTE_ANNEES = [
     "#4A90E2",  # Bleu moyen
     "#6BAED6",  # Bleu clair
     "#9ECAE1",  # Bleu très clair
-    "#DCEAF7",  # Bleu blanc cassé
-    "#F2F6FA",  # Blanc bleuté (fond)
-    "#B0B7C3",  # Gris hospitalier clair
     "#E67E22",  # Gris technique
 ]
 
