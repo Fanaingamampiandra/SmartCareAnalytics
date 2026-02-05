@@ -86,6 +86,8 @@ hospital_choice = st.sidebar.radio(
     format_func=lambda x: {"TOTAL": "Total (PSL + CFX)", "PLF": "Pitié-Salpêtrière (PSL)", "CFX": "Charles Foix (CFX)"}[x],
 )
 
+show_forecast = st.sidebar.checkbox("Afficher prévision 2017", value=False)
+
 normal_col, crise_col = pick_value_cols(hospital_choice)
 
 # ---------------------------
@@ -110,5 +112,6 @@ context = {
     "crise_col": crise_col,
     "years": years,
     "page_name": page_choice,
+    "show_forecast": show_forecast,
 }
 page_module.render(st, **context)
