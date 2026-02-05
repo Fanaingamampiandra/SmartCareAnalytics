@@ -1,0 +1,589 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF_NORMAL,CFX_NORMAL,TOTAL_NORMAL,UNITE,MODE,PLF_CRISE,CFX_CRISE,TOTAL_CRISE,ECART_TOTAL,VARIATION_PCT
+2011,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2012,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2013,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2014,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2015,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2016,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2017,Actes,Actes opératoires,23962.5,23962.5,47925.0,actes,Normal,40736.25,40736.25,81472.5,33547.5,70.0
+2011,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2012,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2013,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2014,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2015,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2016,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2017,Actes,Actes opératoires - ambulatoires,6245.0,6245.0,12490.0,actes,Normal,10616.5,10616.5,21233.0,8743.0,70.0
+2011,Activités en actes,Chirurgie,44931.0,141.0,45072.0,actes,Normal,76382.7,239.7,76622.4,31550.4,70.0
+2012,Activités en actes,Chirurgie,45463.0,117.0,45580.0,actes,Normal,77287.1,198.9,77486.0,31906.0,70.0
+2013,Activités en actes,Chirurgie,45463.0,117.0,45580.0,actes,Normal,77287.1,198.9,77486.0,31906.0,70.0
+2011,Activités en actes,Laboratoires,6228317.0,237943.0,6466260.0,actes,Normal,10588138.9,404503.1,10992642.0,4526382.0,70.0
+2012,Activités en actes,Laboratoires,6255833.0,130657.0,6386490.0,actes,Normal,10634916.1,222116.9,10857033.0,4470543.0,70.0
+2013,Activités en actes,Laboratoires,6255833.0,130657.0,6386490.0,actes,Normal,10634916.1,222116.9,10857033.0,4470543.0,70.0
+2011,Activités en actes,Soins dentaires,383041.0,22357.0,405398.0,actes,Normal,651169.7,38006.9,689176.6,283778.6,70.0
+2012,Activités en actes,Soins dentaires,377686.0,31681.0,409367.0,actes,Normal,642066.2,53857.7,695923.9,286556.9,70.0
+2013,Activités en actes,Soins dentaires,377686.0,31681.0,409367.0,actes,Normal,642066.2,53857.7,695923.9,286556.9,70.0
+2011,Activités en séances,Chimiothérapie,19640.0,392.0,20032.0,actes,Normal,33388.0,666.4,34054.4,14022.4,70.0
+2012,Activités en séances,Chimiothérapie,16714.0,482.0,17196.0,actes,Normal,28413.8,819.4,29233.2,12037.2,70.0
+2013,Activités en séances,Chimiothérapie,16714.0,482.0,17196.0,actes,Normal,28413.8,819.4,29233.2,12037.2,70.0
+2011,Activités en séances,Dialyses,7862.0,0.0,7862.0,actes,Normal,13365.4,0.0,13365.4,5503.4,70.0
+2012,Activités en séances,Dialyses,7038.0,0.0,7038.0,actes,Normal,11964.6,0.0,11964.6,4926.6,70.0
+2013,Activités en séances,Dialyses,7038.0,0.0,7038.0,actes,Normal,11964.6,0.0,11964.6,4926.6,70.0
+2011,Activités en séances,Radiothérapie,17026.0,0.0,17026.0,actes,Normal,28944.2,0.0,28944.2,11918.2,70.0
+2012,Activités en séances,Radiothérapie,16136.0,0.0,16136.0,actes,Normal,27431.2,0.0,27431.2,11295.2,70.0
+2013,Activités en séances,Radiothérapie,16136.0,0.0,16136.0,actes,Normal,27431.2,0.0,27431.2,11295.2,70.0
+2011,Causes d'hospitalisation,Accouchements,1139.5,1139.5,2279.0,accouchements,Normal,1937.15,1937.15,3874.3,1595.3,70.0
+2012,Causes d'hospitalisation,Accouchements,1139.5,1139.5,2279.0,accouchements,Normal,1937.15,1937.15,3874.3,1595.3,70.0
+2013,Causes d'hospitalisation,Accouchements,1139.5,1139.5,2279.0,accouchements,Normal,1937.15,1937.15,3874.3,1595.3,70.0
+2014,Causes d'hospitalisation,Accouchements,1139.5,1139.5,2279.0,accouchements,Normal,1937.15,1937.15,3874.3,1595.3,70.0
+2015,Causes d'hospitalisation,Accouchements,1139.5,1139.5,2279.0,accouchements,Normal,1937.15,1937.15,3874.3,1595.3,70.0
+2016,Causes d'hospitalisation,Accouchements,1093.0,1093.0,2186.0,accouchements,Normal,1858.1,1858.1,3716.2,1530.2,70.0
+2017,Causes d'hospitalisation,Accouchements,1093.0,1093.0,2186.0,accouchements,Normal,1858.1,1858.1,3716.2,1530.2,70.0
+2011,Causes d'hospitalisation,Naissances,1228.5,1228.5,2457.0,naissances,Normal,2088.45,2088.45,4176.9,1719.9,70.0
+2012,Causes d'hospitalisation,Naissances,1228.5,1228.5,2457.0,naissances,Normal,2088.45,2088.45,4176.9,1719.9,70.0
+2013,Causes d'hospitalisation,Naissances,1228.5,1228.5,2457.0,naissances,Normal,2088.45,2088.45,4176.9,1719.9,70.0
+2011,Causes d'hospitalisation,Obstétrique,2274.0,2274.0,4548.0,sejours,Normal,3865.8,3865.8,7731.6,3183.6,70.0
+2012,Causes d'hospitalisation,Obstétrique,2274.0,2274.0,4548.0,sejours,Normal,3865.8,3865.8,7731.6,3183.6,70.0
+2013,Causes d'hospitalisation,Obstétrique,2242.83,2242.83,4485.67,sejours,Normal,3812.81,3812.81,7625.62,3139.95,70.0
+2014,Causes d'hospitalisation,Obstétrique,2211.67,2211.67,4423.33,sejours,Normal,3759.84,3759.84,7519.68,3096.35,70.0
+2015,Causes d'hospitalisation,Obstétrique,2180.5,2180.5,4361.0,sejours,Normal,3706.85,3706.85,7413.7,3052.7,70.0
+2016,Causes d'hospitalisation,Obstétrique,2180.5,2180.5,4361.0,sejours,Normal,3706.85,3706.85,7413.7,3052.7,70.0
+2011,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2012,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2013,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2014,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2015,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2016,Causes d'hospitalisation,Pathologies Digestives,4283.0,4283.0,8566.0,sejours,Normal,7281.1,7281.1,14562.2,5996.2,70.0
+2011,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2012,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2013,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2014,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2015,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2016,Causes d'hospitalisation,Pathologies Génito-urinaires,6077.0,6077.0,12154.0,sejours,Normal,10330.9,10330.9,20661.8,8507.8,70.0
+2011,Causes d'hospitalisation,Pathologies cancéreuses,23394.5,23394.5,46789.0,sejours,Normal,39770.65,39770.65,79541.3,32752.3,70.0
+2012,Causes d'hospitalisation,Pathologies cancéreuses,23394.5,23394.5,46789.0,sejours,Normal,39770.65,39770.65,79541.3,32752.3,70.0
+2013,Causes d'hospitalisation,Pathologies cancéreuses,25432.5,25432.5,50865.0,sejours,Normal,43235.25,43235.25,86470.5,35605.5,70.0
+2014,Causes d'hospitalisation,Pathologies cancéreuses,27470.5,27470.5,54941.0,sejours,Normal,46699.85,46699.85,93399.7,38458.7,70.0
+2015,Causes d'hospitalisation,Pathologies cancéreuses,29508.5,29508.5,59017.0,sejours,Normal,50164.45,50164.45,100328.9,41311.9,70.0
+2016,Causes d'hospitalisation,Pathologies cancéreuses,29508.5,29508.5,59017.0,sejours,Normal,50164.45,50164.45,100328.9,41311.9,70.0
+2011,Causes d'hospitalisation,Pathologies cardio-vasculaires,7637.5,7637.5,15275.0,sejours,Normal,12983.75,12983.75,25967.5,10692.5,70.0
+2012,Causes d'hospitalisation,Pathologies cardio-vasculaires,7637.5,7637.5,15275.0,sejours,Normal,12983.75,12983.75,25967.5,10692.5,70.0
+2013,Causes d'hospitalisation,Pathologies cardio-vasculaires,7748.0,7748.0,15496.0,sejours,Normal,13171.6,13171.6,26343.2,10847.2,70.0
+2014,Causes d'hospitalisation,Pathologies cardio-vasculaires,7858.5,7858.5,15717.0,sejours,Normal,13359.45,13359.45,26718.9,11001.9,70.0
+2015,Causes d'hospitalisation,Pathologies cardio-vasculaires,7969.0,7969.0,15938.0,sejours,Normal,13547.3,13547.3,27094.6,11156.6,70.0
+2016,Causes d'hospitalisation,Pathologies cardio-vasculaires,7969.0,7969.0,15938.0,sejours,Normal,13547.3,13547.3,27094.6,11156.6,70.0
+2011,Causes d'hospitalisation,Pathologies de l’appareil digestif,3143.0,3143.0,6286.0,sejours,Normal,5343.1,5343.1,10686.2,4400.2,70.0
+2012,Causes d'hospitalisation,Pathologies de l’appareil digestif,3143.0,3143.0,6286.0,sejours,Normal,5343.1,5343.1,10686.2,4400.2,70.0
+2013,Causes d'hospitalisation,Pathologies de l’appareil digestif,3143.0,3143.0,6286.0,sejours,Normal,5343.1,5343.1,10686.2,4400.2,70.0
+2011,Causes d'hospitalisation,Pathologies de l’appareil génito-urinaire,5983.0,5983.0,11966.0,sejours,Normal,10171.1,10171.1,20342.2,8376.2,70.0
+2012,Causes d'hospitalisation,Pathologies de l’appareil génito-urinaire,5983.0,5983.0,11966.0,sejours,Normal,10171.1,10171.1,20342.2,8376.2,70.0
+2013,Causes d'hospitalisation,Pathologies de l’appareil génito-urinaire,5983.0,5983.0,11966.0,sejours,Normal,10171.1,10171.1,20342.2,8376.2,70.0
+2011,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",5805.5,5805.5,11611.0,sejours,Normal,9869.35,9869.35,19738.7,8127.7,70.0
+2012,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",5805.5,5805.5,11611.0,sejours,Normal,9869.35,9869.35,19738.7,8127.7,70.0
+2013,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",5962.33,5962.33,11924.67,sejours,Normal,10135.96,10135.96,20271.92,8347.25,70.0
+2014,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",6119.17,6119.17,12238.33,sejours,Normal,10402.59,10402.59,20805.18,8566.85,70.0
+2015,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",6276.0,6276.0,12552.0,sejours,Normal,10669.2,10669.2,21338.4,8786.4,70.0
+2016,Causes d'hospitalisation,"Pathologies endocriniennes, métaboliques et nutritionnelles",6276.0,6276.0,12552.0,sejours,Normal,10669.2,10669.2,21338.4,8786.4,70.0
+2011,Causes d'hospitalisation,Pathologies infectieuses,1772.5,1772.5,3545.0,sejours,Normal,3013.25,3013.25,6026.5,2481.5,70.0
+2012,Causes d'hospitalisation,Pathologies infectieuses,1772.5,1772.5,3545.0,sejours,Normal,3013.25,3013.25,6026.5,2481.5,70.0
+2013,Causes d'hospitalisation,Pathologies infectieuses,1773.67,1773.67,3547.33,sejours,Normal,3015.24,3015.24,6030.48,2483.15,70.0
+2014,Causes d'hospitalisation,Pathologies infectieuses,1774.83,1774.83,3549.67,sejours,Normal,3017.21,3017.21,6034.42,2484.75,70.0
+2015,Causes d'hospitalisation,Pathologies infectieuses,1776.0,1776.0,3552.0,sejours,Normal,3019.2,3019.2,6038.4,2486.4,70.0
+2016,Causes d'hospitalisation,Pathologies infectieuses,1776.0,1776.0,3552.0,sejours,Normal,3019.2,3019.2,6038.4,2486.4,70.0
+2011,Causes d'hospitalisation,Pathologies neurologiques,12921.5,12921.5,25843.0,sejours,Normal,21966.55,21966.55,43933.1,18090.1,70.0
+2012,Causes d'hospitalisation,Pathologies neurologiques,12921.5,12921.5,25843.0,sejours,Normal,21966.55,21966.55,43933.1,18090.1,70.0
+2013,Causes d'hospitalisation,Pathologies neurologiques,13239.0,13239.0,26478.0,sejours,Normal,22506.3,22506.3,45012.6,18534.6,70.0
+2014,Causes d'hospitalisation,Pathologies neurologiques,13556.5,13556.5,27113.0,sejours,Normal,23046.05,23046.05,46092.1,18979.1,70.0
+2015,Causes d'hospitalisation,Pathologies neurologiques,13874.0,13874.0,27748.0,sejours,Normal,23585.8,23585.8,47171.6,19423.6,70.0
+2016,Causes d'hospitalisation,Pathologies neurologiques,13874.0,13874.0,27748.0,sejours,Normal,23585.8,23585.8,47171.6,19423.6,70.0
+2011,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5032.0,5032.0,10064.0,sejours,Normal,8554.4,8554.4,17108.8,7044.8,70.0
+2012,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5032.0,5032.0,10064.0,sejours,Normal,8554.4,8554.4,17108.8,7044.8,70.0
+2013,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5163.0,5163.0,10326.0,sejours,Normal,8777.1,8777.1,17554.2,7228.2,70.0
+2014,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5294.0,5294.0,10588.0,sejours,Normal,8999.8,8999.8,17999.6,7411.6,70.0
+2015,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5425.0,5425.0,10850.0,sejours,Normal,9222.5,9222.5,18445.0,7595.0,70.0
+2016,Causes d'hospitalisation,Pathologies orthopédiques et traumatologiques,5425.0,5425.0,10850.0,sejours,Normal,9222.5,9222.5,18445.0,7595.0,70.0
+2011,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2012,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2013,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2014,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2015,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2016,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2017,Centres,Centres d’investigation clinique (CIC),2.0,2.0,4.0,centres,Normal,3.4,3.4,6.8,2.8,70.0
+2011,Centres,Centres maladies rares,5.5,5.5,11.0,centres,Normal,9.35,9.35,18.7,7.7,70.0
+2012,Centres,Centres maladies rares,5.5,5.5,11.0,centres,Normal,9.35,9.35,18.7,7.7,70.0
+2013,Centres,Centres maladies rares,5.5,5.5,11.0,centres,Normal,9.35,9.35,18.7,7.7,70.0
+2011,Examens de laboratoire – en actes,B,5177639.0,236071.0,5413710.0,actes,Normal,8801986.3,401320.7,9203307.0,3789597.0,70.0
+2012,Examens de laboratoire – en actes,B,5034670.0,128091.0,5162761.0,actes,Normal,8558939.0,217754.7,8776693.7,3613932.7,70.0
+2013,Examens de laboratoire – en actes,B,5034670.0,128091.0,5162761.0,actes,Normal,8558939.0,217754.7,8776693.7,3613932.7,70.0
+2011,Examens de laboratoire – en actes,BHN,813954.0,1872.0,815826.0,actes,Normal,1383721.8,3182.4,1386904.2,571078.2,70.0
+2012,Examens de laboratoire – en actes,BHN,946243.0,2566.0,948809.0,actes,Normal,1608613.1,4362.2,1612975.3,664166.3,70.0
+2013,Examens de laboratoire – en actes,BHN,946243.0,2566.0,948809.0,actes,Normal,1608613.1,4362.2,1612975.3,664166.3,70.0
+2011,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2012,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2013,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2014,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2015,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2016,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2017,Greffes,Greffes,197.0,197.0,394.0,greffes,Normal,334.9,334.9,669.8,275.8,70.0
+2011,Greffes,Greffes réalisées,157.0,157.0,314.0,greffes,Normal,266.9,266.9,533.8,219.8,70.0
+2012,Greffes,Greffes réalisées,157.0,157.0,314.0,greffes,Normal,266.9,266.9,533.8,219.8,70.0
+2013,Greffes,Greffes réalisées,157.0,157.0,314.0,greffes,Normal,266.9,266.9,533.8,219.8,70.0
+2011,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2012,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2013,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2014,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2015,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2016,Hospitalisation,Hospitalisations,84197.0,84197.0,168394.0,hospitalisations,Normal,143134.9,143134.9,286269.8,117875.8,70.0
+2011,Hospitalisation,Hospitalisations totales,77950.0,77950.0,155900.0,hospitalisations,Normal,132515.0,132515.0,265030.0,109130.0,70.0
+2012,Hospitalisation,Hospitalisations totales,77950.0,77950.0,155900.0,hospitalisations,Normal,132515.0,132515.0,265030.0,109130.0,70.0
+2013,Hospitalisation,Hospitalisations totales,77950.0,77950.0,155900.0,hospitalisations,Normal,132515.0,132515.0,265030.0,109130.0,70.0
+2011,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2012,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2013,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2014,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2015,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2016,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2017,Hospitalisation,Nombre de services,36.5,36.5,73.0,services,Normal,62.05,62.05,124.1,51.1,70.0
+2011,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2012,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2013,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2014,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2015,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2016,Mission d'enseignement,Enseignement,2500000.0,2500000.0,5000000.0,€,Normal,4250000.0,4250000.0,8500000.0,3500000.0,70.0
+2011,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2012,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2013,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2014,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2015,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2016,Mission d'enseignement,Essais cliniques,4750000.0,4750000.0,9500000.0,€,Normal,8075000.0,8075000.0,16150000.0,6650000.0,70.0
+2011,Mission d'enseignement,Publications,15750000.0,15750000.0,31500000.0,€,Normal,26775000.0,26775000.0,53550000.0,22050000.0,70.0
+2012,Mission d'enseignement,Publications,15750000.0,15750000.0,31500000.0,€,Normal,26775000.0,26775000.0,53550000.0,22050000.0,70.0
+2013,Mission d'enseignement,Publications,17133333.33,17133333.33,34266666.67,€,Normal,29126666.66,29126666.66,58253333.32,23986666.65,70.0
+2014,Mission d'enseignement,Publications,18516666.67,18516666.67,37033333.33,€,Normal,31478333.34,31478333.34,62956666.68,25923333.35,70.0
+2015,Mission d'enseignement,Publications,19900000.0,19900000.0,39800000.0,€,Normal,33830000.0,33830000.0,67660000.0,27860000.0,70.0
+2016,Mission d'enseignement,Publications,19900000.0,19900000.0,39800000.0,€,Normal,33830000.0,33830000.0,67660000.0,27860000.0,70.0
+2011,Mode d'hospitalisation,Consultations,330479.0,330479.0,660958.0,consultations,Normal,561814.3,561814.3,1123628.6,462670.6,70.0
+2012,Mode d'hospitalisation,Consultations,330479.0,330479.0,660958.0,consultations,Normal,561814.3,561814.3,1123628.6,462670.6,70.0
+2013,Mode d'hospitalisation,Consultations,321644.33,321644.33,643288.67,consultations,Normal,546795.36,546795.36,1093590.72,450302.05,70.0
+2014,Mode d'hospitalisation,Consultations,312809.67,312809.67,625619.33,consultations,Normal,531776.44,531776.44,1063552.88,437933.55,70.0
+2015,Mode d'hospitalisation,Consultations,303975.0,303975.0,607950.0,consultations,Normal,516757.5,516757.5,1033515.0,425565.0,70.0
+2016,Mode d'hospitalisation,Consultations,303975.0,303975.0,607950.0,consultations,Normal,516757.5,516757.5,1033515.0,425565.0,70.0
+2011,Mode d'hospitalisation,Consultations externes,630498.0,3038.0,633536.0,consultations,Normal,1071846.6,5164.6,1077011.2,443475.2,70.0
+2012,Mode d'hospitalisation,Consultations externes,657047.0,3911.0,660958.0,consultations,Normal,1116979.9,6648.7,1123628.6,462670.6,70.0
+2013,Mode d'hospitalisation,Consultations externes,651747.79,3758.21,655506.0,consultations,Normal,1107971.24,6388.96,1114360.2,458854.2,70.0
+2014,Mode d'hospitalisation,Consultations externes,646448.57,3605.43,650054.0,consultations,Normal,1098962.57,6129.23,1105091.8,455037.8,70.0
+2015,Mode d'hospitalisation,Consultations externes,641149.36,3452.64,644602.0,consultations,Normal,1089953.91,5869.49,1095823.4,451221.4,70.0
+2016,Mode d'hospitalisation,Consultations externes,641149.36,3452.64,644602.0,consultations,Normal,1089953.91,5869.49,1095823.4,451221.4,70.0
+2011,Mode d'hospitalisation,Nombre de journées SLD,13578.0,90799.0,104377.0,sejours,Normal,23082.6,154358.3,177440.9,73063.9,70.0
+2012,Mode d'hospitalisation,Nombre de journées SLD,13365.0,76129.0,89494.0,sejours,Normal,22720.5,129419.3,152139.8,62645.8,70.0
+2013,Mode d'hospitalisation,Nombre de journées SLD,13365.0,76129.0,89494.0,sejours,Normal,22720.5,129419.3,152139.8,62645.8,70.0
+2011,Mode d'hospitalisation,Nombre de journées SSR,23730.0,45327.0,69057.0,sejours,Normal,40341.0,77055.9,117396.9,48339.9,70.0
+2012,Mode d'hospitalisation,Nombre de journées SSR,21709.0,51704.0,73413.0,sejours,Normal,36905.3,87896.8,124802.1,51389.1,70.0
+2013,Mode d'hospitalisation,Nombre de journées SSR,21709.0,51704.0,73413.0,sejours,Normal,36905.3,87896.8,124802.1,51389.1,70.0
+2011,Mode d'hospitalisation,Nombre de journées psychiatriques,28396.0,6176.0,34572.0,sejours,Normal,48273.2,10499.2,58772.4,24200.4,70.0
+2012,Mode d'hospitalisation,Nombre de journées psychiatriques,30557.0,6643.0,37200.0,sejours,Normal,51946.9,11293.1,63240.0,26040.0,70.0
+2013,Mode d'hospitalisation,Nombre de journées psychiatriques,30557.0,6643.0,37200.0,sejours,Normal,51946.9,11293.1,63240.0,26040.0,70.0
+2011,Mode d'hospitalisation,Nombre de séjours Chirurgie,23228.0,,,sejours,Normal,39487.6,,,,
+2012,Mode d'hospitalisation,Nombre de séjours Chirurgie,23838.0,,,sejours,Normal,40524.6,,,,
+2013,Mode d'hospitalisation,Nombre de séjours Chirurgie,23838.0,,,sejours,Normal,40524.6,,,,
+2011,Mode d'hospitalisation,Nombre de séjours MCO,64356.0,2898.0,67254.0,sejours,Normal,109405.2,4926.6,114331.8,47077.8,70.0
+2012,Mode d'hospitalisation,Nombre de séjours MCO,64693.0,3494.0,68187.0,sejours,Normal,109978.1,5939.8,115917.9,47730.9,70.0
+2013,Mode d'hospitalisation,Nombre de séjours MCO,64693.0,3494.0,68187.0,sejours,Normal,109978.1,5939.8,115917.9,47730.9,70.0
+2011,Mode d'hospitalisation,Nombre de séjours Médecine,121073.0,3978.0,125051.0,sejours,Normal,205824.1,6762.6,212586.7,87535.7,70.0
+2012,Mode d'hospitalisation,Nombre de séjours Médecine,122825.0,4978.0,127803.0,sejours,Normal,208802.5,8462.6,217265.1,89462.1,70.0
+2013,Mode d'hospitalisation,Nombre de séjours Médecine,122825.0,4978.0,127803.0,sejours,Normal,208802.5,8462.6,217265.1,89462.1,70.0
+2011,Mode d'hospitalisation,Nombre de séjours en ambulatoire,83911.0,1080.0,84911.0,sejours,Normal,142648.7,1836.0,144484.7,59573.7,70.16
+2012,Mode d'hospitalisation,Nombre de séjours en ambulatoire,86529.0,1184.0,87713.0,sejours,Normal,147099.3,2012.8,149112.1,61399.1,70.0
+2013,Mode d'hospitalisation,Nombre de séjours en ambulatoire,86529.0,1184.0,87713.0,sejours,Normal,147099.3,2012.8,149112.1,61399.1,70.0
+2011,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2012,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2013,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2014,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2015,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2016,Plateux Techniques,Anapath,46887.0,0.0,46887.0,actes,Normal,79707.9,0.0,79707.9,32820.9,70.0
+2011,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2012,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2013,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2014,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2015,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2016,Plateux Techniques,Biochimie (B),5642800.0,44287.0,5687087.0,actes,Normal,9592760.0,75287.9,9668047.9,3980960.9,70.0
+2011,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2012,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2013,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2014,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2015,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2016,Plateux Techniques,CCAM,47323.0,0.0,47323.0,actes,Normal,80449.1,0.0,80449.1,33126.1,70.0
+2011,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2012,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2013,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2014,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2015,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2016,Plateux Techniques,Chimiothérapie,28787.0,588.0,29375.0,seances,Normal,48937.9,999.6,49937.5,20562.5,70.0
+2011,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2012,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2013,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2014,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2015,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2016,Plateux Techniques,Chirurgie,62926.0,0.0,62926.0,actes,Normal,106974.2,0.0,106974.2,44048.2,70.0
+2011,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2012,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2013,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2014,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2015,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2016,Plateux Techniques,Dialyses,6733.0,0.0,6733.0,seances,Normal,11446.1,0.0,11446.1,4713.1,70.0
+2011,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2012,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2013,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2014,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2015,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2016,Plateux Techniques,Hématologie (BHN),1179103.0,8783.0,1187886.0,actes,Normal,2004475.1,14931.1,2019406.2,831520.2,70.0
+2011,Plateux Techniques,Imagerie,274235.0,8417.0,282652.0,actes,Normal,466199.5,14308.9,480508.4,197856.4,70.0
+2012,Plateux Techniques,Imagerie,333986.0,12481.0,346467.0,actes,Normal,567776.2,21217.7,588993.9,242526.9,70.0
+2013,Plateux Techniques,Imagerie,307884.0,12077.67,319961.67,actes,Normal,523402.8,20532.04,543934.84,223973.17,70.0
+2014,Plateux Techniques,Imagerie,281782.0,11674.33,293456.33,actes,Normal,479029.4,19846.36,498875.76,205419.43,70.0
+2015,Plateux Techniques,Imagerie,255680.0,11271.0,266951.0,actes,Normal,434656.0,19160.7,453816.7,186865.7,70.0
+2016,Plateux Techniques,Imagerie,255680.0,11271.0,266951.0,actes,Normal,434656.0,19160.7,453816.7,186865.7,70.0
+2011,Plateux Techniques,Parasitologie (P),4227.0,0.0,4227.0,actes,Normal,7185.9,0.0,7185.9,2958.9,70.0
+2012,Plateux Techniques,Parasitologie (P),7.0,0.0,7.0,actes,Normal,11.9,0.0,11.9,4.9,70.0
+2013,Plateux Techniques,Parasitologie (P),17.33,0.0,17.33,actes,Normal,29.46,0.0,29.46,12.13,69.99
+2014,Plateux Techniques,Parasitologie (P),27.67,0.0,27.67,actes,Normal,47.04,0.0,47.04,19.37,70.0
+2015,Plateux Techniques,Parasitologie (P),38.0,0.0,38.0,actes,Normal,64.6,0.0,64.6,26.6,70.0
+2016,Plateux Techniques,Parasitologie (P),38.0,0.0,38.0,actes,Normal,64.6,0.0,64.6,26.6,70.0
+2011,Plateux Techniques,Pharmacologie (PHN),232496.0,0.0,232496.0,actes,Normal,395243.2,0.0,395243.2,162747.2,70.0
+2012,Plateux Techniques,Pharmacologie (PHN),274913.0,0.0,274913.0,actes,Normal,467352.1,0.0,467352.1,192439.1,70.0
+2013,Plateux Techniques,Pharmacologie (PHN),288047.67,0.0,288047.67,actes,Normal,489681.04,0.0,489681.04,201633.37,70.0
+2014,Plateux Techniques,Pharmacologie (PHN),301182.33,0.0,301182.33,actes,Normal,512009.96,0.0,512009.96,210827.63,70.0
+2015,Plateux Techniques,Pharmacologie (PHN),314317.0,0.0,314317.0,actes,Normal,534338.9,0.0,534338.9,220021.9,70.0
+2016,Plateux Techniques,Pharmacologie (PHN),314317.0,0.0,314317.0,actes,Normal,534338.9,0.0,534338.9,220021.9,70.0
+2011,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2012,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2013,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2014,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2015,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2016,Plateux Techniques,Plateux tumorales,22949.0,410.0,23359.0,seances,Normal,39013.3,697.0,39710.3,16351.3,70.0
+2011,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2012,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2013,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2014,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2015,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2016,Plateux Techniques,Radiothérapie,15880.0,0.0,15880.0,seances,Normal,26996.0,0.0,26996.0,11116.0,70.0
+2011,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2012,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2013,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2014,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2015,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2016,Plateux Techniques,Soins dentaires,25529.0,7318.0,32847.0,actes,Normal,43399.3,12440.6,55839.9,22992.9,70.0
+2011,Recherche,Enseignement,3950000.0,3950000.0,7900000.0,€,Normal,6715000.0,6715000.0,13430000.0,5530000.0,70.0
+2012,Recherche,Enseignement,3950000.0,3950000.0,7900000.0,€,Normal,6715000.0,6715000.0,13430000.0,5530000.0,70.0
+2013,Recherche,Enseignement,3950000.0,3950000.0,7900000.0,€,Normal,6715000.0,6715000.0,13430000.0,5530000.0,70.0
+2011,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2012,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2013,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2014,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2015,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2016,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2017,Recherche,Essais académiques,119.0,119.0,238.0,essais,Normal,202.3,202.3,404.6,166.6,70.0
+2011,Recherche,Essais cliniques,1500000.0,1500000.0,3000000.0,€,Normal,2550000.0,2550000.0,5100000.0,2100000.0,70.0
+2012,Recherche,Essais cliniques,1500000.0,1500000.0,3000000.0,€,Normal,2550000.0,2550000.0,5100000.0,2100000.0,70.0
+2013,Recherche,Essais cliniques,1500000.0,1500000.0,3000000.0,€,Normal,2550000.0,2550000.0,5100000.0,2100000.0,70.0
+2011,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2012,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2013,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2014,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2015,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2016,Recherche,Essais cliniques actifs,419.0,419.0,838.0,publications,Normal,712.3,712.3,1424.6,586.6,70.0
+2011,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2012,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2013,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2014,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2015,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2016,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2017,Recherche,Essais cliniques industriels,257.0,257.0,514.0,essais,Normal,436.9,436.9,873.8,359.8,70.0
+2011,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2012,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2013,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2014,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2015,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2016,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2017,Recherche,Essais institutionnels,134.5,134.5,269.0,essais,Normal,228.65,228.65,457.3,188.3,70.0
+2011,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2012,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2013,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2014,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2015,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2016,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2017,Recherche,Groupes de recherche clinique (GRC),4.0,4.0,8.0,groupes,Normal,6.8,6.8,13.6,5.6,70.0
+2011,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2012,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2013,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2014,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2015,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2016,Recherche,PHRC,40.0,40.0,80.0,phrc,Normal,68.0,68.0,136.0,56.0,70.0
+2011,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2012,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2013,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2014,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2015,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2016,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2017,Recherche,Programmes d’éducation thérapeutique,17.5,17.5,35.0,programmes,Normal,29.75,29.75,59.5,24.5,70.0
+2011,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2012,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2013,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2014,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2015,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2016,Recherche,Publications catégorie A,268.5,268.5,537.0,publications,Normal,456.45,456.45,912.9,375.9,70.0
+2011,Recherche,Publications scientifiques,992.5,992.5,1985.0,publications,Normal,1687.25,1687.25,3374.5,1389.5,70.0
+2012,Recherche,Publications scientifiques,992.5,992.5,1985.0,publications,Normal,1687.25,1687.25,3374.5,1389.5,70.0
+2013,Recherche,Publications scientifiques,992.5,992.5,1985.0,publications,Normal,1687.25,1687.25,3374.5,1389.5,70.0
+2014,Recherche,Publications scientifiques,992.5,992.5,1985.0,publications,Normal,1687.25,1687.25,3374.5,1389.5,70.0
+2015,Recherche,Publications scientifiques,992.5,992.5,1985.0,publications,Normal,1687.25,1687.25,3374.5,1389.5,70.0
+2016,Recherche,Publications scientifiques,991.0,991.0,1982.0,publications,Normal,1684.7,1684.7,3369.4,1387.4,70.0
+2017,Recherche,Publications scientifiques,991.0,991.0,1982.0,publications,Normal,1684.7,1684.7,3369.4,1387.4,70.0
+2011,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2012,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2013,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2014,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2015,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2016,Recherche,Recettes recherche,815000.0,815000.0,1630000.0,€,Normal,1385500.0,1385500.0,2771000.0,1141000.0,70.0
+2011,Recherche,Valorisation (brevets),350000.0,350000.0,700000.0,€,Normal,595000.0,595000.0,1190000.0,490000.0,70.0
+2012,Recherche,Valorisation (brevets),350000.0,350000.0,700000.0,€,Normal,595000.0,595000.0,1190000.0,490000.0,70.0
+2013,Recherche,Valorisation (brevets),350000.0,350000.0,700000.0,€,Normal,595000.0,595000.0,1190000.0,490000.0,70.0
+2011,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2012,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2013,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2014,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2015,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2016,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2017,Recherche,Étudiants en médecine/pharmacie/odontologie,349.5,349.5,699.0,etudiants,Normal,594.15,594.15,1188.3,489.3,70.0
+2011,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2012,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2013,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2014,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2015,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2016,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2017,Recherche,Étudiants soignants,2000.0,2000.0,4000.0,etudiants,Normal,3400.0,3400.0,6800.0,2800.0,70.0
+2011,Sejour,Journées en SLD,12946.0,54882.0,67828.0,sejours,Normal,22008.2,93299.4,115307.6,47479.6,70.0
+2012,Sejour,Journées en SLD,12946.0,54882.0,67828.0,sejours,Normal,22008.2,93299.4,115307.6,47479.6,70.0
+2013,Sejour,Journées en SLD,12946.0,54882.0,67828.0,sejours,Normal,22008.2,93299.4,115307.6,47479.6,70.0
+2014,Sejour,Journées en SLD,12946.0,54882.0,67828.0,sejours,Normal,22008.2,93299.4,115307.6,47479.6,70.0
+2015,Sejour,Journées en SLD,12946.0,54882.0,67828.0,sejours,Normal,22008.2,93299.4,115307.6,47479.6,70.0
+2016,Sejour,Journées en SLD,12800.37,54264.63,67065.0,sejours,Normal,21760.63,92249.87,114010.5,46945.5,70.0
+2017,Sejour,Journées en SLD,12800.37,54264.63,67065.0,sejours,Normal,21760.63,92249.87,114010.5,46945.5,70.0
+2011,Sejour,Journées en SSR,36428.0,61604.0,98032.0,sejours,Normal,61927.6,104726.8,166654.4,68622.4,70.0
+2012,Sejour,Journées en SSR,36428.0,61604.0,98032.0,sejours,Normal,61927.6,104726.8,166654.4,68622.4,70.0
+2013,Sejour,Journées en SSR,36428.0,61604.0,98032.0,sejours,Normal,61927.6,104726.8,166654.4,68622.4,70.0
+2014,Sejour,Journées en SSR,36428.0,61604.0,98032.0,sejours,Normal,61927.6,104726.8,166654.4,68622.4,70.0
+2015,Sejour,Journées en SSR,36428.0,61604.0,98032.0,sejours,Normal,61927.6,104726.8,166654.4,68622.4,70.0
+2016,Sejour,Journées en SSR,36389.35,61538.65,97928.0,sejours,Normal,61861.9,104615.7,166477.6,68549.6,70.0
+2017,Sejour,Journées en SSR,36389.35,61538.65,97928.0,sejours,Normal,61861.9,104615.7,166477.6,68549.6,70.0
+2011,Sejour,Journées en psychiatrie,42945.0,8295.0,51240.0,sejours,Normal,73006.5,14101.5,87108.0,35868.0,70.0
+2012,Sejour,Journées en psychiatrie,42945.0,8295.0,51240.0,sejours,Normal,73006.5,14101.5,87108.0,35868.0,70.0
+2013,Sejour,Journées en psychiatrie,42945.0,8295.0,51240.0,sejours,Normal,73006.5,14101.5,87108.0,35868.0,70.0
+2014,Sejour,Journées en psychiatrie,42945.0,8295.0,51240.0,sejours,Normal,73006.5,14101.5,87108.0,35868.0,70.0
+2015,Sejour,Journées en psychiatrie,42945.0,8295.0,51240.0,sejours,Normal,73006.5,14101.5,87108.0,35868.0,70.0
+2016,Sejour,Journées en psychiatrie,42484.04,8205.96,50690.0,sejours,Normal,72222.87,13950.13,86173.0,35483.0,70.0
+2017,Sejour,Journées en psychiatrie,42484.04,8205.96,50690.0,sejours,Normal,72222.87,13950.13,86173.0,35483.0,70.0
+2011,Sejour,Séjours ≥ 24h,34093.5,34093.5,68187.0,sejours,Normal,57958.95,57958.95,115917.9,47730.9,70.0
+2012,Sejour,Séjours ≥ 24h,34093.5,34093.5,68187.0,sejours,Normal,57958.95,57958.95,115917.9,47730.9,70.0
+2013,Sejour,Séjours ≥ 24h,34093.5,34093.5,68187.0,sejours,Normal,57958.95,57958.95,115917.9,47730.9,70.0
+2011,Sejour,séjours en ambulatoire,43856.5,43856.5,87713.0,sejours,Normal,74556.05,74556.05,149112.1,61399.1,70.0
+2012,Sejour,séjours en ambulatoire,43856.5,43856.5,87713.0,sejours,Normal,74556.05,74556.05,149112.1,61399.1,70.0
+2013,Sejour,séjours en ambulatoire,45099.67,45099.67,90199.33,sejours,Normal,76669.44,76669.44,153338.88,63139.55,70.0
+2014,Sejour,séjours en ambulatoire,46342.83,46342.83,92685.67,sejours,Normal,78782.81,78782.81,157565.62,64879.95,70.0
+2015,Sejour,séjours en ambulatoire,47586.0,47586.0,95172.0,sejours,Normal,80896.2,80896.2,161792.4,66620.4,70.0
+2016,Sejour,séjours en ambulatoire,47586.0,47586.0,95172.0,sejours,Normal,80896.2,80896.2,161792.4,66620.4,70.0
+2011,Sejour,séjours en hospitalisation complète,36611.0,36611.0,73222.0,sejours,Normal,62238.7,62238.7,124477.4,51255.4,70.0
+2012,Sejour,séjours en hospitalisation complète,36611.0,36611.0,73222.0,sejours,Normal,62238.7,62238.7,124477.4,51255.4,70.0
+2013,Sejour,séjours en hospitalisation complète,36611.0,36611.0,73222.0,sejours,Normal,62238.7,62238.7,124477.4,51255.4,70.0
+2014,Sejour,séjours en hospitalisation complète,36611.0,36611.0,73222.0,sejours,Normal,62238.7,62238.7,124477.4,51255.4,70.0
+2015,Sejour,séjours en hospitalisation complète,36611.0,36611.0,73222.0,sejours,Normal,62238.7,62238.7,124477.4,51255.4,70.0
+2016,Sejour,séjours en hospitalisation complète,37539.5,37539.5,75079.0,sejours,Normal,63817.15,63817.15,127634.3,52555.3,70.0
+2017,Sejour,séjours en hospitalisation complète,37539.5,37539.5,75079.0,sejours,Normal,63817.15,63817.15,127634.3,52555.3,70.0
+2011,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2012,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2013,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2014,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2015,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2016,Sejour MCO,Hospitalisations Ambulatoire,93558.0,1614.0,95172.0,sejours,Normal,159048.6,2743.8,161792.4,66620.4,70.0
+2011,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2012,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2013,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2014,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2015,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2016,Sejour MCO,Hospitalisations Complète,68533.0,4689.0,73222.0,sejours,Normal,116506.1,7971.3,124477.4,51255.4,70.0
+2011,Sejour MCO par Pole,MSN (Maladies du Système Nerveux),3099.0,3099.0,6198.0,sejours,Normal,5268.3,5268.3,10536.6,4338.6,70.0
+2012,Sejour MCO par Pole,MSN (Maladies du Système Nerveux),3099.0,3099.0,6198.0,sejours,Normal,5268.3,5268.3,10536.6,4338.6,70.0
+2013,Sejour MCO par Pole,MSN (Maladies du Système Nerveux),3099.0,3099.0,6198.0,sejours,Normal,5268.3,5268.3,10536.6,4338.6,70.0
+2011,Sejour en ambulatoire par Pole,MSN (Maladies du Système Nerveux),9199.0,9199.0,18398.0,sejours,Normal,15638.3,15638.3,31276.6,12878.6,70.0
+2012,Sejour en ambulatoire par Pole,MSN (Maladies du Système Nerveux),9199.0,9199.0,18398.0,sejours,Normal,15638.3,15638.3,31276.6,12878.6,70.0
+2013,Sejour en ambulatoire par Pole,MSN (Maladies du Système Nerveux),9199.0,9199.0,18398.0,sejours,Normal,15638.3,15638.3,31276.6,12878.6,70.0
+2011,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2012,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2013,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2014,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2015,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2016,Sejour par Pole,Chirurgie Neurosensorielle Séjours >24h,3625.5,3625.5,7251.0,sejours,Normal,6163.35,6163.35,12326.7,5075.7,70.0
+2011,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2012,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2013,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2014,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2015,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2016,Sejour par Pole,Chirurgie Séjours >24h,11077.5,11077.5,22155.0,sejours,Normal,18831.75,18831.75,37663.5,15508.5,70.0
+2011,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2012,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2013,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2014,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2015,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2016,Sejour par Pole,Gériatrique Val-de-Marne Séjours >24h,2344.5,2344.5,4689.0,sejours,Normal,3985.65,3985.65,7971.3,3282.3,70.0
+2011,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2012,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2013,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2014,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2015,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2016,Sejour par Pole,MSN (Maladies du Système Nerveux),3358.0,3358.0,6716.0,sejours,Normal,5708.6,5708.6,11417.2,4701.2,70.0
+2011,Séjours MCO par pôle,"3I (Infection, Inflammation, Immunité)",4972.5,4972.5,9945.0,sejours,Normal,8453.25,8453.25,16906.5,6961.5,70.0
+2012,Séjours MCO par pôle,"3I (Infection, Inflammation, Immunité)",4972.5,4972.5,9945.0,sejours,Normal,8453.25,8453.25,16906.5,6961.5,70.0
+2013,Séjours MCO par pôle,"3I (Infection, Inflammation, Immunité)",4972.5,4972.5,9945.0,sejours,Normal,8453.25,8453.25,16906.5,6961.5,70.0
+2011,Séjours MCO par pôle,Chirurgie,10993.5,10993.5,21987.0,sejours,Normal,18688.95,18688.95,37377.9,15390.9,70.0
+2012,Séjours MCO par pôle,Chirurgie,10993.5,10993.5,21987.0,sejours,Normal,18688.95,18688.95,37377.9,15390.9,70.0
+2013,Séjours MCO par pôle,Chirurgie,10993.5,10993.5,21987.0,sejours,Normal,18688.95,18688.95,37377.9,15390.9,70.0
+2011,Séjours MCO par pôle,Chirurgie neurosensorielle,3125.0,3125.0,6250.0,sejours,Normal,5312.5,5312.5,10625.0,4375.0,70.0
+2012,Séjours MCO par pôle,Chirurgie neurosensorielle,3125.0,3125.0,6250.0,sejours,Normal,5312.5,5312.5,10625.0,4375.0,70.0
+2013,Séjours MCO par pôle,Chirurgie neurosensorielle,3125.0,3125.0,6250.0,sejours,Normal,5312.5,5312.5,10625.0,4375.0,70.0
+2011,Séjours MCO par pôle,Cœur-Métabolisme,5973.0,5973.0,11946.0,sejours,Normal,10154.1,10154.1,20308.2,8362.2,70.0
+2012,Séjours MCO par pôle,Cœur-Métabolisme,5973.0,5973.0,11946.0,sejours,Normal,10154.1,10154.1,20308.2,8362.2,70.0
+2013,Séjours MCO par pôle,Cœur-Métabolisme,6404.67,6404.67,12809.33,sejours,Normal,10887.94,10887.94,21775.88,8966.55,70.0
+2014,Séjours MCO par pôle,Cœur-Métabolisme,6836.33,6836.33,13672.67,sejours,Normal,11621.76,11621.76,23243.52,9570.85,70.0
+2015,Séjours MCO par pôle,Cœur-Métabolisme,7268.0,7268.0,14536.0,sejours,Normal,12355.6,12355.6,24711.2,10175.2,70.0
+2016,Séjours MCO par pôle,Cœur-Métabolisme,7268.0,7268.0,14536.0,sejours,Normal,12355.6,12355.6,24711.2,10175.2,70.0
+2011,Séjours MCO par pôle,Imagerie,173.5,173.5,347.0,sejours,Normal,294.95,294.95,589.9,242.9,70.0
+2012,Séjours MCO par pôle,Imagerie,173.5,173.5,347.0,sejours,Normal,294.95,294.95,589.9,242.9,70.0
+2013,Séjours MCO par pôle,Imagerie,173.5,173.5,347.0,sejours,Normal,294.95,294.95,589.9,242.9,70.0
+2011,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2012,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2013,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2014,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2015,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2016,Séjours MCO par pôle,Imagerie Séjours >24h,160.5,160.5,321.0,sejours,Normal,272.85,272.85,545.7,224.7,70.0
+2011,Séjours MCO par pôle,ORPHÉ,1462.5,1462.5,2925.0,sejours,Normal,2486.25,2486.25,4972.5,2047.5,70.0
+2012,Séjours MCO par pôle,ORPHÉ,1462.5,1462.5,2925.0,sejours,Normal,2486.25,2486.25,4972.5,2047.5,70.0
+2013,Séjours MCO par pôle,ORPHÉ,1504.17,1504.17,3008.33,sejours,Normal,2557.09,2557.09,5114.18,2105.85,70.0
+2014,Séjours MCO par pôle,ORPHÉ,1545.83,1545.83,3091.67,sejours,Normal,2627.91,2627.91,5255.82,2164.15,70.0
+2015,Séjours MCO par pôle,ORPHÉ,1587.5,1587.5,3175.0,sejours,Normal,2698.75,2698.75,5397.5,2222.5,70.0
+2016,Séjours MCO par pôle,ORPHÉ,1587.5,1587.5,3175.0,sejours,Normal,2698.75,2698.75,5397.5,2222.5,70.0
+2011,Séjours MCO par pôle,PRAGUES,6752.5,6752.5,13505.0,sejours,Normal,11479.25,11479.25,22958.5,9453.5,70.0
+2012,Séjours MCO par pôle,PRAGUES,6752.5,6752.5,13505.0,sejours,Normal,11479.25,11479.25,22958.5,9453.5,70.0
+2013,Séjours MCO par pôle,PRAGUES,6944.5,6944.5,13889.0,sejours,Normal,11805.65,11805.65,23611.3,9722.3,70.0
+2014,Séjours MCO par pôle,PRAGUES,7136.5,7136.5,14273.0,sejours,Normal,12132.05,12132.05,24264.1,9991.1,70.0
+2015,Séjours MCO par pôle,PRAGUES,7328.5,7328.5,14657.0,sejours,Normal,12458.45,12458.45,24916.9,10259.9,70.0
+2016,Séjours MCO par pôle,PRAGUES,7328.5,7328.5,14657.0,sejours,Normal,12458.45,12458.45,24916.9,10259.9,70.0
+2011,Séjours MCO par pôle,Pôle gériatrique du Val-de-Marne,1747.0,1747.0,3494.0,sejours,Normal,2969.9,2969.9,5939.8,2445.8,70.0
+2012,Séjours MCO par pôle,Pôle gériatrique du Val-de-Marne,1747.0,1747.0,3494.0,sejours,Normal,2969.9,2969.9,5939.8,2445.8,70.0
+2013,Séjours MCO par pôle,Pôle gériatrique du Val-de-Marne,1747.0,1747.0,3494.0,sejours,Normal,2969.9,2969.9,5939.8,2445.8,70.0
+2011,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4984.0,4984.0,9968.0,sejours,Normal,8472.8,8472.8,16945.6,6977.6,70.0
+2012,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4984.0,4984.0,9968.0,sejours,Normal,8472.8,8472.8,16945.6,6977.6,70.0
+2013,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4783.5,4783.5,9567.0,sejours,Normal,8131.95,8131.95,16263.9,6696.9,70.0
+2014,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4583.0,4583.0,9166.0,sejours,Normal,7791.1,7791.1,15582.2,6416.2,70.0
+2015,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4382.5,4382.5,8765.0,sejours,Normal,7450.25,7450.25,14900.5,6135.5,70.0
+2016,Séjours en ambulatoire par pôle,"3I (Infection, Inflammation, Immunité)",4382.5,4382.5,8765.0,sejours,Normal,7450.25,7450.25,14900.5,6135.5,70.0
+2011,Séjours en ambulatoire par pôle,Chirurgie,6060.5,6060.5,12121.0,sejours,Normal,10302.85,10302.85,20605.7,8484.7,70.0
+2012,Séjours en ambulatoire par pôle,Chirurgie,6060.5,6060.5,12121.0,sejours,Normal,10302.85,10302.85,20605.7,8484.7,70.0
+2013,Séjours en ambulatoire par pôle,Chirurgie,6060.5,6060.5,12121.0,sejours,Normal,10302.85,10302.85,20605.7,8484.7,70.0
+2011,Séjours en ambulatoire par pôle,Chirurgie neurosensorielle,973.5,973.5,1947.0,sejours,Normal,1654.95,1654.95,3309.9,1362.9,70.0
+2012,Séjours en ambulatoire par pôle,Chirurgie neurosensorielle,973.5,973.5,1947.0,sejours,Normal,1654.95,1654.95,3309.9,1362.9,70.0
+2013,Séjours en ambulatoire par pôle,Chirurgie neurosensorielle,973.5,973.5,1947.0,sejours,Normal,1654.95,1654.95,3309.9,1362.9,70.0
+2011,Séjours en ambulatoire par pôle,Cœur-Métabolisme,4779.5,4779.5,9559.0,sejours,Normal,8125.15,8125.15,16250.3,6691.3,70.0
+2012,Séjours en ambulatoire par pôle,Cœur-Métabolisme,4779.5,4779.5,9559.0,sejours,Normal,8125.15,8125.15,16250.3,6691.3,70.0
+2013,Séjours en ambulatoire par pôle,Cœur-Métabolisme,4779.5,4779.5,9559.0,sejours,Normal,8125.15,8125.15,16250.3,6691.3,70.0
+2011,Séjours en ambulatoire par pôle,ORPHÉ,15972.5,15972.5,31945.0,sejours,Normal,27153.25,27153.25,54306.5,22361.5,70.0
+2012,Séjours en ambulatoire par pôle,ORPHÉ,15972.5,15972.5,31945.0,sejours,Normal,27153.25,27153.25,54306.5,22361.5,70.0
+2013,Séjours en ambulatoire par pôle,ORPHÉ,15972.5,15972.5,31945.0,sejours,Normal,27153.25,27153.25,54306.5,22361.5,70.0
+2011,Séjours en ambulatoire par pôle,PRAGUES,1295.5,1295.5,2591.0,sejours,Normal,2202.35,2202.35,4404.7,1813.7,70.0
+2012,Séjours en ambulatoire par pôle,PRAGUES,1295.5,1295.5,2591.0,sejours,Normal,2202.35,2202.35,4404.7,1813.7,70.0
+2013,Séjours en ambulatoire par pôle,PRAGUES,1295.5,1295.5,2591.0,sejours,Normal,2202.35,2202.35,4404.7,1813.7,70.0
+2011,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
+2012,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
+2013,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
+2011,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2012,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2013,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2014,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2015,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2016,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
+2011,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2012,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2013,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2014,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2015,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2016,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2011,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2012,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2013,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2014,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2015,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2016,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
+2011,Transplantations,Moelle osseuse,25.5,25.5,51.0,transplations,Normal,43.35,43.35,86.7,35.7,70.0
+2012,Transplantations,Moelle osseuse,25.5,25.5,51.0,transplations,Normal,43.35,43.35,86.7,35.7,70.0
+2013,Transplantations,Moelle osseuse,25.5,25.5,51.0,transplations,Normal,43.35,43.35,86.7,35.7,70.0
+2011,Transplantations,Nombre de prélèvements d’organes,16.0,16.0,32.0,prelevements,Normal,27.2,27.2,54.4,22.4,70.0
+2012,Transplantations,Nombre de prélèvements d’organes,16.0,16.0,32.0,prelevements,Normal,27.2,27.2,54.4,22.4,70.0
+2013,Transplantations,Nombre de prélèvements d’organes,16.0,16.0,32.0,prelevements,Normal,27.2,27.2,54.4,22.4,70.0
+2011,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2012,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2013,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2014,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2015,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2016,Transplantations,Rénales (Rein),52.0,52.0,104.0,transplations,Normal,88.4,88.4,176.8,72.8,70.0
+2011,Transplantations,Transplantations,157.0,157.0,314.0,transplations,Normal,266.9,266.9,533.8,219.8,70.0
+2012,Transplantations,Transplantations,157.0,157.0,314.0,transplations,Normal,266.9,266.9,533.8,219.8,70.0
+2013,Transplantations,Transplantations,167.67,167.67,335.33,transplations,Normal,285.04,285.04,570.08,234.75,70.01
+2014,Transplantations,Transplantations,178.33,178.33,356.67,transplations,Normal,303.16,303.16,606.32,249.65,69.99
+2015,Transplantations,Transplantations,189.0,189.0,378.0,transplations,Normal,321.3,321.3,642.6,264.6,70.0
+2016,Transplantations,Transplantations,189.0,189.0,378.0,transplations,Normal,321.3,321.3,642.6,264.6,70.0
+2011,Transplantations,Transplantations cardiaques,40.0,40.0,80.0,transplations,Normal,68.0,68.0,136.0,56.0,70.0
+2012,Transplantations,Transplantations cardiaques,40.0,40.0,80.0,transplations,Normal,68.0,68.0,136.0,56.0,70.0
+2013,Transplantations,Transplantations cardiaques,40.0,40.0,80.0,transplations,Normal,68.0,68.0,136.0,56.0,70.0
+2011,Transplantations,Transplantations hépatiques,27.5,27.5,55.0,transplations,Normal,46.75,46.75,93.5,38.5,70.0
+2012,Transplantations,Transplantations hépatiques,27.5,27.5,55.0,transplations,Normal,46.75,46.75,93.5,38.5,70.0
+2013,Transplantations,Transplantations hépatiques,27.5,27.5,55.0,transplations,Normal,46.75,46.75,93.5,38.5,70.0
+2011,Transplantations,Transplantations rénales,37.0,37.0,74.0,transplations,Normal,62.9,62.9,125.8,51.8,70.0
+2012,Transplantations,Transplantations rénales,37.0,37.0,74.0,transplations,Normal,62.9,62.9,125.8,51.8,70.0
+2013,Transplantations,Transplantations rénales,37.0,37.0,74.0,transplations,Normal,62.9,62.9,125.8,51.8,70.0
+2011,Urgences,Passages aux urgences,41501.0,41501.0,83002.0,passages,Normal,70551.7,70551.7,141103.4,58101.4,70.0
+2012,Urgences,Passages aux urgences,42996.5,42996.5,85993.0,passages,Normal,73094.05,73094.05,146188.1,60195.1,70.0
+2013,Urgences,Passages aux urgences,48951.17,48951.17,97902.33,passages,Normal,83216.99,83216.99,166433.98,68531.65,70.0
+2014,Urgences,Passages aux urgences,54905.83,54905.83,109811.67,passages,Normal,93339.91,93339.91,186679.82,76868.15,70.0
+2015,Urgences,Passages aux urgences,60860.5,60860.5,121721.0,passages,Normal,103462.85,103462.85,206925.7,85204.7,70.0
+2016,Urgences,Passages aux urgences,60860.5,60860.5,121721.0,passages,Normal,103462.85,103462.85,206925.7,85204.7,70.0
+2011,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2012,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2013,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2014,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2015,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2016,Urgences,Passages urgences spécialisées,30825.5,30825.5,61651.0,passages,Normal,52403.35,52403.35,104806.7,43155.7,70.0
+2011,Urgences,Patients admis après passage aux urgences,3041.5,3041.5,6083.0,patients,Normal,5170.55,5170.55,10341.1,4258.1,70.0
+2012,Urgences,Patients admis après passage aux urgences,5031.5,5031.5,10063.0,patients,Normal,8553.55,8553.55,17107.1,7044.1,70.0
+2013,Urgences,Patients admis après passage aux urgences,5031.5,5031.5,10063.0,patients,Normal,8553.55,8553.55,17107.1,7044.1,70.0
+2011,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2012,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2013,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2014,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2015,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2016,Urgences,Patients pris en charge (total),600000.0,600000.0,1200000.0,patients,Normal,1020000.0,1020000.0,2040000.0,840000.0,70.0
+2011,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2012,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2013,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2014,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2015,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2016,Urgences ,Admissions en hospitalisation,3794.0,3794.0,7588.0,patients,Normal,6449.8,6449.8,12899.6,5311.6,70.0
+2011,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2012,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2013,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2014,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2015,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2016,Urgences ,Service Accueil Urgences (SAU),29536.0,29536.0,59072.0,passages,Normal,50211.2,50211.2,100422.4,41350.4,70.0
+2011,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0
+2012,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0
+2013,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0
+2014,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0
+2015,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0
+2016,Urgences ,Urgences dentaires,31324.5,31324.5,62649.0,passages,Normal,53251.65,53251.65,106503.3,43854.3,70.0

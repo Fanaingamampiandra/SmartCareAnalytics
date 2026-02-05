@@ -104,9 +104,7 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2015,Plateux Techniques,Parasitologie (P),38,0,38,actes
 2011,Urgences,Passages aux urgences,,,83 002,passages
 2012,Urgences,Passages aux urgences,,,85 993,passages
-2012,Urgences,Passages aux urgences,,,85 993,passages
-2015,Urgences,passages aux urgences,,,121 721,passages
-2015,Urgences,Passages aux urgences,,,127678,passages
+2015,Urgences,Passages aux urgences,,,121721,passages
 2015,Urgences,Passages urgences spécialisées,,,61651,passages
 2012,Causes d'hospitalisation,Pathologies cancéreuses,,,46 789,sejours
 2015,Causes d'hospitalisation,Pathologies cancéreuses,,,59 017,sejours
@@ -152,8 +150,7 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Sejour,séjours en ambulatoire,,,87 713,sejours
 2015,Sejour,séjours en ambulatoire,,,95 172,sejours
 2015,Sejour,séjours en hospitalisation complète,,,73 222,sejours
-2015,Sejour,séjours en hospitalisation complète,,,75079,sejours
-2015,Sejour,séjours en hospitalisation complète,,,100319,sejours
+2016,Sejour,séjours en hospitalisation complète,,,75079,sejours
 2015,Urgences ,Service Accueil Urgences (SAU),,,59072,passages
 2011,Activités en actes,Soins dentaires,383 041,22 357,405 398,actes
 2012,Activités en actes,Soins dentaires,377 686,31 681,409 367,actes
