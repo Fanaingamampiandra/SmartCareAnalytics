@@ -503,18 +503,18 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2011,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours
 2012,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours
 2013,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours
-2011,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2012,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2013,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2014,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2015,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2016,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations
-2011,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
-2012,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
-2013,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
-2014,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
-2015,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
-2016,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations
+2011,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2012,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2013,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2014,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2015,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2016,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions
+2011,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
+2012,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
+2013,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
+2014,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
+2015,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
+2016,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions
 2011,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations
 2012,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations
 2013,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations

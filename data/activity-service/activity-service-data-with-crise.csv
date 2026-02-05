@@ -503,18 +503,18 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF_NORMAL,CFX_NORMAL,TOTAL_NORMAL,UNITE,MODE,P
 2011,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
 2012,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
 2013,Séjours en ambulatoire par pôle,Pôle gériatrique,592.0,592.0,1184.0,sejours,Normal,1006.4,1006.4,2012.8,828.8,70.0
-2011,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2012,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2013,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2014,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2015,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2016,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplations,Normal,84.15,84.15,168.3,69.3,70.0
-2011,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
-2012,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
-2013,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
-2014,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
-2015,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
-2016,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplations,Normal,92.65,92.65,185.3,76.3,70.0
+2011,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2012,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2013,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2014,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2015,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2016,Transplantations,Cardiaques (Cœur),49.5,49.5,99.0,transplantions,Normal,84.15,84.15,168.3,69.3,70.0
+2011,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
+2012,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
+2013,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
+2014,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
+2015,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
+2016,Transplantations,Hépatiques (Foie),54.5,54.5,109.0,transplantions,Normal,92.65,92.65,185.3,76.3,70.0
 2011,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
 2012,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0
 2013,Transplantations,Moelle Osseuse,33.0,33.0,66.0,transplations,Normal,56.1,56.1,112.2,46.2,70.0

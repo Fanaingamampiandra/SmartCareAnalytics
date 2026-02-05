@@ -13,7 +13,7 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2011,Examens de laboratoire – en actes,BHN,813 954,1 872,,actes
 2012,Examens de laboratoire – en actes,BHN,946 243,2 566,,actes
 2015,Plateux Techniques,Biochimie (B),5 642 800,44 287,5 687 087,actes
-2015,Transplantations,Cardiaques (Cœur),,,99,transplations
+2015,Transplantations,Cardiaques (Cœur),,,99,transplantions
 2015,Plateux Techniques,CCAM,47 323,0,47 323,actes
 2016,Centres,Centres d’investigation clinique (CIC),,,4,centres
 2012,Centres,Centres maladies rares,,,11,centres
@@ -55,7 +55,7 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Greffes,Greffes réalisées,,,314,greffes
 2016,Recherche,Groupes de recherche clinique (GRC),,,8,groupes
 2015,Plateux Techniques,Hématologie (BHN),1 179 103,8 783,1 187 886,actes
-2015,Transplantations,Hépatiques (Foie),,,109,transplations
+2015,Transplantations,Hépatiques (Foie),,,109,transplantions
 2015,Hospitalisation,Hospitalisations,,,168 394,hospitalisations
 2015,Sejour MCO,Hospitalisations Ambulatoire,93558,1614,95172,sejours
 2015,Sejour MCO,Hospitalisations Complète,68533,4689,73222,sejours
