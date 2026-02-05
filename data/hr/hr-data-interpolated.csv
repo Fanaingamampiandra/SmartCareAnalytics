@@ -1,0 +1,179 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2011,Les moyens humaines,Personnels hospitalo-universitaires ,184.0,15.0,199.0,personnes
+2012,Les moyens humaines,Personnels hospitalo-universitaires ,184.0,15.0,199.0,personnes
+2013,Les moyens humaines,Personnels hospitalo-universitaires ,184.0,15.0,199.0,personnes
+2011,Les moyens humaines,"Praticiens attachés, internes, FFI",235.0,24.0,259.0,personnes
+2012,Les moyens humaines,"Praticiens attachés, internes, FFI",235.0,24.0,259.0,personnes
+2013,Les moyens humaines,"Praticiens attachés, internes, FFI",298.0,23.67,321.67,personnes
+2014,Les moyens humaines,"Praticiens attachés, internes, FFI",361.0,23.33,384.33,personnes
+2015,Les moyens humaines,"Praticiens attachés, internes, FFI",424.0,23.0,447.0,personnes
+2016,Les moyens humaines,"Praticiens attachés, internes, FFI",424.0,23.0,447.0,personnes
+2011,Les moyens humaines,Praticiens contractuels,408.0,30.0,438.0,personnes
+2012,Les moyens humaines,Praticiens contractuels,408.0,30.0,438.0,personnes
+2013,Les moyens humaines,Praticiens contractuels,352.33,27.0,379.33,personnes
+2014,Les moyens humaines,Praticiens contractuels,296.67,24.0,320.67,personnes
+2015,Les moyens humaines,Praticiens contractuels,241.0,21.0,262.0,personnes
+2016,Les moyens humaines,Praticiens contractuels,241.0,21.0,262.0,personnes
+2011,Les moyens humaines,Total en ETP,1160.0,93.0,1253.0,personnes
+2012,Les moyens humaines,Total en ETP,1160.0,93.0,1253.0,personnes
+2013,Les moyens humaines,Total en ETP,1160.0,93.0,1253.0,personnes
+2011,Les moyens humaines,Total médecins (effectif physique),1846.0,138.0,1984.0,personnes
+2012,Les moyens humaines,Total médecins (effectif physique),1846.0,138.0,1984.0,personnes
+2013,Les moyens humaines,Total médecins (effectif physique),1846.0,138.0,1984.0,personnes
+2011,Les moyens humaines,Total étudiants (hors ETP),530.0,110.0,640.0,personnes
+2012,Les moyens humaines,Total étudiants (hors ETP),530.0,110.0,640.0,personnes
+2013,Les moyens humaines,Total étudiants (hors ETP),530.0,110.0,640.0,personnes
+2011,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2012,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2013,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2014,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2015,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2016,Personnel non medical,Personnel administratif,687.0,68.0,755.0,personnes
+2011,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2012,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2013,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2014,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2015,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2016,Personnel non medical,Personnel hospitalier (soignant),5659.0,788.0,6447.0,personnes
+2011,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2012,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2013,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2014,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2015,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2016,Personnel non medical,Personnel socio-éducatif,113.0,12.0,125.0,personnes
+2011,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2012,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2013,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2014,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2015,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2016,Personnel non medical,Personnel technique et ouvrier,438.0,85.0,523.0,personnes
+2011,Personnel paramedical,Direction & administratif ,640.0,69.0,709.0,personnes
+2012,Personnel paramedical,Direction & administratif ,640.0,69.0,709.0,personnes
+2013,Personnel paramedical,Direction & administratif ,640.0,69.0,709.0,personnes
+2011,Personnel paramedical,Personnel hospitalier ,5173.0,588.0,5761.0,personnes
+2012,Personnel paramedical,Personnel hospitalier ,5173.0,588.0,5761.0,personnes
+2013,Personnel paramedical,Personnel hospitalier ,5173.0,588.0,5761.0,personnes
+2011,Personnel paramedical,Personnel socio-éducatif ,99.0,12.0,111.0,personnes
+2012,Personnel paramedical,Personnel socio-éducatif ,99.0,12.0,111.0,personnes
+2013,Personnel paramedical,Personnel socio-éducatif ,99.0,12.0,111.0,personnes
+2011,Personnel paramedical,Personnel technique & ouvrier ,400.0,101.0,501.0,personnes
+2012,Personnel paramedical,Personnel technique & ouvrier ,400.0,101.0,501.0,personnes
+2013,Personnel paramedical,Personnel technique & ouvrier ,400.0,101.0,501.0,personnes
+2011,Personnel paramedical,Total en ETP,6312.0,770.0,7082.0,personnes
+2012,Personnel paramedical,Total en ETP,6312.0,770.0,7082.0,personnes
+2013,Personnel paramedical,Total en ETP,6312.0,770.0,7082.0,personnes
+2011,Personnel paramédical,Total,3541.0,3541.0,7082.0,personnes
+2012,Personnel paramédical,Total,3541.0,3541.0,7082.0,personnes
+2013,Personnel paramédical,Total,3669.0,3669.0,7338.0,personnes
+2014,Personnel paramédical,Total,3797.0,3797.0,7594.0,personnes
+2015,Personnel paramédical,Total,3925.0,3925.0,7850.0,personnes
+2016,Personnel paramédical,Total,3925.0,3925.0,7850.0,personnes
+2011,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2012,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2013,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2014,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2015,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2016,RH,PU-PH (Hospitalo-Universitaires),387.0,43.0,430.0,personnes
+2011,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2012,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2013,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2014,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2015,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2016,RH,Praticiens hospitaliers (PH),454.0,28.0,482.0,personnes
+2011,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2012,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2013,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2014,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2015,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2016,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2017,Resources hopitaux,Infirmier·e·s,1227.5,1227.5,2455.0,personnes
+2011,Resources hopitaux,Internes / résidents / FFI,333.0,24.0,357.0,personnes
+2012,Resources hopitaux,Internes / résidents / FFI,333.0,24.0,357.0,personnes
+2013,Resources hopitaux,Internes / résidents / FFI,358.18,25.82,384.0,personnes
+2014,Resources hopitaux,Internes / résidents / FFI,383.37,27.63,411.0,personnes
+2015,Resources hopitaux,Internes / résidents / FFI,408.55,29.45,438.0,personnes
+2016,Resources hopitaux,Internes / résidents / FFI,433.74,31.26,465.0,personnes
+2017,Resources hopitaux,Internes / résidents / FFI,433.74,31.26,465.0,personnes
+2011,Resources hopitaux,Médecins,626.5,626.5,1253.0,personnes
+2012,Resources hopitaux,Médecins,626.5,626.5,1253.0,personnes
+2013,Resources hopitaux,Médecins,687.83,687.83,1375.67,personnes
+2014,Resources hopitaux,Médecins,749.17,749.17,1498.33,personnes
+2015,Resources hopitaux,Médecins,810.5,810.5,1621.0,personnes
+2016,Resources hopitaux,Médecins,813.0,813.0,1626.0,personnes
+2017,Resources hopitaux,Médecins,813.0,813.0,1626.0,personnes
+2011,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2012,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2013,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2014,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2015,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2016,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2017,Resources hopitaux,"Personnels administratifs, techniques et ouvriers",647.0,647.0,1294.0,personnes
+2011,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2012,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2013,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2014,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2015,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2016,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2017,Resources hopitaux,Personnels soignants,3292.5,3292.5,6585.0,personnes
+2011,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2012,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2013,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2014,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2015,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2016,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2017,Resources hopitaux,Total,5500.0,5500.0,11000.0,personnes
+2011,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2012,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2013,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2014,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2015,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2016,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2017,Resources hopitaux,Étudiants hospitaliers,343.5,343.5,687.0,personnes
+2011,caracteristique du personnel ,ETP Moyen MCO,5878.0,505.0,6383.0,personnes
+2012,caracteristique du personnel ,ETP Moyen MCO,5878.0,505.0,6383.0,personnes
+2013,caracteristique du personnel ,ETP Moyen MCO,5878.0,505.0,6383.0,personnes
+2011,caracteristique du personnel ,ETP Moyen PSY,348.0,51.0,399.0,personnes
+2012,caracteristique du personnel ,ETP Moyen PSY,348.0,51.0,399.0,personnes
+2013,caracteristique du personnel ,ETP Moyen PSY,348.0,51.0,399.0,personnes
+2011,caracteristique du personnel ,ETP Moyen SSR,86.0,214.0,300.0,personnes
+2012,caracteristique du personnel ,ETP Moyen SSR,86.0,214.0,300.0,personnes
+2013,caracteristique du personnel ,ETP Moyen SSR,86.0,214.0,300.0,personnes
+2011,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2012,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2013,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2014,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2015,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2016,caracteristique du personnel ,Femmes,3504.0,3504.0,7008.0,personnes
+2011,caracteristique du personnel ,Femmes MCO,4341.0,319.0,4660.0,personnes
+2012,caracteristique du personnel ,Femmes MCO,4341.0,319.0,4660.0,personnes
+2013,caracteristique du personnel ,Femmes MCO,4341.0,319.0,4660.0,personnes
+2011,caracteristique du personnel ,Femmes PSY,229.0,32.0,261.0,personnes
+2012,caracteristique du personnel ,Femmes PSY,229.0,32.0,261.0,personnes
+2013,caracteristique du personnel ,Femmes PSY,229.0,32.0,261.0,personnes
+2011,caracteristique du personnel ,Femmes SSR,61.0,159.0,220.0,personnes
+2012,caracteristique du personnel ,Femmes SSR,61.0,159.0,220.0,personnes
+2013,caracteristique du personnel ,Femmes SSR,61.0,159.0,220.0,personnes
+2011,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2012,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2013,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2014,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2015,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2016,caracteristique du personnel ,Hommes,1231.0,1231.0,2462.0,personnes
+2011,caracteristique du personnel ,Hommes MCO,1537.0,186.0,1723.0,personnes
+2012,caracteristique du personnel ,Hommes MCO,1537.0,186.0,1723.0,personnes
+2013,caracteristique du personnel ,Hommes MCO,1537.0,186.0,1723.0,personnes
+2011,caracteristique du personnel ,Hommes PSY,119.0,19.0,138.0,personnes
+2012,caracteristique du personnel ,Hommes PSY,119.0,19.0,138.0,personnes
+2013,caracteristique du personnel ,Hommes PSY,119.0,19.0,138.0,personnes
+2011,caracteristique du personnel ,Hommes SSR,25.0,55.0,80.0,personnes
+2012,caracteristique du personnel ,Hommes SSR,25.0,55.0,80.0,personnes
+2013,caracteristique du personnel ,Hommes SSR,25.0,55.0,80.0,personnes
+2011,caracteristique du personnel ,Âge Moyen MCO,41.0,45.0,86.0,personnes
+2012,caracteristique du personnel ,Âge Moyen MCO,41.0,45.0,86.0,personnes
+2013,caracteristique du personnel ,Âge Moyen MCO,41.0,45.0,86.0,personnes
+2011,caracteristique du personnel ,Âge Moyen PSY,43.0,44.0,87.0,personnes
+2012,caracteristique du personnel ,Âge Moyen PSY,43.0,44.0,87.0,personnes
+2013,caracteristique du personnel ,Âge Moyen PSY,43.0,44.0,87.0,personnes
+2011,caracteristique du personnel ,Âge Moyen SSR,42.0,42.0,84.0,personnes
+2012,caracteristique du personnel ,Âge Moyen SSR,42.0,42.0,84.0,personnes
+2013,caracteristique du personnel ,Âge Moyen SSR,42.0,42.0,84.0,personnes

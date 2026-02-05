@@ -1,0 +1,88 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
+2011,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2012,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2013,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2014,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2015,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2016,Crédit d'investissement,Informatique,1360000.0,1360000.0,2720000.0,€
+2011,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2012,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2013,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2014,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2015,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2016,Crédit d'investissement,Travaux déconcentrés,12295000.0,12295000.0,24590000.0,€
+2011,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2012,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2013,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2014,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2015,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2016,Crédit d'investissement,Équipements,5215000.0,5215000.0,10430000.0,€
+2011,Crédits d’investissement,"Informatique, bureautique",290000.0,50000.0,340000.0,€
+2012,Crédits d’investissement,"Informatique, bureautique",290000.0,50000.0,340000.0,€
+2013,Crédits d’investissement,"Informatique, bureautique",290000.0,50000.0,340000.0,€
+2011,Crédits d’investissement,Travaux déconcentrés,17070000.0,5470000.0,22540000.0,€
+2012,Crédits d’investissement,Travaux déconcentrés,17070000.0,5470000.0,22540000.0,€
+2013,Crédits d’investissement,Travaux déconcentrés,17070000.0,5470000.0,22540000.0,€
+2011,Crédits d’investissement,Équipements,2500000.0,400000.0,2900000.0,€
+2012,Crédits d’investissement,Équipements,2500000.0,400000.0,2900000.0,€
+2013,Crédits d’investissement,Équipements,2500000.0,400000.0,2900000.0,€
+2011,Dépenses d’exploitation,"Amortissements, provisions et autres charges",59592686.0,4984990.0,64577676.0,€
+2012,Dépenses d’exploitation,"Amortissements, provisions et autres charges",59592686.0,4984990.0,64577676.0,€
+2013,Dépenses d’exploitation,"Amortissements, provisions et autres charges",57341790.67,4809993.33,62151784.0,€
+2014,Dépenses d’exploitation,"Amortissements, provisions et autres charges",55090895.33,4634996.67,59725892.0,€
+2015,Dépenses d’exploitation,"Amortissements, provisions et autres charges",52840000.0,4460000.0,57290000.0,€
+2016,Dépenses d’exploitation,"Amortissements, provisions et autres charges",52840000.0,4460000.0,57300000.0,€
+2011,Dépenses d’exploitation,Charges relatives au personnel,390789635.0,42346578.0,433136213.0,€
+2012,Dépenses d’exploitation,Charges relatives au personnel,390789635.0,42346578.0,433136213.0,€
+2013,Dépenses d’exploitation,Charges relatives au personnel,404173090.0,42321052.0,446494142.0,€
+2014,Dépenses d’exploitation,Charges relatives au personnel,417556545.0,42295526.0,459852071.0,€
+2015,Dépenses d’exploitation,Charges relatives au personnel,430940000.0,42270000.0,473210000.0,€
+2016,Dépenses d’exploitation,Charges relatives au personnel,430940000.0,42270000.0,473210000.0,€
+2011,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,93506354.0,6213599.0,99719953.0,€
+2012,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,93506354.0,6213599.0,99719953.0,€
+2013,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,62337604.8,6222399.33,68560004.13,€
+2014,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,31168855.59,6231199.67,37400055.26,€
+2015,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,106.39,6240000.0,112620000.0,€
+2016,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,106.39,6240000.0,6240106.39,€
+2011,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,297283281.0,36132979.0,333416260.0,€
+2012,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,297283281.0,36132979.0,333416260.0,€
+2013,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,305835520.67,36055319.33,341890840.0,€
+2014,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,314387760.33,35977659.67,350365420.0,€
+2015,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,322940000.0,35900000.0,358840000.0,€
+2016,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,322940000.0,35900000.0,358840000.0,€
+2011,Dépenses d’exploitation,Charges à caractère hôtelier et général,81952572.0,13603116.0,95555688.0,€
+2012,Dépenses d’exploitation,Charges à caractère hôtelier et général,81952572.0,13603116.0,95555688.0,€
+2013,Dépenses d’exploitation,Charges à caractère hôtelier et général,85478381.33,13675410.67,99153792.0,€
+2014,Dépenses d’exploitation,Charges à caractère hôtelier et général,89004190.67,13747705.33,102751896.0,€
+2015,Dépenses d’exploitation,Charges à caractère hôtelier et général,92530000.0,13820000.0,106360000.0,€
+2016,Dépenses d’exploitation,Charges à caractère hôtelier et général,92530000.0,13820000.0,106350000.0,€
+2011,Dépenses d’exploitation,Charges à caractère médical,166477859.0,6333901.0,172811760.0,€
+2012,Dépenses d’exploitation,Charges à caractère médical,166477859.0,6333901.0,172811760.0,€
+2013,Dépenses d’exploitation,Charges à caractère médical,110985316.27,6892600.67,117877916.94,€
+2014,Dépenses d’exploitation,Charges à caractère médical,55492773.55,7451300.33,62944073.88,€
+2015,Dépenses d’exploitation,Charges à caractère médical,230.82,8010000.0,238830000.0,€
+2016,Dépenses d’exploitation,Charges à caractère médical,230.82,8010000.0,8010230.82,€
+2011,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2012,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2013,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2014,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2015,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2016,Recettes,Assurance maladie,659980000.0,46140000.0,706120000.0,€
+2011,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2012,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2013,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2014,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2015,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2016,Recettes,Mutuelles/Particuliers,77730000.0,4420000.0,82150000.0,€
+2011,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",67432843.0,3487327.0,70920170.0,€
+2012,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",67432843.0,3487327.0,70920170.0,€
+2013,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",67432843.0,3487327.0,70920170.0,€
+2011,Recettes,Produits de l’assurance maladie,581696089.0,43854206.0,625550295.0,€
+2012,Recettes,Produits de l’assurance maladie,581696089.0,43854206.0,625550295.0,€
+2013,Recettes,Produits de l’assurance maladie,581696089.0,43854206.0,625550295.0,€
+2011,Recettes,Recettes subsidiaires,62391404.0,8318600.0,70710004.0,€
+2012,Recettes,Recettes subsidiaires,62391404.0,8318600.0,70710004.0,€
+2013,Recettes,Recettes subsidiaires,75577602.67,8325733.33,83903336.0,€
+2014,Recettes,Recettes subsidiaires,88763801.33,8332866.67,97096668.0,€
+2015,Recettes,Recettes subsidiaires,101950000.0,8340000.0,110300000.0,€
+2016,Recettes,Recettes subsidiaires,101950000.0,8340000.0,110290000.0,€
