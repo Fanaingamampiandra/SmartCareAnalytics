@@ -4,7 +4,10 @@ import pandas as pd
 import numpy as np
 import altair as alt
 
-from utils import load_data, generate_forecast_2017
+from utils import load_data
+
+# Couleur dédiée pour l'année 2017 (prévision)
+COULEUR_2017 = "#E67E22"  # Orange
 
 PALETTE_ANNEES = [
     "#003A8F",  # Bleu AP-HP foncé (institutionnel)
@@ -14,8 +17,6 @@ PALETTE_ANNEES = [
     "#6BAED6",  # Bleu clair
     "#9ECAE1",  # Bleu très clair
     "#DCEAF7",  # Bleu blanc cassé
-    "#F2F6FA",  # Blanc bleuté (fond)
-    "#B0B7C3",  # Gris hospitalier clair
     "#6C757D",  # Gris technique
 ]
 
@@ -58,6 +59,10 @@ def render(
     if year_choice != "Toutes" and year_col in dff.columns:
         dff[year_col] = dff[year_col].astype(int)
         dff = dff[dff[year_col] == int(year_choice)]
+    # Par défaut les données 2017 sont masquées ; la case « Afficher prévision 2017 » les active
+    if not show_forecast and year_col in dff.columns:
+        dff = dff[dff[year_col].astype(int) != 2017]
+    has_2017 = year_col in df.columns and (df[year_col].astype(int) == 2017).any()
 
     # Colonnes attendues (CSV mensuel)
     required_cols = {"indicateur", "sous_indicateur", "unite", value_col}
@@ -99,48 +104,22 @@ def render(
                         )
                         agg["year"] = agg["year"].astype(int)
                         agg["month"] = agg["month"].astype(int)
-                        
-                        # Ajouter les prédictions 2017 si demandé
-                        forecast_data = None
-                        if show_forecast:
-                            hospital_choice = kwargs.get("hospital_choice", "TOTAL")
-                            df_forecast = generate_forecast_2017(
-                                df, hospital_choice, indic, sous, value_col
-                            )
-                            if not df_forecast.empty:
-                                forecast_agg = (
-                                    df_forecast.groupby("month")["value"]
-                                    .sum()
-                                    .reset_index()
-                                )
-                                forecast_agg["year"] = 2017
-                                forecast_agg["month"] = forecast_agg["month"].astype(int)
-                                forecast_data = forecast_agg
-                        
+
+                        # 2017 en orange (déjà inclus dans le CSV logistique)
+                        color_range = [COULEUR_2017 if y == 2017 else PALETTE_ANNEES[i % len(PALETTE_ANNEES)] for i, y in enumerate(years)]
                         chart_obj = (
                             alt.Chart(agg)
                             .mark_line(point=True)
                             .encode(
                                 x=alt.X("month:O", title="Mois"),
                                 y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
-                                color=alt.Color("year:O", title="Année", scale=alt.Scale(domain=years, range=PALETTE_ANNEES)),
+                                color=alt.Color("year:O", title="Année", scale=alt.Scale(domain=years, range=color_range)),
                             )
                         )
-                        
-                        # Ajouter la ligne de prédiction si disponible
-                        if forecast_data is not None:
-                            forecast_chart = (
-                                alt.Chart(forecast_data)
-                                .mark_line(point=True, strokeDash=[5, 5])
-                                .encode(
-                                    x=alt.X("month:O", title="Mois"),
-                                    y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
-                                    color=alt.value("#FF6B6B"),  # Rouge pour la prédiction
-                                )
-                            )
-                            chart_obj = chart_obj + forecast_chart
-                        
+
                         sub = f"{subtitle} — profil mensuel multi-années ({mode_label})"
+                        if has_2017 and multi_year:
+                            sub += " — 2017 = prévision SARIMA"
 
                     # 2) Une seule année -> profil mensuel de l'année
                     else:
@@ -153,9 +132,8 @@ def render(
                             .rename(columns={value_col: "value"})
                         )
                         agg["month"] = agg["month"].astype(int)
-                        # Couleur fixe liée à l'année sélectionnée
-                        year_idx = years.index(int(year_choice)) if int(year_choice) in years else 0
-                        color_annee = PALETTE_ANNEES[year_idx % len(PALETTE_ANNEES)]
+                        # Couleur : orange pour 2017 (prévision), sinon palette
+                        color_annee = COULEUR_2017 if int(year_choice) == 2017 else (PALETTE_ANNEES[years.index(int(year_choice)) % len(PALETTE_ANNEES)] if int(year_choice) in years else PALETTE_ANNEES[0])
                         chart_obj = (
                             alt.Chart(agg)
                             .mark_line(point=True)
@@ -165,32 +143,10 @@ def render(
                                 color=alt.value(color_annee),
                             )
                         )
-                        
-                        # Ajouter les prédictions 2017 si demandé et si on affiche 2017
-                        if show_forecast and int(year_choice) == 2017:
-                            hospital_choice = kwargs.get("hospital_choice", "TOTAL")
-                            df_forecast = generate_forecast_2017(
-                                df, hospital_choice, indic, sous, value_col
-                            )
-                            if not df_forecast.empty:
-                                forecast_agg = (
-                                    df_forecast.groupby("month")["value"]
-                                    .sum()
-                                    .reset_index()
-                                )
-                                forecast_agg["month"] = forecast_agg["month"].astype(int)
-                                forecast_chart = (
-                                    alt.Chart(forecast_agg)
-                                    .mark_line(point=True, strokeDash=[5, 5])
-                                    .encode(
-                                        x=alt.X("month:O", title="Mois"),
-                                        y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
-                                        color=alt.value("#FF6B6B"),
-                                    )
-                                )
-                                chart_obj = chart_obj + forecast_chart
-                        
+
                         sub = f"{subtitle} — profil mensuel {year_choice} ({mode_label})"
+                        if has_2017 and int(year_choice) == 2017:
+                            sub += " (prévision SARIMA)"
 
 
                     chart = chart_obj.properties(

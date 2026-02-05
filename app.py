@@ -10,7 +10,7 @@ PAGES = list(PAGE_MODULES.keys())
 
 # Données par page (chemin CSV ou None si pas encore de données)
 DATA_PATHS = {
-    "Logistique": "data/logistics/logistics-donnees_mensuelles_reconstituees.csv",
+    "Logistique": "data/logistics/logistics-all.csv",
     "Activité & Service": "data/activity-service/activity-service-donnees_journalieres_reconstituees.csv",
     "Capacité": "data/capacity/capacity-donnees_journalieres_reconstituees.csv",
     "Finance": "data/finance/finance-donnees_journalieres_reconstituees.csv",
