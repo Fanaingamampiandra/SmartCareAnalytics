@@ -14,7 +14,7 @@ DATA_PATHS = {
     "Activité & Service": "data/activity-service/activity-service-donnees_journalieres_reconstituees.csv",
     "Capacité": "data/capacity/capacity-donnees_journalieres_reconstituees.csv",
     "Finance": "data/finance/finance-donnees_journalieres_reconstituees.csv",
-    "Patients": "data/patients/patients_donnees_journalieres_reconstituees.csv",
+    "Patients": "data/patients/patients-donnees_mensuelles_reconstituees.csv",
     "Qualité":"data/quality/quality-donnees_journalieres_reconstituees.csv" ,
     "RH": "data/hr/hr-donnees_journalieres_reconstituees.csv",
 }
