@@ -10,6 +10,7 @@ PAGES = list(PAGE_MODULES.keys())
 
 # Données par page (chemin CSV ou None si pas encore de données)
 DATA_PATHS = {
+<<<<<<< HEAD
     # Logistique : données journalières reconstituées
     "Logistique": "data/logistics/donnees_journalieres_reconstituees.csv",
     "Activité & Service": None,
@@ -18,6 +19,15 @@ DATA_PATHS = {
     "Patients": None,
     "Qualité": None,
     "RH": None,
+=======
+    "Logistique": "data/logistics/logistics-data-with-crise.csv",
+    "Activité & Service": "data/activity-service/activity-service-data-with-crise.csv",
+    "Capacité": "data/capacity/capacity-data-with-crise.csv",
+    "Finance": "data/finance/finance-data-with-crise.csv",
+    "Patients": "data/patients/patients-data-with-crise.csv",
+    "Qualité":"data/quality/quality-data-with-crise.csv" ,
+    "RH": "data/hr/hr-data-with-crise.csv",
+>>>>>>> 65bf560909e6b93add3b1cfa87f40c6d17a420b5
 }
 
 st.set_page_config(page_title="PSL–CFX | Infographie (Normal vs Crise)", layout="wide")
