@@ -4,15 +4,15 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Confort et propreté de la chambre,Mauvais,,,"8,75",%
 2012,Confort et propreté de la chambre,Tres bon ,,,"30,00",%
 2012,Confort et propreté de la chambre,Très mauvais,,,"2,50",%
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Date et heure de survenue de l'AVC,"94,00",,,
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Evaluation par un rééducateur,"73,00",,,
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Tenue du dossier médical,"89,00",,,
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Dialyse rénale-Transplantation-Transplantation,"100,00",,,%
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Prévention après l'accouchement,"84,00",,,%
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Prévention pendant l'accouchement,"95,00",,,%
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Traitement en cas d'hémorragie,"68,00",,,%
-2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Infarctus du myocarde-Sensibilisation aux règles hygiéno-diététiques,"98,00",,,%
-2012,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Infarctus du myocarde-Sensibilisation aux règles hygiéno-diététiques,"95,00",,,%
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Date et heure de survenue de l'AVC,"94,00","94,00",,
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Evaluation par un rééducateur,"73,00","73,00",,
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Accident Vasculaire Cérébral-Tenue du dossier médical,"89,00","89,00",,
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Dialyse rénale-Transplantation-Transplantation,"100,00","100,00",,%
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Prévention après l'accouchement,"84,00","84,00",,%
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Prévention pendant l'accouchement,"95,00","95,00",,%
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Hémorragie du Post-Partum-Traitement en cas d'hémorragie,"68,00","68,00",,%
+2015,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Infarctus du myocarde-Sensibilisation aux règles hygiéno-diététiques,"98,00","98,00",,%
+2012,Indicateurs Pour l’Amélioration de la Qualité et de la Sécurité des Soins,Infarctus du myocarde-Sensibilisation aux règles hygiéno-diététiques,"95,00","95,00",,%
 2012,Organisation de la sortie,Bon,,,"29,17",%
 2012,Organisation de la sortie,Excellent,,,"34,17",%
 2012,Organisation de la sortie,Mauvais,,,"9,17",%
@@ -23,36 +23,36 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Qualité des soins,Excellent,,,"43,33",%
 2012,Qualité des soins,Tres bon ,,,"33,33",%
 2012,Qualité des soins – MCO,Compte rendu,"30,00","41,00",,%
-2015,Qualité des soins – MCO,Compte rendu,"41,00",,,%
+2015,Qualité des soins – MCO,Compte rendu,"41,00","41,00",,%
 2012,Qualité des soins – MCO,Dépistage des troubles nutritionnels,"84,00","85,00",,%
-2015,Qualité des soins – MCO,Dossier d'anesthésie,"88,00",,,%
+2015,Qualité des soins – MCO,Dossier d'anesthésie,"88,00","88,00",,%
 2012,Qualité des soins – MCO,Dossier d’anesthésie,"91,00","82,00",,%
 2012,Qualité des soins – MCO,Dossier médical,"67,00","77,00",,%
-2015,Qualité des soins – MCO,Dossier médical,"78,00",,,%
-2015,Qualité des soins – MCO,Evaluation de la douleur,"76,00",,,%
+2015,Qualité des soins – MCO,Dossier médical,"78,00","78,00",,%
+2015,Qualité des soins – MCO,Evaluation de la douleur,"76,00","76,00",,%
 2012,Qualité des soins – MCO,Évaluation de la douleur,"66,00","67,00",,%
 2012,Qualité des soins – MCO,Infarctus du myocarde,"85,00","93,00",,%
-2015,Qualité des soins – MCO,Prévention des escarres,"21,00",,,%
+2015,Qualité des soins – MCO,Prévention des escarres,"21,00","21,00",,%
 2012,Qualité des soins – MCO,Réunions de concertation en cancérologie (RCP),"90,00","84,00",,%
-2015,Qualité des soins – MCO,Réunions de concertation pluridisciplinaires (RCP),"92,00",,,%
-2015,Qualité des soins – MCO,Troubles nutritionnels,"81,00",,,%
+2015,Qualité des soins – MCO,Réunions de concertation pluridisciplinaires (RCP),"92,00","92,00",,%
+2015,Qualité des soins – MCO,Troubles nutritionnels,"81,00","81,00",,%
 2012,Qualité des soins – Psychiatrie (PSY),Compte rendu,"53,00","43,00",,%
-2015,Qualité des soins – Psychiatrie (PSY),Compte rendu,"70,00",,,%
+2015,Qualité des soins – Psychiatrie (PSY),Compte rendu,"70,00","70,00",,%
 2012,Qualité des soins – Psychiatrie (PSY),Dépistage des troubles nutritionnels,"95,00","84,00",,%
-2015,Qualité des soins – Psychiatrie (PSY),Dossier d'anesthésie,"60,00",,,%
+2015,Qualité des soins – Psychiatrie (PSY),Dossier d'anesthésie,"60,00","60,00",,%
 2012,Qualité des soins – Psychiatrie (PSY),Dossier médical,"70,00","71,00",,%
 2015,Qualité des soins – Psychiatrie (PSY),Dossier médical,"78,00","74,00",,%
 2015,Qualité des soins – Psychiatrie (PSY),Troubles nutritionnels,"93,00",97,,%
 2012,Qualité des soins – SSR,Compte rendu,"70,00","74,00",,%
-2015,Qualité des soins – SSR,Compte rendu,,"73,00",,%
+2015,Qualité des soins – SSR,Compte rendu,"73,00","73,00",,%
 2012,Qualité des soins – SSR,Dépistage des troubles nutritionnels,"64,00","65,00",,%
 2012,Qualité des soins – SSR,Dossier médical,"75,00","84,00",,%
-2015,Qualité des soins – SSR,Dossier médical,,"76,00",,%
-2015,Qualité des soins – SSR,Evaluation de la douleur,,"85,00",,%
+2015,Qualité des soins – SSR,Dossier médical,"76,00","76,00",,%
+2015,Qualité des soins – SSR,Evaluation de la douleur,"85,00","85,00",,%
 2012,Qualité des soins – SSR,Évaluation de la douleur,"58,00","67,00",,%
 2012,Qualité des soins – SSR,Prévention des escarres,"64,00","64,00",,%
-2015,Qualité des soins – SSR,Prévention des escarres,,"57,00",,%
-2015,Qualité des soins – SSR,Troubles nutritionnels,,"78,00",,%
+2015,Qualité des soins – SSR,Prévention des escarres,"57,00","57,00",,%
+2015,Qualité des soins – SSR,Troubles nutritionnels,"78,00","78,00",,%
 2012,Qualité et varièté de repas,Bon,,,"45,00",%
 2012,Qualité et varièté de repas,Excellent,,,"5,00",%
 2012,Qualité et varièté de repas,Mauvais,,,"21,30",%
