@@ -1,5 +1,5 @@
 ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
-2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,,,59017,sejours
+2015,Causes d'hopitalisations,Pathologies cancéreuses - Sejours,,,59017,sejours
 2015,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,,,7912,patients
 2015,Causes d'hopitalisations,Pathologies cancéreuses - Total,,,11075,patients
 2012,Origine géographique,DOM TOM - MCO,,,"1,03",%
@@ -18,8 +18,8 @@ ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF,CFX,TOTAL,UNITE
 2012,Origine géographique,Val-de-Marne - SSR,,,"30,58",%
 2015,Origine géographique,Île-de-France - Autres - MCO,,,15,%
 2015,Origine géographique,Île-de-France - Autres - SSR,,,6,%
-2015,Origine géographique,Autres départements et DOM TOM,,,3,%
-2015,Origine géographique,Autres départements et DOM TOM,,,13,%
+2015,Origine géographique,Autres départements et DOM TOM - SSR,,,3,%
+2015,Origine géographique,Autres départements et DOM TOM - MCO,,,13,%
 2015,Origine géographique,Étranger  - MCO,,,1,%
 2015,Origine géographique,Étranger - SSR,,,1,%
 2015,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,,,7,%
