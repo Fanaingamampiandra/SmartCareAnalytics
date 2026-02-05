@@ -1,0 +1,673 @@
+year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
+2017,1,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,592.96,474.44
+2017,2,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,395.04,276.96
+2017,3,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,276.27,593.24
+2017,4,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,237.9,711.9
+2017,5,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,197.4,316.24
+2017,6,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,238.05,157.96
+2017,7,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,512.43,118.96
+2017,8,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,514.74,118.96
+2017,9,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,236.82,237.11
+2017,10,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,198.45,395.44
+2017,11,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,156.56,355.96
+2017,12,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,395.91,197.96
+2017,1,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,4029.5,3258.87
+2017,2,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,2595.02,1794.6
+2017,3,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1730.68,4116.68
+2017,4,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1445.38,4974.22
+2017,5,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1156.67,2093.9
+2017,6,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1447.84,935.31
+2017,7,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,3486.37,648.89
+2017,8,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,3487.43,647.41
+2017,9,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1447.68,1514.53
+2017,10,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1159.17,2668.16
+2017,11,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,868.44,2379.83
+2017,12,CFX,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,2614.0,1225.35
+2017,1,CFX,Origine géographique,Autres départements et DOM TOM,%,0.98,0.75
+2017,2,CFX,Origine géographique,Autres départements et DOM TOM,%,0.65,0.43
+2017,3,CFX,Origine géographique,Autres départements et DOM TOM,%,0.5,0.96
+2017,4,CFX,Origine géographique,Autres départements et DOM TOM,%,0.37,1.16
+2017,5,CFX,Origine géographique,Autres départements et DOM TOM,%,0.35,0.51
+2017,6,CFX,Origine géographique,Autres départements et DOM TOM,%,0.34,0.25
+2017,7,CFX,Origine géographique,Autres départements et DOM TOM,%,0.85,0.19
+2017,8,CFX,Origine géographique,Autres départements et DOM TOM,%,0.85,0.19
+2017,9,CFX,Origine géographique,Autres départements et DOM TOM,%,0.38,0.39
+2017,10,CFX,Origine géographique,Autres départements et DOM TOM,%,0.35,0.66
+2017,11,CFX,Origine géographique,Autres départements et DOM TOM,%,0.34,0.59
+2017,12,CFX,Origine géographique,Autres départements et DOM TOM,%,0.64,0.33
+2017,1,CFX,Origine géographique,Province - MCO,%,0.88,0.72
+2017,2,CFX,Origine géographique,Province - MCO,%,0.59,0.43
+2017,3,CFX,Origine géographique,Province - MCO,%,0.4,0.9
+2017,4,CFX,Origine géographique,Province - MCO,%,0.32,1.07
+2017,5,CFX,Origine géographique,Province - MCO,%,0.33,0.49
+2017,6,CFX,Origine géographique,Province - MCO,%,0.33,0.25
+2017,7,CFX,Origine géographique,Province - MCO,%,0.82,0.2
+2017,8,CFX,Origine géographique,Province - MCO,%,0.82,0.2
+2017,9,CFX,Origine géographique,Province - MCO,%,0.33,0.37
+2017,10,CFX,Origine géographique,Province - MCO,%,0.33,0.6
+2017,11,CFX,Origine géographique,Province - MCO,%,0.32,0.55
+2017,12,CFX,Origine géographique,Province - MCO,%,0.62,0.31
+2017,1,CFX,Origine géographique,Province - SSR,%,0.32,0.17
+2017,2,CFX,Origine géographique,Province - SSR,%,0.26,0.1
+2017,3,CFX,Origine géographique,Province - SSR,%,0.01,0.21
+2017,4,CFX,Origine géographique,Province - SSR,%,0.01,0.25
+2017,5,CFX,Origine géographique,Province - SSR,%,0.01,0.11
+2017,6,CFX,Origine géographique,Province - SSR,%,0.01,0.06
+2017,7,CFX,Origine géographique,Province - SSR,%,0.32,0.04
+2017,8,CFX,Origine géographique,Province - SSR,%,0.32,0.04
+2017,9,CFX,Origine géographique,Province - SSR,%,0.01,0.08
+2017,10,CFX,Origine géographique,Province - SSR,%,0.01,0.14
+2017,11,CFX,Origine géographique,Province - SSR,%,0.01,0.13
+2017,12,CFX,Origine géographique,Province - SSR,%,0.23,0.07
+2017,1,CFX,Origine géographique,Val-de-Marne - MCO,%,1.1,0.86
+2017,2,CFX,Origine géographique,Val-de-Marne - MCO,%,0.75,0.5
+2017,3,CFX,Origine géographique,Val-de-Marne - MCO,%,0.53,1.07
+2017,4,CFX,Origine géographique,Val-de-Marne - MCO,%,0.44,1.29
+2017,5,CFX,Origine géographique,Val-de-Marne - MCO,%,0.32,0.57
+2017,6,CFX,Origine géographique,Val-de-Marne - MCO,%,0.44,0.29
+2017,7,CFX,Origine géographique,Val-de-Marne - MCO,%,0.92,0.21
+2017,8,CFX,Origine géographique,Val-de-Marne - MCO,%,0.91,0.21
+2017,9,CFX,Origine géographique,Val-de-Marne - MCO,%,0.43,0.43
+2017,10,CFX,Origine géographique,Val-de-Marne - MCO,%,0.32,0.72
+2017,11,CFX,Origine géographique,Val-de-Marne - MCO,%,0.31,0.64
+2017,12,CFX,Origine géographique,Val-de-Marne - MCO,%,0.74,0.36
+2017,1,CFX,Origine géographique,Val-de-Marne - SSR,%,2.26,1.83
+2017,2,CFX,Origine géographique,Val-de-Marne - SSR,%,1.51,1.07
+2017,3,CFX,Origine géographique,Val-de-Marne - SSR,%,1.07,2.29
+2017,4,CFX,Origine géographique,Val-de-Marne - SSR,%,0.88,2.75
+2017,5,CFX,Origine géographique,Val-de-Marne - SSR,%,0.74,1.22
+2017,6,CFX,Origine géographique,Val-de-Marne - SSR,%,0.86,0.61
+2017,7,CFX,Origine géographique,Val-de-Marne - SSR,%,1.99,0.46
+2017,8,CFX,Origine géographique,Val-de-Marne - SSR,%,1.97,0.46
+2017,9,CFX,Origine géographique,Val-de-Marne - SSR,%,0.87,0.92
+2017,10,CFX,Origine géographique,Val-de-Marne - SSR,%,0.79,1.53
+2017,11,CFX,Origine géographique,Val-de-Marne - SSR,%,0.55,1.38
+2017,12,CFX,Origine géographique,Val-de-Marne - SSR,%,1.48,0.76
+2017,1,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.54,0.46
+2017,2,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.29,0.27
+2017,3,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.31,0.57
+2017,4,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.69
+2017,5,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.24,0.31
+2017,6,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.15
+2017,7,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.45,0.11
+2017,8,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.46,0.11
+2017,9,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.23
+2017,10,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.24,0.38
+2017,11,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.1,0.34
+2017,12,CFX,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.31,0.19
+2017,1,CFX,Origine géographique,Île-de-France - Autres - MCO,%,1.14,0.9
+2017,2,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.78,0.53
+2017,3,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.54,1.13
+2017,4,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.47,1.35
+2017,5,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.33,0.6
+2017,6,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.46,0.3
+2017,7,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.98,0.23
+2017,8,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.95,0.23
+2017,9,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.48,0.45
+2017,10,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.32,0.75
+2017,11,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.3,0.68
+2017,12,CFX,Origine géographique,Île-de-France - Autres - MCO,%,0.78,0.38
+2017,1,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.48,0.37
+2017,2,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.29,0.22
+2017,3,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.31,0.46
+2017,4,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.23,0.55
+2017,5,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.16,0.25
+2017,6,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.25,0.12
+2017,7,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.35,0.09
+2017,8,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.33,0.09
+2017,9,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.23,0.18
+2017,10,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.15,0.31
+2017,11,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.0,0.28
+2017,12,CFX,Origine géographique,Île-de-France - Autres - SSR,%,0.31,0.15
+2017,1,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.32,0.2
+2017,2,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.3,0.12
+2017,3,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.13,0.25
+2017,4,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.07,0.3
+2017,5,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.02,0.14
+2017,6,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.03,0.07
+2017,7,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.32,0.06
+2017,8,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.31,0.06
+2017,9,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.03,0.11
+2017,10,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.01,0.17
+2017,11,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.01,0.15
+2017,12,CFX,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.31,0.09
+2017,1,CFX,Origine géographique,Île-de-France - MCO,%,6.51,5.19
+2017,2,CFX,Origine géographique,Île-de-France - MCO,%,4.33,3.03
+2017,3,CFX,Origine géographique,Île-de-France - MCO,%,3.02,6.5
+2017,4,CFX,Origine géographique,Île-de-France - MCO,%,2.58,7.81
+2017,5,CFX,Origine géographique,Île-de-France - MCO,%,2.17,3.46
+2017,6,CFX,Origine géographique,Île-de-France - MCO,%,2.61,1.73
+2017,7,CFX,Origine géographique,Île-de-France - MCO,%,5.62,1.29
+2017,8,CFX,Origine géographique,Île-de-France - MCO,%,5.65,1.29
+2017,9,CFX,Origine géographique,Île-de-France - MCO,%,2.58,2.59
+2017,10,CFX,Origine géographique,Île-de-France - MCO,%,2.16,4.33
+2017,11,CFX,Origine géographique,Île-de-France - MCO,%,1.73,3.89
+2017,12,CFX,Origine géographique,Île-de-France - MCO,%,4.32,2.16
+2017,1,CFX,Origine géographique,Île-de-France - Paris - MCO,%,2.6,2.1
+2017,2,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.75,1.22
+2017,3,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.17,2.62
+2017,4,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.07,3.15
+2017,5,CFX,Origine géographique,Île-de-France - Paris - MCO,%,0.86,1.4
+2017,6,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.05,0.7
+2017,7,CFX,Origine géographique,Île-de-France - Paris - MCO,%,2.27,0.52
+2017,8,CFX,Origine géographique,Île-de-France - Paris - MCO,%,2.28,0.52
+2017,9,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.07,1.05
+2017,10,CFX,Origine géographique,Île-de-France - Paris - MCO,%,0.84,1.75
+2017,11,CFX,Origine géographique,Île-de-France - Paris - MCO,%,0.7,1.57
+2017,12,CFX,Origine géographique,Île-de-France - Paris - MCO,%,1.74,0.87
+2017,1,CFX,Origine géographique,Île-de-France - Paris - SSR,%,3.69,2.93
+2017,2,CFX,Origine géographique,Île-de-France - Paris - SSR,%,2.47,1.7
+2017,3,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.71,3.66
+2017,4,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.48,4.4
+2017,5,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.22,1.95
+2017,6,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.49,0.97
+2017,7,CFX,Origine géographique,Île-de-France - Paris - SSR,%,3.17,0.73
+2017,8,CFX,Origine géographique,Île-de-France - Paris - SSR,%,3.19,0.73
+2017,9,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.48,1.46
+2017,10,CFX,Origine géographique,Île-de-France - Paris - SSR,%,1.2,2.44
+2017,11,CFX,Origine géographique,Île-de-France - Paris - SSR,%,0.99,2.19
+2017,12,CFX,Origine géographique,Île-de-France - Paris - SSR,%,2.46,1.21
+2017,1,CFX,Origine géographique,Île-de-France - SSR,%,7.18,5.74
+2017,2,CFX,Origine géographique,Île-de-France - SSR,%,4.78,3.34
+2017,3,CFX,Origine géographique,Île-de-France - SSR,%,3.34,7.18
+2017,4,CFX,Origine géographique,Île-de-France - SSR,%,2.87,8.62
+2017,5,CFX,Origine géographique,Île-de-France - SSR,%,2.38,3.82
+2017,6,CFX,Origine géographique,Île-de-France - SSR,%,2.88,1.91
+2017,7,CFX,Origine géographique,Île-de-France - SSR,%,6.24,1.43
+2017,8,CFX,Origine géographique,Île-de-France - SSR,%,6.22,1.43
+2017,9,CFX,Origine géographique,Île-de-France - SSR,%,2.85,2.87
+2017,10,CFX,Origine géographique,Île-de-France - SSR,%,2.37,4.78
+2017,11,CFX,Origine géographique,Île-de-France - SSR,%,1.91,4.3
+2017,12,CFX,Origine géographique,Île-de-France - SSR,%,4.8,2.39
+2017,1,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.67,0.59
+2017,2,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.49,0.35
+2017,3,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.31,0.74
+2017,4,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.88
+2017,5,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.39
+2017,6,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.2
+2017,7,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.6,0.15
+2017,8,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.59,0.15
+2017,9,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.3
+2017,10,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.31,0.49
+2017,11,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.29,0.44
+2017,12,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.47,0.25
+2017,1,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.28
+2017,2,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.29,0.16
+2017,3,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.23,0.35
+2017,4,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.18,0.42
+2017,5,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.02,0.19
+2017,6,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.16,0.09
+2017,7,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.07
+2017,8,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.07
+2017,9,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.18,0.14
+2017,10,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.01,0.23
+2017,11,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.0,0.21
+2017,12,CFX,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.12
+2017,1,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.48,0.37
+2017,2,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.29,0.22
+2017,3,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.31,0.46
+2017,4,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.23,0.55
+2017,5,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.16,0.25
+2017,6,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.25,0.12
+2017,7,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.35,0.09
+2017,8,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.33,0.09
+2017,9,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.23,0.18
+2017,10,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.15,0.31
+2017,11,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.0,0.28
+2017,12,CFX,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.31,0.15
+2017,1,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.17,0.03
+2017,2,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,3,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.03
+2017,4,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.04
+2017,5,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,6,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,7,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.03,0.01
+2017,8,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.02,0.01
+2017,9,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,10,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,11,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,12,CFX,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,1,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,1.1,0.83
+2017,2,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.71,0.49
+2017,3,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.53,1.04
+2017,4,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.42,1.25
+2017,5,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.32,0.56
+2017,6,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.39,0.28
+2017,7,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.9,0.21
+2017,8,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.89,0.21
+2017,9,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.4,0.42
+2017,10,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.31,0.7
+2017,11,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.3,0.63
+2017,12,CFX,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.68,0.35
+2017,1,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.33,1.86
+2017,2,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.52,1.08
+2017,3,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.14,2.32
+2017,4,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.92,2.78
+2017,5,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.82,1.24
+2017,6,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.92,0.62
+2017,7,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.02,0.46
+2017,8,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.02,0.46
+2017,9,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.88,0.93
+2017,10,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.79,1.55
+2017,11,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.6,1.39
+2017,12,CFX,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.53,0.77
+2017,1,CFX,Profil patients,Femmes - MCO,%,9.21,7.35
+2017,2,CFX,Profil patients,Femmes - MCO,%,6.14,4.31
+2017,3,CFX,Profil patients,Femmes - MCO,%,4.27,9.17
+2017,4,CFX,Profil patients,Femmes - MCO,%,3.65,11.0
+2017,5,CFX,Profil patients,Femmes - MCO,%,3.07,4.92
+2017,6,CFX,Profil patients,Femmes - MCO,%,3.66,2.48
+2017,7,CFX,Profil patients,Femmes - MCO,%,7.96,1.87
+2017,8,CFX,Profil patients,Femmes - MCO,%,7.94,1.87
+2017,9,CFX,Profil patients,Femmes - MCO,%,3.71,3.7
+2017,10,CFX,Profil patients,Femmes - MCO,%,3.04,6.14
+2017,11,CFX,Profil patients,Femmes - MCO,%,2.45,5.53
+2017,12,CFX,Profil patients,Femmes - MCO,%,6.13,3.09
+2017,1,CFX,Profil patients,Hommes - MCO,%,5.78,4.61
+2017,2,CFX,Profil patients,Hommes - MCO,%,3.85,2.66
+2017,3,CFX,Profil patients,Hommes - MCO,%,2.73,5.78
+2017,4,CFX,Profil patients,Hommes - MCO,%,2.32,6.94
+2017,5,CFX,Profil patients,Hommes - MCO,%,1.94,3.05
+2017,6,CFX,Profil patients,Hommes - MCO,%,2.31,1.51
+2017,7,CFX,Profil patients,Hommes - MCO,%,5.01,1.12
+2017,8,CFX,Profil patients,Hommes - MCO,%,5.05,1.12
+2017,9,CFX,Profil patients,Hommes - MCO,%,2.27,2.28
+2017,10,CFX,Profil patients,Hommes - MCO,%,1.94,3.83
+2017,11,CFX,Profil patients,Hommes - MCO,%,1.53,3.44
+2017,12,CFX,Profil patients,Hommes - MCO,%,3.89,1.89
+2017,1,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,12.75,10.21
+2017,2,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,8.49,5.96
+2017,3,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,5.94,12.77
+2017,4,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,5.1,15.32
+2017,5,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,4.23,6.81
+2017,6,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,5.1,3.4
+2017,7,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,11.04,2.55
+2017,8,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,11.05,2.55
+2017,9,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,5.1,5.11
+2017,10,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,4.25,8.51
+2017,11,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,3.42,7.66
+2017,12,CFX,Profil patients,Âge moyen - Femmes - MCO,ans,8.5,4.26
+2017,1,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,12.58,10.07
+2017,2,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,8.4,5.88
+2017,3,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,5.87,12.59
+2017,4,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,5.04,15.11
+2017,5,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,4.17,6.72
+2017,6,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,5.03,3.36
+2017,7,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,10.91,2.52
+2017,8,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,10.92,2.52
+2017,9,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,5.03,5.04
+2017,10,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,4.19,8.39
+2017,11,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,3.35,7.55
+2017,12,CFX,Profil patients,Âge moyen - Hommes - MCO,ans,8.4,4.2
+2017,1,CFX,Profil patients,Âge moyen - MCO,ans,12.73,10.21
+2017,2,CFX,Profil patients,Âge moyen - MCO,ans,8.44,5.96
+2017,3,CFX,Profil patients,Âge moyen - MCO,ans,5.89,12.76
+2017,4,CFX,Profil patients,Âge moyen - MCO,ans,5.06,15.31
+2017,5,CFX,Profil patients,Âge moyen - MCO,ans,4.17,6.81
+2017,6,CFX,Profil patients,Âge moyen - MCO,ans,5.05,3.41
+2017,7,CFX,Profil patients,Âge moyen - MCO,ans,10.99,2.56
+2017,8,CFX,Profil patients,Âge moyen - MCO,ans,11.01,2.56
+2017,9,CFX,Profil patients,Âge moyen - MCO,ans,5.05,5.11
+2017,10,CFX,Profil patients,Âge moyen - MCO,ans,4.21,8.51
+2017,11,CFX,Profil patients,Âge moyen - MCO,ans,3.35,7.66
+2017,12,CFX,Profil patients,Âge moyen - MCO,ans,8.44,4.26
+2017,1,CFX,Urgences,Passages,patients,717.05,573.41
+2017,2,CFX,Urgences,Passages,patients,474.34,333.52
+2017,3,CFX,Urgences,Passages,patients,335.0,717.4
+2017,4,CFX,Urgences,Passages,patients,287.8,861.4
+2017,5,CFX,Urgences,Passages,patients,237.26,381.52
+2017,6,CFX,Urgences,Passages,patients,288.41,190.4
+2017,7,CFX,Urgences,Passages,patients,623.87,142.39
+2017,8,CFX,Urgences,Passages,patients,621.48,142.39
+2017,9,CFX,Urgences,Passages,patients,282.25,286.4
+2017,10,CFX,Urgences,Passages,patients,236.88,477.51
+2017,11,CFX,Urgences,Passages,patients,190.4,429.51
+2017,12,CFX,Urgences,Passages,patients,479.49,238.39
+2017,1,CFX,Urgences,Patients admis,patients,185.34,143.87
+2017,2,CFX,Urgences,Patients admis,patients,122.74,84.15
+2017,3,CFX,Urgences,Patients admis,patients,87.41,181.12
+2017,4,CFX,Urgences,Patients admis,patients,77.1,217.07
+2017,5,CFX,Urgences,Patients admis,patients,64.9,96.17
+2017,6,CFX,Urgences,Patients admis,patients,77.59,46.88
+2017,7,CFX,Urgences,Patients admis,patients,158.78,34.89
+2017,8,CFX,Urgences,Patients admis,patients,158.07,34.89
+2017,9,CFX,Urgences,Patients admis,patients,78.22,72.17
+2017,10,CFX,Urgences,Patients admis,patients,63.17,119.84
+2017,11,CFX,Urgences,Patients admis,patients,54.72,107.85
+2017,12,CFX,Urgences,Patients admis,patients,121.16,58.86
+2017,1,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,592.96,474.44
+2017,2,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,395.04,276.96
+2017,3,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,276.27,593.24
+2017,4,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,237.9,711.9
+2017,5,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,197.4,316.24
+2017,6,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,238.05,157.96
+2017,7,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,512.43,118.96
+2017,8,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,514.74,118.96
+2017,9,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,236.82,237.11
+2017,10,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,198.45,395.44
+2017,11,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,156.56,355.96
+2017,12,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Nouveaux,patients,395.91,197.96
+2017,1,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,4029.5,3258.87
+2017,2,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,2595.02,1794.6
+2017,3,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1730.68,4116.68
+2017,4,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1445.38,4974.22
+2017,5,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1156.67,2093.9
+2017,6,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1447.84,935.31
+2017,7,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,3486.37,648.89
+2017,8,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,3487.43,647.41
+2017,9,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1447.68,1514.53
+2017,10,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,1159.17,2668.16
+2017,11,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,868.44,2379.83
+2017,12,PLF,Causes d'hopitalisations,Pathologies cancéreuses - Total,patients,2614.0,1225.35
+2017,1,PLF,Origine géographique,Autres départements et DOM TOM,%,0.98,0.75
+2017,2,PLF,Origine géographique,Autres départements et DOM TOM,%,0.65,0.43
+2017,3,PLF,Origine géographique,Autres départements et DOM TOM,%,0.5,0.96
+2017,4,PLF,Origine géographique,Autres départements et DOM TOM,%,0.37,1.16
+2017,5,PLF,Origine géographique,Autres départements et DOM TOM,%,0.35,0.51
+2017,6,PLF,Origine géographique,Autres départements et DOM TOM,%,0.34,0.25
+2017,7,PLF,Origine géographique,Autres départements et DOM TOM,%,0.85,0.19
+2017,8,PLF,Origine géographique,Autres départements et DOM TOM,%,0.85,0.19
+2017,9,PLF,Origine géographique,Autres départements et DOM TOM,%,0.38,0.39
+2017,10,PLF,Origine géographique,Autres départements et DOM TOM,%,0.35,0.66
+2017,11,PLF,Origine géographique,Autres départements et DOM TOM,%,0.34,0.59
+2017,12,PLF,Origine géographique,Autres départements et DOM TOM,%,0.64,0.33
+2017,1,PLF,Origine géographique,Province - MCO,%,0.88,0.72
+2017,2,PLF,Origine géographique,Province - MCO,%,0.59,0.43
+2017,3,PLF,Origine géographique,Province - MCO,%,0.4,0.9
+2017,4,PLF,Origine géographique,Province - MCO,%,0.32,1.07
+2017,5,PLF,Origine géographique,Province - MCO,%,0.33,0.49
+2017,6,PLF,Origine géographique,Province - MCO,%,0.33,0.25
+2017,7,PLF,Origine géographique,Province - MCO,%,0.82,0.2
+2017,8,PLF,Origine géographique,Province - MCO,%,0.82,0.2
+2017,9,PLF,Origine géographique,Province - MCO,%,0.33,0.37
+2017,10,PLF,Origine géographique,Province - MCO,%,0.33,0.6
+2017,11,PLF,Origine géographique,Province - MCO,%,0.32,0.55
+2017,12,PLF,Origine géographique,Province - MCO,%,0.62,0.31
+2017,1,PLF,Origine géographique,Province - SSR,%,0.32,0.17
+2017,2,PLF,Origine géographique,Province - SSR,%,0.26,0.1
+2017,3,PLF,Origine géographique,Province - SSR,%,0.01,0.21
+2017,4,PLF,Origine géographique,Province - SSR,%,0.01,0.25
+2017,5,PLF,Origine géographique,Province - SSR,%,0.01,0.11
+2017,6,PLF,Origine géographique,Province - SSR,%,0.01,0.06
+2017,7,PLF,Origine géographique,Province - SSR,%,0.32,0.04
+2017,8,PLF,Origine géographique,Province - SSR,%,0.32,0.04
+2017,9,PLF,Origine géographique,Province - SSR,%,0.01,0.08
+2017,10,PLF,Origine géographique,Province - SSR,%,0.01,0.14
+2017,11,PLF,Origine géographique,Province - SSR,%,0.01,0.13
+2017,12,PLF,Origine géographique,Province - SSR,%,0.23,0.07
+2017,1,PLF,Origine géographique,Val-de-Marne - MCO,%,1.1,0.86
+2017,2,PLF,Origine géographique,Val-de-Marne - MCO,%,0.75,0.5
+2017,3,PLF,Origine géographique,Val-de-Marne - MCO,%,0.53,1.07
+2017,4,PLF,Origine géographique,Val-de-Marne - MCO,%,0.44,1.29
+2017,5,PLF,Origine géographique,Val-de-Marne - MCO,%,0.32,0.57
+2017,6,PLF,Origine géographique,Val-de-Marne - MCO,%,0.44,0.29
+2017,7,PLF,Origine géographique,Val-de-Marne - MCO,%,0.92,0.21
+2017,8,PLF,Origine géographique,Val-de-Marne - MCO,%,0.91,0.21
+2017,9,PLF,Origine géographique,Val-de-Marne - MCO,%,0.43,0.43
+2017,10,PLF,Origine géographique,Val-de-Marne - MCO,%,0.32,0.72
+2017,11,PLF,Origine géographique,Val-de-Marne - MCO,%,0.31,0.64
+2017,12,PLF,Origine géographique,Val-de-Marne - MCO,%,0.74,0.36
+2017,1,PLF,Origine géographique,Val-de-Marne - SSR,%,2.26,1.83
+2017,2,PLF,Origine géographique,Val-de-Marne - SSR,%,1.51,1.07
+2017,3,PLF,Origine géographique,Val-de-Marne - SSR,%,1.07,2.29
+2017,4,PLF,Origine géographique,Val-de-Marne - SSR,%,0.88,2.75
+2017,5,PLF,Origine géographique,Val-de-Marne - SSR,%,0.74,1.22
+2017,6,PLF,Origine géographique,Val-de-Marne - SSR,%,0.86,0.61
+2017,7,PLF,Origine géographique,Val-de-Marne - SSR,%,1.99,0.46
+2017,8,PLF,Origine géographique,Val-de-Marne - SSR,%,1.97,0.46
+2017,9,PLF,Origine géographique,Val-de-Marne - SSR,%,0.87,0.92
+2017,10,PLF,Origine géographique,Val-de-Marne - SSR,%,0.79,1.53
+2017,11,PLF,Origine géographique,Val-de-Marne - SSR,%,0.55,1.38
+2017,12,PLF,Origine géographique,Val-de-Marne - SSR,%,1.48,0.76
+2017,1,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.54,0.46
+2017,2,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.29,0.27
+2017,3,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.31,0.57
+2017,4,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.69
+2017,5,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.24,0.31
+2017,6,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.15
+2017,7,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.45,0.11
+2017,8,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.46,0.11
+2017,9,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.3,0.23
+2017,10,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.24,0.38
+2017,11,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.1,0.34
+2017,12,PLF,Origine géographique,Île-de-France -  Hauts-de-Seine - MCO,%,0.31,0.19
+2017,1,PLF,Origine géographique,Île-de-France - Autres - MCO,%,1.14,0.9
+2017,2,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.78,0.53
+2017,3,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.54,1.13
+2017,4,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.47,1.35
+2017,5,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.33,0.6
+2017,6,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.46,0.3
+2017,7,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.98,0.23
+2017,8,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.95,0.23
+2017,9,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.48,0.45
+2017,10,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.32,0.75
+2017,11,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.3,0.68
+2017,12,PLF,Origine géographique,Île-de-France - Autres - MCO,%,0.78,0.38
+2017,1,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.48,0.37
+2017,2,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.29,0.22
+2017,3,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.31,0.46
+2017,4,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.23,0.55
+2017,5,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.16,0.25
+2017,6,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.25,0.12
+2017,7,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.35,0.09
+2017,8,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.33,0.09
+2017,9,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.23,0.18
+2017,10,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.15,0.31
+2017,11,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.0,0.28
+2017,12,PLF,Origine géographique,Île-de-France - Autres - SSR,%,0.31,0.15
+2017,1,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.32,0.2
+2017,2,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.3,0.12
+2017,3,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.13,0.25
+2017,4,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.07,0.3
+2017,5,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.02,0.14
+2017,6,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.03,0.07
+2017,7,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.32,0.06
+2017,8,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.31,0.06
+2017,9,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.03,0.11
+2017,10,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.01,0.17
+2017,11,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.01,0.15
+2017,12,PLF,Origine géographique,Île-de-France - Hauts-de-Seine  - SSR,%,0.31,0.09
+2017,1,PLF,Origine géographique,Île-de-France - MCO,%,6.51,5.19
+2017,2,PLF,Origine géographique,Île-de-France - MCO,%,4.33,3.03
+2017,3,PLF,Origine géographique,Île-de-France - MCO,%,3.02,6.5
+2017,4,PLF,Origine géographique,Île-de-France - MCO,%,2.58,7.81
+2017,5,PLF,Origine géographique,Île-de-France - MCO,%,2.17,3.46
+2017,6,PLF,Origine géographique,Île-de-France - MCO,%,2.61,1.73
+2017,7,PLF,Origine géographique,Île-de-France - MCO,%,5.62,1.29
+2017,8,PLF,Origine géographique,Île-de-France - MCO,%,5.65,1.29
+2017,9,PLF,Origine géographique,Île-de-France - MCO,%,2.58,2.59
+2017,10,PLF,Origine géographique,Île-de-France - MCO,%,2.16,4.33
+2017,11,PLF,Origine géographique,Île-de-France - MCO,%,1.73,3.89
+2017,12,PLF,Origine géographique,Île-de-France - MCO,%,4.32,2.16
+2017,1,PLF,Origine géographique,Île-de-France - Paris - MCO,%,2.6,2.1
+2017,2,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.75,1.22
+2017,3,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.17,2.62
+2017,4,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.07,3.15
+2017,5,PLF,Origine géographique,Île-de-France - Paris - MCO,%,0.86,1.4
+2017,6,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.05,0.7
+2017,7,PLF,Origine géographique,Île-de-France - Paris - MCO,%,2.27,0.52
+2017,8,PLF,Origine géographique,Île-de-France - Paris - MCO,%,2.28,0.52
+2017,9,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.07,1.05
+2017,10,PLF,Origine géographique,Île-de-France - Paris - MCO,%,0.84,1.75
+2017,11,PLF,Origine géographique,Île-de-France - Paris - MCO,%,0.7,1.57
+2017,12,PLF,Origine géographique,Île-de-France - Paris - MCO,%,1.74,0.87
+2017,1,PLF,Origine géographique,Île-de-France - Paris - SSR,%,3.69,2.93
+2017,2,PLF,Origine géographique,Île-de-France - Paris - SSR,%,2.47,1.7
+2017,3,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.71,3.66
+2017,4,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.48,4.4
+2017,5,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.22,1.95
+2017,6,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.49,0.97
+2017,7,PLF,Origine géographique,Île-de-France - Paris - SSR,%,3.17,0.73
+2017,8,PLF,Origine géographique,Île-de-France - Paris - SSR,%,3.19,0.73
+2017,9,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.48,1.46
+2017,10,PLF,Origine géographique,Île-de-France - Paris - SSR,%,1.2,2.44
+2017,11,PLF,Origine géographique,Île-de-France - Paris - SSR,%,0.99,2.19
+2017,12,PLF,Origine géographique,Île-de-France - Paris - SSR,%,2.46,1.21
+2017,1,PLF,Origine géographique,Île-de-France - SSR,%,7.18,5.74
+2017,2,PLF,Origine géographique,Île-de-France - SSR,%,4.78,3.34
+2017,3,PLF,Origine géographique,Île-de-France - SSR,%,3.34,7.18
+2017,4,PLF,Origine géographique,Île-de-France - SSR,%,2.87,8.62
+2017,5,PLF,Origine géographique,Île-de-France - SSR,%,2.38,3.82
+2017,6,PLF,Origine géographique,Île-de-France - SSR,%,2.88,1.91
+2017,7,PLF,Origine géographique,Île-de-France - SSR,%,6.24,1.43
+2017,8,PLF,Origine géographique,Île-de-France - SSR,%,6.22,1.43
+2017,9,PLF,Origine géographique,Île-de-France - SSR,%,2.85,2.87
+2017,10,PLF,Origine géographique,Île-de-France - SSR,%,2.37,4.78
+2017,11,PLF,Origine géographique,Île-de-France - SSR,%,1.91,4.3
+2017,12,PLF,Origine géographique,Île-de-France - SSR,%,4.8,2.39
+2017,1,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.67,0.59
+2017,2,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.49,0.35
+2017,3,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.31,0.74
+2017,4,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.88
+2017,5,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.39
+2017,6,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.2
+2017,7,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.6,0.15
+2017,8,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.59,0.15
+2017,9,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.3,0.3
+2017,10,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.31,0.49
+2017,11,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.29,0.44
+2017,12,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - MCO,%,0.47,0.25
+2017,1,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.28
+2017,2,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.29,0.16
+2017,3,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.23,0.35
+2017,4,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.18,0.42
+2017,5,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.02,0.19
+2017,6,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.16,0.09
+2017,7,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.07
+2017,8,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.07
+2017,9,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.18,0.14
+2017,10,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.01,0.23
+2017,11,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.0,0.21
+2017,12,PLF,Origine géographique,Île-de-France - Seine-Saint-Denis - SSR,%,0.31,0.12
+2017,1,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.48,0.37
+2017,2,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.29,0.22
+2017,3,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.31,0.46
+2017,4,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.23,0.55
+2017,5,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.16,0.25
+2017,6,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.25,0.12
+2017,7,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.35,0.09
+2017,8,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.33,0.09
+2017,9,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.23,0.18
+2017,10,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.15,0.31
+2017,11,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.0,0.28
+2017,12,PLF,Origine géographique,Île-de-France - Seine-et-Marne - MCO,%,0.31,0.15
+2017,1,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.17,0.03
+2017,2,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,3,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.03
+2017,4,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.04
+2017,5,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,6,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,7,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.03,0.01
+2017,8,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.02,0.01
+2017,9,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,10,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,11,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.02
+2017,12,PLF,Origine géographique,Île-de-France - Seine-et-Marne - SSR,%,0.0,0.01
+2017,1,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,1.1,0.83
+2017,2,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.71,0.49
+2017,3,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.53,1.04
+2017,4,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.42,1.25
+2017,5,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.32,0.56
+2017,6,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.39,0.28
+2017,7,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.9,0.21
+2017,8,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.89,0.21
+2017,9,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.4,0.42
+2017,10,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.31,0.7
+2017,11,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.3,0.63
+2017,12,PLF,Origine géographique,Île-de-France - Val-de-Marne - MCO,%,0.68,0.35
+2017,1,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.33,1.86
+2017,2,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.52,1.08
+2017,3,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.14,2.32
+2017,4,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.92,2.78
+2017,5,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.82,1.24
+2017,6,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.92,0.62
+2017,7,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.02,0.46
+2017,8,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,2.02,0.46
+2017,9,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.88,0.93
+2017,10,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.79,1.55
+2017,11,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,0.6,1.39
+2017,12,PLF,Origine géographique,Île-de-France - Val-de-Marne - SSR,%,1.53,0.77
+2017,1,PLF,Profil patients,Femmes - MCO,%,7.37,5.92
+2017,2,PLF,Profil patients,Femmes - MCO,%,4.92,3.46
+2017,3,PLF,Profil patients,Femmes - MCO,%,3.44,7.4
+2017,4,PLF,Profil patients,Femmes - MCO,%,2.97,8.87
+2017,5,PLF,Profil patients,Femmes - MCO,%,2.5,3.95
+2017,6,PLF,Profil patients,Femmes - MCO,%,2.96,2.0
+2017,7,PLF,Profil patients,Femmes - MCO,%,6.41,1.51
+2017,8,PLF,Profil patients,Femmes - MCO,%,6.42,1.51
+2017,9,PLF,Profil patients,Femmes - MCO,%,2.99,2.97
+2017,10,PLF,Profil patients,Femmes - MCO,%,2.48,4.94
+2017,11,PLF,Profil patients,Femmes - MCO,%,1.98,4.45
+2017,12,PLF,Profil patients,Femmes - MCO,%,4.91,2.48
+2017,1,PLF,Profil patients,Hommes - MCO,%,7.6,6.07
+2017,2,PLF,Profil patients,Hommes - MCO,%,5.08,3.52
+2017,3,PLF,Profil patients,Hommes - MCO,%,3.52,7.58
+2017,4,PLF,Profil patients,Hommes - MCO,%,3.01,9.13
+2017,5,PLF,Profil patients,Hommes - MCO,%,2.49,4.03
+2017,6,PLF,Profil patients,Hommes - MCO,%,3.01,2.0
+2017,7,PLF,Profil patients,Hommes - MCO,%,6.59,1.49
+2017,8,PLF,Profil patients,Hommes - MCO,%,6.59,1.49
+2017,9,PLF,Profil patients,Hommes - MCO,%,3.02,3.02
+2017,10,PLF,Profil patients,Hommes - MCO,%,2.49,5.05
+2017,11,PLF,Profil patients,Hommes - MCO,%,1.98,4.54
+2017,12,PLF,Profil patients,Hommes - MCO,%,5.03,2.51
+2017,1,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,8.24,6.6
+2017,2,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,5.49,3.85
+2017,3,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,3.85,8.25
+2017,4,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,3.32,9.89
+2017,5,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,2.75,4.4
+2017,6,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,3.31,2.2
+2017,7,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,7.14,1.65
+2017,8,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,7.15,1.65
+2017,9,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,3.3,3.3
+2017,10,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,2.76,5.5
+2017,11,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,2.2,4.95
+2017,12,PLF,Profil patients,Âge moyen - Femmes - MCO,ans,5.49,2.75
+2017,1,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,8.41,6.73
+2017,2,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,5.6,3.92
+2017,3,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,3.9,8.41
+2017,4,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,3.36,10.09
+2017,5,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,2.81,4.48
+2017,6,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,3.36,2.24
+2017,7,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,7.28,1.68
+2017,8,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,7.29,1.68
+2017,9,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,3.37,3.36
+2017,10,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,2.81,5.61
+2017,11,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,2.24,5.05
+2017,12,PLF,Profil patients,Âge moyen - Hommes - MCO,ans,5.62,2.8
+2017,1,PLF,Profil patients,Âge moyen - MCO,ans,8.01,6.44
+2017,2,PLF,Profil patients,Âge moyen - MCO,ans,5.36,3.74
+2017,3,PLF,Profil patients,Âge moyen - MCO,ans,3.74,8.04
+2017,4,PLF,Profil patients,Âge moyen - MCO,ans,3.18,9.66
+2017,5,PLF,Profil patients,Âge moyen - MCO,ans,2.67,4.28
+2017,6,PLF,Profil patients,Âge moyen - MCO,ans,3.22,2.13
+2017,7,PLF,Profil patients,Âge moyen - MCO,ans,6.95,1.59
+2017,8,PLF,Profil patients,Âge moyen - MCO,ans,6.93,1.59
+2017,9,PLF,Profil patients,Âge moyen - MCO,ans,3.15,3.2
+2017,10,PLF,Profil patients,Âge moyen - MCO,ans,2.63,5.35
+2017,11,PLF,Profil patients,Âge moyen - MCO,ans,2.1,4.82
+2017,12,PLF,Profil patients,Âge moyen - MCO,ans,5.32,2.67
+2017,1,PLF,Urgences,Passages,patients,12749.33,0.0
+2017,2,PLF,Urgences,Passages,patients,8500.67,21975.0
+2017,3,PLF,Urgences,Passages,patients,5952.0,0.0
+2017,4,PLF,Urgences,Passages,patients,5101.0,21975.0
+2017,5,PLF,Urgences,Passages,patients,4248.33,0.0
+2017,6,PLF,Urgences,Passages,patients,5101.0,21975.0
+2017,7,PLF,Urgences,Passages,patients,11049.67,0.0
+2017,8,PLF,Urgences,Passages,patients,11049.67,21975.0
+2017,9,PLF,Urgences,Passages,patients,5100.0,0.0
+2017,10,PLF,Urgences,Passages,patients,4250.67,21975.0
+2017,11,PLF,Urgences,Passages,patients,3399.0,0.0
+2017,12,PLF,Urgences,Passages,patients,8499.0,21975.0
+2017,1,PLF,Urgences,Patients admis,patients,1311.33,1048.67
+2017,2,PLF,Urgences,Patients admis,patients,875.0,611.67
+2017,3,PLF,Urgences,Patients admis,patients,611.33,1310.67
+2017,4,PLF,Urgences,Patients admis,patients,524.0,1573.0
+2017,5,PLF,Urgences,Patients admis,patients,438.67,699.33
+2017,6,PLF,Urgences,Patients admis,patients,524.33,349.33
+2017,7,PLF,Urgences,Patients admis,patients,1134.0,262.0
+2017,8,PLF,Urgences,Patients admis,patients,1135.67,262.0
+2017,9,PLF,Urgences,Patients admis,patients,524.67,524.33
+2017,10,PLF,Urgences,Patients admis,patients,438.0,873.67
+2017,11,PLF,Urgences,Patients admis,patients,347.67,786.0
+2017,12,PLF,Urgences,Patients admis,patients,873.0,437.0

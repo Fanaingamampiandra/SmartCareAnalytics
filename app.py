@@ -14,7 +14,7 @@ DATA_PATHS = {
     "Activité & Service": "data/activity-service/activity-service-donnees_journalieres_reconstituees.csv",
     "Capacité": "data/capacity/capacity-donnees_journalieres_reconstituees.csv",
     "Finance": "data/finance/finance-donnees_journalieres_reconstituees.csv",
-    "Patients": "data/patients/patients-donnees_mensuelles_reconstituees.csv",
+    "Patients": "data/patients/patients-all.csv",
     "Qualité":"data/quality/quality-donnees_journalieres_reconstituees.csv" ,
     "RH": "data/hr/hr-donnees_journalieres_reconstituees.csv",
 }
@@ -36,16 +36,20 @@ st.markdown(
 
 def get_years_for_filters():
     """Années disponibles pour les filtres (à partir d’une source commune)."""
-    path = DATA_PATHS.get("Logistique")
-    if path:
+    all_years = set()
+    for _name, path in DATA_PATHS.items():
+        if not path:
+            continue
         try:
             df = load_data(path)
             year_col = "ANNEE" if "ANNEE" in df.columns else ("year" if "year" in df.columns else None)
             if year_col is not None:
-                return sorted(df[year_col].astype(int).unique().tolist())
+                all_years.update(df[year_col].astype(int).dropna().unique().tolist())
         except Exception:
             pass
-    return list(range(2011, 2026))
+    if not all_years:
+        all_years = set(range(2011, 2026))
+    return sorted(all_years)
 
 
 def pick_value_cols(hosp: str):
@@ -64,7 +68,10 @@ page_choice = st.sidebar.selectbox("Page", options=PAGES, label_visibility="coll
 
 years = get_years_for_filters()
 st.sidebar.header("Filtres")
-year_choice = st.sidebar.selectbox("Année", options=["Toutes"] + years)
+show_forecast = st.sidebar.checkbox("Afficher prévision 2017", value=False)
+# 2017 n’apparaît dans la liste qu’une fois la prévision activée
+years_for_select = [y for y in years if y != 2017 or show_forecast]
+year_choice = st.sidebar.selectbox("Année", options=["Toutes"] + years_for_select)
 mode_choice = st.sidebar.radio(
     "Mode",
     options=["Normal", "Crise"],
@@ -79,8 +86,6 @@ hospital_choice = st.sidebar.radio(
     options=["TOTAL", "PLF", "CFX"],
     format_func=lambda x: {"TOTAL": "Total (PSL + CFX)", "PLF": "Pitié-Salpêtrière (PSL)", "CFX": "Charles Foix (CFX)"}[x],
 )
-
-show_forecast = st.sidebar.checkbox("Afficher prévision 2017", value=False)
 
 normal_col, crise_col = pick_value_cols(hospital_choice)
 
