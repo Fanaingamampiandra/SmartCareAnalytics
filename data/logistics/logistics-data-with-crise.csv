@@ -1,0 +1,130 @@
+ANNEE,INDICATEUR,SOUS-INDICATEUR,PLF_NORMAL,CFX_NORMAL,TOTAL_NORMAL,UNITE,MODE,PLF_CRISE,CFX_CRISE,TOTAL_CRISE,ECART_TOTAL,VARIATION_PCT
+2011,Déchets,Cartons,333.57,27.5,361.07,t,Normal,567.07,46.75,613.82,252.75,70.0
+2012,Déchets,Cartons,333.57,27.5,361.07,t,Normal,567.07,46.75,613.82,252.75,70.0
+2013,Déchets,Cartons,346.38,29.33,375.71,t,Normal,588.85,49.86,638.71,263.0,70.0
+2014,Déchets,Cartons,359.19,31.17,390.36,t,Normal,610.62,52.99,663.61,273.25,70.0
+2015,Déchets,Cartons,372.0,33.0,405.0,t,Normal,632.4,56.1,688.5,283.5,70.0
+2016,Déchets,Cartons,372.0,33.0,405.0,t,Normal,632.4,56.1,688.5,283.5,70.0
+2011,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2012,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2013,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2014,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2015,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2016,Déchets,Chimiques,130.0,1.99,131.99,t,Normal,221.0,3.38,224.38,92.39,70.0
+2011,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1086.19,48.0,1134.19,t,Normal,1846.52,81.6,1928.12,793.93,70.0
+2012,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1086.19,48.0,1134.19,t,Normal,1846.52,81.6,1928.12,793.93,70.0
+2013,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1080.79,49.67,1130.46,t,Normal,1837.34,84.44,1921.78,791.32,70.0
+2014,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1075.4,51.33,1126.73,t,Normal,1828.18,87.26,1915.44,788.71,70.0
+2015,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1070.0,53.0,1123.0,t,Normal,1819.0,90.1,1909.1,786.1,70.0
+2016,Déchets,Déchets Activités de Soins à Risques Infectieux et Assimilés,1070.0,53.0,1123.0,t,Normal,1819.0,90.1,1909.1,786.1,70.0
+2011,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2012,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2013,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2014,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2015,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2016,Déchets,Déchets Ménagers Assimilés/Déchets d'Activités Economiques (ménagers),2930.0,690.0,3620.0,t,Normal,4981.0,1173.0,6154.0,2534.0,70.0
+2011,Déchets,Déchets assimilés aux ordures ménagères,2776.78,672.0,3448.78,t,Normal,4720.53,1142.4,5862.93,2414.15,70.0
+2012,Déchets,Déchets assimilés aux ordures ménagères,2776.78,672.0,3448.78,t,Normal,4720.53,1142.4,5862.93,2414.15,70.0
+2013,Déchets,Déchets assimilés aux ordures ménagères,2776.78,672.0,3448.78,t,Normal,4720.53,1142.4,5862.93,2414.15,70.0
+2011,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2012,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2013,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2014,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2015,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2016,Déchets,Déchets d'Equipements Electriques et Electroniques (électriques),50.0,3.63,53.63,t,Normal,85.0,6.17,91.17,37.54,70.0
+2011,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2012,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2013,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2014,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2015,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2016,Déchets,Papiers,80.0,0.0,80.0,t,Normal,136.0,0.0,136.0,56.0,70.0
+2011,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2012,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2013,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2014,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2015,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2016,Hygiène,Espaces verts,75601.0,71413.0,147014.0,m2,Normal,128521.7,121402.1,249923.8,102909.8,70.0
+2011,Hygiène,Locaux,234500.0,41517.0,276017.0,m2,Normal,398650.0,70578.9,469228.9,193211.9,70.0
+2012,Hygiène,Locaux,234500.0,41517.0,276017.0,m2,Normal,398650.0,70578.9,469228.9,193211.9,70.0
+2013,Hygiène,Locaux,250494.33,42233.67,292728.0,m2,Normal,425840.36,71797.24,497637.6,204909.6,70.0
+2014,Hygiène,Locaux,266488.67,42950.33,309439.0,m2,Normal,453030.74,73015.56,526046.3,216607.3,70.0
+2015,Hygiène,Locaux,282483.0,43667.0,326150.0,m2,Normal,480221.1,74233.9,554455.0,228305.0,70.0
+2016,Hygiène,Locaux,282483.0,43667.0,326150.0,m2,Normal,480221.1,74233.9,554455.0,228305.0,70.0
+2011,Hygiène,Vitres,66300.0,18679.0,84979.0,m2,Normal,112710.0,31754.3,144464.3,59485.3,70.0
+2012,Hygiène,Vitres,66300.0,18679.0,84979.0,m2,Normal,112710.0,31754.3,144464.3,59485.3,70.0
+2013,Hygiène,Vitres,68138.67,19414.33,87553.0,m2,Normal,115835.74,33004.36,148840.1,61287.1,70.0
+2014,Hygiène,Vitres,69977.33,20149.67,90127.0,m2,Normal,118961.46,34254.44,153215.9,63088.9,70.0
+2015,Hygiène,Vitres,71816.0,20885.0,92701.0,m2,Normal,122087.2,35504.5,157591.7,64890.7,70.0
+2016,Hygiène,Vitres,71816.0,20885.0,92701.0,m2,Normal,122087.2,35504.5,157591.7,64890.7,70.0
+2011,Hygiène,Voirie,9.0,400000.0,400009.0,km,Normal,15.3,680000.0,680015.3,280006.3,70.0
+2012,Hygiène,Voirie,9.0,400000.0,400009.0,km,Normal,15.3,680000.0,680015.3,280006.3,70.0
+2013,Hygiène,Voirie,39438.33,296240.0,335678.33,km,Normal,67045.16,503608.0,570653.16,234974.83,70.0
+2014,Hygiène,Voirie,78867.67,192480.0,271347.67,km,Normal,134075.04,327216.0,461291.04,189943.37,70.0
+2015,Hygiène,Voirie,118297.0,88720.0,207017.0,km,Normal,201104.9,150824.0,351928.9,144911.9,70.0
+2016,Hygiène,Voirie,118297.0,88720.0,207017.0,km,Normal,201104.9,150824.0,351928.9,144911.9,70.0
+2011,Lingerie,Quantité de linge,1352332.0,183536.0,1535868.0,kg,Normal,2298964.4,312011.2,2610975.6,1075107.6,70.0
+2012,Lingerie,Quantité de linge,1352332.0,183536.0,1535868.0,kg,Normal,2298964.4,312011.2,2610975.6,1075107.6,70.0
+2013,Lingerie,Quantité de linge,1199166.33,180527.33,1379693.67,kg,Normal,2038582.76,306896.46,2345479.22,965785.55,70.0
+2014,Lingerie,Quantité de linge,1046000.67,177518.67,1223519.33,kg,Normal,1778201.14,301781.74,2079982.88,856463.55,70.0
+2015,Lingerie,Quantité de linge,892835.0,174510.0,1067345.0,kg,Normal,1517819.5,296667.0,1814486.5,747141.5,70.0
+2016,Lingerie,Quantité de linge,892835.0,174510.0,1067345.0,kg,Normal,1517819.5,296667.0,1814486.5,747141.5,70.0
+2011,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2012,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2013,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2014,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2015,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2016,Lingerie,Références gérées,1809121.0,401305.0,2210426.0,références,Normal,3075505.7,682218.5,3757724.2,1547298.2,70.0
+2011,Magasin,Références hygiène & environnement ,130.0,93.0,223.0,références,Normal,221.0,158.1,379.1,156.1,70.0
+2012,Magasin,Références hygiène & environnement ,130.0,93.0,223.0,références,Normal,221.0,158.1,379.1,156.1,70.0
+2013,Magasin,Références hygiène & environnement ,125.0,93.67,218.67,références,Normal,212.5,159.24,371.74,153.07,70.0
+2014,Magasin,Références hygiène & environnement ,120.0,94.33,214.33,références,Normal,204.0,160.36,364.36,150.03,70.0
+2015,Magasin,Références hygiène & environnement ,115.0,95.0,210.0,références,Normal,195.5,161.5,357.0,147.0,70.0
+2016,Magasin,Références hygiène & environnement ,115.0,95.0,210.0,références,Normal,195.5,161.5,357.0,147.0,70.0
+2011,Magasin,Références hôtelier,481.0,258.0,739.0,références,Normal,817.7,438.6,1256.3,517.3,70.0
+2012,Magasin,Références hôtelier,481.0,258.0,739.0,références,Normal,817.7,438.6,1256.3,517.3,70.0
+2013,Magasin,Références hôtelier,507.33,227.33,734.67,références,Normal,862.46,386.46,1248.92,514.25,70.0
+2014,Magasin,Références hôtelier,533.67,196.67,730.33,références,Normal,907.24,334.34,1241.58,511.25,70.0
+2015,Magasin,Références hôtelier,560.0,166.0,726.0,références,Normal,952.0,282.2,1234.2,508.2,70.0
+2016,Magasin,Références hôtelier,560.0,166.0,726.0,références,Normal,952.0,282.2,1234.2,508.2,70.0
+2011,Magasin,Références imprimés ,141.0,85.0,226.0,références,Normal,239.7,144.5,384.2,158.2,70.0
+2012,Magasin,Références imprimés ,141.0,85.0,226.0,références,Normal,239.7,144.5,384.2,158.2,70.0
+2013,Magasin,Références imprimés ,138.33,82.33,220.67,références,Normal,235.16,139.96,375.12,154.45,69.99
+2014,Magasin,Références imprimés ,135.67,79.67,215.33,références,Normal,230.64,135.44,366.08,150.75,70.01
+2015,Magasin,Références imprimés ,133.0,77.0,210.0,références,Normal,226.1,130.9,357.0,147.0,70.0
+2016,Magasin,Références imprimés ,133.0,77.0,210.0,références,Normal,226.1,130.9,357.0,147.0,70.0
+2011,Restauration,Nombre de Repas,3238399.0,1273338.0,4511737.0,repas,Normal,5505278.3,2164674.6,7669952.9,3158215.9,70.0
+2012,Restauration,Nombre de Repas,3238399.0,1273338.0,4511737.0,repas,Normal,5505278.3,2164674.6,7669952.9,3158215.9,70.0
+2013,Restauration,Nombre de Repas,2825415.0,1256200.0,4081615.0,repas,Normal,4803205.5,2135540.0,6938745.5,2857130.5,70.0
+2014,Restauration,Nombre de Repas,2412431.0,1239062.0,3651493.0,repas,Normal,4101132.7,2106405.4,6207538.1,2556045.1,70.0
+2015,Restauration,Nombre de Repas,1999447.0,1221924.0,3221371.0,repas,Normal,3399059.9,2077270.8,5476330.7,2254959.7,70.0
+2016,Restauration,Nombre de Repas,1999447.0,1221924.0,3221371.0,repas,Normal,3399059.9,2077270.8,5476330.7,2254959.7,70.0
+2011,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2012,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2013,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2014,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2015,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2016,Restauration,Nombre de Repas Quotidien,5478.0,3348.0,8826.0,repas/jour,Normal,9312.6,5691.6,15004.2,6178.2,70.0
+2011,Vaguemestre,Colis,996.0,57.0,1053.0,colis,Normal,1693.2,96.9,1790.1,737.1,70.0
+2012,Vaguemestre,Colis,996.0,57.0,1053.0,colis,Normal,1693.2,96.9,1790.1,737.1,70.0
+2013,Vaguemestre,Colis,1100.68,62.99,1163.67,colis,Normal,1871.16,107.08,1978.24,814.57,70.0
+2014,Vaguemestre,Colis,1205.35,68.98,1274.33,colis,Normal,2049.09,117.27,2166.36,892.03,70.0
+2015,Vaguemestre,Colis,1310.03,74.97,1385.0,colis,Normal,2227.05,127.45,2354.5,969.5,70.0
+2016,Vaguemestre,Colis,1310.03,74.97,1385.0,colis,Normal,2227.05,127.45,2354.5,969.5,70.0
+2011,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2012,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2013,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2014,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2015,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2016,Vaguemestre,Colis Quotidien,2.0,2.0,4.0,colis/jour,Normal,3.4,3.4,6.8,2.8,70.0
+2011,Vaguemestre,Plis affranchis,1237150.0,42716.0,1279866.0,plis,Normal,2103155.0,72617.2,2175772.2,895906.2,70.0
+2012,Vaguemestre,Plis affranchis,1237150.0,42716.0,1279866.0,plis,Normal,2103155.0,72617.2,2175772.2,895906.2,70.0
+2013,Vaguemestre,Plis affranchis,1232598.81,42558.86,1275157.67,plis,Normal,2095417.98,72350.06,2167768.04,892610.37,70.0
+2014,Vaguemestre,Plis affranchis,1228047.62,42401.72,1270449.33,plis,Normal,2087680.95,72082.92,2159763.87,889314.54,70.0
+2015,Vaguemestre,Plis affranchis,1223496.43,42244.57,1265741.0,plis,Normal,2079943.93,71815.77,2151759.7,886018.7,70.0
+2016,Vaguemestre,Plis affranchis,1223496.43,42244.57,1265741.0,plis,Normal,2079943.93,71815.77,2151759.7,886018.7,70.0
+2011,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
+2012,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
+2013,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
+2014,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
+2015,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
+2016,Vaguemestre,Plis affranchis Quotidien,1734.0,1734.0,3468.0,plis/jour,Normal,2947.8,2947.8,5895.6,2427.6,70.0
