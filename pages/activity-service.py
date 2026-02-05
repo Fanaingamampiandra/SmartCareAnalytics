@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import altair as alt
 
-from utils import load_data
+from utils import load_data, generate_forecast_2017
 
 PALETTE_ANNEES = [
     "#003A8F",  # Bleu AP-HP foncé (institutionnel)
@@ -29,6 +29,7 @@ def render(
     normal_col,  # gardé pour compatibilité mais non utilisé avec le CSV journalier
     crise_col,   # idem
     years,
+    show_forecast=False,
     **kwargs,
 ):
     if not data_path:
@@ -105,6 +106,24 @@ def render(
                         )
                         agg["year"] = agg["year"].astype(int)
                         agg["month"] = agg["month"].astype(int)
+                        
+                        # Ajouter les prédictions 2017 si demandé
+                        forecast_data = None
+                        if show_forecast:
+                            hospital_choice = kwargs.get("hospital_choice", "TOTAL")
+                            df_forecast = generate_forecast_2017(
+                                df, hospital_choice, indic, sous, value_col
+                            )
+                            if not df_forecast.empty:
+                                forecast_agg = (
+                                    df_forecast.groupby("month")["value"]
+                                    .sum()
+                                    .reset_index()
+                                )
+                                forecast_agg["year"] = 2017
+                                forecast_agg["month"] = forecast_agg["month"].astype(int)
+                                forecast_data = forecast_agg
+                        
                         chart_obj = (
                             alt.Chart(agg)
                             .mark_line(point=True)
@@ -114,6 +133,20 @@ def render(
                                 color=alt.Color("year:O", title="Année", scale=alt.Scale(domain=years, range=PALETTE_ANNEES)),
                             )
                         )
+                        
+                        # Ajouter la ligne de prédiction si disponible
+                        if forecast_data is not None:
+                            forecast_chart = (
+                                alt.Chart(forecast_data)
+                                .mark_line(point=True, strokeDash=[5, 5])
+                                .encode(
+                                    x=alt.X("month:O", title="Mois"),
+                                    y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
+                                    color=alt.value("#FF6B6B"),  # Rouge pour la prédiction
+                                )
+                            )
+                            chart_obj = chart_obj + forecast_chart
+                        
                         sub = f"{subtitle} — profil mensuel multi-années ({mode_label})"
 
                     # 2) Une seule année + tous les mois -> profil mensuel de l'année
@@ -139,6 +172,31 @@ def render(
                                 color=alt.value(color_annee),
                             )
                         )
+                        
+                        # Ajouter les prédictions 2017 si demandé et si on affiche 2017
+                        if show_forecast and int(year_choice) == 2017:
+                            hospital_choice = kwargs.get("hospital_choice", "TOTAL")
+                            df_forecast = generate_forecast_2017(
+                                df, hospital_choice, indic, sous, value_col
+                            )
+                            if not df_forecast.empty:
+                                forecast_agg = (
+                                    df_forecast.groupby("month")["value"]
+                                    .sum()
+                                    .reset_index()
+                                )
+                                forecast_agg["month"] = forecast_agg["month"].astype(int)
+                                forecast_chart = (
+                                    alt.Chart(forecast_agg)
+                                    .mark_line(point=True, strokeDash=[5, 5])
+                                    .encode(
+                                        x=alt.X("month:O", title="Mois"),
+                                        y=alt.Y("value:Q", title=f"Volume mensuel ({unite})", axis=alt.Axis(format=",.2f")),
+                                        color=alt.value("#FF6B6B"),
+                                    )
+                                )
+                                chart_obj = chart_obj + forecast_chart
+                        
                         sub = f"{subtitle} — profil mensuel {year_choice} ({mode_label})"
 
                     # 3) Mois spécifique -> série journalière
@@ -187,6 +245,51 @@ def render(
                                     color=alt.value(color_annee),
                                 )
                             )
+                            
+                            # Ajouter les prédictions 2017 si demandé et si on affiche 2017
+                            if show_forecast and int(year_choice) == 2017:
+                                hospital_choice = kwargs.get("hospital_choice", "TOTAL")
+                                df_forecast = generate_forecast_2017(
+                                    df, hospital_choice, indic, sous, value_col
+                                )
+                                if not df_forecast.empty and "month" in df_forecast.columns:
+                                    forecast_filtered = df_forecast[
+                                        df_forecast["month"] == int(month_choice)
+                                    ]
+                                    if not forecast_filtered.empty:
+                                        forecast_chart = (
+                                            alt.Chart(forecast_filtered)
+                                            .mark_line(point=True, strokeDash=[5, 5])
+                                            .encode(
+                                                x=alt.X("date:T", title="Jour", axis=alt.Axis(format="%d")),
+                                                y=alt.Y("value:Q", title=f"Volume journalier ({unite})", axis=alt.Axis(format=",.2f")),
+                                                color=alt.value("#FF6B6B"),
+                                            )
+                                        )
+                                        chart_obj = chart_obj + forecast_chart
+                        
+                        # Ajouter les prédictions 2017 si demandé (cas multi_year)
+                        if show_forecast and multi_year:
+                            hospital_choice = kwargs.get("hospital_choice", "TOTAL")
+                            df_forecast = generate_forecast_2017(
+                                df, hospital_choice, indic, sous, value_col
+                            )
+                            if not df_forecast.empty and "month" in df_forecast.columns:
+                                forecast_filtered = df_forecast[
+                                    df_forecast["month"] == int(month_choice)
+                                ]
+                                if not forecast_filtered.empty:
+                                    forecast_chart = (
+                                        alt.Chart(forecast_filtered)
+                                        .mark_line(point=True, strokeDash=[5, 5])
+                                        .encode(
+                                            x=alt.X("date:T", title="Jour", axis=alt.Axis(format="%d")),
+                                            y=alt.Y("value:Q", title=f"Volume journalier ({unite})", axis=alt.Axis(format=",.2f")),
+                                            color=alt.value("#FF6B6B"),
+                                        )
+                                    )
+                                    chart_obj = chart_obj + forecast_chart
+                        
                         if multi_year:
                             sub = f"{subtitle} — série journalière (mois {month_choice}, toutes années) ({mode_label})"
                         else:
