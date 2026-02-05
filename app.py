@@ -10,7 +10,7 @@ PAGES = list(PAGE_MODULES.keys())
 
 # Données par page (chemin CSV ou None si pas encore de données)
 DATA_PATHS = {
-    "Logistique": "data/logistics/test-logistics-donnees_journalieres_reconstituees.csv",
+    "Logistique": "data/logistics/logistics-donnees_mensuelles_reconstituees.csv",
     "Activité & Service": "data/activity-service/activity-service-donnees_journalieres_reconstituees.csv",
     "Capacité": "data/capacity/capacity-donnees_journalieres_reconstituees.csv",
     "Finance": "data/finance/finance-donnees_journalieres_reconstituees.csv",
@@ -65,12 +65,6 @@ page_choice = st.sidebar.selectbox("Page", options=PAGES, label_visibility="coll
 years = get_years_for_filters()
 st.sidebar.header("Filtres")
 year_choice = st.sidebar.selectbox("Année", options=["Toutes"] + years)
-months = list(range(1, 13))
-month_choice = st.sidebar.selectbox(
-    "Mois",
-    options=["Tous"] + months,
-    format_func=lambda m: "Tous" if m == "Tous" else f"{m:02d}",
-)
 mode_choice = st.sidebar.radio(
     "Mode",
     options=["Normal", "Crise"],
@@ -105,7 +99,6 @@ page_module = importlib.import_module(f"pages.{module_name}")
 context = {
     "data_path": DATA_PATHS.get(page_choice),
     "year_choice": year_choice,
-    "month_choice": month_choice,
     "mode_choice": mode_choice,
     "hospital_choice": hospital_choice,
     "normal_col": normal_col,
