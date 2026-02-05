@@ -3,7 +3,7 @@
 ## Rapports
 
 - **Rapport technique** : [Rapport technique CFX](https://docs.google.com/document/d/15SvenGZyaoFHBf8wxB3VexuYDpLAtB5OnYOlEbASxKE/edit?tab=t.0)
-- **Rapport de mise en place** : disponible dans le dépôt ([Rapport_Mise_En_Place_PSL-CFX_v2.docx](./Rapport_Mise_En_Place_PSL-CFX_v2.docx))
+- **Rapport de mise en place** : [Rapport de mise en place PSL-CFX](https://docs.google.com/document/d/1n6KSv3-k5d15rnGThZ4Z0cO-XOI_nXiEc5YP5qCfUvc/edit?usp=sharing)
 
 ## Installation
 
