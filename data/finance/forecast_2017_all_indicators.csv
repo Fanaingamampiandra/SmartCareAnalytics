@@ -1,0 +1,409 @@
+year,month,site_code,indicateur,sous_indicateur,unite,value,value_crise
+2017,1,PLF,Crédit d'investissement,Informatique,€,136000.0,108800.0
+2017,2,PLF,Crédit d'investissement,Informatique,€,108800.0,122400.0
+2017,3,PLF,Crédit d'investissement,Informatique,€,95200.0,190400.0
+2017,4,PLF,Crédit d'investissement,Informatique,€,81600.0,176800.0
+2017,5,PLF,Crédit d'investissement,Informatique,€,68000.0,108800.0
+2017,6,PLF,Crédit d'investissement,Informatique,€,108800.0,40800.0
+2017,7,PLF,Crédit d'investissement,Informatique,€,95200.0,81600.0
+2017,8,PLF,Crédit d'investissement,Informatique,€,122400.0,176800.0
+2017,9,PLF,Crédit d'investissement,Informatique,€,108800.0,81600.0
+2017,10,PLF,Crédit d'investissement,Informatique,€,122400.0,68000.0
+2017,11,PLF,Crédit d'investissement,Informatique,€,136000.0,95200.0
+2017,12,PLF,Crédit d'investissement,Informatique,€,176800.0,108800.0
+2017,1,CFX,Crédit d'investissement,Informatique,€,136000.0,108800.0
+2017,2,CFX,Crédit d'investissement,Informatique,€,108800.0,122400.0
+2017,3,CFX,Crédit d'investissement,Informatique,€,95200.0,190400.0
+2017,4,CFX,Crédit d'investissement,Informatique,€,81600.0,176800.0
+2017,5,CFX,Crédit d'investissement,Informatique,€,68000.0,108800.0
+2017,6,CFX,Crédit d'investissement,Informatique,€,108800.0,40800.0
+2017,7,CFX,Crédit d'investissement,Informatique,€,95200.0,81600.0
+2017,8,CFX,Crédit d'investissement,Informatique,€,122400.0,176800.0
+2017,9,CFX,Crédit d'investissement,Informatique,€,108800.0,81600.0
+2017,10,CFX,Crédit d'investissement,Informatique,€,122400.0,68000.0
+2017,11,CFX,Crédit d'investissement,Informatique,€,136000.0,95200.0
+2017,12,CFX,Crédit d'investissement,Informatique,€,176800.0,108800.0
+2017,1,PLF,Crédit d'investissement,Travaux déconcentrés,€,1229500.0,983600.0
+2017,2,PLF,Crédit d'investissement,Travaux déconcentrés,€,983600.0,1106550.0
+2017,3,PLF,Crédit d'investissement,Travaux déconcentrés,€,860650.0,1721300.0
+2017,4,PLF,Crédit d'investissement,Travaux déconcentrés,€,737700.0,1598350.0
+2017,5,PLF,Crédit d'investissement,Travaux déconcentrés,€,614750.0,983600.0
+2017,6,PLF,Crédit d'investissement,Travaux déconcentrés,€,983600.0,368850.0
+2017,7,PLF,Crédit d'investissement,Travaux déconcentrés,€,860650.0,737700.0
+2017,8,PLF,Crédit d'investissement,Travaux déconcentrés,€,1106550.0,1598350.0
+2017,9,PLF,Crédit d'investissement,Travaux déconcentrés,€,983600.0,737700.0
+2017,10,PLF,Crédit d'investissement,Travaux déconcentrés,€,1106550.0,614750.0
+2017,11,PLF,Crédit d'investissement,Travaux déconcentrés,€,1229500.0,860650.0
+2017,12,PLF,Crédit d'investissement,Travaux déconcentrés,€,1598350.0,983600.0
+2017,1,CFX,Crédit d'investissement,Travaux déconcentrés,€,1229500.0,983600.0
+2017,2,CFX,Crédit d'investissement,Travaux déconcentrés,€,983600.0,1106550.0
+2017,3,CFX,Crédit d'investissement,Travaux déconcentrés,€,860650.0,1721300.0
+2017,4,CFX,Crédit d'investissement,Travaux déconcentrés,€,737700.0,1598350.0
+2017,5,CFX,Crédit d'investissement,Travaux déconcentrés,€,614750.0,983600.0
+2017,6,CFX,Crédit d'investissement,Travaux déconcentrés,€,983600.0,368850.0
+2017,7,CFX,Crédit d'investissement,Travaux déconcentrés,€,860650.0,737700.0
+2017,8,CFX,Crédit d'investissement,Travaux déconcentrés,€,1106550.0,1598350.0
+2017,9,CFX,Crédit d'investissement,Travaux déconcentrés,€,983600.0,737700.0
+2017,10,CFX,Crédit d'investissement,Travaux déconcentrés,€,1106550.0,614750.0
+2017,11,CFX,Crédit d'investissement,Travaux déconcentrés,€,1229500.0,860650.0
+2017,12,CFX,Crédit d'investissement,Travaux déconcentrés,€,1598350.0,983600.0
+2017,1,PLF,Crédit d'investissement,Équipements,€,521500.0,417200.0
+2017,2,PLF,Crédit d'investissement,Équipements,€,417200.0,469350.0
+2017,3,PLF,Crédit d'investissement,Équipements,€,365050.0,730100.0
+2017,4,PLF,Crédit d'investissement,Équipements,€,312900.0,677950.0
+2017,5,PLF,Crédit d'investissement,Équipements,€,260750.0,417200.0
+2017,6,PLF,Crédit d'investissement,Équipements,€,417200.0,156450.0
+2017,7,PLF,Crédit d'investissement,Équipements,€,365050.0,312900.0
+2017,8,PLF,Crédit d'investissement,Équipements,€,469350.0,677950.0
+2017,9,PLF,Crédit d'investissement,Équipements,€,417200.0,312900.0
+2017,10,PLF,Crédit d'investissement,Équipements,€,469350.0,260750.0
+2017,11,PLF,Crédit d'investissement,Équipements,€,521500.0,365050.0
+2017,12,PLF,Crédit d'investissement,Équipements,€,677950.0,417200.0
+2017,1,CFX,Crédit d'investissement,Équipements,€,521500.0,417200.0
+2017,2,CFX,Crédit d'investissement,Équipements,€,417200.0,469350.0
+2017,3,CFX,Crédit d'investissement,Équipements,€,365050.0,730100.0
+2017,4,CFX,Crédit d'investissement,Équipements,€,312900.0,677950.0
+2017,5,CFX,Crédit d'investissement,Équipements,€,260750.0,417200.0
+2017,6,CFX,Crédit d'investissement,Équipements,€,417200.0,156450.0
+2017,7,CFX,Crédit d'investissement,Équipements,€,365050.0,312900.0
+2017,8,CFX,Crédit d'investissement,Équipements,€,469350.0,677950.0
+2017,9,CFX,Crédit d'investissement,Équipements,€,417200.0,312900.0
+2017,10,CFX,Crédit d'investissement,Équipements,€,469350.0,260750.0
+2017,11,CFX,Crédit d'investissement,Équipements,€,521500.0,365050.0
+2017,12,CFX,Crédit d'investissement,Équipements,€,677950.0,417200.0
+2017,1,PLF,Crédits d’investissement,"Informatique, bureautique",€,29000.0,23200.0
+2017,2,PLF,Crédits d’investissement,"Informatique, bureautique",€,23200.0,26100.0
+2017,3,PLF,Crédits d’investissement,"Informatique, bureautique",€,20300.0,40600.0
+2017,4,PLF,Crédits d’investissement,"Informatique, bureautique",€,17400.0,37700.0
+2017,5,PLF,Crédits d’investissement,"Informatique, bureautique",€,14500.0,23200.0
+2017,6,PLF,Crédits d’investissement,"Informatique, bureautique",€,23200.0,8700.0
+2017,7,PLF,Crédits d’investissement,"Informatique, bureautique",€,20300.0,17400.0
+2017,8,PLF,Crédits d’investissement,"Informatique, bureautique",€,26100.0,37700.0
+2017,9,PLF,Crédits d’investissement,"Informatique, bureautique",€,23200.0,17400.0
+2017,10,PLF,Crédits d’investissement,"Informatique, bureautique",€,26100.0,14500.0
+2017,11,PLF,Crédits d’investissement,"Informatique, bureautique",€,29000.0,20300.0
+2017,12,PLF,Crédits d’investissement,"Informatique, bureautique",€,37700.0,23200.0
+2017,1,CFX,Crédits d’investissement,"Informatique, bureautique",€,5000.0,4000.0
+2017,2,CFX,Crédits d’investissement,"Informatique, bureautique",€,4000.0,4500.0
+2017,3,CFX,Crédits d’investissement,"Informatique, bureautique",€,3500.0,7000.0
+2017,4,CFX,Crédits d’investissement,"Informatique, bureautique",€,3000.0,6500.0
+2017,5,CFX,Crédits d’investissement,"Informatique, bureautique",€,2500.0,4000.0
+2017,6,CFX,Crédits d’investissement,"Informatique, bureautique",€,4000.0,1500.0
+2017,7,CFX,Crédits d’investissement,"Informatique, bureautique",€,3500.0,3000.0
+2017,8,CFX,Crédits d’investissement,"Informatique, bureautique",€,4500.0,6500.0
+2017,9,CFX,Crédits d’investissement,"Informatique, bureautique",€,4000.0,3000.0
+2017,10,CFX,Crédits d’investissement,"Informatique, bureautique",€,4500.0,2500.0
+2017,11,CFX,Crédits d’investissement,"Informatique, bureautique",€,5000.0,3500.0
+2017,12,CFX,Crédits d’investissement,"Informatique, bureautique",€,6500.0,4000.0
+2017,1,PLF,Crédits d’investissement,Travaux déconcentrés,€,1707000.0,1365600.0
+2017,2,PLF,Crédits d’investissement,Travaux déconcentrés,€,1365600.0,1536300.0
+2017,3,PLF,Crédits d’investissement,Travaux déconcentrés,€,1194900.0,2389800.0
+2017,4,PLF,Crédits d’investissement,Travaux déconcentrés,€,1024200.0,2219100.0
+2017,5,PLF,Crédits d’investissement,Travaux déconcentrés,€,853500.0,1365600.0
+2017,6,PLF,Crédits d’investissement,Travaux déconcentrés,€,1365600.0,512100.0
+2017,7,PLF,Crédits d’investissement,Travaux déconcentrés,€,1194900.0,1024200.0
+2017,8,PLF,Crédits d’investissement,Travaux déconcentrés,€,1536300.0,2219100.0
+2017,9,PLF,Crédits d’investissement,Travaux déconcentrés,€,1365600.0,1024200.0
+2017,10,PLF,Crédits d’investissement,Travaux déconcentrés,€,1536300.0,853500.0
+2017,11,PLF,Crédits d’investissement,Travaux déconcentrés,€,1707000.0,1194900.0
+2017,12,PLF,Crédits d’investissement,Travaux déconcentrés,€,2219100.0,1365600.0
+2017,1,CFX,Crédits d’investissement,Travaux déconcentrés,€,547000.0,437600.0
+2017,2,CFX,Crédits d’investissement,Travaux déconcentrés,€,437600.0,492300.0
+2017,3,CFX,Crédits d’investissement,Travaux déconcentrés,€,382900.0,765800.0
+2017,4,CFX,Crédits d’investissement,Travaux déconcentrés,€,328200.0,711100.0
+2017,5,CFX,Crédits d’investissement,Travaux déconcentrés,€,273500.0,437600.0
+2017,6,CFX,Crédits d’investissement,Travaux déconcentrés,€,437600.0,164100.0
+2017,7,CFX,Crédits d’investissement,Travaux déconcentrés,€,382900.0,328200.0
+2017,8,CFX,Crédits d’investissement,Travaux déconcentrés,€,492300.0,711100.0
+2017,9,CFX,Crédits d’investissement,Travaux déconcentrés,€,437600.0,328200.0
+2017,10,CFX,Crédits d’investissement,Travaux déconcentrés,€,492300.0,273500.0
+2017,11,CFX,Crédits d’investissement,Travaux déconcentrés,€,547000.0,382900.0
+2017,12,CFX,Crédits d’investissement,Travaux déconcentrés,€,711100.0,437600.0
+2017,1,PLF,Crédits d’investissement,Équipements,€,250000.0,200000.0
+2017,2,PLF,Crédits d’investissement,Équipements,€,200000.0,225000.0
+2017,3,PLF,Crédits d’investissement,Équipements,€,175000.0,350000.0
+2017,4,PLF,Crédits d’investissement,Équipements,€,150000.0,325000.0
+2017,5,PLF,Crédits d’investissement,Équipements,€,125000.0,200000.0
+2017,6,PLF,Crédits d’investissement,Équipements,€,200000.0,75000.0
+2017,7,PLF,Crédits d’investissement,Équipements,€,175000.0,150000.0
+2017,8,PLF,Crédits d’investissement,Équipements,€,225000.0,325000.0
+2017,9,PLF,Crédits d’investissement,Équipements,€,200000.0,150000.0
+2017,10,PLF,Crédits d’investissement,Équipements,€,225000.0,125000.0
+2017,11,PLF,Crédits d’investissement,Équipements,€,250000.0,175000.0
+2017,12,PLF,Crédits d’investissement,Équipements,€,325000.0,200000.0
+2017,1,CFX,Crédits d’investissement,Équipements,€,40000.0,32000.0
+2017,2,CFX,Crédits d’investissement,Équipements,€,32000.0,36000.0
+2017,3,CFX,Crédits d’investissement,Équipements,€,28000.0,56000.0
+2017,4,CFX,Crédits d’investissement,Équipements,€,24000.0,52000.0
+2017,5,CFX,Crédits d’investissement,Équipements,€,20000.0,32000.0
+2017,6,CFX,Crédits d’investissement,Équipements,€,32000.0,12000.0
+2017,7,CFX,Crédits d’investissement,Équipements,€,28000.0,24000.0
+2017,8,CFX,Crédits d’investissement,Équipements,€,36000.0,52000.0
+2017,9,CFX,Crédits d’investissement,Équipements,€,32000.0,24000.0
+2017,10,CFX,Crédits d’investissement,Équipements,€,36000.0,20000.0
+2017,11,CFX,Crédits d’investissement,Équipements,€,40000.0,28000.0
+2017,12,CFX,Crédits d’investissement,Équipements,€,52000.0,32000.0
+2017,1,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,5285144.35,4353225.98
+2017,2,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,4229597.72,4881997.37
+2017,3,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,3701450.98,7527878.64
+2017,4,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,3172980.55,6998630.77
+2017,5,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,2644422.71,4352597.49
+2017,6,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,4230204.14,1706573.77
+2017,7,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,3701616.63,3294183.88
+2017,8,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,4758799.16,6998610.37
+2017,9,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,4230209.15,3294183.28
+2017,10,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,4758800.22,2764979.39
+2017,11,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,5287390.98,3823387.07
+2017,12,PLF,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,6873161.31,4352590.91
+2017,1,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,447353.01,366581.84
+2017,2,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,358376.05,411209.29
+2017,3,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,313674.61,634501.1
+2017,4,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,268860.44,589837.09
+2017,5,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,224070.85,366533.39
+2017,6,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,357787.21,143230.45
+2017,7,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,313090.78,277211.87
+2017,8,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,402220.04,589835.42
+2017,9,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,357487.82,277211.82
+2017,10,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,401923.05,232551.3
+2017,11,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,446254.71,321872.33
+2017,12,CFX,Dépenses d’exploitation,"Amortissements, provisions et autres charges",€,579566.85,366532.84
+2017,1,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,42821147.83,33827926.89
+2017,2,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,34156204.03,38144429.1
+2017,3,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,29829620.86,59716548.5
+2017,4,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,25501974.92,55402416.11
+2017,5,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,21174433.5,33830954.22
+2017,6,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,34157084.92,12259458.36
+2017,7,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,29829534.27,25202367.32
+2017,8,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,38484635.81,55402480.77
+2017,9,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,34157085.05,25202368.6
+2017,10,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,38484635.84,20888066.9
+2017,11,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,42812186.65,29516670.48
+2017,12,PLF,Dépenses d’exploitation,Charges relatives au personnel,€,55794838.91,33830972.26
+2017,1,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,4230255.07,3384634.97
+2017,2,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,3384853.69,3807205.66
+2017,3,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,2962153.04,5920091.1
+2017,4,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,2539452.42,5497514.01
+2017,5,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,2116751.8,3384626.32
+2017,6,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,3384853.65,1271740.14
+2017,7,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,2962153.03,2539472.15
+2017,8,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,3807554.27,5497510.26
+2017,9,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,3384853.65,2539472.9
+2017,10,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,3807554.27,2116893.94
+2017,11,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,4230254.89,2962048.11
+2017,12,CFX,Dépenses d’exploitation,Charges relatives au personnel,€,5498356.74,3384624.11
+2017,1,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4301013.91,2244289.4
+2017,2,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4083460.63,2288902.23
+2017,3,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,3980870.49,2636754.02
+2017,4,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,3879776.3,2551765.31
+2017,5,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,3778841.46,2178045.08
+2017,6,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4081587.04,1807029.85
+2017,7,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,3980671.0,2023654.71
+2017,8,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4182502.71,2534343.46
+2017,9,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4081586.88,2020406.28
+2017,10,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4182502.76,1946355.16
+2017,11,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4283418.64,2092311.19
+2017,12,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,4586166.17,2165215.93
+2017,1,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,622787.59,498844.79
+2017,2,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,497980.63,561222.15
+2017,3,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,435578.02,873136.92
+2017,4,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,373174.94,810753.99
+2017,5,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,310772.01,498839.99
+2017,6,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,497980.89,186925.59
+2017,7,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,435577.93,374074.14
+2017,8,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,560383.86,810755.01
+2017,9,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,497980.89,374073.93
+2017,10,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,560383.86,311691.53
+2017,11,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,622786.82,436457.36
+2017,12,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel médical,€,809995.71,498840.72
+2017,1,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,32141442.93,25414300.49
+2017,2,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,25656961.56,28647532.29
+2017,3,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,22418492.64,44807858.74
+2017,4,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,19179292.73,41575977.43
+2017,5,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,15940170.5,25416053.27
+2017,6,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,25657558.79,9256106.09
+2017,7,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,22418429.23,18952083.17
+2017,8,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,28896688.6,41576023.76
+2017,9,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,25657558.93,18952084.29
+2017,10,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,28896688.64,15720092.98
+2017,11,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,32135818.37,22184075.78
+2017,12,PLF,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,41853207.34,25416067.18
+2017,1,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,3589540.81,2876168.69
+2017,2,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2871485.39,3235170.28
+2017,3,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2512454.07,5030180.09
+2017,4,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2153435.87,4671178.13
+2017,5,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,1794425.12,2876168.35
+2017,6,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2871422.5,1081158.57
+2017,7,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2512418.37,2158164.44
+2017,8,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,3230418.53,4671178.13
+2017,9,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,2871416.55,2158164.44
+2017,10,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,3230416.94,1799162.49
+2017,11,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,3589417.59,2517166.4
+2017,12,CFX,Dépenses d’exploitation,Charges relatives au personnel - Personnel non médical,€,4666420.32,2876168.35
+2017,1,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,9167723.48,7236624.43
+2017,2,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,7302765.22,8164307.3
+2017,3,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,6371756.26,12799351.25
+2017,4,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,5440511.16,11872475.83
+2017,5,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,4509286.67,7237707.13
+2017,6,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,7302965.0,2602919.54
+2017,7,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,6371738.98,5383801.29
+2017,8,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,8234191.28,11872518.72
+2017,9,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,7302965.2,5383802.81
+2017,10,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,8234191.39,4456843.47
+2017,11,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,9165417.63,6310762.46
+2017,12,PLF,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,11959095.81,7237721.94
+2017,1,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1382332.09,1101797.84
+2017,2,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1105871.09,1240003.66
+2017,3,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,967678.48,1931027.23
+2017,4,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,829477.8,1792822.69
+2017,5,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,691279.46,1101799.5
+2017,6,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1105876.11,410776.29
+2017,7,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,967678.63,825390.22
+2017,8,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1244076.18,1792822.73
+2017,9,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1105878.05,825390.23
+2017,10,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1244077.14,687185.58
+2017,11,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1382277.57,963594.87
+2017,12,CFX,Dépenses d’exploitation,Charges à caractère hôtelier et général,€,1796871.64,1101799.51
+2017,1,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7657481.27,3995713.09
+2017,2,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7270151.33,4075140.77
+2017,3,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7087500.87,4694453.71
+2017,4,PLF,Dépenses d’exploitation,Charges à caractère médical,€,6907513.8,4543139.85
+2017,5,PLF,Dépenses d’exploitation,Charges à caractère médical,€,6727810.39,3877770.02
+2017,6,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7266815.62,3217216.23
+2017,7,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7087145.66,3602893.89
+2017,8,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7446484.83,4512121.38
+2017,9,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7266815.24,3597110.26
+2017,10,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7446484.86,3465270.02
+2017,11,PLF,Dépenses d’exploitation,Charges à caractère médical,€,7626154.48,3725129.37
+2017,12,PLF,Dépenses d’exploitation,Charges à caractère médical,€,8165163.27,3854928.61
+2017,1,CFX,Dépenses d’exploitation,Charges à caractère médical,€,778539.16,630929.19
+2017,2,CFX,Dépenses d’exploitation,Charges à caractère médical,€,614945.35,713076.16
+2017,3,CFX,Dépenses d’exploitation,Charges à caractère médical,€,533230.6,1120119.49
+2017,4,CFX,Dépenses d’exploitation,Charges à caractère médical,€,451512.11,1038911.69
+2017,5,CFX,Dépenses d’exploitation,Charges à caractère médical,€,369794.36,632251.33
+2017,6,CFX,Dépenses d’exploitation,Charges à caractère médical,€,614947.96,225558.84
+2017,7,CFX,Dépenses d’exploitation,Charges à caractère médical,€,533230.64,469593.37
+2017,8,CFX,Dépenses d’exploitation,Charges à caractère médical,€,696666.37,1038991.17
+2017,9,CFX,Dépenses d’exploitation,Charges à caractère médical,€,614948.84,469595.2
+2017,10,CFX,Dépenses d’exploitation,Charges à caractère médical,€,696666.85,388249.18
+2017,11,CFX,Dépenses d’exploitation,Charges à caractère médical,€,778384.95,550929.36
+2017,12,CFX,Dépenses d’exploitation,Charges à caractère médical,€,1023536.82,632264.93
+2017,1,PLF,Recettes,Assurance maladie,€,65998000.0,52798400.0
+2017,2,PLF,Recettes,Assurance maladie,€,52798400.0,59398200.0
+2017,3,PLF,Recettes,Assurance maladie,€,46198600.0,92397200.0
+2017,4,PLF,Recettes,Assurance maladie,€,39598800.0,85797400.0
+2017,5,PLF,Recettes,Assurance maladie,€,32999000.0,52798400.0
+2017,6,PLF,Recettes,Assurance maladie,€,52798400.0,19799400.0
+2017,7,PLF,Recettes,Assurance maladie,€,46198600.0,39598800.0
+2017,8,PLF,Recettes,Assurance maladie,€,59398200.0,85797400.0
+2017,9,PLF,Recettes,Assurance maladie,€,52798400.0,39598800.0
+2017,10,PLF,Recettes,Assurance maladie,€,59398200.0,32999000.0
+2017,11,PLF,Recettes,Assurance maladie,€,65998000.0,46198600.0
+2017,12,PLF,Recettes,Assurance maladie,€,85797400.0,52798400.0
+2017,1,CFX,Recettes,Assurance maladie,€,4614000.0,3691200.0
+2017,2,CFX,Recettes,Assurance maladie,€,3691200.0,4152600.0
+2017,3,CFX,Recettes,Assurance maladie,€,3229800.0,6459600.0
+2017,4,CFX,Recettes,Assurance maladie,€,2768400.0,5998200.0
+2017,5,CFX,Recettes,Assurance maladie,€,2307000.0,3691200.0
+2017,6,CFX,Recettes,Assurance maladie,€,3691200.0,1384200.0
+2017,7,CFX,Recettes,Assurance maladie,€,3229800.0,2768400.0
+2017,8,CFX,Recettes,Assurance maladie,€,4152600.0,5998200.0
+2017,9,CFX,Recettes,Assurance maladie,€,3691200.0,2768400.0
+2017,10,CFX,Recettes,Assurance maladie,€,4152600.0,2307000.0
+2017,11,CFX,Recettes,Assurance maladie,€,4614000.0,3229800.0
+2017,12,CFX,Recettes,Assurance maladie,€,5998200.0,3691200.0
+2017,1,PLF,Recettes,Mutuelles/Particuliers,€,7773000.0,6218400.0
+2017,2,PLF,Recettes,Mutuelles/Particuliers,€,6218400.0,6995700.0
+2017,3,PLF,Recettes,Mutuelles/Particuliers,€,5441100.0,10882200.0
+2017,4,PLF,Recettes,Mutuelles/Particuliers,€,4663800.0,10104900.0
+2017,5,PLF,Recettes,Mutuelles/Particuliers,€,3886500.0,6218400.0
+2017,6,PLF,Recettes,Mutuelles/Particuliers,€,6218400.0,2331900.0
+2017,7,PLF,Recettes,Mutuelles/Particuliers,€,5441100.0,4663800.0
+2017,8,PLF,Recettes,Mutuelles/Particuliers,€,6995700.0,10104900.0
+2017,9,PLF,Recettes,Mutuelles/Particuliers,€,6218400.0,4663800.0
+2017,10,PLF,Recettes,Mutuelles/Particuliers,€,6995700.0,3886500.0
+2017,11,PLF,Recettes,Mutuelles/Particuliers,€,7773000.0,5441100.0
+2017,12,PLF,Recettes,Mutuelles/Particuliers,€,10104900.0,6218400.0
+2017,1,CFX,Recettes,Mutuelles/Particuliers,€,442000.0,353600.0
+2017,2,CFX,Recettes,Mutuelles/Particuliers,€,353600.0,397800.0
+2017,3,CFX,Recettes,Mutuelles/Particuliers,€,309400.0,618800.0
+2017,4,CFX,Recettes,Mutuelles/Particuliers,€,265200.0,574600.0
+2017,5,CFX,Recettes,Mutuelles/Particuliers,€,221000.0,353600.0
+2017,6,CFX,Recettes,Mutuelles/Particuliers,€,353600.0,132600.0
+2017,7,CFX,Recettes,Mutuelles/Particuliers,€,309400.0,265200.0
+2017,8,CFX,Recettes,Mutuelles/Particuliers,€,397800.0,574600.0
+2017,9,CFX,Recettes,Mutuelles/Particuliers,€,353600.0,265200.0
+2017,10,CFX,Recettes,Mutuelles/Particuliers,€,397800.0,221000.0
+2017,11,CFX,Recettes,Mutuelles/Particuliers,€,442000.0,309400.0
+2017,12,CFX,Recettes,Mutuelles/Particuliers,€,574600.0,353600.0
+2017,1,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,6743284.3,5394627.44
+2017,2,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,5394627.44,6068955.87
+2017,3,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,4720299.01,9440598.02
+2017,4,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,4045970.58,8766269.59
+2017,5,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,3371642.15,5394627.44
+2017,6,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,5394627.44,2022985.29
+2017,7,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,4720299.01,4045970.58
+2017,8,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,6068955.87,8766269.59
+2017,9,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,5394627.44,4045970.58
+2017,10,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,6068955.87,3371642.15
+2017,11,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,6743284.3,4720299.01
+2017,12,PLF,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,8766269.59,5394627.44
+2017,1,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,348732.7,278986.16
+2017,2,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,278986.16,313859.43
+2017,3,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,244112.89,488225.78
+2017,4,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,209239.62,453352.51
+2017,5,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,174366.35,278986.16
+2017,6,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,278986.16,104619.81
+2017,7,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,244112.89,209239.62
+2017,8,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,313859.43,453352.51
+2017,9,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,278986.16,209239.62
+2017,10,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,313859.43,174366.35
+2017,11,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,348732.7,244112.89
+2017,12,CFX,Recettes,"Produits de l’activité hospitalière (mutuelles, particuliers)",€,453352.51,278986.16
+2017,1,PLF,Recettes,Produits de l’assurance maladie,€,58169608.9,46535687.12
+2017,2,PLF,Recettes,Produits de l’assurance maladie,€,46535687.12,52352648.01
+2017,3,PLF,Recettes,Produits de l’assurance maladie,€,40718726.23,81437452.46
+2017,4,PLF,Recettes,Produits de l’assurance maladie,€,34901765.34,75620491.57
+2017,5,PLF,Recettes,Produits de l’assurance maladie,€,29084804.45,46535687.12
+2017,6,PLF,Recettes,Produits de l’assurance maladie,€,46535687.12,17450882.67
+2017,7,PLF,Recettes,Produits de l’assurance maladie,€,40718726.23,34901765.34
+2017,8,PLF,Recettes,Produits de l’assurance maladie,€,52352648.01,75620491.57
+2017,9,PLF,Recettes,Produits de l’assurance maladie,€,46535687.12,34901765.34
+2017,10,PLF,Recettes,Produits de l’assurance maladie,€,52352648.01,29084804.45
+2017,11,PLF,Recettes,Produits de l’assurance maladie,€,58169608.9,40718726.23
+2017,12,PLF,Recettes,Produits de l’assurance maladie,€,75620491.57,46535687.12
+2017,1,CFX,Recettes,Produits de l’assurance maladie,€,4385420.6,3508336.48
+2017,2,CFX,Recettes,Produits de l’assurance maladie,€,3508336.48,3946878.54
+2017,3,CFX,Recettes,Produits de l’assurance maladie,€,3069794.42,6139588.84
+2017,4,CFX,Recettes,Produits de l’assurance maladie,€,2631252.36,5701046.78
+2017,5,CFX,Recettes,Produits de l’assurance maladie,€,2192710.3,3508336.48
+2017,6,CFX,Recettes,Produits de l’assurance maladie,€,3508336.48,1315626.18
+2017,7,CFX,Recettes,Produits de l’assurance maladie,€,3069794.42,2631252.36
+2017,8,CFX,Recettes,Produits de l’assurance maladie,€,3946878.54,5701046.78
+2017,9,CFX,Recettes,Produits de l’assurance maladie,€,3508336.48,2631252.36
+2017,10,CFX,Recettes,Produits de l’assurance maladie,€,3946878.54,2192710.3
+2017,11,CFX,Recettes,Produits de l’assurance maladie,€,4385420.6,3069794.42
+2017,12,CFX,Recettes,Produits de l’assurance maladie,€,5701046.78,3508336.48
+2017,1,PLF,Recettes,Recettes subsidiaires,€,9178341.52,7767580.07
+2017,2,PLF,Recettes,Recettes subsidiaires,€,7040590.78,8842379.51
+2017,3,PLF,Recettes,Recettes subsidiaires,€,5969612.61,14147306.36
+2017,4,PLF,Recettes,Recettes subsidiaires,€,4898399.06,13092344.15
+2017,5,PLF,Recettes,Recettes subsidiaires,€,3827173.07,7797973.63
+2017,6,PLF,Recettes,Recettes subsidiaires,€,7040853.16,2502513.16
+2017,7,PLF,Recettes,Recettes subsidiaires,€,5969626.46,5681192.88
+2017,8,PLF,Recettes,Recettes subsidiaires,€,8112079.84,13096924.04
+2017,9,PLF,Recettes,Recettes subsidiaires,€,7040853.14,5681730.61
+2017,10,PLF,Recettes,Recettes subsidiaires,€,8112079.82,4622489.89
+2017,11,PLF,Recettes,Recettes subsidiaires,€,9183306.5,6741222.71
+2017,12,PLF,Recettes,Recettes subsidiaires,€,12396986.59,7800590.72
+2017,1,CFX,Recettes,Recettes subsidiaires,€,833156.61,667337.46
+2017,2,CFX,Recettes,Recettes subsidiaires,€,666346.02,750690.69
+2017,3,CFX,Recettes,Recettes subsidiaires,€,582943.74,1167477.81
+2017,4,CFX,Recettes,Recettes subsidiaires,€,499540.41,1084120.39
+2017,5,CFX,Recettes,Recettes subsidiaires,€,416137.3,667335.39
+2017,6,CFX,Recettes,Recettes subsidiaires,€,666346.74,250548.95
+2017,7,CFX,Recettes,Recettes subsidiaires,€,582943.59,500620.56
+2017,8,CFX,Recettes,Recettes subsidiaires,€,749749.89,1084124.04
+2017,9,CFX,Recettes,Recettes subsidiaires,€,666346.74,500619.84
+2017,10,CFX,Recettes,Recettes subsidiaires,€,749749.89,417264.19
+2017,11,CFX,Recettes,Recettes subsidiaires,€,833153.04,583979.1
+2017,12,CFX,Recettes,Recettes subsidiaires,€,1083362.5,667338.14

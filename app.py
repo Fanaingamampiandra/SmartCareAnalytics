@@ -13,7 +13,7 @@ DATA_PATHS = {
     "Logistique": "data/logistics/logistics-all.csv",
     "Activité & Service": "data/activity-service/activity-service-all.csv",
     "Capacité": "data/capacity/capacity-donnees_mensuelles_reconstituees.csv",
-    "Finance": "data/finance/finance-donnees_mensuelles_reconstituees.csv",
+    "Finance": "data/finance/finance-all.csv",
     "Patients": "data/patients/patients-all.csv",
     "Qualité":"data/quality/quality-all.csv" ,
     "RH": "data/hr/hr-all.csv",
