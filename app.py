@@ -16,7 +16,7 @@ DATA_PATHS = {
     "Finance": "data/finance/finance-donnees_mensuelles_reconstituees.csv",
     "Patients": "data/patients/patients-all.csv",
     "Qualité":"data/quality/quality-donnees_mensuelles_reconstituees.csv" ,
-    "RH": "data/hr/hr-donnees_mensuelles_reconstituees.csv",
+    "RH": "data/hr/hr-all.csv",
 }
 
 st.set_page_config(page_title="PSL–CFX | Infographie (Normal vs Crise)", layout="wide")
