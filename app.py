@@ -12,7 +12,7 @@ PAGES = list(PAGE_MODULES.keys())
 DATA_PATHS = {
     "Logistique": "data/logistics/logistics-all.csv",
     "Activité & Service": "data/activity-service/activity-service-all.csv",
-    "Capacité": "data/capacity/capacity-donnees_mensuelles_reconstituees.csv",
+    "Capacité": "data/capacity/capacity-all.csv",
     "Finance": "data/finance/finance-all.csv",
     "Patients": "data/patients/patients-all.csv",
     "Qualité":"data/quality/quality-all.csv" ,
